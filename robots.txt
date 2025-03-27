@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://alowhit.github.io/sitemap.xml
