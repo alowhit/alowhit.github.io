@@ -5,6 +5,12 @@
   weight = 10
 
 [[main]]
+  name = "所有日誌"
+  parent = "日誌"
+  pageRef = "posts"
+  weight = 20
+
+[[main]]
   name = "分類"
   pre = "book_icon"
   pageRef = "categories"
@@ -15,3 +21,21 @@
   pre = "book_icon"
   pageRef = "tags"
   weight = 30
+
+[[footer]]
+  name = "X(Twitter)"
+  pre = "x-twitter"
+  url = "https://twitter.com/nyanyameowv"
+  weight = 40
+
+[[footer]]
+  name = "Github"
+  pre = "github"
+  url = "https://github.com/alowhiter"
+  weight = 50
+
+[[footer]]
+  name = "Itch.io"
+  pre = "itch-io"
+  url = "https://alowhiter.itch.io"
+  weight = 60

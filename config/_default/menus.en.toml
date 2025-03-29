@@ -22,17 +22,17 @@
   pageRef = "posts"
   weight = 20
 
-[[main]]
-  name = "Test sub menu"
-  parent = "Blog"
-  pageRef = "categories/test"
-  weight = 20
+# [[main]]
+#   name = "Test sub menu"
+#   parent = "Blog"
+#   pageRef = "categories/test"
+#   weight = 20
 
-[[main]]
-  name = "Test sub menu 2"
-  parent = "Blog"
-  pageRef = "categories/test"
-  weight = 30
+# [[main]]
+#   name = "Test sub menu 2"
+#   parent = "Blog"
+#   pageRef = "categories/test"
+#   weight = 30
 
 # [[subnavigation]]
 #   name = "unused topic"
