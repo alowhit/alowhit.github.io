@@ -12,46 +12,70 @@
 
 [[main]]
   name = "Blog"
+  pre = "blogger"
   pageRef = "posts"
   weight = 10
 
-#[[main]]
-#  name = "Parent"
-#  weight = 20
+[[main]]
+  name = "All posts"
+  parent = "Blog"
+  pageRef = "posts"
+  weight = 20
 
-#[[main]]
-#  name = "example sub-menu 1"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
+[[main]]
+  name = "Test sub menu"
+  parent = "Blog"
+  pageRef = "categories/test"
+  weight = 20
 
-#[[main]]
-#  name = "example sub-menu 2"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
+[[main]]
+  name = "Test sub menu 2"
+  parent = "Blog"
+  pageRef = "categories/test"
+  weight = 30
 
-#[[subnavigation]]
-#  name = "An interesting topic"
-#  pageRef = "tags/interesting-topic"
-#  weight = 10
+# [[subnavigation]]
+#   name = "unused topic"
+#   pageRef = "tags/unused"
+#   weight = 10
+# [[subnavigation]]
+#   name = "unused topic2"
+#   pageRef = "tags/unused"
+#   weight = 29
+# [[subnavigation]]
+#   name = "unused topic3"
+#   pageRef = "tags/unused"
+#   weight = 30
 
-#[[subnavigation]]
-#  name = "My Awesome Category"
-#  pre = "github"
-#  pageRef = "categories/awesome"
-#  weight = 20
+[[main]]
+  name = "Categories"
+  pre = "book_icon"
+  pageRef = "categories"
+  weight = 20
 
-#[[main]]
-#  name = "Categories"
-#  pageRef = "categories"
-#  weight = 20
+[[main]]
+  name = "Tags"
+  pre = "book_icon"
+  pageRef = "tags"
+  weight = 30
 
-#[[main]]
-#  name = "Tags"
-#  pageRef = "tags"
-#  weight = 30
+[[footer]]
+  name = "X(Twitter)"
+  pre = "x-twitter"
+  url = "https://twitter.com/nyanyameowv"
+  weight = 40
 
+[[footer]]
+  name = "Github"
+  pre = "github"
+  url = "https://github.com/alowhiter"
+  weight = 50
+
+[[footer]]
+  name = "Itch.io"
+  pre = "itch-io"
+  url = "https://alowhiter.itch.io"
+  weight = 60
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before

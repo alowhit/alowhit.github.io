@@ -1,25 +1,30 @@
 disabled = false
 languageCode = "en"
 languageName = "English"
-weight = 1
-title = "Blowfish"
+weight = 2
+title = "ALOWHIT"
 
 [params]
   displayName = "EN"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  # logo = "img/logo.png"
+  logo = "img/website_logo.png"
   # secondaryLogo = "img/secondary-logo.png"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
-# [params.author]
-#   name = "Your name here"
-#   email = "youremail@example.com"
-#   image = "img/blowfish_logo.png"
-#   imageQuality = 96
-#   headline = "I'm only human"
+[params.author]
+  name = "alowhiter"
+  email = "alowhiter0321@outlook.com"
+  image = "img/logo.png"
+  imageQuality = 96
+  headline = "I'm game developer"
+  links = [
+    { github = "https://github.com/alowhit" },
+    { itch-io = "https://alowhiter.itch.io/" },
+    { x-twitter = "https://twitter.com/nyanyameowv" }
+  ]
 #   bio = "A little bit about you"
 #   links = [
 #     { email = "mailto:hello@your_domain.com" },

@@ -1,0 +1,25 @@
+disabled = false
+languageCode = "zh-hk"
+languageName = "中文(繁體)"
+weight = 1
+title = "ALOWHIT"
+
+[params]
+  displayName = "中文(繁體)"
+  isoCode = "zh-hk"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = "img/website_logo.png"
+
+[params.author]
+  name = "alowhiter"
+  email = "alowhiter0321@outlook.com"
+  image = "img/logo.png"
+  imageQuality = 96
+  headline = "我是遊戲開發者"
+  links = [
+    { github = "https://github.com/alowhit" },
+    { itch-io = "https://alowhiter.itch.io/" },
+    { x-twitter = "https://twitter.com/nyanyameowv" }
+    
+  ]

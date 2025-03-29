@@ -1,0 +1,17 @@
+[[main]]
+  name = "日誌"
+  pre = "blogger"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+  name = "分類"
+  pre = "book_icon"
+  pageRef = "categories"
+  weight = 20
+
+[[main]]
+  name = "標籤"
+  pre = "book_icon"
+  pageRef = "tags"
+  weight = 30
