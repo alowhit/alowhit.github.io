@@ -1,6 +1,7 @@
 ---
   title: "如何在Github佈置Hugo（blowfish主題）"
   date: 2025-03-29
+  tags: ["website", "Hugo", "blowfish"]
 ---
 
 
@@ -31,13 +32,6 @@
 #others
 node_modules
 .hugo_build.lock
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
 
 # Hugo
 public
