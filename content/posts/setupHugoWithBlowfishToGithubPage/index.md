@@ -124,4 +124,4 @@ config/_default/
 ### Next Steps
 
 The basic Blowfish installation is now complete. Please continue reading the original tutorial's [Getting Started Guide](https://blowfish.page/docs/getting-started/) to learn more about theme configuration.
-I will also write corresponding articles in the future to introduce simple website settings.
+I will also write more articles in the future to introduce simple website settings.
