@@ -2,25 +2,29 @@
   title: "How to Deploy Hugo on Github (with Blowfish Theme)"
   date: 2025-03-29
   tags: ["website", "Hugo", "blowfish"]
+  series: ["Tutorial for Hugo"]
+  series_order: 1
 ---
 
+If you haven't used Hugo before, you need to understand [how to install Hugo on your local machine](https://gohugo.io/getting-started/installing). You can check Hugo is installed by running the command `hugo version`.
 
-If you haven't used Hugo before, you first need to understand [how to install Hugo on your local machine](https://gohugo.io/getting-started/installing). You can check if the installation is complete by running the command `hugo version`.
-
-If you haven't used Go and Git before, you'll need to first learn about [installing Git on your local machine](https://git-scm.com/), and then [install Go on your local machine from the official Go website](https://go.dev/). The version should be 1.23.0 or above.
+If you haven't used Go and Git before, you'll need to know about [installing Git on your local machine](https://git-scm.com/), and then [install Go on your local machine from the official Go website](https://go.dev/). The version should be 1.23.0 or above.
 
 #### Create a Git Project
 
 Create a git project for your website link. The repo name should be in the format `<username>.github.io`, which will also serve as the entry point for your website domain.
 Then, in your project folder, enter `git init -b main` to initialize your **git** repo.
 
+**Tips:** if you want to make more repo's website, use `<username>.github.io/<repo_name>` to load your website.
+
 #### Deploy Git and Prepare for Github Pages Service
 
 This article won't delve too much into the related usage of synchronizing Git and Github.
-After the above steps, your default branch will be **main**.
+After the above steps, your default branch will be **main**. (with `git init -b main`)
 Next, we'll need a branch called **gh-pages**;
-This branch will be used for future **workflows**, which is the Action service provided by Github,
-capable of automatically generating and mounting Hugo to set up pages for external browsing based on your pushed web updates.
+This branch will be used for future **workflows**,
+which is the Action service provided by Github.
+
 `branch :` `main` `gh-pages`
 
 #### .gitignore File
@@ -39,7 +43,6 @@ public
 #### Create a Workflow
 
 Create an empty folder named `.github/workflows` in your directory, then name this file`gh-pages.yml`. You can see in the code below:
-After you push the relevant data to`main`, the workflow will automatically create `build-deploy`, and finally set up the web content on `gh-pages`.
 
 ```yaml
 # .github/workflows/gh-pages.yml
@@ -80,6 +83,8 @@ jobs:
           publish_dir: ./public
 ```
 
+After you push the relevant data to`main`, the workflow will automatically create `build-deploy`, and finally set up the web content on `gh-pages`.
+
 **!!Note:** You need to enable read and write permissions for automation in your repo and choose the branch for displaying Pages externally to set up the website.
 
 #### How to Adjust Action Write Permissions
@@ -89,7 +94,7 @@ First, enable write permissions for Actions:
 > [Side page]->Workflow permissions->
 > Select the radio button "Read and write permissions"->Click "Save" to store changes
 
-接著是選擇你的掛載頁面的branch：
+Next, select your branch which using for **Github Page**：
 > Settings->Code and automation->Pages->[Side page]->
 > Build and deployment->
 > Branch->Drop down to change "main" to "gh-pages"->Click "Save" to store changes
@@ -97,7 +102,8 @@ First, enable write permissions for Actions:
 #### Create a New Site
 
 If you plan to create website data in an already created empty folder, use `hugo new site .` to create a basic Hugo project. (If the folder already has content, you can use `--force` to force initialization: `hugo new site . --force`)
-If you don't have an empty website project folder yet, you can use the `hugo new site mywebsite` command to create a new Hugo site in the `mywebsite` directory.
+
+If you don't have an empty website project folder yet, you can use the `hugo new site mywebsite` command to create a new Hugo site in a new `mywebsite` directory.
 
 Next, download the [blowfish theme](https://blowfish.page/docs/installation/#download-blowfish-theme) and choose the channel you want to use. The author used manual file copying, which means directly downloading the latest version of the source code and extracting it to `./theme/blowfish`.
 

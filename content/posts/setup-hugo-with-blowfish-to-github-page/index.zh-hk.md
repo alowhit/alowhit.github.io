@@ -2,6 +2,8 @@
   title: "如何在Github佈置Hugo（blowfish主題）"
   date: 2025-03-29
   tags: ["website", "Hugo", "blowfish"]
+  series: ["Tutorial for Hugo"]
+  series_order: 1
 ---
 
 
