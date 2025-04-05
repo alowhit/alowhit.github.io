@@ -48,12 +48,6 @@
 #   weight = 30
 
 [[main]]
-  name = "Categories"
-  pre = "book_icon"
-  pageRef = "categories"
-  weight = 20
-
-[[main]]
   name = "Tags"
   pre = "book_icon"
   pageRef = "tags"

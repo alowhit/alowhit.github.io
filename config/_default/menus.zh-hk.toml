@@ -11,12 +11,6 @@
   weight = 20
 
 [[main]]
-  name = "分類"
-  pre = "book_icon"
-  pageRef = "categories"
-  weight = 20
-
-[[main]]
   name = "標籤"
   pre = "book_icon"
   pageRef = "tags"
