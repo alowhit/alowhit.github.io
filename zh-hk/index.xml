@@ -1,1 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ALOWHIT</title><link>https://alowhit.github.io/zh-hk/</link><description>Recent content on ALOWHIT</description><generator>Hugo -- gohugo.io</generator><language>zh-hk</language><managingEditor>alowhiter0321@outlook.com (alowhiter)</managingEditor><webMaster>alowhiter0321@outlook.com (alowhiter)</webMaster><copyright>© 2025 alowhiter</copyright><lastBuildDate>Tue, 08 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://alowhit.github.io/zh-hk/index.xml" rel="self" type="application/rss+xml"/><item><title>EP.3 確立基本的卡牌資訊框架 feat.《星界英雄》</title><link>https://alowhit.github.io/zh-hk/posts/godot-card-game-ep3/</link><pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate><author>alowhiter0321@outlook.com (alowhiter)</author><guid>https://alowhit.github.io/zh-hk/posts/godot-card-game-ep3/</guid><description/></item><item><title>EP.2 繪製基本的遊戲資產 feat.《星界英雄》</title><link>https://alowhit.github.io/zh-hk/posts/godot-card-game-ep2/</link><pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate><author>alowhiter0321@outlook.com (alowhiter)</author><guid>https://alowhit.github.io/zh-hk/posts/godot-card-game-ep2/</guid><description/></item><item><title>EP.1 開始製作《星界英雄》的日誌記錄</title><link>https://alowhit.github.io/zh-hk/posts/godot-card-game-ep1/</link><pubDate>Sat, 05 Apr 2025 00:00:00 +0000</pubDate><author>alowhiter0321@outlook.com (alowhiter)</author><guid>https://alowhit.github.io/zh-hk/posts/godot-card-game-ep1/</guid><description/></item><item><title>今天決定好努力學畫畫了</title><link>https://alowhit.github.io/zh-hk/posts/%E6%97%A5%E8%AA%8C001/</link><pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate><author>alowhiter0321@outlook.com (alowhiter)</author><guid>https://alowhit.github.io/zh-hk/posts/%E6%97%A5%E8%AA%8C001/</guid><description/></item><item><title>如何在Github佈置Hugo（blowfish主題）</title><link>https://alowhit.github.io/zh-hk/posts/setup-hugo-with-blowfish-to-github-page/</link><pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate><author>alowhiter0321@outlook.com (alowhiter)</author><guid>https://alowhit.github.io/zh-hk/posts/setup-hugo-with-blowfish-to-github-page/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ALOWHIT</title><link>/zh-hk/</link><description>Recent content on ALOWHIT</description><generator>Hugo -- gohugo.io</generator><language>zh-hk</language><lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="/zh-hk/index.xml" rel="self" type="application/rss+xml"/><item><title>無題</title><link>/zh-hk/posts/%E6%97%A5%E8%AA%8C002/</link><pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate><guid>/zh-hk/posts/%E6%97%A5%E8%AA%8C002/</guid><description>我在想我究竟要做什麼遊戲上Steam
+對，就只是在想這件事然後我發了篇文。</description></item><item><title>EP.3 確立基本的卡牌資訊框架 feat.《星界英雄》</title><link>/zh-hk/posts/godot-card-game-ep3/</link><pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate><guid>/zh-hk/posts/godot-card-game-ep3/</guid><description>既然有了框架，那接下來就要給框架變得可根據資料切換顯示。
+而以下就是我完成基礎的調試用+顯示用框架。 在這個時間段，我還沒有完成能力詞條判定；
+因為能力詞條需要一個實例化的環境，而相關的觸發方式都和回合中的機制有關，
+像是發動時機，進行特定的動作等等。
+因此我決定延後到基本的數值運算功能，再做能力值疊加判定。
+所以，我往顯示方面開始做功夫了。
+確定遊戲的表現形式 那這個專案，我決定以3D的表現形式去實現表現。
+在簡略的配置了框架後，發現表現手法不太行，
+主要是遊戲內的機制擁有&amp;quot;出牌&amp;quot;，這個出牌會影響整個場地的大小和上限。
+於是乎，我就想到了玩過的某個技能型手機遊戲。
+它會用透明的方框作為卡牌放置區，那我就想弄個差不多的東西。
+效果如下：
+測試遊戲性能和方案的可行性 在完成了基本的規劃後，我想先去試著理解Godot對遊戲的性能需求。
+因此我簡單製作了下方的卡片節點：
+並且使用panku console這個插件協助我Debug遊戲。
+而實際運行了一段時間，卡牌張數很多也不太會影響遊戲效能表現。
+下集預告 讓卡牌能夠在場地中放置、使用能力、進行攻擊計算、卡牌放置到傷害區 等基本規則操作 下下集才開始對能力進行製作，設定更多的卡牌時機。</description></item><item><title>EP.2 繪製基本的遊戲資產 feat.《星界英雄》</title><link>/zh-hk/posts/godot-card-game-ep2/</link><pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate><guid>/zh-hk/posts/godot-card-game-ep2/</guid><description>今天，就來製作對應的卡牌資產；目前是以還原原本遊戲卡牌顯示的相關資訊為目的去製作相關素材。
+首先，確定畫面有的基本資訊。
+今天，就來試著先製作星使牌有的相關內容。
+經過兩小時的奮戰，我成功生出了以下的素材，並調整好以後會用到的卡牌UI框架。
+參考了新版UI，加入了傷害屬性框和部分卡牌資訊的放置位置。
+但整體風格還是想以手上能參考的舊版UI進行還原。
+不過今天時間不多了，之後，我也會去把星術牌和星神牌的卡牌資訊欄也做進去。
+另外，雖然我很想搞搞看卡牌稀有度的雷射鍍閃，但那不是優先級的任務，因此會放到較後的階段才嘗試製作相關Shader。
+下集預告 應該會把基本的卡牌資訊設置腳本給寫出來，把相關顯示功能給做基本的規範化。 之後就是把遊戲中的所有卡牌嘗試逐一還原進去，以還原原本的卡牌作為主要目標去製作對應的卡牌數據庫。</description></item><item><title>EP.1 開始製作《星界英雄》的日誌記錄</title><link>/zh-hk/posts/godot-card-game-ep1/</link><pubDate>Sat, 05 Apr 2025 00:00:00 +0000</pubDate><guid>/zh-hk/posts/godot-card-game-ep1/</guid><description>很高興獲得了來自《星界英雄》設計者帥狗的許可， 我可以使用Godot來將相關遊戲玩法電子化，並能使用遊戲框架和玩法使用在項目中。 我獲得的許可如下：
+對相關學習專案寫日誌並發佈到個人網站 我承諾只能部分公開，因此局限於我認識的朋友。 條件如下：
+禁止商用 禁止直接使用原發售卡牌的插畫。 同時，設計者帥狗也表示了希望能試玩，我也會很樂意分享給他（在完成該學習項目後）。
+開始理清相關遊戲規則 既然是要做一個卡牌遊戲，那我第一件事就是先把關鍵的核心，卡牌給還原出來。
+而還原一個卡牌，那我必須要定義一張卡牌上面有的資訊。
+在遊戲內雖然有三種不同的卡牌，但他們身上的資訊是差不多的。
+卡牌資訊 分為 星使牌、星術牌、星神牌 而它們都可以作為星術牌來使用，這代表它們的設計有一定程度的相似。
+那一張卡牌有什麼資訊呢？
+卡牌名稱 卡牌資訊：繪師、系列編號、種類（背景顏色）、星座圖標（或特定圖標） 卡牌屬性：（太陽/月亮） 卡牌效果 星使牌和星神牌是差不多的東西，它們共通點為
+代價需求：激活該卡需要特定的代價 及其 數字 而星使牌更是多出了三個屬性
+力量：攻擊判定時，若超出對方護盾則視為攻擊成功。 護盾：攻擊判定時，若受擊方該數值多於攻擊方的力量，則視為攻擊失敗（不計算傷害，但計算*攻擊事件） 傷害：用來決定該卡攻擊成功後的基礎傷害 基於卡牌資訊進行遊戲資產的製作 理解了以上的資訊後，接下來就輪到繪製卡牌資訊的動作了。
+我選擇對目前官網FB釋出的所有圖片進行二次創作，也就是 透過與原本卡牌完全不同的卡面、故事、卡牌名來還原原本的卡牌設計，既能還原原本的框架，也避免了使用版權圖造成的問題。
+接下來的規劃會是繪製卡牌屬性、十二星座、代價需求等等的資訊相關圖標或者是卡牌的排版。
+同時，我會希望將星術牌和星神牌的下方能力欄，像星使牌一樣貼上左上角的屬性，方便識別。
+剩下的遊戲系統以及遊戲規則將會在繪製完成後，在下一篇的日誌進行補全。
+下集預告 預計會將目前的玩法視為 常規玩法，預計會先往製作常規玩法的場地佈置、組牌需求開始做起。
+未來將會有更多的像是回合判定、傷害計算、卡牌連鎖對應、卡牌資料、卡牌實例等各種坑要填。</description></item><item><title>今天決定好努力學畫畫了</title><link>/zh-hk/posts/%E6%97%A5%E8%AA%8C001/</link><pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate><guid>/zh-hk/posts/%E6%97%A5%E8%AA%8C001/</guid><description>嗯，就是標題那樣。 買了參考書，等送來就開始用。
+之前賣過的那個鼓勵人為主的日本教學書，對我的作用只能說是幾乎沒作用。
+不是我笨，就是我並不是客群之一。
+大概就是那麼一回事了吧。
+總之，希望未來的我能有更多的進步。</description></item><item><title>如何在Github佈置Hugo（blowfish主題）</title><link>/zh-hk/posts/setup-hugo-with-blowfish-to-github-page/</link><pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate><guid>/zh-hk/posts/setup-hugo-with-blowfish-to-github-page/</guid><description>如果你之前沒有使用過 Hugo，你首先需要了解在本地機器安装 Hugo。你可以通過運行命令 hugo version 来檢查是否安裝完成。
+如果你之前連Go和Git都沒有使用過，那你更需要先去了解一下在本地機器安裝 Git ，再從Go官網給本地機器安裝 Go，版本需要1.23.0或以上。
+創建一個git項目 為你的網站鏈接創建一個git項目，創建的repo名需要以 &amp;lt;username&amp;gt;.github.io 的方式去命名，它也會作為你的網站域名入口而被創立。 之後，在你的項目資料夾中輸入git init -b main，從而初始化你的 git repo。
+部署Git並為Github的網頁服務做前置準備 本文就不多著墨在同步Git和Github的相關用法了。 經過上方的做法，你默認的branch會是main。 其次，我們還會需要一個叫做gh-pages的分支； 該分支將會用於日後的 workflows ，也就是Github提供的Action服務， 能夠根據你推送的網頁更新作自動化生成，並掛載Hugo來架設對外瀏覽用的頁面。 branch : main gh-pages
+.gitignore的文件 要無視的文件
+#others node_modules .hugo_build.lock # Hugo public 創建一個工作流 在資料夾創建一個.github/workflows的空白資料夾，再把這個檔案命名為gh-pages.yml，在程式碼下面能夠看到： 當你推送main的相關資料後，工作流就會自動創建build-deploy，最後在gh-pages進行網頁內容架設。
+# .github/workflows/gh-pages.ymlname:GitHub Pageson:push:branches:- mainjobs:build-deploy:runs-on:ubuntu-latestconcurrency:group:${{ github.workflow }}-${{ github.ref }}steps:- name:Checkoutuses:actions/checkout@v3with:submodules:truefetch-depth:0- name:Setup Hugouses:peaceiris/actions-hugo@v2with:hugo-version:&amp;#34;latest&amp;#34;- name:Buildrun:hugo --minify- name:Deployuses:peaceiris/actions-gh-pages@v3if:${{ github.ref == &amp;#39;refs/heads/main&amp;#39; }}with:github_token:${{ secrets.GITHUB_TOKEN }}publish_branch:gh-pagespublish_dir:./public‼注意: 你需要給你的repo打開自動化的讀寫權限以及選擇對外展示的Pages的branch，從而實現架設網站。
+如何調整Action的寫入權限 先打開Actions的寫入權限：
+Settings-&amp;gt;Code and automation-&amp;gt;Actions-&amp;gt;General-&amp;gt; 側邊頁-&amp;gt;Workflow permissions-&amp;gt; 把圓點選擇為Read and write permissions-&amp;gt;按下Save儲存變更</description></item></channel></rss>
