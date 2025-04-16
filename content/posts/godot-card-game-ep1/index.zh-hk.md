@@ -1,5 +1,5 @@
 ---
-  title: "EP.1 開始製作《星界英雄》的日誌記錄"
+  title: "EP.1 開始製作卡牌遊戲框架復刻的日誌記錄 feat.《星界英雄》"
   date: 2025-04-05
   tags: ["Godot", "CardGame", "ZodiacChampion"]
   series: ["ZodiacChampion"]
