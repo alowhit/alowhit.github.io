@@ -6,7 +6,7 @@
 
 其實還打算搞個開發直播的，所以弄了個封面
 
-![alt text](/msw-update-ep1/直播封面.png)
+![alt text](/msw-update-ep1/stream_canvas.png)
 
 但我還沒想好我該怎麼推廣自己。
 
