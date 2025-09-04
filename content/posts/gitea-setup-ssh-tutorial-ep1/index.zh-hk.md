@@ -83,14 +83,15 @@ echo -n '它的token' | ssh-keygen -Y sign -n gitea -f C:\Users\username/.ssh/id
 ![alt text](image-4.png)
 
 例如：
+
 ```bash
 git clone ssh://你Gitea的User@你的域名:你的ssh端口/你的Gitea賬戶名/你的repo.git
 ```
 
 ## 尾聲
 
-這東西是如此簡單，卻卡了我超級久...
-主要是Gitea的User並非絕對為git，
-你可以強制更改為git（如果更改後仍能夠正常執行）。
-當然，如果使用本文以外，也就是http格式也能使用；
+這東西是如此簡單，卻卡了我超級久...  
+主要是Gitea的User並非絕對為git，  
+你可以強制更改為git（如果更改後仍能夠正常執行）。  
+當然，如果使用本文以外，也就是http格式也能使用；  
 只需要透過瀏覽器之類的臨時授權即可。
