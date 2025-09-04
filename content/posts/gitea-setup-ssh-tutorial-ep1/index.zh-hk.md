@@ -67,8 +67,10 @@ ssh-ed25519 AAA...
 echo -n '它的token' | ssh-keygen -Y sign -n gitea -f C:\Users\username/.ssh/id_ed25519.pub
 ```
 
-如果你有設定密碼，則需要輸入密碼才可以產生簽名資料  
+{{< alert >}}
+**提示:**如果你有設定密碼，則需要輸入密碼才可以產生簽名資料  
 你會獲得如下所示的資料
+{{< /alert >}}
 
 ```output
 -----BEGIN SSH SIGNATURE-----
