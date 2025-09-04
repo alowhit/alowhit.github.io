@@ -2,6 +2,7 @@
   title: "今天決定好努力學畫畫了"
   date: 2025-04-01
   tags: ["blog"]
+  draft: true
 ---
 
 嗯，就是標題那樣。
