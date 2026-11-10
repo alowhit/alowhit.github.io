@@ -2,7 +2,7 @@
   "source": "课堂教学视频2.mp4",
   "stages": [
     {
-      "file": "/classroom/course-assets/course51-sphere/02_Solid.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-ea335a2ba7566d1b-02_Solid.max",
       "reopened": true,
       "radius": 40.0,
       "segments": 64,
@@ -17,7 +17,7 @@
       "exposure_default": 6.0
     },
     {
-      "file": "/classroom/course-assets/course51-sphere/03_HalfMask.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-289cdf38cb4650e3-03_HalfMask.max",
       "reopened": true,
       "radius": 40.0,
       "segments": 64,

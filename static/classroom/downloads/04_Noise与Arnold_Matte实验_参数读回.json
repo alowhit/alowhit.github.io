@@ -1,5 +1,5 @@
 {
-  "file": "/classroom/downloads/04_Noise%E4%B8%8EArnold_Matte%E5%AE%9E%E9%AA%8C.max",
+  "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-0d79496da24d87d7-04_Noise.Arnold_Matte.max",
   "render_engine": "Arnold",
   "camera": "$Free_Camera:Study_Camera_FILLED @ [0.000000,-850.000000,90.000000]",
   "geometry": [

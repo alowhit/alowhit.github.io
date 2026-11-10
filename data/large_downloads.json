@@ -10,5 +10,1577 @@
     "bytes": 93089710,
     "sha256": "a5ed5170dd11223df073d4c2c2049db18789fb7ee5a38393ddfec89adb45f329",
     "asset_id": 731631796
+  },
+  "course-assets/ParticleFlow_Source_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-fbf29b3a8b9be1c4-ParticleFlow_Source_Study.max",
+    "bytes": 942080,
+    "sha256": "fbf29b3a8b9be1c44573185fe1603db6dcea3cc557af7e5afc74f92ed2309dbd",
+    "asset_id": 731761494
+  },
+  "course-assets/cellular-water/Cellular_Water_Camera_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-4c829d5686f01516-Cellular_Water_Camera_Study.max",
+    "bytes": 2433024,
+    "sha256": "4c829d5686f01516d2443bca6e3194d5a0326aa7953b556149f23300526c9dfd",
+    "asset_id": 731761493
+  },
+  "course-assets/class2-fire/Class2_Fire_Combined_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-8f983698620662d7-Class2_Fire_Combined_Study.max",
+    "bytes": 1454080,
+    "sha256": "8f983698620662d719839c0a21c4e43115d0078305351d0e05d454b5c0de1fb5",
+    "asset_id": 731761491
+  },
+  "course-assets/class2-fire/Class2_Fire_Isolated_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-f520a22b6c9eece7-Class2_Fire_Isolated_Study.max",
+    "bytes": 1454080,
+    "sha256": "f520a22b6c9eece7005d1a9ccdafdb9bca975cc79c919dfb8a9eddcea1ee3302",
+    "asset_id": 731761567
+  },
+  "course-assets/cellular-water/Test4_Source_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-7af35d4fab383952-Test4_Source_Study.max",
+    "bytes": 2428928,
+    "sha256": "7af35d4fab3839526470cc0b51e6ac55e3896e0b81dcf45521b18a9a8f0e85d6",
+    "asset_id": 731761505
+  },
+  "course-assets/class2-fire/Class2_Source_Study_Copy.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-1548133f828d4b69-Class2_Source_Study_Copy.max",
+    "bytes": 1454080,
+    "sha256": "1548133f828d4b691fd4a66751cdc3d6cd9b71f903718dfd401a008f564d9adc",
+    "asset_id": 731761586
+  },
+  "course-assets/course09-baking/native/02_Opacity_Baking_Compatibility.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-338f071c2d75edee-02_Opacity_Baking_Compatibility.max",
+    "bytes": 409600,
+    "sha256": "338f071c2d75edee36a1c67d789dae05a5b92f01403afed201a06dbf85243496",
+    "asset_id": 731761602
+  },
+  "course-assets/course10-tornado/01_Cylinder.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-6a353bd0565e1ee5-01_Cylinder.max",
+    "bytes": 798720,
+    "sha256": "6a353bd0565e1ee557baa09ea5d7fab49f5d7323ecad8292d94a39259263f6a9",
+    "asset_id": 731761626
+  },
+  "course-assets/course10-tornado/02_Open_Cylinder.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-9fd7b6932f84403c-02_Open_Cylinder.max",
+    "bytes": 1019904,
+    "sha256": "9fd7b6932f84403c6b0ecc089fe0dc48acb113c1a40f4f8d62a0cc61e380d1ef",
+    "asset_id": 731761639
+  },
+  "course-assets/course09-baking/native/03_Source_Blend_Two_Planes.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-ca298529433a41c9-03_Source_Blend_Two_Planes.max",
+    "bytes": 409600,
+    "sha256": "ca298529433a41c932a25d3084b11b215075d2d2746585991200f3e894d0d7af",
+    "asset_id": 731761621
+  },
+  "course-assets/course10-tornado/03_Stretch.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-9f3a18ef1002a1d8-03_Stretch.max",
+    "bytes": 1019904,
+    "sha256": "9f3a18ef1002a1d8b95ecb17a430a1e1e70dca2c9b09516d87d0684fd3a26cd6",
+    "asset_id": 731761650
+  },
+  "course-assets/course10-tornado/06_Straight_Opacity.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-fd07f97c29acce35-06_Straight_Opacity.max",
+    "bytes": 1040384,
+    "sha256": "fd07f97c29acce35329ff10e8084b713c097fb2e08d8365a1b530f106c198709",
+    "asset_id": 731761701
+  },
+  "course-assets/course10-tornado/05_Taper.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-82d1e99e36d5abfd-05_Taper.max",
+    "bytes": 1024000,
+    "sha256": "82d1e99e36d5abfddf7f8419e87a3fa77693d4a78d8446fc3c51b6e67a2c2bc5",
+    "asset_id": 731761704
+  },
+  "course-assets/course10-tornado/07_Spiral_Opacity.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-a4e170daec9fd6d3-07_Spiral_Opacity.max",
+    "bytes": 1040384,
+    "sha256": "a4e170daec9fd6d36b0737ba3be674d90a17e61e53eb8e291022851695647dc0",
+    "asset_id": 731761709
+  },
+  "course-assets/course10-tornado/04_Noise.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-0999410eddb85e6f-04_Noise.max",
+    "bytes": 1024000,
+    "sha256": "0999410eddb85e6f877f39baa31be010e9352fcdb64c3334f2d6c1c693ca4f44",
+    "asset_id": 731761691
+  },
+  "course-assets/course11-tornado/01_Channel2_Only.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-cea298b25c575ea7-01_Channel2_Only.max",
+    "bytes": 1138688,
+    "sha256": "cea298b25c575ea7b6dc3538f522a6dc4fe3199b0ae43f83ad9b359bfa5e2374",
+    "asset_id": 731761744
+  },
+  "course-assets/course10-tornado/08_Fractal_Opacity.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-3519ffd807862594-08_Fractal_Opacity.max",
+    "bytes": 1040384,
+    "sha256": "3519ffd80786259439cf2c56bea4de0b2e8c286a2084e9ff2de278b987b15e8e",
+    "asset_id": 731761745
+  },
+  "course-assets/course11-tornado/03_Normal_Masked.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-e28b8c4dddbbba43-03_Normal_Masked.max",
+    "bytes": 1277952,
+    "sha256": "e28b8c4dddbbba43608a3048ae2499ce962dc11f5e5b769002aebfc344bd2e25",
+    "asset_id": 731761774
+  },
+  "course-assets/course11-tornado/02_Normal_Unmasked.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-ce1e6690289bea94-02_Normal_Unmasked.max",
+    "bytes": 1150976,
+    "sha256": "ce1e6690289bea946a037bc30f04e6f7bfbeacd9ed8843392cba4a4b6e837120",
+    "asset_id": 731761761
+  },
+  "course-assets/course12-tornado/02_Color_Correction.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-12edb351c5f89a34-02_Color_Correction.max",
+    "bytes": 1331200,
+    "sha256": "12edb351c5f89a34c6c9ee0b5fcede5ed5b2a1f942bab9844536f12c3d44a1ae",
+    "asset_id": 731761831
+  },
+  "course-assets/course12-tornado/03_Height_Fade.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-f1e555cb0984afb2-03_Height_Fade.max",
+    "bytes": 1404928,
+    "sha256": "f1e555cb0984afb209562843ec379f82503183a56e4577a29e084e21ed6ade3a",
+    "asset_id": 731761841
+  },
+  "course-assets/course12-tornado/01_Smoke_Multiply.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-39f0915c7fef5620-01_Smoke_Multiply.max",
+    "bytes": 1298432,
+    "sha256": "39f0915c7fef5620277892b94deb0e2e7792d20119296b800d00eac403666336",
+    "asset_id": 731761823
+  },
+  "course-assets/course12-tornado/04_Orange_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-0ff89a184de46da4-04_Orange_Study.max",
+    "bytes": 1609728,
+    "sha256": "0ff89a184de46da4670fc24c0d5270d330f9b74eafe949bacd4a8fd5ba8dc61d",
+    "asset_id": 731761874
+  },
+  "course-assets/course12-tornado/05_Base_Cylinder.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-14f7833193780adc-05_Base_Cylinder.max",
+    "bytes": 1613824,
+    "sha256": "14f7833193780adcfd7c715d238d0d2bbd6f391297b105cbed7a91fc0774b716",
+    "asset_id": 731761891
+  },
+  "course-assets/course12-tornado/06_Base_Smoke_Layers.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-d52d9cb0b2326529-06_Base_Smoke_Layers.max",
+    "bytes": 1695744,
+    "sha256": "d52d9cb0b23265298fe293af68e8737a666e004665fe520dc8c89b842c14e352",
+    "asset_id": 731761898
+  },
+  "course-assets/course12-tornado/08_Base_Orange.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-4bd2720837bd611a-08_Base_Orange.max",
+    "bytes": 1708032,
+    "sha256": "4bd2720837bd611a6e1af2d1a9308d9829a5321047806f0954282ad80d1eb43a",
+    "asset_id": 731761926
+  },
+  "course-assets/course12-tornado/07_Base_Falloff.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-8b7d68f147aaeeef-07_Base_Falloff.max",
+    "bytes": 1699840,
+    "sha256": "8b7d68f147aaeeef2de2aba67656210817636b11e93520b2f386bfb06d130e13",
+    "asset_id": 731761915
+  },
+  "course-assets/course12-tornado/09_Main_Palette93.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-385c9f0abadc56ab-09_Main_Palette93.max",
+    "bytes": 1708032,
+    "sha256": "385c9f0abadc56ab0929602f032b6ef9e37cac89ff806d2b286cb002637b3b43",
+    "asset_id": 731761954
+  },
+  "course-assets/course12-tornado/11_Color_Branch_Weights.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-fd2d61e5c4cf1c38-11_Color_Branch_Weights.max",
+    "bytes": 1708032,
+    "sha256": "fd2d61e5c4cf1c38662e26895f15dc6b0479270a517b25edeb997d3d85170f72",
+    "asset_id": 731761975
+  },
+  "course-assets/course27/Course27_FireShape.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-72ff577972ecb6e2-Course27_FireShape.max",
+    "bytes": 1179648,
+    "sha256": "72ff577972ecb6e288144d024a314a9c318a6c991af3c7adef706c0ec470bc40",
+    "asset_id": 731761993
+  },
+  "course-assets/course12-tornado/10_Main_ColorGain100.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-8476f0f2f264bcd1-10_Main_ColorGain100.max",
+    "bytes": 1708032,
+    "sha256": "8476f0f2f264bcd17c1e9413e3b11558693855d10dfd755aec2f95124708837b",
+    "asset_id": 731761970
+  },
+  "course-assets/course28/Course28_FireAnimation.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-2e969afc033e3757-Course28_FireAnimation.max",
+    "bytes": 1179648,
+    "sha256": "2e969afc033e375752725de0fb8f2dc6db5c5c851328897c91bc6f25be31b86d",
+    "asset_id": 731762015
+  },
+  "course-assets/course29/Course29_FireComposite.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-92e7de7ac8e005c5-Course29_FireComposite.max",
+    "bytes": 1191936,
+    "sha256": "92e7de7ac8e005c55ba41a00c4837484a76f37c270b4eedc56c9cf49e69c43dc",
+    "asset_id": 731762029
+  },
+  "course-assets/course30/Course30_FireDetail.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-7dd2b0f1b0011c0e-Course30_FireDetail.max",
+    "bytes": 1187840,
+    "sha256": "7dd2b0f1b0011c0e33b524c01f0d932ab707dcb3ae9bffed63614d33012b52be",
+    "asset_id": 731762037
+  },
+  "course-assets/course32-early/01_Quad_250s.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-8b5e02dbe068e431-01_Quad_250s.max",
+    "bytes": 1466368,
+    "sha256": "8b5e02dbe068e431a2423ba0f7533816005e62554ab33a36ae558c263b682977",
+    "asset_id": 731762069
+  },
+  "course-assets/course31-native/Course31_FireLayers.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-9bd24b6f6f3e9930-Course31_FireLayers.max",
+    "bytes": 1425408,
+    "sha256": "9bd24b6f6f3e993068911b9f34d35dd2ffa5491e5d110439ed41536829f5fcfc",
+    "asset_id": 731762070
+  },
+  "course-assets/course32-early/02_Cylinder_350s.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-0fc13ba59bb6a461-02_Cylinder_350s.max",
+    "bytes": 1466368,
+    "sha256": "0fc13ba59bb6a461e8f8c161c5d13b2ffbe42f3fd23d5783d9a3433a458fb21c",
+    "asset_id": 731762079
+  },
+  "course-assets/course32-early/03_Cylinder_View_EV2.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-2e88be0c48e7690f-03_Cylinder_View_EV2.max",
+    "bytes": 1466368,
+    "sha256": "2e88be0c48e7690fbda2abd1351ea7c50369cf5837dfb6db078a5398c0cec5c5",
+    "asset_id": 731762085
+  },
+  "course-assets/course32-photometric/01_Cylinder_R13_1000s.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-359b657757d2268f-01_Cylinder_R13_1000s.max",
+    "bytes": 1470464,
+    "sha256": "359b657757d2268fed4e7d9261904119d0037cf4a416d3a663448ac3fc156140",
+    "asset_id": 731762138
+  },
+  "course-assets/course32-photometric/02_Cylinder_R50_1100s.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-cf429095a3cc0dc8-02_Cylinder_R50_1100s.max",
+    "bytes": 1470464,
+    "sha256": "cf429095a3cc0dc8e405f5362d164b5130e912d269ae1f4e0f65529a954137f1",
+    "asset_id": 731762137
+  },
+  "course-assets/course32-native/Course32_MeshLight.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-de7701e825a7dfcc-Course32_MeshLight.max",
+    "bytes": 851968,
+    "sha256": "de7701e825a7dfccb6c17dbf7ab270b9a285ed208a4202f657d932b5be8f2df5",
+    "asset_id": 731762130
+  },
+  "course-assets/course32-photometric/03_Rectangle_1200s.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-ba4d60edd77a6449-03_Rectangle_1200s.max",
+    "bytes": 1482752,
+    "sha256": "ba4d60edd77a6449b8597921c2f9720d4f349106bd3d8264274e673baa7b9e3d",
+    "asset_id": 731762163
+  },
+  "course-assets/course34-native/Course34_Phase5_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-f9796ba79f7eab20-Course34_Phase5_Study.max",
+    "bytes": 1490944,
+    "sha256": "f9796ba79f7eab20dd8c6c06aaf7f08e4a235c6d5f29d701697148c11484136f",
+    "asset_id": 731762225
+  },
+  "course-assets/course33-native/Course33_Gobo.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-4b367ce4e278cf88-Course33_Gobo.max",
+    "bytes": 1474560,
+    "sha256": "4b367ce4e278cf88c385f15c3c86f294fc876587202b7558d9663f5fc29c6292",
+    "asset_id": 731762216
+  },
+  "course-assets/course34-native/Course34_Cutout.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-177869de662679e2-Course34_Cutout.max",
+    "bytes": 1490944,
+    "sha256": "177869de662679e27276db981f984f342468c57c9a5d46d034fd202f213fe401",
+    "asset_id": 731762226
+  },
+  "course-assets/course34-native/Course34_SourceMaterial_Comparison.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-a9f72cd99b30715b-Course34_SourceMaterial_Comparison.max",
+    "bytes": 1585152,
+    "sha256": "a9f72cd99b30715bf9b8c5c12729b030f96c7fe3a1960d5c5627108d300146bb",
+    "asset_id": 731762230
+  },
+  "course-assets/course35-native/02_Open_Cylinder.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-d8cb93e0d5df1f41-02_Open_Cylinder.max",
+    "bytes": 413696,
+    "sha256": "d8cb93e0d5df1f41abb55e99d9802d49030db6373a7417328aa52c8b63596a73",
+    "asset_id": 731762273
+  },
+  "course-assets/course35-native/01_Capped_Cylinder.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-579a3bf3778d0d2a-01_Capped_Cylinder.max",
+    "bytes": 409600,
+    "sha256": "579a3bf3778d0d2ad4ece5cb057414f4c682f5d5abd576314568fa991765a522",
+    "asset_id": 731762269
+  },
+  "course-assets/course35-native/03_Open_Cylinder_Preview.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-22746fc3751d9668-03_Open_Cylinder_Preview.max",
+    "bytes": 425984,
+    "sha256": "22746fc3751d9668c20b991daf0b5501163e7c63ab9f61ac19eddbdcc1e24e52",
+    "asset_id": 731762293
+  },
+  "course-assets/course35-native/04_Both_Ends_Open.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-ad40087983b32e97-04_Both_Ends_Open.max",
+    "bytes": 753664,
+    "sha256": "ad40087983b32e97c7018f778006f565e8ba8985d4b925f2e7d02ab7f4e0ebca",
+    "asset_id": 731762292
+  },
+  "course-assets/course35-native/05_Both_Ends_Open_Preview.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-52875f30ddc2932c-05_Both_Ends_Open_Preview.max",
+    "bytes": 765952,
+    "sha256": "52875f30ddc2932ce70d34df1adf039b86165af14b934860dc809308b545e61e",
+    "asset_id": 731762344
+  },
+  "course-assets/course36-native/01_Taper_050s.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-7f189b4b170c5f99-01_Taper_050s.max",
+    "bytes": 765952,
+    "sha256": "7f189b4b170c5f996b6c3f1171a92ce9640e264eaefcb83914438be8570e3ca8",
+    "asset_id": 731762345
+  },
+  "course-assets/course36-native/02_Taper_190s.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-a6b6a07e2a335520-02_Taper_190s.max",
+    "bytes": 765952,
+    "sha256": "a6b6a07e2a335520c04249d499cc5f1907255f2a2db36d9acbeb8a5c8291b6fa",
+    "asset_id": 731762349
+  },
+  "course-assets/course36-native/03_Taper_240s.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-46acc8d5cf22516b-03_Taper_240s.max",
+    "bytes": 765952,
+    "sha256": "46acc8d5cf22516b0b3d7aa3b93eaf9ff040840da3097e45eb9a473941772224",
+    "asset_id": 731762357
+  },
+  "course-assets/course36-native/04_Head_Connect.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-dd0c7b50c5a2611b-04_Head_Connect.max",
+    "bytes": 774144,
+    "sha256": "dd0c7b50c5a2611bda69c7f35cef2c59a1559d1b322177e06e57d6b0dad4fe98",
+    "asset_id": 731762409
+  },
+  "course-assets/course36-native/05_Soft_Selection_Ready.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-bcdf088c4a1de6ec-05_Soft_Selection_Ready.max",
+    "bytes": 774144,
+    "sha256": "bcdf088c4a1de6eca9f7ffbb1a35b8a078d2178a97d73ac37dba69732d0a2370",
+    "asset_id": 731762416
+  },
+  "course-assets/course36-native/06_Rounded_Head.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-0784d7dc874451ba-06_Rounded_Head.max",
+    "bytes": 778240,
+    "sha256": "0784d7dc874451ba7bb3a9b93c42025693d70b5c1dd58998e9704bfa2af021a0",
+    "asset_id": 731762418
+  },
+  "course-assets/course37-coordinates/06_Explicit_Size80.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-a0a6af83ddba67e4-06_Explicit_Size80.max",
+    "bytes": 438272,
+    "sha256": "a0a6af83ddba67e464bf403e0fedddd32443969893aa0155befa5719cb0ff498",
+    "asset_id": 731762430
+  },
+  "course-assets/course37-coordinates/07_Explicit_Size01.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-cd5ec83b17647d32-07_Explicit_Size01.max",
+    "bytes": 438272,
+    "sha256": "cd5ec83b17647d3225e5fa107b29fd0f4297c0f0f2f2943fad99e26f44a1a234",
+    "asset_id": 731762453
+  },
+  "course-assets/course37-coordinates/08_ObjectXYZ_Size80.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-4e717184a557e922-08_ObjectXYZ_Size80.max",
+    "bytes": 438272,
+    "sha256": "4e717184a557e92210c919e5d1c34f227c4a28fb993b4be18233c872a6d026f3",
+    "asset_id": 731762454
+  },
+  "course-assets/course37-native/02_Turbulence_2863s.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-dbc159cc4670e1ea-02_Turbulence_2863s.max",
+    "bytes": 778240,
+    "sha256": "dbc159cc4670e1ea3e59cedcaee7054e18188880770b90b582477caeb0e84a04",
+    "asset_id": 731762470
+  },
+  "course-assets/course37-native/01_Regular_2100s.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-6fc5aba64149b448-01_Regular_2100s.max",
+    "bytes": 778240,
+    "sha256": "6fc5aba64149b448466690206bc60ccbab7fca5326f4db65ea1609b2d3901740",
+    "asset_id": 731762458
+  },
+  "course-assets/course37-native/03_Fractal_3000s.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-f57227b04d95df91-03_Fractal_3000s.max",
+    "bytes": 778240,
+    "sha256": "f57227b04d95df91d4610374e2b637a9988202e24f624203f92a8dab62e09fd7",
+    "asset_id": 731762513
+  },
+  "course-assets/course37-native/04_Source_Black_Emission.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-9e05b3c35f1f4241-04_Source_Black_Emission.max",
+    "bytes": 778240,
+    "sha256": "9e05b3c35f1f42411f82c6cdb380ddfec2cffda8788c7bfa6c01520f7b7c1ceb",
+    "asset_id": 731762522
+  },
+  "course-assets/course37-native/05_UV_Inspection.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-21be7a46e003a821-05_UV_Inspection.max",
+    "bytes": 819200,
+    "sha256": "21be7a46e003a82176433e2f5bbf38568d13339cbdcd7aea6654351167eb9ef4",
+    "asset_id": 731762539
+  },
+  "course-assets/course38-blue-native/01_Red_Comparison.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-149422809ad9a893-01_Red_Comparison.max",
+    "bytes": 983040,
+    "sha256": "149422809ad9a893e3b1d36c2d79caf2cdd5c7cfad67c4c6216f6c165a27daff",
+    "asset_id": 731762563
+  },
+  "course-assets/course38-motion/01_Volume_Select.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-1016d63f21a0c0f9-01_Volume_Select.max",
+    "bytes": 778240,
+    "sha256": "1016d63f21a0c0f9c6c41fc3439cb207106842a263f4b00674cf22033774fe77",
+    "asset_id": 731762583
+  },
+  "course-assets/course38-motion/02_Motion_57min.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-8016808c92dd06fc-02_Motion_57min.max",
+    "bytes": 782336,
+    "sha256": "8016808c92dd06fc3ca0c9b1399d1547cc5d891c214edc1d2311467749f7fa09",
+    "asset_id": 731762588
+  },
+  "course-assets/course38-blue-native/02_Blue_PartialSource.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-5fbd221e3dc4c5a6-02_Blue_PartialSource.max",
+    "bytes": 983040,
+    "sha256": "5fbd221e3dc4c5a69c4b9abc3fe7f4e4acc79d57f2a8b2f38f42e869d105410c",
+    "asset_id": 731762576
+  },
+  "course-assets/course38-motion/03_Motion_59min.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-2d25bf743dc24017-03_Motion_59min.max",
+    "bytes": 782336,
+    "sha256": "2d25bf743dc240174281c26ea7728f124013e219f588af1a5adf376b04252e0a",
+    "asset_id": 731762608
+  },
+  "course-assets/course38-motion/04_Motion_60m50s.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-96380413d0453a16-04_Motion_60m50s.max",
+    "bytes": 782336,
+    "sha256": "96380413d0453a16d1a7a4ae0171cc525b7c1f8842fba42849eec246b80e3891",
+    "asset_id": 731762635
+  },
+  "course-assets/course38-scurve/01_Linear_Comparison.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-4825198c673cc900-01_Linear_Comparison.max",
+    "bytes": 835584,
+    "sha256": "4825198c673cc900c7b2053a67beb87c6ae8baa862431bb25570b42c2edbb063",
+    "asset_id": 731762679
+  },
+  "course-assets/course38-scurve/02_SCurve_Approximation.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-febb218dda01ea5b-02_SCurve_Approximation.max",
+    "bytes": 835584,
+    "sha256": "febb218dda01ea5bd7b015a1c95fe542f690da5fdc9d22babd11ab2ba7f488a0",
+    "asset_id": 731762686
+  },
+  "course-assets/course38-shader/Course38_Arnold_Fireball.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-c28e0a2e28236dc5-Course38_Arnold_Fireball.max",
+    "bytes": 835584,
+    "sha256": "c28e0a2e28236dc5eca727487a5bc46bae5b43a40b31b80a5fa1f23de3ea095e",
+    "asset_id": 731762727
+  },
+  "course-assets/course39-native/01_Solid_Fine_17min.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-1bd14ea207a4af79-01_Solid_Fine_17min.max",
+    "bytes": 507904,
+    "sha256": "1bd14ea207a4af79d3ea931d3e818d5c1bd490d8e1891c1881a55f4c31ae8373",
+    "asset_id": 731762723
+  },
+  "course-assets/course39-native/02_Solid_Broad_18min.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-49480c6001abc50a-02_Solid_Broad_18min.max",
+    "bytes": 507904,
+    "sha256": "49480c6001abc50afe1e001a5c28eabe9084643e92ddb6b873a113114566912a",
+    "asset_id": 731762742
+  },
+  "course-assets/course39-native/03_Smooth_12min_Animated.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-b9183a7c5c86da69-03_Smooth_12min_Animated.max",
+    "bytes": 507904,
+    "sha256": "b9183a7c5c86da69b45f796e2f92fbe13448e975f66ca611df066c9f7a9cf511",
+    "asset_id": 731762749
+  },
+  "course-assets/course40-fireball/01_Source_Motion_200_Frequency1_5.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-7c88eca10a4b71a1-01_Source_Motion_200_Frequency1_5.max",
+    "bytes": 507904,
+    "sha256": "7c88eca10a4b71a1344ff0a8d99d73a8492e69bd92bd24bcd209d61c418b38ca",
+    "asset_id": 731762783
+  },
+  "course-assets/course40-gradient/04_Solid_Half.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-dc13955f4dadee1e-04_Solid_Half.max",
+    "bytes": 430080,
+    "sha256": "dc13955f4dadee1e4c935b983be48d70e61ecb66fcb3f464665e7902cbc43ec8",
+    "asset_id": 731762794
+  },
+  "course-assets/course40-gradient/05_Solid_Stripes.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-1b90457e7c44211b-05_Solid_Stripes.max",
+    "bytes": 430080,
+    "sha256": "1b90457e7c44211ba392db15e0c10970a371ad321620a94a31dab394cee9469b",
+    "asset_id": 731762801
+  },
+  "course-assets/course40-gradient/07_Composite_Mapped_Cutout.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-ab362cdb0dd2b5be-07_Composite_Mapped_Cutout.max",
+    "bytes": 450560,
+    "sha256": "ab362cdb0dd2b5bef53677cc3fbbb44b5b37e099ccf7232b5a99f5d38813a65a",
+    "asset_id": 731762847
+  },
+  "course-assets/course40-gradient/08_Gradient15_Offset_Animation.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-624327b029226426-08_Gradient15_Offset_Animation.max",
+    "bytes": 450560,
+    "sha256": "624327b0292264268d8172528a8ae4d884052169f49fa7f038d4209dddda2f38",
+    "asset_id": 731762858
+  },
+  "course-assets/course40-gradient/06_Stripes_Mapped_Color.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-4fd30e6485fd951f-06_Stripes_Mapped_Color.max",
+    "bytes": 438272,
+    "sha256": "4fd30e6485fd951f4383874e1f33a6ff78828c07cd41bb880d26524417584e88",
+    "asset_id": 731762811
+  },
+  "course-assets/course40-plane/01_Phase.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-26d45c37c465137b-01_Phase.max",
+    "bytes": 417792,
+    "sha256": "26d45c37c465137b0b91b2cbd87e6c29dc7355035082d53e084d997db32c423b",
+    "asset_id": 731762873
+  },
+  "course-assets/course40-plane/02_U_Offset.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-8b66526f2f7968f6-02_U_Offset.max",
+    "bytes": 417792,
+    "sha256": "8b66526f2f7968f6990c2b76d14715a10b1eb0da716acbff2597f91f1ada7a3d",
+    "asset_id": 731762916
+  },
+  "course-assets/course40-plane/03_W_Offset.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-db885f62536d0fb4-03_W_Offset.max",
+    "bytes": 417792,
+    "sha256": "db885f62536d0fb422ef714e0584fe361a234396478efe829d8d704818e39200",
+    "asset_id": 731762921
+  },
+  "course-assets/course41-noise/01_Noise1_Late_Offset2_Minus6_Phase2.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-209a3b436ab8d983-01_Noise1_Late_Offset2_Minus6_Phase2.max",
+    "bytes": 507904,
+    "sha256": "209a3b436ab8d983d019e09a38ab609c63d9e5927aa084e4db210924c726a0d6",
+    "asset_id": 731762933
+  },
+  "course-assets/course42/Course42_TwoSided_Source_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-d92036046e3f9fd8-Course42_TwoSided_Source_Study.max",
+    "bytes": 1449984,
+    "sha256": "d92036046e3f9fd86c483b01741d9a69627d88ec8abc9bfc2d42a4c18eff993f",
+    "asset_id": 731762944
+  },
+  "course-assets/course43/02_Core_Hard_Comparison.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-b41c954b099cab72-02_Core_Hard_Comparison.max",
+    "bytes": 1449984,
+    "sha256": "b41c954b099cab72b4bb2a3bfe5ea9340c32d67e57c15741923578b4cbabe916",
+    "asset_id": 731762978
+  },
+  "course-assets/course43/01_Core_Soft_Comparison.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-e4484a8adc9e469b-01_Core_Soft_Comparison.max",
+    "bytes": 1449984,
+    "sha256": "e4484a8adc9e469b1b7890712a486bd2ed9e5293e88bc6678ce0a3fffd960077",
+    "asset_id": 731762979
+  },
+  "course-assets/course43/03_Core_Saved_State.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-1f64622f06a6d6f4-03_Core_Saved_State.max",
+    "bytes": 1449984,
+    "sha256": "1f64622f06a6d6f43c8e03b2c63ab2fd08eebbecc17b68d4b4d9674ed79deb0c",
+    "asset_id": 731762984
+  },
+  "course-assets/course44/Studio_Native_Backdrop.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-b7ef9a0c821ae84b-Studio_Native_Backdrop.max",
+    "bytes": 1597440,
+    "sha256": "b7ef9a0c821ae84b04fea567e937a02bc991cc6aa8905e09f9cedefb1e020921",
+    "asset_id": 731762993
+  },
+  "course-assets/course45/01_Metal_vs_NoReflection.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-b84530e982286330-01_Metal_vs_NoReflection.max",
+    "bytes": 1687552,
+    "sha256": "b84530e98228633004b48eceb042a9badb092e4e5200851667bb979ba9e6cfbd",
+    "asset_id": 731763049
+  },
+  "course-assets/course45/02_Noise_Emission.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-8339116b79ff9a62-02_Noise_Emission.max",
+    "bytes": 2043904,
+    "sha256": "8339116b79ff9a62ac30cae9be4515a225e13f32b6097d6218e6899dcd0fb391",
+    "asset_id": 731763060
+  },
+  "course-assets/course45/03_Composite_SixLayers_WIP.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-7db2f3ab82e9cdc4-03_Composite_SixLayers_WIP.max",
+    "bytes": 2052096,
+    "sha256": "7db2f3ab82e9cdc4d6add52c99003208b2769696bbc52ccb5873af2cdce778a2",
+    "asset_id": 731763065
+  },
+  "course-assets/course45/04_Rim_Curve_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-216e3d731430e241-04_Rim_Curve_Study.max",
+    "bytes": 2052096,
+    "sha256": "216e3d731430e241f7bd2734867bad8392f61e24a0214837dc59f2b4b73af404",
+    "asset_id": 731763072
+  },
+  "course-assets/course45/06_Teacher_Falloff_Curves.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-6226e9d6a3bf1c90-06_Teacher_Falloff_Curves.max",
+    "bytes": 2052096,
+    "sha256": "6226e9d6a3bf1c90b39576f0bdff4f4e9d7bb59adc68f742332968c9fa6ab1db",
+    "asset_id": 731763128
+  },
+  "course-assets/course45/07_Native_SixLayer_Graph.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-a31c5817adea7780-07_Native_SixLayer_Graph.max",
+    "bytes": 2207744,
+    "sha256": "a31c5817adea778002175b3fb28977aa990644fde9f912de098fedc6e2ebb6cf",
+    "asset_id": 731763148
+  },
+  "course-assets/course45/05_Object_Direction_Corrected.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-dc14aadbef2e34a8-05_Object_Direction_Corrected.max",
+    "bytes": 2052096,
+    "sha256": "dc14aadbef2e34a85090b3842ac51f1afad71eadae374b7284106344de482ba9",
+    "asset_id": 731763134
+  },
+  "course-assets/course46/01_Base_NoReflection.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-92887a34bc8f9b0a-01_Base_NoReflection.max",
+    "bytes": 2228224,
+    "sha256": "92887a34bc8f9b0a038ea072df13872ac8e523f2ae9baf1881cbd8c16b94892c",
+    "asset_id": 731763196
+  },
+  "course-assets/course46/03_MixCurve_BrokenLine_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-40c401efcbcb107b-03_MixCurve_BrokenLine_Study.max",
+    "bytes": 2281472,
+    "sha256": "40c401efcbcb107b99dff47d862356ca6b283e7cac6812bfd690b9a7e1ea8032",
+    "asset_id": 731763233
+  },
+  "course-assets/course46/02_Falloff_Linear_12min.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-105890f74d971b6f-02_Falloff_Linear_12min.max",
+    "bytes": 2273280,
+    "sha256": "105890f74d971b6fe5fa6acc04610be304965d268921676a7c2ecc7a85766d2f",
+    "asset_id": 731763208
+  },
+  "course-assets/course46/04_MixCurve_Smooth_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-aea9e43bf89eb40a-04_MixCurve_Smooth_Study.max",
+    "bytes": 2281472,
+    "sha256": "aea9e43bf89eb40ae9c9f511609d50abf620d76c0ee5a40b8bf4188d9b7e7e57",
+    "asset_id": 731763287
+  },
+  "course-assets/course47/02_Object_Far200.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-e4f482fc28e321f8-02_Object_Far200.max",
+    "bytes": 2338816,
+    "sha256": "e4f482fc28e321f8bda7e22892a22737af3883989091bbd31fd1fe99fa233b8a",
+    "asset_id": 731763313
+  },
+  "course-assets/course47/03_CameraDistance_725_875.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-f5cd7e78215b5ee6-03_CameraDistance_725_875.max",
+    "bytes": 2408448,
+    "sha256": "f5cd7e78215b5ee65bbdaff39b31db730d1269b3ac936aac90de5c95e276f9e8",
+    "asset_id": 731763319
+  },
+  "course-assets/course47/01_Object_Far300.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-3897944ceb186100-01_Object_Far300.max",
+    "bytes": 2338816,
+    "sha256": "3897944ceb186100fbe61d02ca4c048431ba12f9be2d1ffb705ab217b807835a",
+    "asset_id": 731763311
+  },
+  "course-assets/course47/05_Fresnel_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-0f03d8487fcd6d77-05_Fresnel_Study.max",
+    "bytes": 2564096,
+    "sha256": "0f03d8487fcd6d77d0dbe6d7cc504841add04ebd28295c00181913e37bb69865",
+    "asset_id": 731763385
+  },
+  "course-assets/course47/04_Object200_SourceCamera.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-ee70490d4fb754f7-04_Object200_SourceCamera.max",
+    "bytes": 2482176,
+    "sha256": "ee70490d4fb754f7b238291ff930353c4c3c87fae07a26a8632175b8e4db2149",
+    "asset_id": 731763369
+  },
+  "course-assets/course47/06_ShadowLight_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-81324c452dffeff5-06_ShadowLight_Study.max",
+    "bytes": 2654208,
+    "sha256": "81324c452dffeff595376f8a66e6b97c03967e27844393acdd5b7897b4017b90",
+    "asset_id": 731763392
+  },
+  "course-assets/course48/01_BlackFront_Linear.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-31338c98823ffcd1-01_BlackFront_Linear.max",
+    "bytes": 2572288,
+    "sha256": "31338c98823ffcd1e1ca557741f7d3e554c23b8b51dc4b5a1049b44de62afc35",
+    "asset_id": 731763428
+  },
+  "course-assets/course48/02_WhiteFront_Linear.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-47342ea3050f33fb-02_WhiteFront_Linear.max",
+    "bytes": 2670592,
+    "sha256": "47342ea3050f33fbf3777e585081a420767f8c5e3c6c7d0eeee0fd3b5696966a",
+    "asset_id": 731763473
+  },
+  "course-assets/course48/03_WhiteFront_NativeCurve.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-09faec52b12752e1-03_WhiteFront_NativeCurve.max",
+    "bytes": 2781184,
+    "sha256": "09faec52b12752e1f27c29ec9d1d29663bc130f891d4242cf99155cf787544da",
+    "asset_id": 731763487
+  },
+  "course-assets/course49/01_GrayPattern.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-cd6193825ed17c20-01_GrayPattern.max",
+    "bytes": 3244032,
+    "sha256": "cd6193825ed17c20d3ad1e7ce29ac4142e8a7fe8a498b4b03055e56ace76384a",
+    "asset_id": 731763490
+  },
+  "course-assets/course49/02_ColorRamp.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-f4cb622288fb52fd-02_ColorRamp.max",
+    "bytes": 3944448,
+    "sha256": "f4cb622288fb52fddc139514cd25821aaf87078d65c187fdac49b8f5d67add89",
+    "asset_id": 731763510
+  },
+  "course-assets/course50-room/01_Box.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-2ea650f203c9f910-01_Box.max",
+    "bytes": 745472,
+    "sha256": "2ea650f203c9f910c1140db9cc14453e5526f172399dd378142b96f721c33f99",
+    "asset_id": 731763582
+  },
+  "course-assets/course49/03_CellularOverlay.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-7bc366ac89d35d69-03_CellularOverlay.max",
+    "bytes": 5173248,
+    "sha256": "7bc366ac89d35d69e6e0c8307eeaf7cca7f8ba3771603abfa62cccc8bda9fdd6",
+    "asset_id": 731763535
+  },
+  "course-assets/course50-room/02_InwardFaces.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-fd5dac11ddc7eecc-02_InwardFaces.max",
+    "bytes": 749568,
+    "sha256": "fd5dac11ddc7eecc0032ae92d71d5cce467ed6df72b68d9aa3e74d380f883d81",
+    "asset_id": 731763593
+  },
+  "course-assets/course50-room/03_RoundedRoom.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-e1f6562a367fc001-03_RoundedRoom.max",
+    "bytes": 823296,
+    "sha256": "e1f6562a367fc001afe6197fd8fc529aa98eab65ee19481d802104d021dba19c",
+    "asset_id": 731763661
+  },
+  "course-assets/course50-room/04_PhysicalEmission.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-34dab8a0a14fa08d-04_PhysicalEmission.max",
+    "bytes": 954368,
+    "sha256": "34dab8a0a14fa08d5cf8993966e88f7ba8e52703f2347eab93834ca45656e3c3",
+    "asset_id": 731763664
+  },
+  "course-assets/course50-room/05_QuadLight.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-39fee7d405527f29-05_QuadLight.max",
+    "bytes": 962560,
+    "sha256": "39fee7d405527f29b286fbec525a6f20680c2d94713ecacdf87365924473681c",
+    "asset_id": 731763673
+  },
+  "course-assets/course51-exposure/08_Exposure_Control_STUDY.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-9e10d0693f9098fc-08_Exposure_Control_STUDY.max",
+    "bytes": 946176,
+    "sha256": "9e10d0693f9098fc59e3bac3e30d7c1b7736ed6576d89dad0b62fc719d7da528",
+    "asset_id": 731763756
+  },
+  "course-assets/course51-flags/07_SourceRamp_Partial.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-66914b41ff4aef20-07_SourceRamp_Partial.max",
+    "bytes": 942080,
+    "sha256": "66914b41ff4aef20ffde35f7f9d6318d55408bfafc3928331f28d5489a3681c7",
+    "asset_id": 731763767
+  },
+  "course-assets/course51-camera/06_SourceLens_Partial.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-150f1da531158457-06_SourceLens_Partial.max",
+    "bytes": 942080,
+    "sha256": "150f1da53115845730964ae42c278c4821d3ce6d363647a414acb3fac8e7cfde",
+    "asset_id": 731763749
+  },
+  "course-assets/course49/04_Highlight.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-befd9caa71d96384-04_Highlight.max",
+    "bytes": 6516736,
+    "sha256": "befd9caa71d963843535cbce4bd2d92be173c00b62edc29450fca75c41a9396d",
+    "asset_id": 731763580
+  },
+  "course-assets/course51-sphere/01_Sphere.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-b8b94d69a5b8b2eb-01_Sphere.max",
+    "bytes": 1015808,
+    "sha256": "b8b94d69a5b8b2eb3b784ac4baaf047db9d0f263f0755bfa43abccce6014956f",
+    "asset_id": 731763865
+  },
+  "course-assets/course51-sphere/02_Solid.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-ea335a2ba7566d1b-02_Solid.max",
+    "bytes": 1024000,
+    "sha256": "ea335a2ba7566d1bd49348913d068212b5541f5b694b51e42b8145764e0918d7",
+    "asset_id": 731763873
+  },
+  "course-assets/course51-sphere/04_MultiBand_White.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-1c4bac42d15ca3ca-04_MultiBand_White.max",
+    "bytes": 1220608,
+    "sha256": "1c4bac42d15ca3ca4c441002533225e052caf6b2974fc4fdfe553e54c733624c",
+    "asset_id": 731763893
+  },
+  "course-assets/course51-sphere/03_HalfMask.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-289cdf38cb4650e3-03_HalfMask.max",
+    "bytes": 1110016,
+    "sha256": "289cdf38cb4650e3aa8df481aeeaad695f51e0a44e5af72f8bc06efbed4d6c52",
+    "asset_id": 731763896
+  },
+  "course-assets/course51-sphere/05_MultiBand_Gray.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-8aae9409a0a1dc62-05_MultiBand_Gray.max",
+    "bytes": 1290240,
+    "sha256": "8aae9409a0a1dc62d1b7a2be0b4049652045eeb8f51b389e833950d371bf08b9",
+    "asset_id": 731763944
+  },
+  "course-assets/course52-uv/01_Gradient_NoNoise.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-b26bb116d3c8b33f-01_Gradient_NoNoise.max",
+    "bytes": 1454080,
+    "sha256": "b26bb116d3c8b33fe5c5e7dc0aa32748a0cdbefe778308f9415ff2d6e0ee8b0a",
+    "asset_id": 731763949
+  },
+  "course-assets/course52-uv/02_Gradient_Noise.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-cb9b5d7788af394a-02_Gradient_Noise.max",
+    "bytes": 1454080,
+    "sha256": "cb9b5d7788af394a7fda80964b346d95bb2cc5ab96fe605d389af8f0da525630",
+    "asset_id": 731763984
+  },
+  "course-assets/course53-mirror/01_FinalVisible_Static.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-f56b83ef8b81f179-01_FinalVisible_Static.max",
+    "bytes": 1454080,
+    "sha256": "f56b83ef8b81f179bdf84c2cecabf00372f5da044373a8717bc357d437e0f033",
+    "asset_id": 731764005
+  },
+  "course-assets/course53-mirror/02_Motion_InferredStart.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-1bad57ed465dc626-02_Motion_InferredStart.max",
+    "bytes": 1454080,
+    "sha256": "1bad57ed465dc6265685c44e0350c95faab8a03c419dac168cfb87e197c86e52",
+    "asset_id": 731764015
+  },
+  "course-assets/course52-uv/03_UV_Inspection.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-a7f50df07757ce49-03_UV_Inspection.max",
+    "bytes": 1712128,
+    "sha256": "a7f50df07757ce493927b16fa5831cd09493383cef34cfd5824e9208dfc476e8",
+    "asset_id": 731763992
+  },
+  "course-assets/course54-scale/01_Before_Z91_505.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-a3c3917179c863d5-01_Before_Z91_505.max",
+    "bytes": 1454080,
+    "sha256": "a3c3917179c863d58eaf3de9285c38d111415396ad5c94471dab070cb447498a",
+    "asset_id": 731764075
+  },
+  "course-assets/course54-scale/02_After_Z100.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-ba99005baf6f27d5-02_After_Z100.max",
+    "bytes": 1454080,
+    "sha256": "ba99005baf6f27d5c6409798aa3e36c8a14ac6ec4bac710f82440e6e95e574fe",
+    "asset_id": 731764087
+  },
+  "course-assets/course55-growth/02_Late_Growth_Falloff.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-6091010c7b8004f7-02_Late_Growth_Falloff.max",
+    "bytes": 1585152,
+    "sha256": "6091010c7b8004f7c476b2bca48a1d7cf30bbec44301afa5f51d813f78230b27",
+    "asset_id": 731764119
+  },
+  "course-assets/course55-growth/04_Flat_Start_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-555c9c2fa7b10f35-04_Flat_Start_Study.max",
+    "bytes": 1585152,
+    "sha256": "555c9c2fa7b10f35e2d3e6f3c5d8a87082bd28e78b260d8e2ff34513095284b9",
+    "asset_id": 731764155
+  },
+  "course-assets/course55-growth/03_Tangent_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-8e13277e766dbb7c-03_Tangent_Study.max",
+    "bytes": 1585152,
+    "sha256": "8e13277e766dbb7c8c6d702282965c79fa8f7865c5ef29684cc9ec9d0dbd3b5b",
+    "asset_id": 731764145
+  },
+  "course-assets/course55-growth/01_Early_ZGrowth.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-23ccd19ff1a29b68-01_Early_ZGrowth.max",
+    "bytes": 1454080,
+    "sha256": "23ccd19ff1a29b68f378de9161dbd2929fa51b1cd11794d95af65479cb3c5ed0",
+    "asset_id": 731764092
+  },
+  "course-assets/course55-growth/05_SCurve_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-138666020f12383f-05_SCurve_Study.max",
+    "bytes": 1585152,
+    "sha256": "138666020f12383fdc7dcbdaeb476c7f76950f64e309986335a039cca1aafbf0",
+    "asset_id": 731764180
+  },
+  "course-assets/course55-growth/06_Combined_Motion_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-e60a44a123bb174c-06_Combined_Motion_Study.max",
+    "bytes": 1589248,
+    "sha256": "e60a44a123bb174c586dd00ec6b289e31f22cb263bbb248ee2638df064dfbb5d",
+    "asset_id": 731764208
+  },
+  "course-assets/course56-color/01_Color_Linear.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-088f989d6a275b6c-01_Color_Linear.max",
+    "bytes": 1835008,
+    "sha256": "088f989d6a275b6c73778829fc1dd990c490e02dbaf6cb0639d1112aeb6dc25a",
+    "asset_id": 731764215
+  },
+  "course-assets/course56-color/02_Color_Turbulence.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-9baaa225a0aaa284-02_Color_Turbulence.max",
+    "bytes": 1835008,
+    "sha256": "9baaa225a0aaa284e9443e9001869c64529036f4065503fc59940f047380e991",
+    "asset_id": 731764217
+  },
+  "course-assets/course56-color/03_Multiply_Corrected.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-ace9615e767209e3-03_Multiply_Corrected.max",
+    "bytes": 1835008,
+    "sha256": "ace9615e767209e3f32cdbdf9c31b48f369582a7eaf3fffa5fdacf06107b1d65",
+    "asset_id": 731764244
+  },
+  "course-assets/course56-color/04_Fade_Layer_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-59e4faa3105240db-04_Fade_Layer_Study.max",
+    "bytes": 2142208,
+    "sha256": "59e4faa3105240db9920e7895bf23b0c3d68b4776f2e29c10732bb13f186c197",
+    "asset_id": 731764270
+  },
+  "course-assets/course56-color/05_Retime_EaseOut_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-2744cbef3b0c945c-05_Retime_EaseOut_Study.max",
+    "bytes": 2142208,
+    "sha256": "2744cbef3b0c945ca6d37d8c8faddd299e2e4d7bab3a733bb21a896a44280986",
+    "asset_id": 731764291
+  },
+  "course-assets/course56-color/06_Transform_End75_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-2ad52ca045597612-06_Transform_End75_Study.max",
+    "bytes": 2142208,
+    "sha256": "2ad52ca0455976127fc36d559dc1cc4d1dd2889421c4475fe8a6749c34ce36e1",
+    "asset_id": 731764302
+  },
+  "course-assets/course56-color/07_Opacity_Snapshot_028.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-eca2061e8c24cf4c-07_Opacity_Snapshot_028.max",
+    "bytes": 2334720,
+    "sha256": "eca2061e8c24cf4c77de1e85f2625a42df4dcd86153e44c6efb0786d1af2f71b",
+    "asset_id": 731764348
+  },
+  "course-assets/course56-color/08_Noise_Modifier_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-65574e5dafda822a-08_Noise_Modifier_Study.max",
+    "bytes": 2338816,
+    "sha256": "65574e5dafda822a769b61de45cf7ec082778424a36a09cac2f2e59283b872d0",
+    "asset_id": 731764376
+  },
+  "course-assets/course56-color/09_Noise_Layer_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-7ed79c4d28f7330c-09_Noise_Layer_Study.max",
+    "bytes": 2408448,
+    "sha256": "7ed79c4d28f7330ce6cf5cda5ddc3259c3bef404adb13892d6a7f09f4cbcae35",
+    "asset_id": 731764388
+  },
+  "course-assets/course56-color/10_Combined_Animation_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-d7dd1de9d63961ab-10_Combined_Animation_Study.max",
+    "bytes": 2412544,
+    "sha256": "d7dd1de9d63961ab19e743ff7ef82cb55fd0982dc9812dba2ec235cfeb5db6af",
+    "asset_id": 731764433
+  },
+  "course-assets/course56-color/07_Opacity_Snapshot_060.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-ba3049f9ba2075e2-07_Opacity_Snapshot_060.max",
+    "bytes": 2334720,
+    "sha256": "ba3049f9ba2075e265e69d81ef85e1c2f5529f8d6b0d9cb39648e78e6dce06f7",
+    "asset_id": 731764378
+  },
+  "course-assets/course57-cylinder/01_Cylinder_Primitive.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-4f1b63eadd3e6394-01_Cylinder_Primitive.max",
+    "bytes": 2457600,
+    "sha256": "4f1b63eadd3e6394ff85888d193d547262de924680883f23d91e4d3493d70fcb",
+    "asset_id": 731764472
+  },
+  "course-assets/course56-color/12_Arnold_Room_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-0ad304d220ff20ca-12_Arnold_Room_Study.max",
+    "bytes": 2453504,
+    "sha256": "0ad304d220ff20ca1afb9bd1b7e94c3349437351fe70bf9bb8dde88b95cd0f6d",
+    "asset_id": 731764458
+  },
+  "course-assets/course57-cylinder/02_Open_Cylinder.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-967d18dded9115f8-02_Open_Cylinder.max",
+    "bytes": 2473984,
+    "sha256": "967d18dded9115f84763c9d76709abee2b51d7689e4f082bddb19769783f817a",
+    "asset_id": 731764526
+  },
+  "course-assets/course57-cylinder/04_Spiral_Opacity.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-19b4eb558e9f08b0-04_Spiral_Opacity.max",
+    "bytes": 2740224,
+    "sha256": "19b4eb558e9f08b0a88a45ed0dd815ee1dd4d5ac4286891de21f5bd32cc432ca",
+    "asset_id": 731764546
+  },
+  "course-assets/course57-cylinder/03_Spiral_Emission.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-e28ff9a8c876b711-03_Spiral_Emission.max",
+    "bytes": 2596864,
+    "sha256": "e28ff9a8c876b711071a80b811f772c5985bb1c76d695361cf0ab2b91d148f58",
+    "asset_id": 731764540
+  },
+  "course-assets/course57-cylinder/05_Spiral_Color.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-836cb9737491dcc0-05_Spiral_Color.max",
+    "bytes": 2936832,
+    "sha256": "836cb9737491dcc025f801f48c34fb944edebacb7864c9b16c323b5fd4a7ac91",
+    "asset_id": 731764556
+  },
+  "course-assets/course57-cylinder/06_Height_Offset_Animation.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-af944623a590bad2-06_Height_Offset_Animation.max",
+    "bytes": 2936832,
+    "sha256": "af944623a590bad247124b4a78776545b062d5af1638e74e0a258a638a52004c",
+    "asset_id": 731764602
+  },
+  "course-assets/course57-cylinder/07_Scale_Growth_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-32fd04bfa2d58c09-07_Scale_Growth_Study.max",
+    "bytes": 2936832,
+    "sha256": "32fd04bfa2d58c09f96c6be8f35cd221a8f063351ad4d98acdb348f159fa0188",
+    "asset_id": 731764625
+  },
+  "course-assets/course57-cylinder/09_Taper_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-7bd5fb364b9d3468-09_Taper_Study.max",
+    "bytes": 3145728,
+    "sha256": "7bd5fb364b9d3468f40fa86ce5b7b2e89563a84bf4d8a6cbabaa99fac6fb8b73",
+    "asset_id": 731764639
+  },
+  "course-assets/course57-cylinder/08_Fade_Animation.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-77a725ec65dba037-08_Fade_Animation.max",
+    "bytes": 3141632,
+    "sha256": "77a725ec65dba037715bb2ff8fde850e80bb8ad1007c5aee3bb73bd9240ee9e0",
+    "asset_id": 731764654
+  },
+  "course-assets/course57-cylinder/10_Taper_Gizmo_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-ca2592bfe2ecff14-10_Taper_Gizmo_Study.max",
+    "bytes": 3145728,
+    "sha256": "ca2592bfe2ecff14afc53b7d7d51e83eeb8e481ed7196c68a6d98b6700b3f543",
+    "asset_id": 731764701
+  },
+  "course-assets/course57-cylinder/11_Camera_Framing_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-e01c63c6e276e1a9-11_Camera_Framing_Study.max",
+    "bytes": 3145728,
+    "sha256": "e01c63c6e276e1a9df21c19a220155c729276d1d7f718e6700abc9d48c09de1d",
+    "asset_id": 731764722
+  },
+  "course-assets/course57-cylinder/12_Visible_Framing_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-aa5300d5dbe8fbbd-12_Visible_Framing_Study.max",
+    "bytes": 3145728,
+    "sha256": "aa5300d5dbe8fbbda2c14a8578cb4e8d8c9570b71214910a52e5fcfbc97834de",
+    "asset_id": 731764736
+  },
+  "course-assets/fireball-stage/01_Source_Room_Front.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-6d31808806f7380d-01_Source_Room_Front.max",
+    "bytes": 1810432,
+    "sha256": "6d31808806f7380d6d37aa2d512da2e0f29d058a2741e2325547121685f6218c",
+    "asset_id": 731764783
+  },
+  "course-assets/fireball-stage/03_Taller_Room_Higher_Samples.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-4b1f8f8561d1ddd3-03_Taller_Room_Higher_Samples.max",
+    "bytes": 1810432,
+    "sha256": "4b1f8f8561d1ddd3fa0be2051e69510a9d4fdb03d699e68e141ee29a7576764f",
+    "asset_id": 731764800
+  },
+  "course-assets/course57-cylinder/13_Seam_Diagnostic_Restored.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-90317b9c0f239c18-13_Seam_Diagnostic_Restored.max",
+    "bytes": 3145728,
+    "sha256": "90317b9c0f239c180d4c7eba1162a092ea5445f50748f555160acc3eb1178991",
+    "asset_id": 731764759
+  },
+  "course-assets/fireball-stage/02_Source_Room_Oblique.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-1eb21809c9146f54-02_Source_Room_Oblique.max",
+    "bytes": 1810432,
+    "sha256": "1eb21809c9146f549f7b6c3998b88c4e269e6c5a53136e7f34739cccd956ad7b",
+    "asset_id": 731764785
+  },
+  "course-assets/fireball-stage/04_Source_Background_Reverse_Angle.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-4303b344d2a6dba4-04_Source_Background_Reverse_Angle.max",
+    "bytes": 1810432,
+    "sha256": "4303b344d2a6dba4be99efb9ca2c6f70f87e0fa5aa16499f5e0ae6ac77640845",
+    "asset_id": 731764831
+  },
+  "course-assets/fireball-stage/06_Source_Animation.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-2d6dfc935e78f2ac-06_Source_Animation.max",
+    "bytes": 1810432,
+    "sha256": "2d6dfc935e78f2ac82d7468800e1791a57881815e118aef4f930a29c5b38756f",
+    "asset_id": 731764866
+  },
+  "course-assets/fireball-stage/07_Source_Animation_Bloom.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-2831ddc1e7ac2aee-07_Source_Animation_Bloom.max",
+    "bytes": 1810432,
+    "sha256": "2831ddc1e7ac2aee3ec0e4ca04879f7f8e737c3a718364de537ac9249187b0c6",
+    "asset_id": 731764870
+  },
+  "course-assets/fireball-stage/05_Source_Viewport_Reference.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-990888f107ad7713-05_Source_Viewport_Reference.max",
+    "bytes": 1810432,
+    "sha256": "990888f107ad7713c312f45681ceb4966ddcb8f2e1ddb96693eebc92b488cb03",
+    "asset_id": 731764865
+  },
+  "course-assets/fireball-stage/08_Bloom_Strength_Comparison.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-1eb0862f092202df-08_Bloom_Strength_Comparison.max",
+    "bytes": 1810432,
+    "sha256": "1eb0862f092202dfa55a779187fa801be5d9914456214e1bd492dd0e41ba1ef5",
+    "asset_id": 731764892
+  },
+  "course-assets/fireball-stage/09_Fireball_Bloom_Animation.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-2f297e61fa1e4afb-09_Fireball_Bloom_Animation.max",
+    "bytes": 1810432,
+    "sha256": "2f297e61fa1e4afb41642a027fb24abbd8f7c7052ea3b088b330e00c700161c6",
+    "asset_id": 731764930
+  },
+  "course-assets/linear-water/Linear_Water_Frame100_Reference.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-e48746b8844eab9a-Linear_Water_Frame100_Reference.max",
+    "bytes": 843776,
+    "sha256": "e48746b8844eab9a5f633d252ec6102a581ccaac3049f2da5cd9fe4acc93f060",
+    "asset_id": 731764946
+  },
+  "course-assets/gasbuff-assessment/02_GasBuff_Bloom_Animation.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-e785edd87160baea-02_GasBuff_Bloom_Animation.max",
+    "bytes": 3223552,
+    "sha256": "e785edd87160baeafaadf70bea4066f60c13a2f81e4f2eabd27031a3be180087",
+    "asset_id": 731764936
+  },
+  "course-assets/gasbuff-assessment/01_GasBuff_Particles_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-4869a6d9a823891a-01_GasBuff_Particles_Study.max",
+    "bytes": 3215360,
+    "sha256": "4869a6d9a823891aa61b99f36c41e495eec93f82c407fa6a58e1e4a1c688f4d9",
+    "asset_id": 731764933
+  },
+  "course-assets/linear-water/Linear_Water_Source_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-b94fd701cea15779-Linear_Water_Source_Study.max",
+    "bytes": 937984,
+    "sha256": "b94fd701cea1577965315557287dc653954c896c977c6efcc78144e7225f007e",
+    "asset_id": 731764977
+  },
+  "course-assets/particle-camera/ParticleFlow_Camera_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-bc01e65ac21adcb2-ParticleFlow_Camera_Study.max",
+    "bytes": 1073152,
+    "sha256": "bc01e65ac21adcb22a7b568078487cfe0d06e167ce65782970601b4d6bee542d",
+    "asset_id": 731764998
+  },
+  "course-assets/pf13-native/02_Source_Emitter.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-2c63c1bad554e44d-02_Source_Emitter.max",
+    "bytes": 925696,
+    "sha256": "2c63c1bad554e44d4b5c6b7c5d386f6ffc63e143e10f81a05c5109bc0956310a",
+    "asset_id": 731764999
+  },
+  "course-assets/pf13-native/PF13_Torus_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-9ecdaab4185c22e9-PF13_Torus_Study.max",
+    "bytes": 925696,
+    "sha256": "9ecdaab4185c22e9af84c65f98ac2f881ba970c77aa73ddda9e40a166826456c",
+    "asset_id": 731765010
+  },
+  "course-assets/pf14/PF14_Vertex_Spheres_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-44b707ef9736a0e7-PF14_Vertex_Spheres_Study.max",
+    "bytes": 856064,
+    "sha256": "44b707ef9736a0e7b1a3141a018c35705876c18e96d244137f25c84cfa9d1be6",
+    "asset_id": 731765027
+  },
+  "course-assets/pf14-trials/01_Arrow.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-e66b583f36d9b455-01_Arrow.max",
+    "bytes": 770048,
+    "sha256": "e66b583f36d9b4552886ffecb1fc5fbfd834b1ac0a526600b69831a9e80598b5",
+    "asset_id": 731765030
+  },
+  "course-assets/pf14-trials/02_CenterOut.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-c10cd904499bdaef-02_CenterOut.max",
+    "bytes": 770048,
+    "sha256": "c10cd904499bdaefd347bf60e862e7f20ad8b080fd26abc475b21255b98c947b",
+    "asset_id": 731765035
+  },
+  "course-assets/pf14-trials/03_NarrowCone.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-a7391fb8fc6e4a51-03_NarrowCone.max",
+    "bytes": 770048,
+    "sha256": "a7391fb8fc6e4a51be88445dcca8fa5d1cc4a3ab7debcc36a44e3c3105b119e0",
+    "asset_id": 731765043
+  },
+  "course-assets/pf15/PF15_Frame050_RenderCopy.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-d2cf948b23622a7c-PF15_Frame050_RenderCopy.max",
+    "bytes": 1155072,
+    "sha256": "d2cf948b23622a7c98e2c6dc017ff01a67d4f55d700451556be2328ef998b4e2",
+    "asset_id": 731765064
+  },
+  "course-assets/pf16/PF16_Cloud_Source_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-f5103438e56c7f98-PF16_Cloud_Source_Study.max",
+    "bytes": 1073152,
+    "sha256": "f5103438e56c7f98b103ce30781178c36f36ba6b6099e53d7b59f86a9ed99f56",
+    "asset_id": 731765067
+  },
+  "course-assets/pf15/PF15_Animated_RenderCopy.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-bce337297e4ef627-PF15_Animated_RenderCopy.max",
+    "bytes": 2514944,
+    "sha256": "bce337297e4ef6278532e4f4237e8e81007731f08c7dd15c0a2fdf9fdfc7a79b",
+    "asset_id": 731765058
+  },
+  "course-assets/pf15/PF15_Scale_Loop_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-75910f8381ed6716-PF15_Scale_Loop_Study.max",
+    "bytes": 1073152,
+    "sha256": "75910f8381ed6716f5f4a67970b6c9e5120b0463424bec2333dcb5524e78b75d",
+    "asset_id": 731765066
+  },
+  "course-assets/rain-pf/Rain_PF_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-00965985d7fde043-Rain_PF_Study.max",
+    "bytes": 2498560,
+    "sha256": "00965985d7fde043eed6bb794a83a3a37f41780e02ff7bfcbd0ae2c2813ee0b9",
+    "asset_id": 731765138
+  },
+  "course-assets/rain-pf/Rain_Animated_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-ae48ea1de05c4d9f-Rain_Animated_Study.max",
+    "bytes": 2502656,
+    "sha256": "ae48ea1de05c4d9fe76a75de4cf61267bea40290617263aac96639af973f9d45",
+    "asset_id": 731765139
+  },
+  "course-assets/tornado-assessment/01_Stage_SUPPLEMENT.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-bd5625588a6d3113-01_Stage_SUPPLEMENT.max",
+    "bytes": 1753088,
+    "sha256": "bd5625588a6d311394176a7f79fb51900859c6563723a19815ee5dad879ec5cb",
+    "asset_id": 731765147
+  },
+  "course-assets/rain-uniform/03_Uniform_Splash_Scale.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-2c683ccf0c110a7a-03_Uniform_Splash_Scale.max",
+    "bytes": 2183168,
+    "sha256": "2c683ccf0c110a7a2e0151d731b7a396afc5207aaade2a4be0be4ac4a854bba4",
+    "asset_id": 731765143
+  },
+  "course-assets/tornado-assessment/02_Rotation_Texture_SUPPLEMENT.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-e02cadf858e9cd84-02_Rotation_Texture_SUPPLEMENT.max",
+    "bytes": 1753088,
+    "sha256": "e02cadf858e9cd8433f816b7032751ec113146790ce3daa9930480fd8c915774",
+    "asset_id": 731765171
+  },
+  "downloads/01_圆柱碎片消散.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-78f7f8681d3ee36d-01_.max",
+    "bytes": 978944,
+    "sha256": "78f7f8681d3ee36db1db4a46ed4e1959c3df770471cef7de28aaf905b40cb5db",
+    "asset_id": 731765182
+  },
+  "downloads/02_火焰平面_原生渐变.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-c9fe555997bf247d-02_._.max",
+    "bytes": 729088,
+    "sha256": "c9fe555997bf247d23d4e4b08d7c6841cd0d6606319d007cef0db1a20d929dac",
+    "asset_id": 731765190
+  },
+  "course-assets/water-drop/Water_Drop_Source_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-deb8bdf11ed3af8b-Water_Drop_Source_Study.max",
+    "bytes": 2433024,
+    "sha256": "deb8bdf11ed3af8b6d4c89ab844b9f0da51df3b5a74df0099c46a66b3ead6d6e",
+    "asset_id": 731765176
+  },
+  "downloads/03_青色螺旋气流_原生渐变.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-8b46f7025f65dd08-03_._.max",
+    "bytes": 745472,
+    "sha256": "8b46f7025f65dd082615df78fae2db82a0a8afdc09e34292c03a53dbe27413c8",
+    "asset_id": 731765216
+  },
+  "downloads/04_Noise与Arnold_Matte实验.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-0d79496da24d87d7-04_Noise.Arnold_Matte.max",
+    "bytes": 737280,
+    "sha256": "0d79496da24d87d7e14a7ebf09ed9fbf9850da13f944181c64465a1c3ef65018",
+    "asset_id": 731765241
+  },
+  "downloads/05_Arnold_Gobo暖色投影.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-9c9d79bc25feb9bc-05_Arnold_Gobo.max",
+    "bytes": 692224,
+    "sha256": "9c9d79bc25feb9bc4981ed56f9dc7ef9968bb1b1cb204fd58b773c7f6b751746",
+    "asset_id": 731765250
+  },
+  "downloads/06_Falloff距离与视角.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-2865492de62a170f-06_Falloff.max",
+    "bytes": 684032,
+    "sha256": "2865492de62a170fbd8f3084562fef5cfcb73d31f3a4b4a81055ae6d4721d81f",
+    "asset_id": 731765255
+  },
+  "downloads/07_紫金能量球.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-0c6045767a328a8d-07_.max",
+    "bytes": 720896,
+    "sha256": "0c6045767a328a8dd1b3d41b115942f915bf6263e5549fb8854d0df82e3d97b0",
+    "asset_id": 731765264
+  },
+  "downloads/08_冲击能量团.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-0c12624980fd6c0d-08_.max",
+    "bytes": 765952,
+    "sha256": "0c12624980fd6c0d8e4d5fb7e4070abad71116d65b11f8fcc4457b31354060e3",
+    "asset_id": 731765283
+  },
+  "downloads/09_光度学Noise投影.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-af5dfe24dde8331e-09_.Noise.max",
+    "bytes": 688128,
+    "sha256": "af5dfe24dde8331ea5468ee6fee6dce28261061569bec31f9e473b6fd4013234",
+    "asset_id": 731765288
+  },
+  "full-downloads/10_从零搭建弧形舞台与物理镜头.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-609cce22b8c4a33d-10_.max",
+    "bytes": 1036288,
+    "sha256": "609cce22b8c4a33de5da7e5e49101ee7bdec379be6074e8253e21a18559fc697",
+    "asset_id": 731765290
+  },
+  "full-downloads/11_火焰片进入完整舞台.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-8c9d2b1f4100e570-11_.max",
+    "bytes": 995328,
+    "sha256": "8c9d2b1f4100e570566d6446ad66af9163593485d6cb1df4fe21a0bc0e49390f",
+    "asset_id": 731765303
+  },
+  "full-downloads/12_材质比较与相机透视实验.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-378bde5293af188f-12_.max",
+    "bytes": 1077248,
+    "sha256": "378bde5293af188f14d30720fbdff153052370998d4372cccfa1dda12da0a897",
+    "asset_id": 731765328
+  },
+  "full-downloads/13_球体Noise与Taper气流组合.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-a382f16db100d7d1-13_.Noise.Taper.max",
+    "bytes": 1122304,
+    "sha256": "a382f16db100d7d150328fd417c690b44d7fb0974febc3d8a3655f66a4259765",
+    "asset_id": 731765329
+  },
+  "full-downloads/14_实体圆柱与Arnold_Mesh灯.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-c3acd6cc3124371c-14_.Arnold_Mesh.max",
+    "bytes": 970752,
+    "sha256": "c3acd6cc3124371ceb96c9265277db0494bc990e94f729f220a7e6c0137b6552",
+    "asset_id": 731765336
+  },
+  "review-downloads/15_圆柱扩张_多点曲线核对.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-57488bc032a66880-15_._.max",
+    "bytes": 1191936,
+    "sha256": "57488bc032a668802d728e6cb3a2f27fb81fed23ca7dbd1a068395a3cc9669a2",
+    "asset_id": 731765341
+  },
+  "review-downloads/16_火焰_最终偏移与可见性修订.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-ebef7e56cd48022b-16_._.max",
+    "bytes": 999424,
+    "sha256": "ebef7e56cd48022b501c1f90a3dc9cef87a8c411da233f8685a2d3cd12de5803",
+    "asset_id": 731765362
+  },
+  "review-downloads/17_物理相机_末段机位与目标.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-f2c6ab102d1bd075-17_._.max",
+    "bytes": 1085440,
+    "sha256": "f2c6ab102d1bd075987033bca246a8cec3e50359165b6dea61d26698567d68d5",
+    "asset_id": 731765366
+  },
+  "review-downloads/19_网格灯_ArnoldNoise实验时点.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-e065066b6965d827-19_._ArnoldNoise.max",
+    "bytes": 978944,
+    "sha256": "e065066b6965d827f17fa4782f215ec8fd72c3bcca85f133f445f241ccbab851",
+    "asset_id": 731765380
+  },
+  "review-downloads/18_球体与气流_关键帧及Gizmo修订.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-ebaaffe8103da136-18_._.Gizmo.max",
+    "bytes": 1122304,
+    "sha256": "ebaaffe8103da136f923021954db216c7161e5a09bc56f19d4f361f79659e04a",
+    "asset_id": 731765382
+  },
+  "review-downloads/20_Gobo_反向实例双灯.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-d285137468f8008d-20_Gobo_.max",
+    "bytes": 905216,
+    "sha256": "d285137468f8008dc5d03f5c92dde113d4c02237c51267d31d5f55038264b811",
+    "asset_id": 731765408
+  },
+  "study-results/Course04_Ripple/01_Course04_Node_Study_PARTIAL.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-53bcae2627bae2b3-01_Course04_Node_Study_PARTIAL.max",
+    "bytes": 958464,
+    "sha256": "53bcae2627bae2b3082b6d76636b77a7f204229e3a2a970dd5e47270b092eb6a",
+    "asset_id": 731765409
+  },
+  "study-results/Course05_Ripple/01_Course05_Color_Opacity_PARTIAL.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-aa0c6daa43a65217-01_Course05_Color_Opacity_PARTIAL.max",
+    "bytes": 1400832,
+    "sha256": "aa0c6daa43a65217fdb7aa8e493c0ab6cc58af56c76dfe731f5c72a5253367fb",
+    "asset_id": 731765423
+  },
+  "study-results/Course05_Ripple/02_Course05_FourLayer_Grain_PARTIAL.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-7f4210a5392f4f7b-02_Course05_FourLayer_Grain_PARTIAL.max",
+    "bytes": 2023424,
+    "sha256": "7f4210a5392f4f7b9a050eeb3f3709f8145590face60bb8d7c651db87bd79453",
+    "asset_id": 731765422
+  },
+  "study-results/Course09_Baking/01_Opacity_Baking_SUPPLEMENT.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-772453fe6d35b083-01_Opacity_Baking_SUPPLEMENT.max",
+    "bytes": 413696,
+    "sha256": "772453fe6d35b083d193bcca754b4d623f9abd3c27cc49280c21c5345af2d08e",
+    "asset_id": 731765440
+  },
+  "study-results/Course27_FireShape/Previous_GUI_Backup.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-9d873cd31fd9d153-Previous_GUI_Backup.max",
+    "bytes": 2387968,
+    "sha256": "9d873cd31fd9d153c9d8a51c1e53fce11a48457d23c04029c5094400beba8869",
+    "asset_id": 731765446
+  },
+  "study-results/Course28_FireAnimation/Previous_GUI_Backup.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-b0fb56435452c3f4-Previous_GUI_Backup.max",
+    "bytes": 1179648,
+    "sha256": "b0fb56435452c3f4ab1561847b02b0fdc2bbd98a5ccd6aa229cae70aa1434e9e",
+    "asset_id": 731765472
+  },
+  "study-results/Course31_FireLayers/Previous_GUI_Backup.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-731b7931d766ddc9-Previous_GUI_Backup.max",
+    "bytes": 1187840,
+    "sha256": "731b7931d766ddc9128fae13ed309b843cd19c66a345cdb67af558cc588f9d5d",
+    "asset_id": 731765480
+  },
+  "study-results/Course31_FireLayers/Before_SoftLight/Course31_FireLayers.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-153afc4c17274a14-Course31_FireLayers.max",
+    "bytes": 1425408,
+    "sha256": "153afc4c17274a143592e567e7fdbe2344b910c922065612051098786f51fffd",
+    "asset_id": 731765490
+  },
+  "study-results/Course32_EarlyLights/Previous_GUI_Backup.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-134f934870c1ff38-Previous_GUI_Backup.max",
+    "bytes": 851968,
+    "sha256": "134f934870c1ff384100895b49a99f3467c82e0b04a46bc16a7a7c1055f649a4",
+    "asset_id": 731765505
+  },
+  "study-results/Course32_MeshLight/Previous_GUI_Backup.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-d19822c9f2ccc615-Previous_GUI_Backup.max",
+    "bytes": 1425408,
+    "sha256": "d19822c9f2ccc615c7ff4fa34c1d00454cff4e0a59d511a7529130f39046e6f3",
+    "asset_id": 731765517
+  },
+  "study-results/Course32_MeshLight/Before_Position_Fix/Course32_MeshLight.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-868d915f8ca025d8-Course32_MeshLight.max",
+    "bytes": 851968,
+    "sha256": "868d915f8ca025d802dfc405db9fe6e684d738e31b35c4b743fd5396704dbbc0",
+    "asset_id": 731765539
+  },
+  "study-results/Course32_Photometric/Previous_GUI_Backup.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-dc7f9b2afb17759d-Previous_GUI_Backup.max",
+    "bytes": 1466368,
+    "sha256": "dc7f9b2afb17759d6cfd66d140a62d72714f9e6b3115d1685dd25240f0bf28db",
+    "asset_id": 731765552
+  },
+  "study-results/Course33_Gobo/Previous_GUI_Backup.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-00adb2cb83c2ba65-Previous_GUI_Backup.max",
+    "bytes": 1482752,
+    "sha256": "00adb2cb83c2ba65aeabec5158b40d8bd2c5ecd479571f78c4da7c2b9dc4a6da",
+    "asset_id": 731765577
+  },
+  "study-results/Course34_Cutout/Previous_GUI_Backup.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-dd5a6f3bf1da457b-Previous_GUI_Backup.max",
+    "bytes": 1474560,
+    "sha256": "dd5a6f3bf1da457be78fe7ebad3f40ef12981e9790d45b4a88046eca882c28e8",
+    "asset_id": 731765582
+  },
+  "study-results/Course35_FireballModel/Previous_GUI_Backup.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-28902b5c78a7ddc4-Previous_GUI_Backup.max",
+    "bytes": 1585152,
+    "sha256": "28902b5c78a7ddc428de64fa3991606c8ee23ef36bc8e312d899011bb13981a2",
+    "asset_id": 731765589
+  },
+  "study-results/Course35_FireballModel/Before_Orientation_Fix/01_Capped_Cylinder.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-8bee916a6dc7e3fe-01_Capped_Cylinder.max",
+    "bytes": 765952,
+    "sha256": "8bee916a6dc7e3fe97008b6b3f92a1b1743ed452dcea79689cd47ed62235d809",
+    "asset_id": 731765606
+  },
+  "study-results/Course35_FireballModel/Before_Orientation_Fix/02_Open_Cylinder.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-cc68251bc08e2d47-02_Open_Cylinder.max",
+    "bytes": 770048,
+    "sha256": "cc68251bc08e2d47ffcbd381184f94186e40c50321dc15f6db27e79795bb908e",
+    "asset_id": 731765629
+  },
+  "study-results/Course36_Taper/Before_Both_Caps_Correction/01_Taper_050s.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-d537c92beab4f4cc-01_Taper_050s.max",
+    "bytes": 425984,
+    "sha256": "d537c92beab4f4cca4785ff68053b0b934518ed3fbae111308e6394535b3c3dc",
+    "asset_id": 731765634
+  },
+  "study-results/Course35_FireballModel/Before_Orientation_Fix/03_Open_Cylinder_Preview.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-d23441e4dcdccb7e-03_Open_Cylinder_Preview.max",
+    "bytes": 782336,
+    "sha256": "d23441e4dcdccb7ece2957c93511dc5a97a1e68ca4277ee329f1f1bcd38e7ff5",
+    "asset_id": 731765639
+  },
+  "study-results/Course36_Taper/Before_Both_Caps_Correction/02_Taper_190s.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-f63510d09a15f786-02_Taper_190s.max",
+    "bytes": 425984,
+    "sha256": "f63510d09a15f786d16032c42dffbdb48424492b185876bdff7cf06e14d06681",
+    "asset_id": 731765648
+  },
+  "study-results/Course36_Taper/Before_Both_Caps_Correction/03_Taper_240s.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-d7147ecc5f3ba110-03_Taper_240s.max",
+    "bytes": 425984,
+    "sha256": "d7147ecc5f3ba110434fd9065a210315d050f292815dcce4ad296e15b8fc5011",
+    "asset_id": 731765667
+  },
+  "study-results/Course36_Taper/Before_Both_Caps_Correction/05_Soft_Selection_Ready.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-a9562b31c4b534e4-05_Soft_Selection_Ready.max",
+    "bytes": 434176,
+    "sha256": "a9562b31c4b534e4b93d75ace7b3fddcbb0dc9f589de526f7e6a2abef0a51f19",
+    "asset_id": 731765670
+  },
+  "study-results/Course36_Taper/Before_Both_Caps_Correction/04_Head_Connect.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-7c20c7c9b837bfd6-04_Head_Connect.max",
+    "bytes": 434176,
+    "sha256": "7c20c7c9b837bfd67d203d94e0c39c82bd3812ce3b8e7e27982a2ec5684fb09c",
+    "asset_id": 731765666
+  },
+  "study-results/Course37_Noise/Before_Both_Caps_Correction/01_Regular_2100s.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-6f99d7e3a920f9ba-01_Regular_2100s.max",
+    "bytes": 438272,
+    "sha256": "6f99d7e3a920f9baf9da48b47014e764b69a4ddfc30d413d84ca7026a79d65ea",
+    "asset_id": 731765711
+  },
+  "study-results/Course37_Noise/Before_Both_Caps_Correction/02_Turbulence_2863s.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-55d6c12dd56f3675-02_Turbulence_2863s.max",
+    "bytes": 438272,
+    "sha256": "55d6c12dd56f3675a431f08b115312e753dc5e7780a2295ab2039b22c47c2469",
+    "asset_id": 731765717
+  },
+  "study-results/Course37_Noise/Before_Both_Caps_Correction/03_Fractal_3000s.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-b8f72c1c2f671b83-03_Fractal_3000s.max",
+    "bytes": 438272,
+    "sha256": "b8f72c1c2f671b83c508864522bd33735d5e56505da71bb581559f812365d32c",
+    "asset_id": 731765718
+  },
+  "study-results/Course37_Noise/Before_Both_Caps_Correction/04_Source_Black_Emission.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-12763ad51a928c09-04_Source_Black_Emission.max",
+    "bytes": 438272,
+    "sha256": "12763ad51a928c095de067b196cae483b39ba932b363b8dc7d7afa88f6fece35",
+    "asset_id": 731765753
+  },
+  "study-results/Course38_Motion/Before_Both_Caps_Correction/01_Volume_Select.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-3c772f4b9469791d-01_Volume_Select.max",
+    "bytes": 438272,
+    "sha256": "3c772f4b9469791d3ec3f02badf6114830f06b464054b217f6372612edf1818a",
+    "asset_id": 731765774
+  },
+  "study-results/Course36_Taper/Before_Both_Caps_Correction/06_Rounded_Head.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-b2e30f27e003e9f6-06_Rounded_Head.max",
+    "bytes": 438272,
+    "sha256": "b2e30f27e003e9f6e4ea0306e276846f80b14a71f0f315074b1783a091eb4897",
+    "asset_id": 731765695
+  },
+  "study-results/Course37_Noise/Before_Both_Caps_Correction/05_UV_Inspection.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-0e9b10f7ff7bf5e9-05_UV_Inspection.max",
+    "bytes": 479232,
+    "sha256": "0e9b10f7ff7bf5e98007e13715505cde1c9cfd9718526b6f2c780f3317c730f2",
+    "asset_id": 731765760
+  },
+  "study-results/Course38_Motion/Before_Both_Caps_Correction/02_Motion_57min.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-23d030970b4f4731-02_Motion_57min.max",
+    "bytes": 442368,
+    "sha256": "23d030970b4f473199b8d23e83db44afa66400cd34b848bf0742d02f8bf66d6e",
+    "asset_id": 731765802
+  },
+  "study-results/Course38_Motion/Before_Both_Caps_Correction/04_Motion_60m50s.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-086a8bc1e366113b-04_Motion_60m50s.max",
+    "bytes": 442368,
+    "sha256": "086a8bc1e366113b2c89ac59bd06f38c7120c3306ecab41ded496bfbcfb8fc1a",
+    "asset_id": 731765834
+  },
+  "study-results/Course38_Motion/Before_Both_Caps_Correction/03_Motion_59min.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-a782c36795e34f94-03_Motion_59min.max",
+    "bytes": 442368,
+    "sha256": "a782c36795e34f9429b6063716c0b944df2062bb724c4547f1946efd6a0ebcb4",
+    "asset_id": 731765820
+  },
+  "study-results/Course45_Studio/02_PreCorrection_L1500.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-cc4c59d739ffda8a-02_PreCorrection_L1500.max",
+    "bytes": 1687552,
+    "sha256": "cc4c59d739ffda8aeae1b20e3511404a5cb56cd670e4105542cefbf64ac274ce",
+    "asset_id": 731765866
+  },
+  "study-results/Course38_Shader/Before_Both_Caps_Correction/Course38_Arnold_Fireball.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-ce775e3329fe4785-Course38_Arnold_Fireball.max",
+    "bytes": 495616,
+    "sha256": "ce775e3329fe47852fb145e85102094f8b85e4aca2f8701205b188c54bd57562",
+    "asset_id": 731765846
+  },
+  "study-results/Course49_LayeredSphere/Before_Luminance_Correction/02_ColorRamp.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-37e1058bb7e4020e-02_ColorRamp.max",
+    "bytes": 3944448,
+    "sha256": "37e1058bb7e4020ecc69a3e4ddc558d58d17cb6825508eb1c9ab12f89cea60bc",
+    "asset_id": 731765933
+  },
+  "study-results/Course49_LayeredSphere/Before_Luminance_Correction/01_GrayPattern.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-59ab3c83a7f669fe-01_GrayPattern.max",
+    "bytes": 3244032,
+    "sha256": "59ab3c83a7f669fe39f29efba41d1adcb19438a3cbfc1568afeece4a225aa303",
+    "asset_id": 731765911
+  },
+  "study-results/Course49_LayeredSphere/Before_Luminance_Correction/04_Highlight.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-a0dee353600156a5-04_Highlight.max",
+    "bytes": 6516736,
+    "sha256": "a0dee353600156a5e6c859a4c3371ad206d51940d3d4c1579f6590c05122bd23",
+    "asset_id": 731765946
+  },
+  "study-results/Course56_Color/11_White_Emission_Test.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-647560f37e605ef8-11_White_Emission_Test.max",
+    "bytes": 2412544,
+    "sha256": "647560f37e605ef87034b225560938a03d10dcefde6361e1ea1a22db5f1bbaf1",
+    "asset_id": 731765986
+  },
+  "study-results/Course49_LayeredSphere/Before_Luminance_Correction/03_CellularOverlay.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-7626939b10c5f219-03_CellularOverlay.max",
+    "bytes": 5173248,
+    "sha256": "7626939b10c5f2193d7633a5b7ac7df5c88da5d7f64f58085a174e2299f9caec",
+    "asset_id": 731765937
+  },
+  "study-results/Linear_Water/Linear_Water_Source_Study.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-3edd0438c2d6b8b0-Linear_Water_Source_Study.max",
+    "bytes": 811008,
+    "sha256": "3edd0438c2d6b8b02249dc7f7143664890db204b7ae203b873ef3d729652ece5",
+    "asset_id": 731765989
+  },
+  "study-results/Rain_PF/04_Impact_Ripples_SUPPLEMENT.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-420bc5f55d522fc7-04_Impact_Ripples_SUPPLEMENT.max",
+    "bytes": 2277376,
+    "sha256": "420bc5f55d522fc707e2333a8b2b75ed27eb3e21459929d1851df7536e2ab859",
+    "asset_id": 731766012
+  },
+  "water-ripple/水波_打开先看效果.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-2a90eb2ac959db85-._.max",
+    "bytes": 1064960,
+    "sha256": "2a90eb2ac959db8534e00d35d953c7710b6785a204e2cf595667d213a1e0f647",
+    "asset_id": 731766020
+  },
+  "study-results/Tornado_Assessment/03_Vortex_Particles_SUPPLEMENT.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-72605c5087ff0a14-03_Vortex_Particles_SUPPLEMENT.max",
+    "bytes": 1490944,
+    "sha256": "72605c5087ff0a1480cae5fdb689f6accb09f2c3ef7776eb2e9c06fa7a8601f0",
+    "asset_id": 731766017
+  },
+  "water-ripple-v2/Water_Ripple_V2_Open_And_Render.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-634aabdfe672507d-Water_Ripple_V2_Open_And_Render.max",
+    "bytes": 1097728,
+    "sha256": "634aabdfe672507da9ba45a52c9b6b0693967ce8ae0bf45172fb0bdc2f2515e5",
+    "asset_id": 731766043
   }
 }

@@ -1,6 +1,6 @@
 {
   "bake_return": true,
-  "native": "/classroom/course-assets/course09-baking/native/03_Source_Blend_Two_Planes.max",
+  "native": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-ca298529433a41c9-03_Source_Blend_Two_Planes.max",
   "reopened": true,
   "original_material_class": "Standardmaterial",
   "blend_modes": [

@@ -1,6 +1,6 @@
 [
   {
-    "file": "/classroom/course-assets/course40-gradient/04_Solid_Half.max",
+    "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-dc13955f4dadee1e-04_Solid_Half.max",
     "saved_reopened": true,
     "gradient_type": 4,
     "w_angle": 90.0,
@@ -38,7 +38,7 @@
     ]
   },
   {
-    "file": "/classroom/course-assets/course40-gradient/05_Solid_Stripes.max",
+    "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-1b90457e7c44211b-05_Solid_Stripes.max",
     "saved_reopened": true,
     "gradient_type": 4,
     "w_angle": 90.0,
@@ -124,7 +124,7 @@
     ]
   },
   {
-    "file": "/classroom/course-assets/course40-gradient/06_Stripes_Mapped_Color.max",
+    "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-4fd30e6485fd951f-06_Stripes_Mapped_Color.max",
     "saved_reopened": true,
     "gradient_type": 5,
     "source_map": "15_Solid_Gradient:Gradient Ramp",

@@ -1,7 +1,7 @@
 {
   "stages": [
     {
-      "file": "/classroom/course-assets/course51-sphere/04_MultiBand_White.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-1c4bac42d15ca3ca-04_MultiBand_White.max",
       "reopened": true,
       "emission": 1.0,
       "emission_color": "(color 255 255 255)",
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "file": "/classroom/course-assets/course51-sphere/05_MultiBand_Gray.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-8aae9409a0a1dc62-05_MultiBand_Gray.max",
       "reopened": true,
       "emission": 1.0,
       "emission_color": "(color 26.52 26.52 26.52)",

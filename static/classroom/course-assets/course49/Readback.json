@@ -3,7 +3,7 @@
   "native_archive_index": 14,
   "stages": [
     {
-      "file": "/classroom/course-assets/course49/01_GrayPattern.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-cd6193825ed17c20-01_GrayPattern.max",
       "reopened": true,
       "emission_map": "贴图 #56",
       "cutout_enabled": false,
@@ -11,7 +11,7 @@
       "luminance": 50.0
     },
     {
-      "file": "/classroom/course-assets/course49/02_ColorRamp.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-f4cb622288fb52fd-02_ColorRamp.max",
       "reopened": true,
       "emission_map": "贴图 #59",
       "cutout_enabled": false,
@@ -19,7 +19,7 @@
       "luminance": 50.0
     },
     {
-      "file": "/classroom/course-assets/course49/03_CellularOverlay.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-7bc366ac89d35d69-03_CellularOverlay.max",
       "reopened": true,
       "emission_map": "贴图 #62",
       "cutout_enabled": false,
@@ -27,7 +27,7 @@
       "luminance": 50.0
     },
     {
-      "file": "/classroom/course-assets/course49/04_Highlight.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-befd9caa71d96384-04_Highlight.max",
       "reopened": true,
       "emission_map": "贴图 #62",
       "cutout_enabled": false,

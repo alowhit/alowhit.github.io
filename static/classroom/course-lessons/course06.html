@@ -21,7 +21,7 @@
 <p>Visible connection: #25 → Composite #27 Layer 1; #26 → Layer 2; #28 → Layer 3; Smoke #29 → Layer 4. The Composite blend modes, other gradient flags, and other maps' settings remain unverified. Do not fill them in as teacher values.</p>
 <p>Plane: Length 400 cm, Width 400 cm, Length Segs 1, Width Segs 1, Generate Mapping Coords on. This screenshot alone does not establish a displacement setup.</p>
 <a href="/classroom/course-assets/native/Gradient_Ramp_25_User.png.webp"><img loading="lazy" style="max-width:100%" src="/classroom/course-assets/native/Gradient_Ramp_25_User.png.webp" alt="User reference showing Gradient Ramp 25 at frame 100"></a></section><section id="gradient25-frame100"><h2>Gradient Ramp #25 — your Frame 100 screenshot</h2>
-<p>This is an additional observed state, not a verified animation. The existing static MAX study uses U Offset 0 and Phase 0; this screenshot shows 0.5 and 0.25. A separate saved-and-reloaded scene now matches these two values: <a href="/classroom/course-assets/linear-water/Linear_Water_Frame100_Reference.max" download>Download Frame 100 study</a>. No animation keys were inferred. <a href="/classroom/course-assets/linear-water/Frame100_Readback.json">Readback</a>.</p>
+<p>This is an additional observed state, not a verified animation. The existing static MAX study uses U Offset 0 and Phase 0; this screenshot shows 0.5 and 0.25. A separate saved-and-reloaded scene now matches these two values: <a href="https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-e48746b8844eab9a-Linear_Water_Frame100_Reference.max" download>Download Frame 100 study</a>. No animation keys were inferred. <a href="/classroom/course-assets/linear-water/Frame100_Readback.json">Readback</a>.</p>
 <table><tr><th>Parameter</th><th>Visible value</th><th>What to look for</th></tr>
 <tr><td>U Tiling / V Tiling</td><td>13 / 1</td><td>U Tiling controls repetition along U. More repetition makes the bands closer together.</td></tr>
 <tr><td>U Offset / V Offset</td><td>0.5 / 0</td><td>Changes where the pattern is sampled; it does not move the Plane.</td></tr>
@@ -37,7 +37,7 @@
 <img loading="lazy" src="/classroom/course-assets/linear-water/reference-gradient25-frame100.png.webp" alt="User reference: Gradient Ramp 25 at frame 100">
 </section><section id="linear-water-study"><h2>Build the linear water material</h2>
 <p>本次核对覆盖全片的 79 个约 10 秒间隔抽样，并放大检查关键设置；另附精确时间定位截图。尚不是每帧审阅。下面按教师制作顺序整理，并明确区分中途试验、后期保留值及补齐值。</p>
-<p><a class="button" href="/classroom/course-assets/linear-water/Linear_Water_Source_Study.max" download>Editable Arnold scene</a> <a href="/classroom/course-assets/linear-water/Linear_Water.mat" download>Material library</a></p>
+<p><a class="button" href="https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-b94fd701cea15779-Linear_Water_Source_Study.max" download>Editable Arnold scene</a> <a href="/classroom/course-assets/linear-water/Linear_Water.mat" download>Material library</a></p>
 <h3>1. Plane + Arnold Standard Surface</h3>
 <p>Create a <b>Plane</b>: Length 400 cm, Width 400 cm, Length Segs 1, Width Segs 1, Z 5 cm; enable <b>Generate Mapping Coords</b>. Assign an <b>Arnold Standard Surface</b>: Base 0, Specular 0, Emission 0.5. This chapter draws the water pattern using Emission Color; a fine mesh is not needed for that color pattern.</p>
 <h3>2. Make the first bands</h3>

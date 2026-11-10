@@ -7,7 +7,7 @@
   },
   "stages": [
     {
-      "file": "/classroom/course-assets/course47/03_CameraDistance_725_875.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-f5cd7e78215b5ee6-03_CameraDistance_725_875.max",
       "reopened": true,
       "camera": [
         685.739013671875,
@@ -33,7 +33,7 @@
       }
     },
     {
-      "file": "/classroom/course-assets/course47/04_Object200_SourceCamera.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-ee70490d4fb754f7-04_Object200_SourceCamera.max",
       "reopened": true,
       "camera": [
         685.739013671875,

@@ -1,7 +1,7 @@
 {
-  "native": "/classroom/study-results/Rain_PF/04_Impact_Ripples_SUPPLEMENT.max",
+  "native": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-420bc5f55d522fc7-04_Impact_Ripples_SUPPLEMENT.max",
   "reopened": true,
-  "source": "/classroom/course-assets/rain-uniform/03_Uniform_Splash_Scale.max",
+  "source": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-2c683ccf0c110a7a-03_Uniform_Splash_Scale.max",
   "scope": "SUPPLEMENT: native collision-driven torus rings, not teacher-exact shader rings",
   "matching_fall_position_error_cm": 0,
   "ring_motion_error_cm": 0.0,

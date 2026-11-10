@@ -2,7 +2,7 @@
   "source": "课堂4.mp4",
   "stages": [
     {
-      "file": "/classroom/course-assets/course47/05_Fresnel_Study.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-0f03d8487fcd6d77-05_Fresnel_Study.max",
       "reopened": true,
       "falloff_type": 2,
       "direction": 0,
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "file": "/classroom/course-assets/course47/06_ShadowLight_Study.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-81324c452dffeff5-06_ShadowLight_Study.max",
       "reopened": true,
       "falloff_type": 3,
       "direction": 0,

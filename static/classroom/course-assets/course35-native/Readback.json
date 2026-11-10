@@ -22,7 +22,7 @@
   ],
   "orientation_verification": [
     {
-      "file": "/classroom/course-assets/course35-native/01_Capped_Cylinder.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-579a3bf3778d0d2a-01_Capped_Cylinder.max",
       "rotation": "(eulerAngles 0 90 0)",
       "world_bounds": [
         "[-355.558,-98.875,56.683]",
@@ -31,7 +31,7 @@
       "saved_reopened": true
     },
     {
-      "file": "/classroom/course-assets/course35-native/02_Open_Cylinder.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-d8cb93e0d5df1f41-02_Open_Cylinder.max",
       "rotation": "(eulerAngles 0 90 0)",
       "world_bounds": [
         "[-355.558,-98.875,56.683]",
@@ -40,7 +40,7 @@
       "saved_reopened": true
     },
     {
-      "file": "/classroom/course-assets/course35-native/03_Open_Cylinder_Preview.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-22746fc3751d9668-03_Open_Cylinder_Preview.max",
       "rotation": "(eulerAngles 0 90 0)",
       "world_bounds": [
         "[-355.558,-98.875,56.683]",

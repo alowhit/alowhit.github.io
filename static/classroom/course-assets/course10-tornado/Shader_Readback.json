@@ -1,7 +1,7 @@
 {
   "stages": [
     {
-      "file": "/classroom/course-assets/course10-tornado/06_Straight_Opacity.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-fd07f97c29acce35-06_Straight_Opacity.max",
       "reopened": true,
       "U_Tiling": 1.0,
       "V_Tiling": 1.0,
@@ -14,7 +14,7 @@
       "opacity_connection": "Course10_Opacity_Gradient22"
     },
     {
-      "file": "/classroom/course-assets/course10-tornado/07_Spiral_Opacity.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-a4e170daec9fd6d3-07_Spiral_Opacity.max",
       "reopened": true,
       "U_Tiling": 3.0,
       "V_Tiling": 1.0,
@@ -27,7 +27,7 @@
       "opacity_connection": "Course10_Opacity_Gradient22"
     },
     {
-      "file": "/classroom/course-assets/course10-tornado/08_Fractal_Opacity.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-3519ffd807862594-08_Fractal_Opacity.max",
       "reopened": true,
       "U_Tiling": 3.0,
       "V_Tiling": 1.0,

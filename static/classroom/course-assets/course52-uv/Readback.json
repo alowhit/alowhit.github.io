@@ -1,7 +1,7 @@
 {
   "stages": [
     {
-      "file": "/classroom/course-assets/course52-uv/01_Gradient_NoNoise.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-b26bb116d3c8b33f-01_Gradient_NoNoise.max",
       "reopened": true,
       "noise_amount": 0.0,
       "noise_size": 1.0,
@@ -16,7 +16,7 @@
       "notes": "camera/exposure inherited supplement; other ramp stops estimated; UV inspection modifier keeps generated UVs"
     },
     {
-      "file": "/classroom/course-assets/course52-uv/02_Gradient_Noise.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-cb9b5d7788af394a-02_Gradient_Noise.max",
       "reopened": true,
       "noise_amount": 0.20000000298023224,
       "noise_size": 1.0,
@@ -31,7 +31,7 @@
       "notes": "camera/exposure inherited supplement; other ramp stops estimated; UV inspection modifier keeps generated UVs"
     },
     {
-      "file": "/classroom/course-assets/course52-uv/03_UV_Inspection.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-a7f50df07757ce49-03_UV_Inspection.max",
       "reopened": true,
       "noise_amount": 0.20000000298023224,
       "noise_size": 1.0,

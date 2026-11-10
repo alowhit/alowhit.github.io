@@ -62,7 +62,7 @@
   ],
   "variants": [
     {
-      "file": "/classroom/course-assets/fireball-stage/01_Source_Room_Front.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-6d31808806f7380d-01_Source_Room_Front.max",
       "camera_position": [
         -265.0,
         -1146.02001953125,
@@ -76,7 +76,7 @@
       "saved_reopened": true
     },
     {
-      "file": "/classroom/course-assets/fireball-stage/02_Source_Room_Oblique.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-1eb21809c9146f54-02_Source_Room_Oblique.max",
       "camera_position": [
         55.0,
         -1100.0,

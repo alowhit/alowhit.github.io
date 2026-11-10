@@ -2,7 +2,7 @@
   "source": "课堂5.mp4",
   "stages": [
     {
-      "file": "/classroom/course-assets/course48/01_BlackFront_Linear.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-31338c98823ffcd1-01_BlackFront_Linear.max",
       "reopened": true,
       "cutout_enabled": true,
       "falloff_type": 1,
@@ -17,7 +17,7 @@
       ]
     },
     {
-      "file": "/classroom/course-assets/course48/02_WhiteFront_Linear.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-47342ea3050f33fb-02_WhiteFront_Linear.max",
       "reopened": true,
       "cutout_enabled": true,
       "falloff_type": 1,
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "file": "/classroom/course-assets/course48/03_WhiteFront_NativeCurve.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-09faec52b12752e1-03_WhiteFront_NativeCurve.max",
       "reopened": true,
       "cutout_enabled": true,
       "falloff_type": 1,

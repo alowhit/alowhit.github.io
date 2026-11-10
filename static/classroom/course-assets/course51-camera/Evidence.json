@@ -17,7 +17,7 @@
   "scope": "creation-stage values only, not final camera transform or exposure",
   "native_status": "06 saved reopened and rendered; source creation-stage lens controls matched; transform and exposure still supplemental",
   "native_readback": {
-    "file": "/classroom/course-assets/course51-camera/06_SourceLens_Partial.max",
+    "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-150f1da531158457-06_SourceLens_Partial.max",
     "reopened": true,
     "specify_fov": false,
     "film_width_mm": 36.0,

@@ -1,5 +1,5 @@
 {
-  "file": "/classroom/course-assets/course45/06_Teacher_Falloff_Curves.max",
+  "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-6226e9d6a3bf1c90-06_Teacher_Falloff_Curves.max",
   "reopened": true,
   "source": "Teacher_Falloff_Archive.mat indices11,12,13 (one based)",
   "method": "copy complete native Falloff maps including curve; rim Noise16 kept from video-verified learning graph; Object rebound to scene Box001",

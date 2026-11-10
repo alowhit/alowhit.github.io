@@ -1,6 +1,6 @@
 {
   "bake_return": true,
-  "native": "/classroom/course-assets/course09-baking/native/02_Opacity_Baking_Compatibility.max",
+  "native": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-338f071c2d75edee-02_Opacity_Baking_Compatibility.max",
   "reopened": true,
   "original_material_class": "Standardmaterial",
   "reason": "Installed ScanlineOpacityMap reads opacity_map; Standard Legacy exposes opacityMap. Baked through temporary Physical Material cutout_map using the same Composite, then restored Standard Legacy. Material Editor slots 1/2 retain both materials.",

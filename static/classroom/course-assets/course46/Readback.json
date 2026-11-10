@@ -2,7 +2,7 @@
   "source": "课堂3.mp4",
   "stages": [
     {
-      "file": "/classroom/course-assets/course46/01_Base_NoReflection.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-92887a34bc8f9b0a-01_Base_NoReflection.max",
       "reopened": true,
       "base_weight": 1.0,
       "reflection": 0.0,
@@ -10,7 +10,7 @@
       "luminance": 5.0
     },
     {
-      "file": "/classroom/course-assets/course46/02_Falloff_Linear_12min.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-105890f74d971b6f-02_Falloff_Linear_12min.max",
       "reopened": true,
       "base_weight": 0.0,
       "reflection": 0.0,

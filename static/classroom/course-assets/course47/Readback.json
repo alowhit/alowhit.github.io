@@ -2,7 +2,7 @@
   "source": "课堂4.mp4",
   "stages": [
     {
-      "file": "/classroom/course-assets/course47/01_Object_Far300.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-3897944ceb186100-01_Object_Far300.max",
       "reopened": true,
       "type": 4,
       "direction": 3,
@@ -13,7 +13,7 @@
       "luminance": 5.0
     },
     {
-      "file": "/classroom/course-assets/course47/02_Object_Far200.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-e4f482fc28e321f8-02_Object_Far200.max",
       "reopened": true,
       "type": 4,
       "direction": 3,

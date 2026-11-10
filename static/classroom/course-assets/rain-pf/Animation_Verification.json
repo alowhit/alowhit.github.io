@@ -10,7 +10,7 @@
   ],
   "decoded_all_pngs": true,
   "unique_frame_hashes": 121,
-  "native_scene": "/classroom/course-assets/rain-pf/Rain_Animated_Study.max",
+  "native_scene": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-ae48ea1de05c4d9f-Rain_Animated_Study.max",
   "provenance": "Original drop model/shader and water shader with supplemental PF simulation, shape deformation and camera",
   "not_claimed": [
     "complete rain rubric",

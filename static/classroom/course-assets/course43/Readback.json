@@ -10,19 +10,19 @@
   ],
   "studies": [
     {
-      "file": "/classroom/course-assets/course43/01_Core_Soft_Comparison.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-e4484a8adc9e469b-01_Core_Soft_Comparison.max",
       "radius": 58.0,
       "luminance": 150.0,
       "cutout": "贴图 #21:Composite"
     },
     {
-      "file": "/classroom/course-assets/course43/02_Core_Hard_Comparison.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-b41c954b099cab72-02_Core_Hard_Comparison.max",
       "radius": 58.0,
       "luminance": 150.0,
       "cutout": "贴图 #24:Gradient Ramp"
     },
     {
-      "file": "/classroom/course-assets/course43/03_Core_Saved_State.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-1f64622f06a6d6f4-03_Core_Saved_State.max",
       "radius": 65.0,
       "luminance": 1500.0,
       "cutout": "贴图 #24:Gradient Ramp"

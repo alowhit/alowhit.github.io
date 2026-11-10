@@ -2,15 +2,15 @@
   "reopened": true,
   "stages": [
     {
-      "file": "/classroom/course-assets/course11-tornado/01_Channel2_Only.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-cea298b25c575ea7-01_Channel2_Only.max",
       "stage": 0
     },
     {
-      "file": "/classroom/course-assets/course11-tornado/02_Normal_Unmasked.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-ce1e6690289bea94-02_Normal_Unmasked.max",
       "stage": 1
     },
     {
-      "file": "/classroom/course-assets/course11-tornado/03_Normal_Masked.max",
+      "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-e28b8c4dddbbba43-03_Normal_Masked.max",
       "stage": 2
     }
   ],
