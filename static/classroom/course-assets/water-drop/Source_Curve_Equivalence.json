@@ -1,0 +1,28 @@
+{
+  "source_sha256": "c71a18aa39ab69d59e921c63bf946515dd78bbe698eb6ef7f310c84c51089987",
+  "rain04_sha256": "420bc5f55d522fc707e2333a8b2b75ed27eb3e21459929d1851df7536e2ab859",
+  "source_files_unchanged": true,
+  "maps": [
+    {
+      "map": "贴图 #49",
+      "all_point_properties_identical": true,
+      "max_sample_difference": 0.0
+    },
+    {
+      "map": "贴图 #52",
+      "all_point_properties_identical": true,
+      "max_sample_difference": 0.0
+    },
+    {
+      "map": "贴图 #54",
+      "all_point_properties_identical": true,
+      "max_sample_difference": 0.0
+    },
+    {
+      "map": "贴图 #45",
+      "all_point_properties_identical": true,
+      "max_sample_difference": 0.0
+    }
+  ],
+  "scope": "4 Falloff curves,11 points including P/In/Out/Flags,and101 samples each; does not prove complete material or rain assessment fidelity"
+}

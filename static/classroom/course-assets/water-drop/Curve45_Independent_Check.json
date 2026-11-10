@@ -1,0 +1,6 @@
+{
+  "map": "#45",
+  "independent_bezier_vs_native_max_error": 1.4364043910419788e-06,
+  "source_sha256_verified": true,
+  "scope": "101 normalized input samples; verifies coordinate and relative handle interpretation for #45 only"
+}

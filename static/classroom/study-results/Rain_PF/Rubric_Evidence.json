@@ -31,11 +31,11 @@
     {
       "cell": "E6",
       "requirement": "程序纹理贴图设置",
-      "evidence": "沿用原水面和水滴材质，已有程序纹理工程与渲染。",
-      "remaining": "Noise/Cellular等全部节点、曲线、参数逐项来源核对未结束。",
+      "evidence": "04工程四条Falloff Mix Curve与Test4.max逐点一致：11个点的P/In/Out/Flags及每条101输入采样全部一致。",
+      "remaining": "该证据仅覆盖这四条曲线；其他程序贴图参数与原片中间操作仍需核对。",
       "status": "partial_evidence_not_final_pass",
-      "file": "/classroom/study-results/Rain_PF/Native_Final_Readback.json",
-      "sha256": "1fb640191a9fa08cf3b9c38a3e4a306fd8f30bbb90b1ba4bc3e3242ef7cddcc8"
+      "file": "/classroom/study-results/Rain_PF/Source_Curve_Equivalence.json",
+      "sha256": "84053412e114a72c98d4c657033168f2abdb5dd6c3efdbf19c6777e74f4220ae"
     },
     {
       "cell": "E7",
