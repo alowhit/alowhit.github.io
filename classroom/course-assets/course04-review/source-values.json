@@ -18,7 +18,7 @@
     {
       "seconds": 360,
       "node": "Swirl #7",
-      "visible_values": "Color Contrast 0.4; Swirl Intensity 2; Swirl Amount 1; Twist 20; Constant Detail 4; Center X/Y 0.5; Random Seed 76.001",
+      "visible_values": "Color Contrast 0.4; Swirl Intensity 2; Swirl Amount 1; Twist 20; Constant Detail 4; Center X/Y -0.5; Random Seed 76.001",
       "explanation": "中途版本；后段 Twist 与 Contrast 会改变。"
     },
     {
@@ -60,7 +60,7 @@
     {
       "seconds": 1020,
       "node": "Swirl #13 trial",
-      "visible_values": "Color Contrast 1; Swirl Intensity 2; Swirl Amount 1; Twist 8; Constant Detail 8; Center X/Y 0.5; Random Seed 76.001",
+      "visible_values": "Color Contrast 1; Swirl Intensity 2; Swirl Amount 1; Twist 8; Constant Detail 8; Center X/Y -0.5; Random Seed 76.001",
       "explanation": "这是试接Composite #12第三层的分支；后面被Gradient Ramp #14替换，不要把两者一起当作最终第三层。"
     },
     {
@@ -90,7 +90,7 @@
     {
       "seconds": 1440,
       "node": "Swirl #7",
-      "visible_values": "Base white; Swirl black; Color Contrast 1; Swirl Intensity 2; Swirl Amount 1; Twist 10; Constant Detail 4; Center X/Y 0.5; Random Seed 76.001",
+      "visible_values": "Base white; Swirl black; Color Contrast 1; Swirl Intensity 2; Swirl Amount 1; Twist 10; Constant Detail 4; Center X/Y -0.5; Random Seed 76.001",
       "explanation": "接近片尾的可读参数；不要沿用06:00的Twist 20和Contrast 0.4。"
     }
   ],

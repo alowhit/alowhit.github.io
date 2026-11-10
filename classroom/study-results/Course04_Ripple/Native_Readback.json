@@ -1,0 +1,648 @@
+{
+  "material_count": 4,
+  "maps": {
+    "07_Swirl_SOURCE_24m": {
+      "swirl": "(color 0 0 0)",
+      "base": "(color 255 255 255)",
+      "Swirl_Intensity": "2.0",
+      "Twist": "10.0",
+      "Color_Contrast": "1.0",
+      "Center_Position_Y": "-0.5",
+      "Center_Position_X": "-0.5",
+      "Swirl_Amount": "1.0",
+      "Constant_Detail": "4",
+      "Random_Seed": "76.0009994506836",
+      "Lock_Background": "1",
+      "swirlMap": "None",
+      "baseMap": "None",
+      "swirlMapEnabled": "True",
+      "baseMapEnabled": "True",
+      "coords": "MtlBase:Placement"
+    },
+    "09_Waves_SOURCE_08m40": {
+      "numWaveSets": "3",
+      "waveRadius": "2.0",
+      "waveLenMin": "60.0",
+      "waveLenMax": "30.0",
+      "Amplitude": "1.0",
+      "phase": "0.0",
+      "Distribution": "0",
+      "randomSeed": "30159",
+      "color1": "(color 255 255 255)",
+      "color2": "(color 0 0 0)",
+      "map1": "None",
+      "map2": "None",
+      "map1On": "True",
+      "map2On": "True",
+      "coords": "MtlBase:Placement"
+    },
+    "11_Cellular_SOURCE_21m": {
+      "cellColor": "(color 0 0 0)",
+      "divColor1": "(color 128 128 128)",
+      "divColor2": "(color 255 255 255)",
+      "cellMap": "None",
+      "divMap1": "None",
+      "divMap2": "None",
+      "map1Enabled": "True",
+      "map2Enabled": "True",
+      "map3Enabled": "True",
+      "variation": "0.0",
+      "size": "0.009999999776482582",
+      "spread": "0.3499999940395355",
+      "lowThresh": "0.0",
+      "midThresh": "0.5",
+      "highThresh": "1.0",
+      "type": "0",
+      "fractal": "True",
+      "iteration": "5.0",
+      "roughness": "0.0",
+      "smooth": "0.10000000149011612",
+      "adaptive": "True",
+      "coords": "MtlBase:Placement",
+      "output": "MtlBase:Output"
+    },
+    "08_Multiply_Rings_Swirl_Waves": {
+      "mapEnabled": "#(true, true, true)",
+      "maskEnabled": "#(true, true, true)",
+      "blendMode": "#(0, 5, 5)",
+      "layername": "#(\"\", \"\", \"\")",
+      "dlgOpened": "#(true, true, true)",
+      "opacity": "#(100.0, 100.0, 100.0)",
+      "mapList": "#(06_Radial_Rings_PARTIAL_FLAGS:Gradient Ramp, 07_Swirl_SOURCE_24m:Swirl, 09_Waves_SOURCE_08m40:Waves)",
+      "Mask": "#(undefined, undefined, undefined)"
+    },
+    "12_Final_Darken90": {
+      "mapEnabled": "#(true, true, true)",
+      "maskEnabled": "#(true, true, true)",
+      "blendMode": "#(0, 5, 4)",
+      "layername": "#(\"\", \"\", \"\")",
+      "dlgOpened": "#(true, true, true)",
+      "opacity": "#(100.0, 100.0, 90.0)",
+      "mapList": "#(10_SpFL_EaseIn_PARTIAL_FLAGS:Gradient Ramp, 11_Cellular_SOURCE_21m:Cellular, 14_Radial_Darken_PARTIAL_FLAGS:Gradient Ramp)",
+      "Mask": "#(undefined, undefined, undefined)"
+    }
+  },
+  "ramps": [
+    {
+      "name": "06_Radial_Rings_PARTIAL_FLAGS",
+      "gradient_type": 8,
+      "source_map": "None",
+      "flags": [
+        {
+          "index": 1,
+          "position": 0,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 2,
+          "position": 100,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 3,
+          "position": 6.0,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 4,
+          "position": 11.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 5,
+          "position": 17.0,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 6,
+          "position": 23.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 7,
+          "position": 29.0,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 8,
+          "position": 34.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 9,
+          "position": 41.0,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 10,
+          "position": 48.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 11,
+          "position": 54.000003814697266,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 12,
+          "position": 62.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 13,
+          "position": 68.0,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 14,
+          "position": 75.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 15,
+          "position": 81.0,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 16,
+          "position": 88.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 17,
+          "position": 94.0,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 18,
+          "position": 100.0,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 19,
+          "position": 100.0,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 20,
+          "position": 100.0,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "10_SpFL_EaseIn_PARTIAL_FLAGS",
+      "gradient_type": 5,
+      "source_map": "08_Multiply_Rings_Swirl_Waves:Composite",
+      "flags": [
+        {
+          "index": 1,
+          "position": 0,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 2,
+          "position": 100,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 3,
+          "position": 21.0,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 4,
+          "position": 24.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 5,
+          "position": 100.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 6,
+          "position": 100.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 7,
+          "position": 100.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 8,
+          "position": 100.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 9,
+          "position": 100.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 10,
+          "position": 100.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 11,
+          "position": 100.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 12,
+          "position": 100.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 13,
+          "position": 100.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 14,
+          "position": 100.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 15,
+          "position": 100.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 16,
+          "position": 100.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 17,
+          "position": 100.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 18,
+          "position": 100.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 19,
+          "position": 100.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 20,
+          "position": 100.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "14_Radial_Darken_PARTIAL_FLAGS",
+      "gradient_type": 8,
+      "source_map": "None",
+      "flags": [
+        {
+          "index": 1,
+          "position": 0,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 2,
+          "position": 100,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 3,
+          "position": 6.0,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 4,
+          "position": 11.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 5,
+          "position": 17.0,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 6,
+          "position": 23.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 7,
+          "position": 29.0,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 8,
+          "position": 34.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 9,
+          "position": 41.0,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 10,
+          "position": 48.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 11,
+          "position": 54.000003814697266,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 12,
+          "position": 62.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 13,
+          "position": 68.0,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 14,
+          "position": 75.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 15,
+          "position": 81.0,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 16,
+          "position": 88.0,
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "index": 17,
+          "position": 94.0,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 18,
+          "position": 100.0,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 19,
+          "position": 100.0,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "index": 20,
+          "position": 100.0,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    }
+  ]
+}
