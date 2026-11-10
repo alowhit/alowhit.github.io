@@ -1,0 +1,321 @@
+{
+  "assignment": "气Buff",
+  "rubric_source_sha256": "603b28f9cbe4aeb4287054b534b8f34d226b578d141bb28dba339c234729688b",
+  "requirements": 18,
+  "rows": [
+    {
+      "cell": "C3",
+      "text": "尺寸设置",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "Cylinder原始Radius60.038、Height77.227、Sides64，位置(0.535,67.243,0)已有保存重开记录。",
+      "remaining": "半球、背景与Camera含补设；不等于全场景逐值一致。",
+      "files": [
+        {
+          "path": "Course57_Cylinder/Cylinder_Readback.json",
+          "sha256": "bec4acf92592003ff4b7342cae9289cc5dfcade2f17b0abd9d8de3ee149b0505",
+          "download": "/classroom/course-assets/gasbuff-rubric/Course57_Cylinder__Cylinder_Readback.json"
+        },
+        {
+          "path": "Course57_Cylinder/Camera12_Readback.json",
+          "sha256": "ba3ab3b1b2d96f4d3bc761b0c331540bf7524938bfaa6d783d559f13017857c8",
+          "download": "/classroom/course-assets/gasbuff-rubric/Course57_Cylinder__Camera12_Readback.json"
+        }
+      ]
+    },
+    {
+      "cell": "C4",
+      "text": "渲染器设置",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "Arnold材质和Lens Effects已随02工程保存重开并完成101帧渲染。",
+      "remaining": "需把最终提交版Render Setup完整读回；现有文档未覆盖每个渲染选项。",
+      "files": [
+        {
+          "path": "Course57_Cylinder/Stripe_Readback.json",
+          "sha256": "97b5a9a4203352fe5931e51279c206ac7474b22a4e25e228b20dfcf3b0e40f7f",
+          "download": "/classroom/course-assets/gasbuff-rubric/Course57_Cylinder__Stripe_Readback.json"
+        },
+        {
+          "path": "GasBuff_Assessment/motion02_done.json",
+          "sha256": "936a46f6945ebfc2de4d7358f01c342f4f09c013d9cfacc756c4ea992b6857c4",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__motion02_done.json"
+        }
+      ]
+    },
+    {
+      "cell": "C5",
+      "text": "标准材质设置",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "Arnold材质和Lens Effects已随02工程保存重开并完成101帧渲染。",
+      "remaining": "需把最终提交版Render Setup完整读回；现有文档未覆盖每个渲染选项。",
+      "files": [
+        {
+          "path": "Course57_Cylinder/Stripe_Readback.json",
+          "sha256": "97b5a9a4203352fe5931e51279c206ac7474b22a4e25e228b20dfcf3b0e40f7f",
+          "download": "/classroom/course-assets/gasbuff-rubric/Course57_Cylinder__Stripe_Readback.json"
+        },
+        {
+          "path": "GasBuff_Assessment/motion02_done.json",
+          "sha256": "936a46f6945ebfc2de4d7358f01c342f4f09c013d9cfacc756c4ea992b6857c4",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__motion02_done.json"
+        }
+      ]
+    },
+    {
+      "cell": "C6",
+      "text": "程序纹理贴图设置",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "Gradient Ramp、Opacity Composite与Emission Color有阶段工程读回，颜色/透明度共享条纹。",
+      "remaining": "部分色标和颜色仍为估值，尚未完全匹配原片。",
+      "files": [
+        {
+          "path": "Course57_Cylinder/Opacity_Readback.json",
+          "sha256": "fd52ffadf9e06b614e5bdeafe3ad0948a46862e3127d8dcdda1d91cd807e1676",
+          "download": "/classroom/course-assets/gasbuff-rubric/Course57_Cylinder__Opacity_Readback.json"
+        },
+        {
+          "path": "Course57_Cylinder/Color_Readback.json",
+          "sha256": "7be1ccb372f46a1c6cdc7f2b6edbd43fa077e27a50890b1b7b573a9a890e440e",
+          "download": "/classroom/course-assets/gasbuff-rubric/Course57_Cylinder__Color_Readback.json"
+        }
+      ]
+    },
+    {
+      "cell": "C7",
+      "text": "材质及贴图应用设置",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "Gradient Ramp、Opacity Composite与Emission Color有阶段工程读回，颜色/透明度共享条纹。",
+      "remaining": "部分色标和颜色仍为估值，尚未完全匹配原片。",
+      "files": [
+        {
+          "path": "Course57_Cylinder/Opacity_Readback.json",
+          "sha256": "fd52ffadf9e06b614e5bdeafe3ad0948a46862e3127d8dcdda1d91cd807e1676",
+          "download": "/classroom/course-assets/gasbuff-rubric/Course57_Cylinder__Opacity_Readback.json"
+        },
+        {
+          "path": "Course57_Cylinder/Color_Readback.json",
+          "sha256": "7be1ccb372f46a1c6cdc7f2b6edbd43fa077e27a50890b1b7b573a9a890e440e",
+          "download": "/classroom/course-assets/gasbuff-rubric/Course57_Cylinder__Color_Readback.json"
+        }
+      ]
+    },
+    {
+      "cell": "C8",
+      "text": "动态纹理设置",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "U Offset 0–70帧从0到3；另有缩放成长及黑15/白30/黑70的淡出曲线。",
+      "remaining": "缩放端点和Slow切线包含推断；最终全部关键帧与曲线仍需核对。",
+      "files": [
+        {
+          "path": "Course57_Cylinder/Offset_Readback.json",
+          "sha256": "886f2be08ef6520e79081111ce11f853147577c8e1e9331a7d79e32f9c7d9bcf",
+          "download": "/classroom/course-assets/gasbuff-rubric/Course57_Cylinder__Offset_Readback.json"
+        },
+        {
+          "path": "Course57_Cylinder/Scale_Readback.json",
+          "sha256": "cfa8973e68421f0d6117b4c2a852186b44615914d8d8c2992476060d669f709d",
+          "download": "/classroom/course-assets/gasbuff-rubric/Course57_Cylinder__Scale_Readback.json"
+        },
+        {
+          "path": "Course57_Cylinder/Fade_Readback.json",
+          "sha256": "d5ecebdf20a3da0546e676586506647b6e14fcd0aaafaae1db41f92acd6e5d09",
+          "download": "/classroom/course-assets/gasbuff-rubric/Course57_Cylinder__Fade_Readback.json"
+        }
+      ]
+    },
+    {
+      "cell": "C9",
+      "text": "场景模型设置",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "Cylinder原始Radius60.038、Height77.227、Sides64，位置(0.535,67.243,0)已有保存重开记录。",
+      "remaining": "半球、背景与Camera含补设；不等于全场景逐值一致。",
+      "files": [
+        {
+          "path": "Course57_Cylinder/Cylinder_Readback.json",
+          "sha256": "bec4acf92592003ff4b7342cae9289cc5dfcade2f17b0abd9d8de3ee149b0505",
+          "download": "/classroom/course-assets/gasbuff-rubric/Course57_Cylinder__Cylinder_Readback.json"
+        },
+        {
+          "path": "Course57_Cylinder/Camera12_Readback.json",
+          "sha256": "ba3ab3b1b2d96f4d3bc761b0c331540bf7524938bfaa6d783d559f13017857c8",
+          "download": "/classroom/course-assets/gasbuff-rubric/Course57_Cylinder__Camera12_Readback.json"
+        }
+      ]
+    },
+    {
+      "cell": "C10",
+      "text": "多边形编辑设置",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "开口圆柱64个面、128个顶点已保存重开。",
+      "remaining": "顶部开口有原片证据；底盖删除仍为重建选择。",
+      "files": [
+        {
+          "path": "Course57_Cylinder/Cylinder_Readback.json",
+          "sha256": "bec4acf92592003ff4b7342cae9289cc5dfcade2f17b0abd9d8de3ee149b0505",
+          "download": "/classroom/course-assets/gasbuff-rubric/Course57_Cylinder__Cylinder_Readback.json"
+        }
+      ]
+    },
+    {
+      "cell": "C11",
+      "text": "UV编辑设置",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "已读回Channel1，确认一条U跳变1的UV边界及Stripe坐标。",
+      "remaining": "需要完成接缝修复、多角度/整段动画视觉验证；UV检查不等于老师编辑步骤逐一复刻。",
+      "files": [
+        {
+          "path": "Course57_Cylinder/UV_Seam_Audit.json",
+          "sha256": "c56958619094b5b1496e6eb17aa666a3feb290b16894881a3f65613a377aaec9",
+          "download": "/classroom/course-assets/gasbuff-rubric/Course57_Cylinder__UV_Seam_Audit.json"
+        }
+      ]
+    },
+    {
+      "cell": "C12",
+      "text": "粒子系统发射动态图形",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "原生PF Source、Shape Instance与Material Static；101帧粒子位置记录及光晕动画。",
+      "remaining": "粒子集成为补设方案，尚非老师气Buff粒子参数逐值复制。",
+      "files": [
+        {
+          "path": "GasBuff_Assessment/Particle_Readback.json",
+          "sha256": "f630a1ba2680e62bc87d8f194177cd9538c1ae3e4a2c992459c25cd4e660ff53",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Particle_Readback.json"
+        },
+        {
+          "path": "GasBuff_Assessment/Motion02_Verification.json",
+          "sha256": "3abe7bdf2280662895cc8799f461a12e2c910769a2303e152e94ff467cdbd6fb",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Motion02_Verification.json"
+        }
+      ]
+    },
+    {
+      "cell": "C13",
+      "text": "粒子系统应用静态材质",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "原生PF Source、Shape Instance与Material Static；101帧粒子位置记录及光晕动画。",
+      "remaining": "粒子集成为补设方案，尚非老师气Buff粒子参数逐值复制。",
+      "files": [
+        {
+          "path": "GasBuff_Assessment/Particle_Readback.json",
+          "sha256": "f630a1ba2680e62bc87d8f194177cd9538c1ae3e4a2c992459c25cd4e660ff53",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Particle_Readback.json"
+        },
+        {
+          "path": "GasBuff_Assessment/Motion02_Verification.json",
+          "sha256": "3abe7bdf2280662895cc8799f461a12e2c910769a2303e152e94ff467cdbd6fb",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Motion02_Verification.json"
+        }
+      ]
+    },
+    {
+      "cell": "C14",
+      "text": "设置粒子发射速度及方向",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "Speed30、Variation10、Divergence35°，实际粒子速度Z分量为正。",
+      "remaining": "数值补设；方向需与最终气流视觉统一验收。",
+      "files": [
+        {
+          "path": "GasBuff_Assessment/Particle_Readback.json",
+          "sha256": "f630a1ba2680e62bc87d8f194177cd9538c1ae3e4a2c992459c25cd4e660ff53",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Particle_Readback.json"
+        }
+      ]
+    },
+    {
+      "cell": "C15",
+      "text": "设置粒子寿命",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "Delete By Particle Age：Life Span30帧、Variation5，71帧后无粒子。",
+      "remaining": "补设寿命不代表老师最终时序；还需整段审美验收。",
+      "files": [
+        {
+          "path": "GasBuff_Assessment/Particle_Readback.json",
+          "sha256": "f630a1ba2680e62bc87d8f194177cd9538c1ae3e4a2c992459c25cd4e660ff53",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Particle_Readback.json"
+        }
+      ]
+    },
+    {
+      "cell": "C16",
+      "text": "设置贴图坐标系",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "已读回Channel1，确认一条U跳变1的UV边界及Stripe坐标。",
+      "remaining": "需要完成接缝修复、多角度/整段动画视觉验证；UV检查不等于老师编辑步骤逐一复刻。",
+      "files": [
+        {
+          "path": "Course57_Cylinder/UV_Seam_Audit.json",
+          "sha256": "c56958619094b5b1496e6eb17aa666a3feb290b16894881a3f65613a377aaec9",
+          "download": "/classroom/course-assets/gasbuff-rubric/Course57_Cylinder__UV_Seam_Audit.json"
+        }
+      ]
+    },
+    {
+      "cell": "C25",
+      "text": "设置镜头效果光晕特效",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "原生Arnold Lens Effects：Radius18、Strength0.14，02版已输出101帧。",
+      "remaining": "补设Bloom参数；教师光晕流程与最终视觉尚未确认。",
+      "files": [
+        {
+          "path": "GasBuff_Assessment/motion02_done.json",
+          "sha256": "936a46f6945ebfc2de4d7358f01c342f4f09c013d9cfacc756c4ea992b6857c4",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__motion02_done.json"
+        },
+        {
+          "path": "GasBuff_Assessment/Motion02_Verification.json",
+          "sha256": "3abe7bdf2280662895cc8799f461a12e2c910769a2303e152e94ff467cdbd6fb",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Motion02_Verification.json"
+        }
+      ]
+    },
+    {
+      "cell": "C26",
+      "text": "设置光晕尺寸强度",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "原生Arnold Lens Effects：Radius18、Strength0.14，02版已输出101帧。",
+      "remaining": "补设Bloom参数；教师光晕流程与最终视觉尚未确认。",
+      "files": [
+        {
+          "path": "GasBuff_Assessment/motion02_done.json",
+          "sha256": "936a46f6945ebfc2de4d7358f01c342f4f09c013d9cfacc756c4ea992b6857c4",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__motion02_done.json"
+        },
+        {
+          "path": "GasBuff_Assessment/Motion02_Verification.json",
+          "sha256": "3abe7bdf2280662895cc8799f461a12e2c910769a2303e152e94ff467cdbd6fb",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Motion02_Verification.json"
+        }
+      ]
+    },
+    {
+      "cell": "C27",
+      "text": "设置光晕影响范围",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "Bloom Threshold0.8已保存并读回。",
+      "remaining": "已实现亮度阈值；若评分要求指定对象或AOV范围，不能用Threshold代替。",
+      "files": [
+        {
+          "path": "GasBuff_Assessment/motion02_done.json",
+          "sha256": "936a46f6945ebfc2de4d7358f01c342f4f09c013d9cfacc756c4ea992b6857c4",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__motion02_done.json"
+        }
+      ]
+    },
+    {
+      "cell": "C28",
+      "text": "设置渲染输出格式",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "0–100共101帧、30fps、640×480 PNG序列与H.264 MP4，MP4解码已通过。",
+      "remaining": "预览分辨率及画质尚未确定为最终提交规格。",
+      "files": [
+        {
+          "path": "GasBuff_Assessment/Motion02_Verification.json",
+          "sha256": "3abe7bdf2280662895cc8799f461a12e2c910769a2303e152e94ff467cdbd6fb",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Motion02_Verification.json"
+        }
+      ]
+    }
+  ],
+  "final_pass": false,
+  "scope": "Evidence and remaining work; no self-awarded marks"
+}

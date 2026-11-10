@@ -1,0 +1,79 @@
+{
+  "reopened": true,
+  "blend_modes": [
+    0,
+    5
+  ],
+  "shared_stripe": true,
+  "height_W_angle": 90.0,
+  "height_flags": [
+    [
+      0,
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      14,
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      42,
+      [
+        70,
+        70,
+        70
+      ]
+    ],
+    [
+      68,
+      [
+        160,
+        160,
+        160
+      ]
+    ],
+    [
+      86,
+      [
+        255,
+        255,
+        255
+      ]
+    ],
+    [
+      98,
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      100,
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  ],
+  "confirmed": [
+    "white Position86 at source1080s",
+    "black Position100 at source1020s",
+    "W Angle90 and Noise Amount0",
+    "Ease In visible at1080s",
+    "Stripe and height feed Composite, Composite feeds Opacity",
+    "Layer2 Multiply100 visible at830s"
+  ],
+  "estimated": [
+    "14/42/68/98 positions and intermediate gray values"
+  ],
+  "scope": "Static frame46 material study; inherited camera and half-sphere approximate; no final animation claim"
+}

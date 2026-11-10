@@ -1,0 +1,418 @@
+{
+  "scene": "02_GasBuff_Bloom_Animation.max",
+  "provenance": "Supplemental Arnold Lens Effects settings; teacher values unverified",
+  "bloom_threshold": 0.800000011920929,
+  "bloom_radius": 18,
+  "bloom_strength": 0.14000000059604645,
+  "fps": 30,
+  "size": [
+    640,
+    480
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "particle_count": 0
+    },
+    {
+      "frame": 1,
+      "particle_count": 0
+    },
+    {
+      "frame": 2,
+      "particle_count": 0
+    },
+    {
+      "frame": 3,
+      "particle_count": 0
+    },
+    {
+      "frame": 4,
+      "particle_count": 0
+    },
+    {
+      "frame": 5,
+      "particle_count": 0
+    },
+    {
+      "frame": 6,
+      "particle_count": 0
+    },
+    {
+      "frame": 7,
+      "particle_count": 0
+    },
+    {
+      "frame": 8,
+      "particle_count": 0
+    },
+    {
+      "frame": 9,
+      "particle_count": 0
+    },
+    {
+      "frame": 10,
+      "particle_count": 0
+    },
+    {
+      "frame": 11,
+      "particle_count": 0
+    },
+    {
+      "frame": 12,
+      "particle_count": 0
+    },
+    {
+      "frame": 13,
+      "particle_count": 0
+    },
+    {
+      "frame": 14,
+      "particle_count": 0
+    },
+    {
+      "frame": 15,
+      "particle_count": 1
+    },
+    {
+      "frame": 16,
+      "particle_count": 5
+    },
+    {
+      "frame": 17,
+      "particle_count": 9
+    },
+    {
+      "frame": 18,
+      "particle_count": 14
+    },
+    {
+      "frame": 19,
+      "particle_count": 18
+    },
+    {
+      "frame": 20,
+      "particle_count": 23
+    },
+    {
+      "frame": 21,
+      "particle_count": 27
+    },
+    {
+      "frame": 22,
+      "particle_count": 32
+    },
+    {
+      "frame": 23,
+      "particle_count": 36
+    },
+    {
+      "frame": 24,
+      "particle_count": 41
+    },
+    {
+      "frame": 25,
+      "particle_count": 45
+    },
+    {
+      "frame": 26,
+      "particle_count": 49
+    },
+    {
+      "frame": 27,
+      "particle_count": 54
+    },
+    {
+      "frame": 28,
+      "particle_count": 58
+    },
+    {
+      "frame": 29,
+      "particle_count": 63
+    },
+    {
+      "frame": 30,
+      "particle_count": 67
+    },
+    {
+      "frame": 31,
+      "particle_count": 72
+    },
+    {
+      "frame": 32,
+      "particle_count": 76
+    },
+    {
+      "frame": 33,
+      "particle_count": 81
+    },
+    {
+      "frame": 34,
+      "particle_count": 85
+    },
+    {
+      "frame": 35,
+      "particle_count": 90
+    },
+    {
+      "frame": 36,
+      "particle_count": 90
+    },
+    {
+      "frame": 37,
+      "particle_count": 90
+    },
+    {
+      "frame": 38,
+      "particle_count": 90
+    },
+    {
+      "frame": 39,
+      "particle_count": 90
+    },
+    {
+      "frame": 40,
+      "particle_count": 90
+    },
+    {
+      "frame": 41,
+      "particle_count": 90
+    },
+    {
+      "frame": 42,
+      "particle_count": 90
+    },
+    {
+      "frame": 43,
+      "particle_count": 90
+    },
+    {
+      "frame": 44,
+      "particle_count": 90
+    },
+    {
+      "frame": 45,
+      "particle_count": 90
+    },
+    {
+      "frame": 46,
+      "particle_count": 89
+    },
+    {
+      "frame": 47,
+      "particle_count": 89
+    },
+    {
+      "frame": 48,
+      "particle_count": 88
+    },
+    {
+      "frame": 49,
+      "particle_count": 84
+    },
+    {
+      "frame": 50,
+      "particle_count": 79
+    },
+    {
+      "frame": 51,
+      "particle_count": 76
+    },
+    {
+      "frame": 52,
+      "particle_count": 70
+    },
+    {
+      "frame": 53,
+      "particle_count": 66
+    },
+    {
+      "frame": 54,
+      "particle_count": 61
+    },
+    {
+      "frame": 55,
+      "particle_count": 56
+    },
+    {
+      "frame": 56,
+      "particle_count": 50
+    },
+    {
+      "frame": 57,
+      "particle_count": 45
+    },
+    {
+      "frame": 58,
+      "particle_count": 39
+    },
+    {
+      "frame": 59,
+      "particle_count": 39
+    },
+    {
+      "frame": 60,
+      "particle_count": 36
+    },
+    {
+      "frame": 61,
+      "particle_count": 30
+    },
+    {
+      "frame": 62,
+      "particle_count": 26
+    },
+    {
+      "frame": 63,
+      "particle_count": 20
+    },
+    {
+      "frame": 64,
+      "particle_count": 15
+    },
+    {
+      "frame": 65,
+      "particle_count": 9
+    },
+    {
+      "frame": 66,
+      "particle_count": 7
+    },
+    {
+      "frame": 67,
+      "particle_count": 3
+    },
+    {
+      "frame": 68,
+      "particle_count": 1
+    },
+    {
+      "frame": 69,
+      "particle_count": 0
+    },
+    {
+      "frame": 70,
+      "particle_count": 0
+    },
+    {
+      "frame": 71,
+      "particle_count": 0
+    },
+    {
+      "frame": 72,
+      "particle_count": 0
+    },
+    {
+      "frame": 73,
+      "particle_count": 0
+    },
+    {
+      "frame": 74,
+      "particle_count": 0
+    },
+    {
+      "frame": 75,
+      "particle_count": 0
+    },
+    {
+      "frame": 76,
+      "particle_count": 0
+    },
+    {
+      "frame": 77,
+      "particle_count": 0
+    },
+    {
+      "frame": 78,
+      "particle_count": 0
+    },
+    {
+      "frame": 79,
+      "particle_count": 0
+    },
+    {
+      "frame": 80,
+      "particle_count": 0
+    },
+    {
+      "frame": 81,
+      "particle_count": 0
+    },
+    {
+      "frame": 82,
+      "particle_count": 0
+    },
+    {
+      "frame": 83,
+      "particle_count": 0
+    },
+    {
+      "frame": 84,
+      "particle_count": 0
+    },
+    {
+      "frame": 85,
+      "particle_count": 0
+    },
+    {
+      "frame": 86,
+      "particle_count": 0
+    },
+    {
+      "frame": 87,
+      "particle_count": 0
+    },
+    {
+      "frame": 88,
+      "particle_count": 0
+    },
+    {
+      "frame": 89,
+      "particle_count": 0
+    },
+    {
+      "frame": 90,
+      "particle_count": 0
+    },
+    {
+      "frame": 91,
+      "particle_count": 0
+    },
+    {
+      "frame": 92,
+      "particle_count": 0
+    },
+    {
+      "frame": 93,
+      "particle_count": 0
+    },
+    {
+      "frame": 94,
+      "particle_count": 0
+    },
+    {
+      "frame": 95,
+      "particle_count": 0
+    },
+    {
+      "frame": 96,
+      "particle_count": 0
+    },
+    {
+      "frame": 97,
+      "particle_count": 0
+    },
+    {
+      "frame": 98,
+      "particle_count": 0
+    },
+    {
+      "frame": 99,
+      "particle_count": 0
+    },
+    {
+      "frame": 100,
+      "particle_count": 0
+    }
+  ]
+}

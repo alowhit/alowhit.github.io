@@ -1,0 +1,25 @@
+{
+  "source": "[本机资料路径]",
+  "source_times": {
+    "dimensions_and_sides": 240,
+    "position": 300
+  },
+  "reopened": true,
+  "parameters": {
+    "radius": "60.03799819946289",
+    "height": "77.22699737548828",
+    "sides": "64",
+    "heightsegs": "1",
+    "capsegs": "1",
+    "mapcoords": "True",
+    "pos": "[0.535,67.243,0]"
+  },
+  "scope": "Cylinder primitive stage only; earlier half-sphere, camera and Room are inherited study approximations. Later cap editing, spiral material and animation are not yet recreated in this file.",
+  "open_stage": {
+    "source_seconds": 280,
+    "faces": 64,
+    "vertices": 128,
+    "reopened": true,
+    "scope": "Top opening visible in source; removing both end caps is a reconstruction choice pending bottom-cap sequence review"
+  }
+}

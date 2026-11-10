@@ -1660,5 +1660,11 @@
     "bytes": 1421312,
     "sha256": "b948ee82151929eabb2aef5e40e0a2e73b8dacf8e44ab391a02a0c7b290fd7ff",
     "asset_id": 732009922
+  },
+  "course-assets/gasbuff-seam03/03_GasBuff_PeriodicUV_SUPPLEMENT.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-2ad4582197d0edcb-03_GasBuff_PeriodicUV_SUPPLEMENT.max",
+    "bytes": 2879488,
+    "sha256": "2ad4582197d0edcb86028096a4e8f24b6d776a9893dd11352821616853f612ca",
+    "asset_id": 732048935
   }
 }

@@ -1,0 +1,523 @@
+{
+  "frames": 101,
+  "fps": 30,
+  "resolution": [
+    640,
+    480
+  ],
+  "decode_verified": true,
+  "bloom": {
+    "bloom_threshold": 0.800000011920929,
+    "bloom_radius": 18,
+    "bloom_strength": 0.14000000059604645
+  },
+  "frame35_mean_absolute_difference_from_no_bloom": 0.38532443576388886,
+  "metrics": [
+    {
+      "frame": 0,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 1,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 2,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 3,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 4,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 5,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 6,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 7,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 8,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 9,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 10,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 11,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 12,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 13,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 14,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 15,
+      "visible_pixels": 118,
+      "edge_touch": false
+    },
+    {
+      "frame": 16,
+      "visible_pixels": 1261,
+      "edge_touch": false
+    },
+    {
+      "frame": 17,
+      "visible_pixels": 2903,
+      "edge_touch": false
+    },
+    {
+      "frame": 18,
+      "visible_pixels": 3925,
+      "edge_touch": false
+    },
+    {
+      "frame": 19,
+      "visible_pixels": 4747,
+      "edge_touch": false
+    },
+    {
+      "frame": 20,
+      "visible_pixels": 5615,
+      "edge_touch": false
+    },
+    {
+      "frame": 21,
+      "visible_pixels": 6330,
+      "edge_touch": false
+    },
+    {
+      "frame": 22,
+      "visible_pixels": 7049,
+      "edge_touch": false
+    },
+    {
+      "frame": 23,
+      "visible_pixels": 7579,
+      "edge_touch": false
+    },
+    {
+      "frame": 24,
+      "visible_pixels": 8201,
+      "edge_touch": false
+    },
+    {
+      "frame": 25,
+      "visible_pixels": 8734,
+      "edge_touch": false
+    },
+    {
+      "frame": 26,
+      "visible_pixels": 9287,
+      "edge_touch": false
+    },
+    {
+      "frame": 27,
+      "visible_pixels": 10008,
+      "edge_touch": false
+    },
+    {
+      "frame": 28,
+      "visible_pixels": 10646,
+      "edge_touch": false
+    },
+    {
+      "frame": 29,
+      "visible_pixels": 11275,
+      "edge_touch": false
+    },
+    {
+      "frame": 30,
+      "visible_pixels": 12395,
+      "edge_touch": false
+    },
+    {
+      "frame": 31,
+      "visible_pixels": 12880,
+      "edge_touch": false
+    },
+    {
+      "frame": 32,
+      "visible_pixels": 14719,
+      "edge_touch": false
+    },
+    {
+      "frame": 33,
+      "visible_pixels": 16057,
+      "edge_touch": false
+    },
+    {
+      "frame": 34,
+      "visible_pixels": 17934,
+      "edge_touch": false
+    },
+    {
+      "frame": 35,
+      "visible_pixels": 19765,
+      "edge_touch": false
+    },
+    {
+      "frame": 36,
+      "visible_pixels": 21010,
+      "edge_touch": false
+    },
+    {
+      "frame": 37,
+      "visible_pixels": 22311,
+      "edge_touch": false
+    },
+    {
+      "frame": 38,
+      "visible_pixels": 23573,
+      "edge_touch": false
+    },
+    {
+      "frame": 39,
+      "visible_pixels": 25006,
+      "edge_touch": false
+    },
+    {
+      "frame": 40,
+      "visible_pixels": 26854,
+      "edge_touch": false
+    },
+    {
+      "frame": 41,
+      "visible_pixels": 27964,
+      "edge_touch": false
+    },
+    {
+      "frame": 42,
+      "visible_pixels": 29041,
+      "edge_touch": false
+    },
+    {
+      "frame": 43,
+      "visible_pixels": 29909,
+      "edge_touch": false
+    },
+    {
+      "frame": 44,
+      "visible_pixels": 31647,
+      "edge_touch": false
+    },
+    {
+      "frame": 45,
+      "visible_pixels": 31491,
+      "edge_touch": false
+    },
+    {
+      "frame": 46,
+      "visible_pixels": 32564,
+      "edge_touch": false
+    },
+    {
+      "frame": 47,
+      "visible_pixels": 33720,
+      "edge_touch": false
+    },
+    {
+      "frame": 48,
+      "visible_pixels": 35247,
+      "edge_touch": false
+    },
+    {
+      "frame": 49,
+      "visible_pixels": 36080,
+      "edge_touch": false
+    },
+    {
+      "frame": 50,
+      "visible_pixels": 37037,
+      "edge_touch": false
+    },
+    {
+      "frame": 51,
+      "visible_pixels": 38439,
+      "edge_touch": false
+    },
+    {
+      "frame": 52,
+      "visible_pixels": 39346,
+      "edge_touch": false
+    },
+    {
+      "frame": 53,
+      "visible_pixels": 37919,
+      "edge_touch": false
+    },
+    {
+      "frame": 54,
+      "visible_pixels": 37812,
+      "edge_touch": false
+    },
+    {
+      "frame": 55,
+      "visible_pixels": 32863,
+      "edge_touch": false
+    },
+    {
+      "frame": 56,
+      "visible_pixels": 31673,
+      "edge_touch": false
+    },
+    {
+      "frame": 57,
+      "visible_pixels": 31441,
+      "edge_touch": false
+    },
+    {
+      "frame": 58,
+      "visible_pixels": 32248,
+      "edge_touch": false
+    },
+    {
+      "frame": 59,
+      "visible_pixels": 33360,
+      "edge_touch": false
+    },
+    {
+      "frame": 60,
+      "visible_pixels": 34216,
+      "edge_touch": false
+    },
+    {
+      "frame": 61,
+      "visible_pixels": 34583,
+      "edge_touch": false
+    },
+    {
+      "frame": 62,
+      "visible_pixels": 34297,
+      "edge_touch": false
+    },
+    {
+      "frame": 63,
+      "visible_pixels": 32126,
+      "edge_touch": false
+    },
+    {
+      "frame": 64,
+      "visible_pixels": 28230,
+      "edge_touch": false
+    },
+    {
+      "frame": 65,
+      "visible_pixels": 19509,
+      "edge_touch": false
+    },
+    {
+      "frame": 66,
+      "visible_pixels": 3136,
+      "edge_touch": false
+    },
+    {
+      "frame": 67,
+      "visible_pixels": 498,
+      "edge_touch": false
+    },
+    {
+      "frame": 68,
+      "visible_pixels": 165,
+      "edge_touch": false
+    },
+    {
+      "frame": 69,
+      "visible_pixels": 1,
+      "edge_touch": false
+    },
+    {
+      "frame": 70,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 71,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 72,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 73,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 74,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 75,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 76,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 77,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 78,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 79,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 80,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 81,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 82,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 83,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 84,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 85,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 86,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 87,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 88,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 89,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 90,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 91,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 92,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 93,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 94,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 95,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 96,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 97,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 98,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 99,
+      "visible_pixels": 0,
+      "edge_touch": false
+    },
+    {
+      "frame": 100,
+      "visible_pixels": 0,
+      "edge_touch": false
+    }
+  ],
+  "scope": "Full-frame study output. Teacher lens-effects settings and final assessment not verified."
+}
