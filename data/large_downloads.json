@@ -1702,5 +1702,11 @@
     "bytes": 946176,
     "sha256": "e794f51b7ff3bad01548e75d1073856654876d0a9d49b52a3a63401f522375b0",
     "asset_id": 732370605
+  },
+  "course-assets/gasbuff-output07/07_GasBuff_OutputConfigured_PREVIEW.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-d5362cb1b6aff53a-07_GasBuff_OutputConfigured_PREVIEW.max",
+    "bytes": 2879488,
+    "sha256": "d5362cb1b6aff53aa1eecf2a50e30074539f573471b37e24b7e530db1ab6271f",
+    "asset_id": 732427096
   }
 }

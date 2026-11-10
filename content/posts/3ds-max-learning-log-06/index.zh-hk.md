@@ -1,7 +1,7 @@
 ---
 title: "3ds Max 學習記錄 06：區分房間遮擋與 UV 接縫"
 date: 2026-11-11T01:55:00+08:00
-lastmod: 2026-11-11T01:55:00+08:00
+lastmod: 2026-11-11T02:06:12+08:00
 tags: ["3ds Max", "Arnold", "UV"]
 series: ["3ds Max Learning Log"]
 series_order: 6
@@ -17,3 +17,5 @@ categories: ["學習記錄"]
 另外讀回了06的Render Setup：Arnold、Camera (AA) 3、Adaptive Sampling Off、GPU rendering False、Threads 8、640×480、30 fps及0–100幀。發現Save File關閉且Output Filename為空；已有101幀動畫是腳本指定路徑輸出的，原生工程輸出配置仍需補齊。
 
 [查看四方向對照與操作說明](/learn/course57/#gasbuff-multiview06)。下一步補原生輸出設定，再繼續其他幀與最終畫質檢查；整份作業尚未完成。
+
+後續更新：07已另存並補齊Save File、PNG及0–100幀範圍，F10 → Render已實測輸出第45幀；重開後確認完整範圍仍保留。07整段尚未重渲染，換電腦仍需重選輸出路徑。[查看07工程與輸出教學](/learn/course57/#gasbuff-output07)。

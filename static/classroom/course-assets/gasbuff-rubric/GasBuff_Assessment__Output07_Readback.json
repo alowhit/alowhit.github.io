@@ -1,0 +1,46 @@
+{
+  "source": "06_GasBuff_FadeHandle_ESTIMATED.max",
+  "source_sha256": "7fe8c28796b47fb94fd2a905f3c7c70fdaa29a48c0b3c96fbca4c94b0ca8d2a8",
+  "file": "07_GasBuff_OutputConfigured_PREVIEW.max",
+  "native_sha256": "d5362cb1b6aff53aa1eecf2a50e30074539f573471b37e24b7e530db1ab6271f",
+  "saved_reopened": true,
+  "settings": {
+    "save_file": true,
+    "filename": "[本机资料路径]",
+    "time_type": 3,
+    "start": "0f",
+    "end": "100f",
+    "every_nth": 1,
+    "size": [
+      640,
+      480
+    ],
+    "fps": 30
+  },
+  "scope": "Output setup only; visual scene inherited from06; preview resolution retained",
+  "portability": "Output filename is absolute to this workstation; downloaded MAX users must choose their own writable output directory",
+  "source_unchanged": true,
+  "native_single_frame_test": {
+    "frame": 45,
+    "entry": "Max native render UI; no render() outputfile override",
+    "files": [
+      {
+        "name": "GasBuff07.png",
+        "bytes": 375505,
+        "sha256": "0ec36b24cafecf2497f07fe78e480d947c6795b87238f7706e5df8a1131b1226"
+      }
+    ],
+    "saved_full_range_restored": true,
+    "full_native_sequence_tested": false,
+    "rgb_comparison_with06": {
+      "size": [
+        480,
+        640,
+        3
+      ],
+      "mean_absolute_difference": 0.0013009982638888889,
+      "max_absolute_difference": 1.0,
+      "pixel_equal": false
+    }
+  }
+}

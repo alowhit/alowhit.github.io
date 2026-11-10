@@ -305,18 +305,18 @@
       "cell": "C28",
       "text": "设置渲染输出格式",
       "status": "evidence_present_review_incomplete",
-      "evidence": "06配套101帧PNG和MP4已存在并完整解码；实际工程Output Size640×480、30fps、动画区间0–100。",
-      "remaining": "发现工程自身Save File关闭且输出路径为空；现有动画依赖脚本指定路径，须补原生输出配置和最终画质。",
+      "evidence": "07工程已保存重开：Save File On、PNG、Range0–100、Every Nth1；F10 Render已实际写出第45帧，之后恢复已保存完整范围。",
+      "remaining": "换电脑需重选输出路径；07整段原生输出尚未重跑，640×480仍为预览规格，最终画质待验收。",
       "files": [
+        {
+          "path": "GasBuff_Assessment/Output07_Readback.json",
+          "sha256": "863645680157b18784eee9a0c35e737b7a099ddcfae1d932dfd842740e68197d",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Output07_Readback.json"
+        },
         {
           "path": "GasBuff_Assessment/Motion06_Verification.json",
           "sha256": "59f17b82b0c76b4bef09ca7ffeda77e051f3cb6a6e1761f369d5e415b94f9ade",
           "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Motion06_Verification.json"
-        },
-        {
-          "path": "GasBuff_Assessment/RenderSettings06_Readback.json",
-          "sha256": "0351bf9d67d2cee2b657b0027f03a9dd7ccdb16739b23144cc6e6b0aae276388",
-          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__RenderSettings06_Readback.json"
         }
       ]
     }
