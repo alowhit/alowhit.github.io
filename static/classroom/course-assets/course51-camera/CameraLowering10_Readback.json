@@ -1,0 +1,40 @@
+{
+  "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-e794f51b7ff3bad0-10_CameraLowering_INFERRED.max",
+  "saved_reopened": true,
+  "source_sha256": "5a4f7c2711419190ff5f0397daeb27b494e3ca7c2165b175b5dc9563ed45cd42",
+  "native_sha256": "e794f51b7ff3bad01548e75d1073856654876d0a9d49b52a3a63401f522375b0",
+  "before": {
+    "camera": [
+      -0.1420000046491623,
+      -141.08999633789062,
+      45.68299865722656
+    ],
+    "target": [
+      0.0,
+      65.95600128173828,
+      40.0
+    ],
+    "distance": 207.1240234375
+  },
+  "after": {
+    "camera": [
+      -0.1420000046491623,
+      -141.08999633789062,
+      43.0469970703125
+    ],
+    "target": [
+      0.0,
+      65.95600128173828,
+      37.36399841308594
+    ],
+    "distance": 207.1240234375
+  },
+  "operation": "Translate camera AND target together by world delta [0,0,-2.636] cm",
+  "basis": "Inferred from source video last visible View Y drag offset in Left viewport at781\u2013782.75 seconds; NOT direct final World Position",
+  "limitations": [
+    "Initial target position is supplemental",
+    "Camera lowering is inferred, not exact teacher final readback",
+    "No final exposure or room color match claimed"
+  ],
+  "source_unchanged": true
+}

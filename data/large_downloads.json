@@ -1696,5 +1696,11 @@
     "bytes": 946176,
     "sha256": "8c6339dfef905021b8274e195f00428ccd61e5708dd52af7114954af98cfe1b5",
     "asset_id": 732247888
+  },
+  "course-assets/course51-camera/10_CameraLowering_INFERRED.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-e794f51b7ff3bad0-10_CameraLowering_INFERRED.max",
+    "bytes": 946176,
+    "sha256": "e794f51b7ff3bad01548e75d1073856654876d0a9d49b52a3a63401f522375b0",
+    "asset_id": 732370605
   }
 }
