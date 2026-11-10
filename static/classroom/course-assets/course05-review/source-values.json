@@ -32,7 +32,7 @@
       "seconds": 240,
       "node": "Gradient Ramp #19",
       "visible_values": "Mapped; Linear; Source Map Composite #5; selected flag Position 100, RGB 175 / 240 / 255; Noise Amount 0",
-      "explanation": "把另一条较完整的圆环分支映射成蓝色。其他色标的精确RGB尚未核齐。"
+      "explanation": "把另一条较完整的圆环分支映射成蓝色。起点及中间色标的精确RGB见03:28和03:43。"
     },
     {
       "seconds": 300,
@@ -78,9 +78,9 @@
     }
   ],
   "pending": [
-    "Full flags and RGB for #18/#19/#21",
+    "Remaining unselected endpoint values for #18/#21; Gradient19 three flags now audited",
     "Earlier Composite #5 complete inputs and blend parameters",
-    "Composite #12 changed to four layers before this course; audit #16/#17 and radial branch",
+    "Gradient16/17 flags, radial branch and final Composite12 layer modes; Cell15 settings and four-layer input connections now audited",
     "Final material Base Weight and scene/camera/light values",
     "Native reconstruction, reopen verification and rendered comparison",
     "Animation keys are not established by these sampled frames"
