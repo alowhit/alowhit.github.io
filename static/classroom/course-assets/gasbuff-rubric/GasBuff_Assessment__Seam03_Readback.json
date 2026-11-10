@@ -1,0 +1,52 @@
+{
+  "saved_reopened": true,
+  "native": "03_GasBuff_PeriodicUV_SUPPLEMENT.max",
+  "original_stripe": {
+    "mapChannel": 1,
+    "U_Tiling": 5.0,
+    "W_Angle": 30.000001907348633,
+    "U_Mirror": true
+  },
+  "new_stripe": {
+    "mapChannel": 2,
+    "U_Tiling": 4,
+    "V_Tiling": 1,
+    "W_Angle": 0,
+    "U_Mirror": true,
+    "U_Tile": false
+  },
+  "uv_transform": "Channel2 U=Channel1 U - 0.625*V; V unchanged",
+  "channel1_unchanged": true,
+  "base_geometry_unchanged": true,
+  "shared_color_opacity_stripe": true,
+  "seam_phase_pairs": [
+    {
+      "vertices": [
+        16,
+        129
+      ],
+      "phase_jump": 4.0
+    },
+    {
+      "vertices": [
+        80,
+        130
+      ],
+      "phase_jump": 3.999999761581421
+    }
+  ],
+  "frames": [
+    35,
+    45,
+    60
+  ],
+  "same_camera_exposure_bloom": true,
+  "provenance": "Supplemental periodic UV repair, not teacher parameters",
+  "tradeoff": "Circumferential phase slope changes from noninteger rotated density to4; diagonal pitch is a designed approximation",
+  "pending": [
+    "Visual inspection at all animation frames and multiple angles",
+    "Full corrected animation output",
+    "Teacher exact UV workflow and final assessment"
+  ],
+  "direction_correction": "Positive shear reversed the visible spiral; corrected to negative after same-frame visual review; discarded positive trial retained separately"
+}

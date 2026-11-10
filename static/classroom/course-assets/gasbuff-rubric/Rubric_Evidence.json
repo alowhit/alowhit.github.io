@@ -26,8 +26,8 @@
       "cell": "C4",
       "text": "渲染器设置",
       "status": "evidence_present_review_incomplete",
-      "evidence": "Arnold材质和Lens Effects已随02工程保存重开并完成101帧渲染。",
-      "remaining": "需把最终提交版Render Setup完整读回；现有文档未覆盖每个渲染选项。",
+      "evidence": "03周期UV工程已完成101帧Arnold渲染，输出前后MAX校验值一致；05另有Scale时序修订。",
+      "remaining": "最终提交版Render Setup尚需完整读回；预览渲染成功不证明每个渲染选项符合评分要求。",
       "files": [
         {
           "path": "Course57_Cylinder/Stripe_Readback.json",
@@ -35,9 +35,9 @@
           "download": "/classroom/course-assets/gasbuff-rubric/Course57_Cylinder__Stripe_Readback.json"
         },
         {
-          "path": "GasBuff_Assessment/motion02_done.json",
-          "sha256": "936a46f6945ebfc2de4d7358f01c342f4f09c013d9cfacc756c4ea992b6857c4",
-          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__motion02_done.json"
+          "path": "GasBuff_Assessment/motion03_done.json",
+          "sha256": "317dc1da77d88fc7c56b61db5435fa097aa522d27e791a167b12934eead48299",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__motion03_done.json"
         }
       ]
     },
@@ -45,8 +45,8 @@
       "cell": "C5",
       "text": "标准材质设置",
       "status": "evidence_present_review_incomplete",
-      "evidence": "Arnold材质和Lens Effects已随02工程保存重开并完成101帧渲染。",
-      "remaining": "需把最终提交版Render Setup完整读回；现有文档未覆盖每个渲染选项。",
+      "evidence": "03周期UV工程已完成101帧Arnold渲染，输出前后MAX校验值一致；05另有Scale时序修订。",
+      "remaining": "最终提交版Render Setup尚需完整读回；预览渲染成功不证明每个渲染选项符合评分要求。",
       "files": [
         {
           "path": "Course57_Cylinder/Stripe_Readback.json",
@@ -54,9 +54,9 @@
           "download": "/classroom/course-assets/gasbuff-rubric/Course57_Cylinder__Stripe_Readback.json"
         },
         {
-          "path": "GasBuff_Assessment/motion02_done.json",
-          "sha256": "936a46f6945ebfc2de4d7358f01c342f4f09c013d9cfacc756c4ea992b6857c4",
-          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__motion02_done.json"
+          "path": "GasBuff_Assessment/motion03_done.json",
+          "sha256": "317dc1da77d88fc7c56b61db5435fa097aa522d27e791a167b12934eead48299",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__motion03_done.json"
         }
       ]
     },
@@ -102,8 +102,8 @@
       "cell": "C8",
       "text": "动态纹理设置",
       "status": "evidence_present_review_incomplete",
-      "evidence": "U Offset 0–70帧从0到3；另有缩放成长及黑15/白30/黑70的淡出曲线。",
-      "remaining": "缩放端点和Slow切线包含推断；最终全部关键帧与曲线仍需核对。",
+      "evidence": "05版Scale准确端点和Fast/Slow时序已读回101帧；06版另以原片曲线拟合淡出输入手柄，101帧RGBA与Alpha保持检查通过。",
+      "remaining": "淡出手柄为估算；相机、其他动画轨道和完整视觉一致性仍未确认，不宣称教师原生数据逐值复制。",
       "files": [
         {
           "path": "Course57_Cylinder/Offset_Readback.json",
@@ -111,14 +111,14 @@
           "download": "/classroom/course-assets/gasbuff-rubric/Course57_Cylinder__Offset_Readback.json"
         },
         {
-          "path": "Course57_Cylinder/Scale_Readback.json",
-          "sha256": "cfa8973e68421f0d6117b4c2a852186b44615914d8d8c2992476060d669f709d",
-          "download": "/classroom/course-assets/gasbuff-rubric/Course57_Cylinder__Scale_Readback.json"
+          "path": "GasBuff_Assessment/Timing05_Readback.json",
+          "sha256": "9c7489b3d8c22ccfb9839cdebedea0128af0a9b8d55c1e731f782e0d06dcae3d",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Timing05_Readback.json"
         },
         {
-          "path": "Course57_Cylinder/Fade_Readback.json",
-          "sha256": "d5ecebdf20a3da0546e676586506647b6e14fcd0aaafaae1db41f92acd6e5d09",
-          "download": "/classroom/course-assets/gasbuff-rubric/Course57_Cylinder__Fade_Readback.json"
+          "path": "GasBuff_Assessment/Fade06_Readback.json",
+          "sha256": "b37b448fd3e9b67181e2dea8c415bc11ac018a08d862490712efa1ad4c58969c",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Fade06_Readback.json"
         }
       ]
     },
@@ -159,13 +159,23 @@
       "cell": "C11",
       "text": "UV编辑设置",
       "status": "evidence_present_review_incomplete",
-      "evidence": "已读回Channel1，确认一条U跳变1的UV边界及Stripe坐标。",
-      "remaining": "需要完成接缝修复、多角度/整段动画视觉验证；UV检查不等于老师编辑步骤逐一复刻。",
+      "evidence": "03版增加周期Channel2供共享Stripe使用；原Channel1与基础几何保持，保存重开后边界相位差为4，并有101帧输出。",
+      "remaining": "周期UV为补充修复；多角度/近景完整材质接缝与老师手工UV步骤仍需验收。",
       "files": [
         {
           "path": "Course57_Cylinder/UV_Seam_Audit.json",
           "sha256": "c56958619094b5b1496e6eb17aa666a3feb290b16894881a3f65613a377aaec9",
           "download": "/classroom/course-assets/gasbuff-rubric/Course57_Cylinder__UV_Seam_Audit.json"
+        },
+        {
+          "path": "GasBuff_Assessment/Seam03_Readback.json",
+          "sha256": "a40e0cc38b53ce24b93e49f7663f8072bf82694a7edf9841ef60cc9d0bf172f2",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Seam03_Readback.json"
+        },
+        {
+          "path": "GasBuff_Assessment/Motion03_Verification.json",
+          "sha256": "bb3b637e213abb9adce03995d604a639dc6ce0ca2198c893c5b5a49287eee399",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Motion03_Verification.json"
         }
       ]
     },
@@ -173,8 +183,8 @@
       "cell": "C12",
       "text": "粒子系统发射动态图形",
       "status": "evidence_present_review_incomplete",
-      "evidence": "原生PF Source、Shape Instance与Material Static；101帧粒子位置记录及光晕动画。",
-      "remaining": "粒子集成为补设方案，尚非老师气Buff粒子参数逐值复制。",
+      "evidence": "原生Particle Flow及101帧粒子记录；05版已有配套的完整101帧动画，16个阶段画面已查看。",
+      "remaining": "粒子参数含补设；整段动态播放、教师流程与最终视觉验收仍需完成。",
       "files": [
         {
           "path": "GasBuff_Assessment/Particle_Readback.json",
@@ -182,9 +192,9 @@
           "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Particle_Readback.json"
         },
         {
-          "path": "GasBuff_Assessment/Motion02_Verification.json",
-          "sha256": "3abe7bdf2280662895cc8799f461a12e2c910769a2303e152e94ff467cdbd6fb",
-          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Motion02_Verification.json"
+          "path": "GasBuff_Assessment/Motion05_Verification.json",
+          "sha256": "9da0d954011b96deebceb854c4ebcd0ade7987bbe07a48b51a26de65a3563023",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Motion05_Verification.json"
         }
       ]
     },
@@ -192,8 +202,8 @@
       "cell": "C13",
       "text": "粒子系统应用静态材质",
       "status": "evidence_present_review_incomplete",
-      "evidence": "原生PF Source、Shape Instance与Material Static；101帧粒子位置记录及光晕动画。",
-      "remaining": "粒子集成为补设方案，尚非老师气Buff粒子参数逐值复制。",
+      "evidence": "原生Particle Flow及101帧粒子记录；05版已有配套的完整101帧动画，16个阶段画面已查看。",
+      "remaining": "粒子参数含补设；整段动态播放、教师流程与最终视觉验收仍需完成。",
       "files": [
         {
           "path": "GasBuff_Assessment/Particle_Readback.json",
@@ -201,9 +211,9 @@
           "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Particle_Readback.json"
         },
         {
-          "path": "GasBuff_Assessment/Motion02_Verification.json",
-          "sha256": "3abe7bdf2280662895cc8799f461a12e2c910769a2303e152e94ff467cdbd6fb",
-          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Motion02_Verification.json"
+          "path": "GasBuff_Assessment/Motion05_Verification.json",
+          "sha256": "9da0d954011b96deebceb854c4ebcd0ade7987bbe07a48b51a26de65a3563023",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Motion05_Verification.json"
         }
       ]
     },
@@ -239,13 +249,23 @@
       "cell": "C16",
       "text": "设置贴图坐标系",
       "status": "evidence_present_review_incomplete",
-      "evidence": "已读回Channel1，确认一条U跳变1的UV边界及Stripe坐标。",
-      "remaining": "需要完成接缝修复、多角度/整段动画视觉验证；UV检查不等于老师编辑步骤逐一复刻。",
+      "evidence": "03版增加周期Channel2供共享Stripe使用；原Channel1与基础几何保持，保存重开后边界相位差为4，并有101帧输出。",
+      "remaining": "周期UV为补充修复；多角度/近景完整材质接缝与老师手工UV步骤仍需验收。",
       "files": [
         {
           "path": "Course57_Cylinder/UV_Seam_Audit.json",
           "sha256": "c56958619094b5b1496e6eb17aa666a3feb290b16894881a3f65613a377aaec9",
           "download": "/classroom/course-assets/gasbuff-rubric/Course57_Cylinder__UV_Seam_Audit.json"
+        },
+        {
+          "path": "GasBuff_Assessment/Seam03_Readback.json",
+          "sha256": "a40e0cc38b53ce24b93e49f7663f8072bf82694a7edf9841ef60cc9d0bf172f2",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Seam03_Readback.json"
+        },
+        {
+          "path": "GasBuff_Assessment/Motion03_Verification.json",
+          "sha256": "bb3b637e213abb9adce03995d604a639dc6ce0ca2198c893c5b5a49287eee399",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Motion03_Verification.json"
         }
       ]
     },
@@ -305,13 +325,13 @@
       "cell": "C28",
       "text": "设置渲染输出格式",
       "status": "evidence_present_review_incomplete",
-      "evidence": "0–100共101帧、30fps、640×480 PNG序列与H.264 MP4，MP4解码已通过。",
-      "remaining": "预览分辨率及画质尚未确定为最终提交规格。",
+      "evidence": "05版已完成0–100共101帧、30fps、640×480输出与MP4完整解码。",
+      "remaining": "06只有四张测试图；最终分辨率、画质及整段视觉验收仍待完成。",
       "files": [
         {
-          "path": "GasBuff_Assessment/Motion02_Verification.json",
-          "sha256": "3abe7bdf2280662895cc8799f461a12e2c910769a2303e152e94ff467cdbd6fb",
-          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Motion02_Verification.json"
+          "path": "GasBuff_Assessment/Motion05_Verification.json",
+          "sha256": "9da0d954011b96deebceb854c4ebcd0ade7987bbe07a48b51a26de65a3563023",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Motion05_Verification.json"
         }
       ]
     }

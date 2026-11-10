@@ -1,7 +1,7 @@
 ---
 title: "3ds Max Learning Log 03: Gas Buff UV Seams and Assessment Evidence"
 date: 2026-11-11T00:04:00+08:00
-lastmod: 2026-11-11T00:35:18+08:00
+lastmod: 2026-11-11T00:55:24+08:00
 summary: "Separating mesh holes from texture seams, keeping diagonal stripes, and mapping the 18 Gas Buff assessment requirements."
 categories: ["Learning Logs"]
 tags: ["3ds Max", "Arnold", "UV", "Particle Flow"]
@@ -38,4 +38,6 @@ The source video's Scale key dialogs at 27:34 and 27:40 show more precise values
 
 Comparing the source curve with native Max samples supports Out=Fast at Frame 15 and In=Slow at Frame 70, instead of the previous Slow/Slow approximation. Version 05 was saved, reopened, sampled across 101 frames, and rendered at four test frames. Matching Frame 35 and 45 comparisons show the difference. Source pixel sampling is approximate evidence, not a readback of the teacher's native handles.
 
-[View version 05, the curve comparison, and editing steps](/learn/course57/#scale-timing05). Its full animation is in progress. The source also includes manual fade-handle adjustments that have not been applied. The main preview remains version 03, not a finished version 05 animation.
+[View version 05, the curve comparison, and editing steps](/learn/course57/#scale-timing05). The full version 05 animation is now complete and is paired with its version 05 project on the assignment page. Version 06 separately revises the fade handles and currently has four test renders.
+
+Version 05 animation is now complete, and version 06 separately revises the fade handles. [Learning Log 04](/en/posts/3ds-max-learning-log-04/) updates the earlier stage status above.
