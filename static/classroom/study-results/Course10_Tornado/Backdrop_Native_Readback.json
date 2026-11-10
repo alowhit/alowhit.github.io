@@ -1,0 +1,80 @@
+{
+  "native": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-bd1104063700e8b5-09_Backdrop_Integrated_PARTIAL.max",
+  "saved_reopened": true,
+  "stages": [
+    {
+      "file": "01_Plane_300x190_SOURCE.max",
+      "class": "Plane"
+    },
+    {
+      "file": "02_Raise_Far_Rows_SUPPLEMENT.max",
+      "class": "Editable_Poly"
+    },
+    {
+      "file": "03_Folded_Backdrop_PARTIAL.max",
+      "class": "Editable_Poly"
+    }
+  ],
+  "vertices_world": [
+    [
+      -100.0,
+      -100.0,
+      0.0
+    ],
+    [
+      90.0,
+      -100.0,
+      0.0
+    ],
+    [
+      -100.0,
+      100.0,
+      0.0
+    ],
+    [
+      90.0,
+      100.0,
+      0.0
+    ],
+    [
+      -100.0,
+      100.0,
+      100.0
+    ],
+    [
+      90.0,
+      100.0,
+      100.0
+    ],
+    [
+      -100.0,
+      -80.0,
+      100.0
+    ],
+    [
+      90.0,
+      -80.0,
+      100.0
+    ]
+  ],
+  "faces": 3,
+  "source_verified": {
+    "initial_length_cm": 300,
+    "initial_width_cm": 190,
+    "length_segments": 3,
+    "width_segments": 1,
+    "generate_mapping_coords": true,
+    "source_time_s": 60
+  },
+  "supplemented": [
+    "Vertex reconstruction: floorY -100 to100, wallY100 atZ0to100, roofY100to-80 atZ100; final geometry inferred from sampled source views, not every move proven",
+    "Diagnostic material, lighting and cameras",
+    "No chamfer added because source operation not yet confirmed"
+  ],
+  "pending": [
+    "Exact teacher vertex movement and topology final state",
+    "Camera, lighting and backdrop material fidelity",
+    "Complete UV and animation matching",
+    "Full assessment"
+  ]
+}

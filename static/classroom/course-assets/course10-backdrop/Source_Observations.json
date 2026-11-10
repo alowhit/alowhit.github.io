@@ -1,0 +1,73 @@
+{
+  "source": "D:/\u8bfe/11\u67089\u8bfe\u58022.mp4",
+  "sample_seconds": [
+    10,
+    30,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85,
+    90,
+    95,
+    100,
+    105,
+    110,
+    115,
+    120,
+    125,
+    130,
+    135,
+    140,
+    150,
+    180,
+    210,
+    240,
+    270
+  ],
+  "observations": [
+    {
+      "second": 60,
+      "observed": "Plane: Length 300 cm; Width 190 cm; Length Segs 3; Width Segs 1; Generate Mapping Coords enabled."
+    },
+    {
+      "second": 85,
+      "observed": "Editable Poly and Vertex editing are visible before folding."
+    },
+    {
+      "second": 90,
+      "observed": "Four vertices selected; two far rows raised, giving a sloped middle panel."
+    },
+    {
+      "second": 95,
+      "observed": "Two vertices selected; middle panel is now vertical."
+    },
+    {
+      "second": 100,
+      "observed": "Top outer row moved toward the front; floor, back wall and top panel visible."
+    },
+    {
+      "second": 120,
+      "observed": "Edge mode with two edges selected; this screenshot alone does not establish a completed chamfer."
+    },
+    {
+      "second": 150,
+      "observed": "Object mode: three connected panels; no separate camera or light object listed."
+    }
+  ],
+  "confirmed_plane": {
+    "length_cm": 300,
+    "width_cm": 190,
+    "length_segments": 3,
+    "width_segments": 1,
+    "generate_mapping_coords": true
+  },
+  "pending": [
+    "Exact vertex move values and final positions",
+    "Whether selected edges were later chamfered",
+    "Backdrop material and lighting",
+    "Native reconstruction and camera matching"
+  ],
+  "native_reconstruction_complete": false
+}

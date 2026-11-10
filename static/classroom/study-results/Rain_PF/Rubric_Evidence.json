@@ -49,11 +49,11 @@
     {
       "cell": "E8",
       "requirement": "动态纹理设置",
-      "evidence": "均匀缩放修正版已输出0–120帧，保留水面与粒子动画。",
-      "remaining": "水面纹理动画不等于每个落点触发的局部波纹。",
+      "evidence": "04版完整动画包含水面、下落、飞溅和碰撞水圈；水圈以几何动画实现。",
+      "remaining": "几何扩张不等于完成老师动态程序贴图；贴图动画参数仍需匹配。",
       "status": "partial_evidence_not_final_pass",
-      "file": "/classroom/study-results/Rain_PF/Uniform_Animation_Verification.json",
-      "sha256": "27e2934970bf39ff2ca98b63fd9d08117c692bacbb2a68f8c3a2b4128d3b9abe"
+      "file": "/classroom/study-results/Rain_PF/Impact_Animation_Verification.json",
+      "sha256": "1885ed464d746c1d95448d39e97deb6f543d33f0c76e2ec44f0c12584286b1de"
     },
     {
       "cell": "E9",
@@ -157,11 +157,11 @@
     {
       "cell": "E28",
       "requirement": "设置渲染输出格式",
-      "evidence": "修正版输出640×480、30fps、121帧；MP4已完整解码121帧并关联源MAX哈希。",
+      "evidence": "04版121帧MP4已完整解码，640×480、30fps，并与源MAX哈希关联。",
       "remaining": "仍为预览尺寸；最终提交标准与画质尚未验收。",
       "status": "partial_evidence_not_final_pass",
-      "file": "/classroom/study-results/Rain_PF/Uniform_Animation_Verification.json",
-      "sha256": "27e2934970bf39ff2ca98b63fd9d08117c692bacbb2a68f8c3a2b4128d3b9abe"
+      "file": "/classroom/study-results/Rain_PF/Impact_Animation_Verification.json",
+      "sha256": "1885ed464d746c1d95448d39e97deb6f543d33f0c76e2ec44f0c12584286b1de"
     }
   ],
   "final_pass": false,

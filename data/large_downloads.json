@@ -1594,5 +1594,29 @@
     "bytes": 2183168,
     "sha256": "2c683ccf0c110a7a2e0151d731b7a396afc5207aaade2a4be0be4ac4a854bba4",
     "asset_id": 731765143
+  },
+  "study-results/Course10_Tornado/Backdrop/03_Folded_Backdrop_PARTIAL.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-8f403a99f8a0f898-03_Folded_Backdrop_PARTIAL.max",
+    "bytes": 749568,
+    "sha256": "8f403a99f8a0f898bf9ec1a6558050f490839ea9dc838fbe96a3cbc3d0529617",
+    "asset_id": 731930116
+  },
+  "study-results/Course10_Tornado/09_Backdrop_Integrated_PARTIAL.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-bd1104063700e8b5-09_Backdrop_Integrated_PARTIAL.max",
+    "bytes": 749568,
+    "sha256": "bd1104063700e8b512f267b37d610546f6bce6bb4af5e276ce81b848c85ed4a7",
+    "asset_id": 731930113
+  },
+  "study-results/Course10_Tornado/Backdrop/02_Raise_Far_Rows_SUPPLEMENT.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-5452066eff81ae16-02_Raise_Far_Rows_SUPPLEMENT.max",
+    "bytes": 749568,
+    "sha256": "5452066eff81ae163a9e5360e218d4c8b974550943c046ae6c690bff84885b8f",
+    "asset_id": 731930111
+  },
+  "study-results/Course10_Tornado/Backdrop/01_Plane_300x190_SOURCE.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-93e1a377ff801a15-01_Plane_300x190_SOURCE.max",
+    "bytes": 745472,
+    "sha256": "93e1a377ff801a159dbb9e970d765edb74d6761a93dada33330fce7d7747d132",
+    "asset_id": 731930114
   }
 }

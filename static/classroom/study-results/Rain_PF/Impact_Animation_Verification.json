@@ -1,0 +1,16 @@
+{
+  "native_file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-420bc5f55d522fc7-04_Impact_Ripples_SUPPLEMENT.max",
+  "source_sha256": "420bc5f55d522fc707e2333a8b2b75ed27eb3e21459929d1851df7536e2ab859",
+  "frames": 121,
+  "first": 0,
+  "last": 120,
+  "fps": 30,
+  "size": [
+    640,
+    480
+  ],
+  "mp4_decoded_frames": 121,
+  "unique_decoded_frames": 121,
+  "movie_sha256": "6255a3ad0ecf82b30c48a6d07a8ec4612aa963fe00dc12dec6b17adb86cad179",
+  "scope": "Supplemental collision-driven torus ripple animation; teacher shader and complete assessment not matched."
+}
