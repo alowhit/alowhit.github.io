@@ -1,0 +1,53 @@
+{
+  "source": "[本机资料路径]",
+  "reviewed_seconds": [
+    774,
+    776,
+    778,
+    780,
+    781,
+    781.5,
+    782,
+    782.25,
+    782.5,
+    782.75,
+    783,
+    783.25,
+    783.5,
+    783.75
+  ],
+  "observations": {
+    "774_and_776_camera_position_cm": [
+      -0.142,
+      -141.09,
+      45.683
+    ],
+    "778_both_selected": [
+      "PhysCamera001",
+      "PhysCamera001.Target"
+    ],
+    "coordinate_system": "View; active Left viewport",
+    "780_drag_delta_display": [
+      0,
+      -5.969,
+      0
+    ],
+    "781_to_782_75_last_drag_delta_display": [
+      0,
+      -2.636,
+      0
+    ],
+    "783_selection_cleared": true
+  },
+  "inference": {
+    "world_vertical_delta_cm": -2.636,
+    "candidate_camera_z_cm": 43.047,
+    "status": "inferred from pre-drag absolute camera position plus last visible View-space vertical drag offset; not a direct final world position readback"
+  },
+  "native_status": "09 still uses earlier stage Z45.683; no unverified replacement applied",
+  "remaining": [
+    "Recover later direct camera position or independently verify drag result",
+    "Recover target absolute position",
+    "Recheck subsequent camera moves and exposure"
+  ]
+}

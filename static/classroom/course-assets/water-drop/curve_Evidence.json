@@ -1,0 +1,27 @@
+{
+  "source": "11\u67085\u65e5\u6559\u5b665.mp4",
+  "observed_stages": [
+    {
+      "seconds": 275,
+      "state": "Straight initial Mix Curve"
+    },
+    {
+      "seconds": 385,
+      "state": "Left endpoint remains at bottom; outgoing handle pulled upward; curve rises above initial straight line"
+    },
+    {
+      "seconds": 395,
+      "state": "Left endpoint visibly above bottom; outgoing handle elevated"
+    },
+    {
+      "seconds": 405,
+      "state": "Raised left endpoint and concave-down curve persist"
+    },
+    {
+      "seconds": 425,
+      "state": "Left endpoint remains elevated with outgoing handle visible; right endpoint near output1"
+    }
+  ],
+  "exact_control_coordinates": "not displayed; must read source MAX curve before claiming exact values",
+  "scope": "Early Falloff45 opacity branch; not every later Falloff branch or final whole rain assignment"
+}
