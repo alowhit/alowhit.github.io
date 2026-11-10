@@ -1,0 +1,123 @@
+{
+  "native": "/classroom/study-results/Course04_Ripple/01_Course04_Node_Study_PARTIAL.max",
+  "scope": "Teacher node structure study with explicitly supplemented missing values. Not final teacher-exact ripple or assessment acceptance.",
+  "flags": [
+    [
+      0,
+      0
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      11,
+      255
+    ],
+    [
+      17,
+      0
+    ],
+    [
+      23,
+      255
+    ],
+    [
+      29,
+      0
+    ],
+    [
+      34,
+      255
+    ],
+    [
+      41,
+      0
+    ],
+    [
+      48,
+      255
+    ],
+    [
+      54,
+      0
+    ],
+    [
+      62,
+      255
+    ],
+    [
+      68,
+      0
+    ],
+    [
+      75,
+      255
+    ],
+    [
+      81,
+      0
+    ],
+    [
+      88,
+      255
+    ],
+    [
+      94,
+      0
+    ],
+    [
+      100,
+      0
+    ]
+  ],
+  "flags_status": "Positions not all verified. Some sampled earlier positions may have been changed later. Black endpoints and alternation are reconstructed. Three redundant template flags coincide at100.",
+  "SpFL_flags": [
+    [
+      0,
+      0
+    ],
+    [
+      21,
+      0
+    ],
+    [
+      24,
+      255
+    ],
+    [
+      100,
+      255
+    ]
+  ],
+  "SpFL_status": "White24 source verified; black21 supplemented; Ease In selected in native UI.",
+  "Cellular_division1_rgb": [
+    128,
+    128,
+    128
+  ],
+  "division1_status": "Supplemented gray; exact source RGB not shown.",
+  "Waves_scope": "08:40 values, later final state not yet confirmed. Keep Max30 Min60 exactly as shown.",
+  "scene_supplements": {
+    "plane_cm": [
+      200,
+      200
+    ],
+    "camera": [
+      0,
+      -320,
+      190
+    ],
+    "fov": 45,
+    "material": "Arnold Standard Surface diagnostic emission1 base0 specular0",
+    "lighting": "No lights; emission used only to inspect map independent of exposure/light matching."
+  },
+  "pending": [
+    "Full flag audit",
+    "Later Waves confirmation",
+    "Teacher scene/camera/material",
+    "Course05 color and opacity",
+    "Animation",
+    "Assessment acceptance"
+  ]
+}
