@@ -1,6 +1,6 @@
 disabled = false
-languageCode = "zh-hk"
-languageName = "中文(繁體)"
+locale = "zh-hk"
+label = "中文(繁體)"
 weight = 1
 title = "ALOWHIT"
 

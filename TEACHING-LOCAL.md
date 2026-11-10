@@ -4,4 +4,4 @@
 
 `static/classroom/` 是可部署静态资源快照，包含教学截图、预览、工程与证据文件。原教学视频托管于GitHub Release，可逐课下载，不进入Git源码；通过文件选择器在浏览器本地播放，定位按钮仍可使用。图片用WebP压缩，工程保持原始文件。
 
-推送main后由GitHub Actions使用Hugo 0.143.1构建并部署到gh-pages。不要把public/或resources/_gen缓存提交。
+推送main后由GitHub Actions使用Hugo 0.167.0构建，直接通过Pages artifact部署。不要把public/或resources/_gen缓存提交。

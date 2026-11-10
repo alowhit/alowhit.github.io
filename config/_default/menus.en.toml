@@ -88,5 +88,5 @@
 
 [[main]]
   name = "VFX lessons"
-  pageRef = "learn"
+  url = "/learn/"
   weight = 25

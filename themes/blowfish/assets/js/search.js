@@ -11,10 +11,11 @@ var last = output.lastChild;
 var searchVisible = false;
 var indexed = false;
 var hasResults = false;
+var previouslyFocused = null;
 
 // Listen for events
-showButton? showButton.addEventListener("click", displaySearch) : null;
-showButtonMobile? showButtonMobile.addEventListener("click", displaySearch) : null;
+showButton ? showButton.addEventListener("click", displaySearch) : null;
+showButtonMobile ? showButtonMobile.addEventListener("click", displaySearch) : null;
 hideButton.addEventListener("click", hideSearch);
 wrapper.addEventListener("click", hideSearch);
 modal.addEventListener("click", function (event) {
@@ -22,11 +23,30 @@ modal.addEventListener("click", function (event) {
   event.stopImmediatePropagation();
   return false;
 });
+const shortcutHint = document.getElementById("search-shortcut-hint");
+if (shortcutHint && !/Mac|iPhone|iPad/.test(navigator.platform)) {
+  shortcutHint.textContent = "Ctrl K";
+}
+
 document.addEventListener("keydown", function (event) {
   // Forward slash to open search wrapper
   if (event.key == "/") {
-    if (!searchVisible) {
+    const active = document.activeElement;
+    const tag = active.tagName;
+    const isInputField = tag === "INPUT" || tag === "TEXTAREA" || active.isContentEditable;
+
+    if (!searchVisible && !isInputField) {
       event.preventDefault();
+      displaySearch();
+    }
+  }
+
+  // Cmd+K (macOS) / Ctrl+K to toggle search wrapper
+  if (event.key && event.key.toLowerCase() == "k" && (event.metaKey || event.ctrlKey)) {
+    event.preventDefault();
+    if (searchVisible) {
+      hideSearch();
+    } else {
       displaySearch();
     }
   }
@@ -34,6 +54,25 @@ document.addEventListener("keydown", function (event) {
   // Esc to close search wrapper
   if (event.key == "Escape") {
     hideSearch();
+  }
+
+  // Trap Tab / Shift+Tab focus inside the modal while it is open
+  if (event.key == "Tab" && searchVisible) {
+    var focusable = modal.querySelectorAll('a[href], button, input, [tabindex="0"]');
+    if (focusable.length > 0) {
+      var firstFocusable = focusable[0];
+      var lastFocusable = focusable[focusable.length - 1];
+      if (!modal.contains(document.activeElement)) {
+        event.preventDefault();
+        firstFocusable.focus();
+      } else if (event.shiftKey && document.activeElement == firstFocusable) {
+        event.preventDefault();
+        lastFocusable.focus();
+      } else if (!event.shiftKey && document.activeElement == lastFocusable) {
+        event.preventDefault();
+        firstFocusable.focus();
+      }
+    }
   }
 
   // Down arrow to move down results list
@@ -75,7 +114,6 @@ document.addEventListener("keydown", function (event) {
       }
     }
   }
-
 });
 
 // Update search on each keypress
@@ -88,6 +126,7 @@ function displaySearch() {
     buildIndex();
   }
   if (!searchVisible) {
+    previouslyFocused = document.activeElement;
     document.body.style.overflow = "hidden";
     wrapper.style.visibility = "visible";
     input.focus();
@@ -101,7 +140,12 @@ function hideSearch() {
     wrapper.style.visibility = "hidden";
     input.value = "";
     output.innerHTML = "";
-    document.activeElement.blur();
+    if (previouslyFocused && typeof previouslyFocused.focus === "function" && document.contains(previouslyFocused)) {
+      previouslyFocused.focus();
+    } else if (document.activeElement) {
+      document.activeElement.blur();
+    }
+    previouslyFocused = null;
     searchVisible = false;
   }
 }
@@ -122,7 +166,7 @@ function fetchJSON(path, callback) {
 
 function buildIndex() {
   var baseURL = wrapper.getAttribute("data-url");
-  baseURL = baseURL.replace(/\/?$/, '/');
+  baseURL = baseURL.replace(/\/?$/, "/");
   fetchJSON(baseURL + "index.json", function (data) {
     var options = {
       shouldSort: true,
@@ -148,18 +192,30 @@ function buildIndex() {
 }
 
 function executeQuery(term) {
+  if (!indexed) {
+    buildIndex();
+  }
+  if (!fuse) {
+    return;
+  }
   let results = fuse.search(term);
   let resultsHTML = "";
 
   if (results.length > 0) {
     results.forEach(function (value, key) {
-      console.log(value.item.summary);
       var html = value.item.summary;
       var div = document.createElement("div");
       div.innerHTML = html;
       value.item.summary = div.textContent || div.innerText || "";
-      var title = value.item.externalUrl?  value.item.title + '<span class="text-xs ml-2 align-center cursor-default text-neutral-400 dark:text-neutral-500">'+value.item.externalUrl+'</span>' : value.item.title;
-      var linkconfig = value.item.externalUrl? 'target="_blank" rel="noopener" href="'+value.item.externalUrl+'"' : 'href="'+value.item.permalink+'"';
+      var title = value.item.externalUrl
+        ? value.item.title +
+          '<span class="text-xs ml-2 align-center cursor-default text-neutral-400 dark:text-neutral-500">' +
+          value.item.externalUrl +
+          "</span>"
+        : value.item.title;
+      var linkconfig = value.item.externalUrl
+        ? 'target="_blank" rel="noopener" href="' + value.item.externalUrl + '"'
+        : 'href="' + value.item.permalink + '"';
       resultsHTML =
         resultsHTML +
         `<li class="mb-2">
@@ -169,7 +225,7 @@ function executeQuery(term) {
               <div class="-mb-1 text-lg font-bold">
                 ${title}
               </div>
-              <div class="text-sm text-neutral-500 dark:text-neutral-400">${value.item.section}<span class="px-2 text-primary-500">&middot;</span>${value.item.date? value.item.date : ""}</span></div>
+              <div class="text-sm text-neutral-500 dark:text-neutral-400">${value.item.section}<span class="px-2 text-primary-500">&middot;</span>${value.item.date ? value.item.date : ""}</span></div>
               <div class="text-sm italic">${value.item.summary}</div>
             </div>
             <div class="ml-2 ltr:block rtl:hidden text-neutral-500">&rarr;</div>
@@ -184,7 +240,7 @@ function executeQuery(term) {
   }
 
   output.innerHTML = resultsHTML;
-  if (results.length > 0) {
+  if (results.length > 0 && output.firstChild) {
     first = output.firstChild.firstElementChild;
     last = output.lastChild.firstElementChild;
   }
