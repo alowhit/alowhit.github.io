@@ -1,7 +1,7 @@
 ---
 title: "3ds Max Learning Log 04: Fade Handles and Matching Versions"
 date: 2026-11-11T00:55:24+08:00
-lastmod: 2026-11-11T00:55:24+08:00
+lastmod: 2026-11-11T01:25:52+08:00
 tags: ["3ds Max", "Arnold", "Animation"]
 series: ["3ds Max Learning Log"]
 series_order: 4
@@ -10,7 +10,7 @@ summary: "Completing the version 05 animation and checking version 06 fade handl
 categories: ["Learning Logs"]
 ---
 
-The Gas Buff version 05 animation is complete: 101 frames from 0 through 100, at 640×480 and 30 fps, with the MP4 decoded in full. The main assignment page pairs that animation with its version 05 project. Version 06 changes the fade handles and currently has four test renders; the version 05 video is not a version 06 preview.
+The Gas Buff version 05 animation is complete: 101 frames from 0 through 100, at 640×480 and 30 fps, with the MP4 decoded in full. Version 06 now has its own complete 101-frame animation. The assignment page pairs the version 06 video with its version 06 project; version 05 remains a historical comparison.
 
 ## Matching Keys Does Not Guarantee Matching Motion
 
@@ -24,4 +24,4 @@ Against approximate samples from the compressed source screenshot, RMSE fell fro
 
 ## Remaining Work
 
-Version 06 still needs a full animation and visual review. Camera and scene matching, broad translucent bands, and seams from other angles remain unresolved. The [18-item assessment evidence table](/classroom/gasbuff-assessment-evidence.html) retains those gaps without awarding marks. More downloadable versions do not mean the assessment has passed.
+Version 06 has passed full MP4 decoding and a 16-frame contact-sheet review. Frames 70–100 contain only the uniform background. Continuous playback and comparison with the teacher's effect still need review. Camera and scene matching, broad translucent bands, and seams from other angles remain unresolved. The [18-item assessment evidence table](/classroom/gasbuff-assessment-evidence.html) retains those gaps without awarding marks. More downloadable versions do not mean the assessment has passed.

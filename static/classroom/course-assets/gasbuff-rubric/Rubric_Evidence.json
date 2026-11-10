@@ -183,7 +183,7 @@
       "cell": "C12",
       "text": "粒子系统发射动态图形",
       "status": "evidence_present_review_incomplete",
-      "evidence": "原生Particle Flow及101帧粒子记录；05版已有配套的完整101帧动画，16个阶段画面已查看。",
+      "evidence": "06配套101帧动画已完整解码；已查看16张阶段画面，70–100帧均为纯背景。",
       "remaining": "粒子参数含补设；整段动态播放、教师流程与最终视觉验收仍需完成。",
       "files": [
         {
@@ -192,9 +192,9 @@
           "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Particle_Readback.json"
         },
         {
-          "path": "GasBuff_Assessment/Motion05_Verification.json",
-          "sha256": "9da0d954011b96deebceb854c4ebcd0ade7987bbe07a48b51a26de65a3563023",
-          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Motion05_Verification.json"
+          "path": "GasBuff_Assessment/Motion06_Verification.json",
+          "sha256": "59f17b82b0c76b4bef09ca7ffeda77e051f3cb6a6e1761f369d5e415b94f9ade",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Motion06_Verification.json"
         }
       ]
     },
@@ -202,7 +202,7 @@
       "cell": "C13",
       "text": "粒子系统应用静态材质",
       "status": "evidence_present_review_incomplete",
-      "evidence": "原生Particle Flow及101帧粒子记录；05版已有配套的完整101帧动画，16个阶段画面已查看。",
+      "evidence": "06配套101帧动画已完整解码；已查看16张阶段画面，70–100帧均为纯背景。",
       "remaining": "粒子参数含补设；整段动态播放、教师流程与最终视觉验收仍需完成。",
       "files": [
         {
@@ -211,9 +211,9 @@
           "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Particle_Readback.json"
         },
         {
-          "path": "GasBuff_Assessment/Motion05_Verification.json",
-          "sha256": "9da0d954011b96deebceb854c4ebcd0ade7987bbe07a48b51a26de65a3563023",
-          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Motion05_Verification.json"
+          "path": "GasBuff_Assessment/Motion06_Verification.json",
+          "sha256": "59f17b82b0c76b4bef09ca7ffeda77e051f3cb6a6e1761f369d5e415b94f9ade",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Motion06_Verification.json"
         }
       ]
     },
@@ -325,13 +325,13 @@
       "cell": "C28",
       "text": "设置渲染输出格式",
       "status": "evidence_present_review_incomplete",
-      "evidence": "05版已完成0–100共101帧、30fps、640×480输出与MP4完整解码。",
-      "remaining": "06只有四张测试图；最终分辨率、画质及整段视觉验收仍待完成。",
+      "evidence": "06版已完成0–100共101帧、30fps、640×480输出与MP4完整解码，关联06源工程哈希。",
+      "remaining": "仍为预览尺寸；最终分辨率、画质及整段视觉验收未完成。",
       "files": [
         {
-          "path": "GasBuff_Assessment/Motion05_Verification.json",
-          "sha256": "9da0d954011b96deebceb854c4ebcd0ade7987bbe07a48b51a26de65a3563023",
-          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Motion05_Verification.json"
+          "path": "GasBuff_Assessment/Motion06_Verification.json",
+          "sha256": "59f17b82b0c76b4bef09ca7ffeda77e051f3cb6a6e1761f369d5e415b94f9ade",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Motion06_Verification.json"
         }
       ]
     }
