@@ -41,6 +41,12 @@
       "explanation": "插值已改Ease Out，黑色色标83以外消失。画面中白色色标也已移动，不能沿用06:30的45并称为最终值。"
     },
     {
+      "seconds": 450,
+      "node": "Gradient Ramp #18",
+      "visible_values": "Mapped; Ease In; selected flag Position 0, RGB 0 / 0 / 0",
+      "explanation": "07:30选中的起点是纯黑。原生工程已据此替换之前的近黑补充值。"
+    },
+    {
       "seconds": 480,
       "node": "Gradient Ramp #18",
       "visible_values": "Mapped; Ease In; Source Map Composite #12; selected flag Position 33, RGB 30 / 73 / 165; Noise Amount 0; Size 1; Phase 0",

@@ -1,0 +1,92 @@
+{
+  "status": "PARTIAL - native color/opacity extension, not full source reproduction",
+  "source_confirmed": {
+    "Composite20": {
+      "layers": [
+        "Gradient19",
+        "Gradient18"
+      ],
+      "modes": [
+        "Normal",
+        "Lighten"
+      ],
+      "opacity": [
+        100,
+        100
+      ]
+    },
+    "Gradient19": {
+      "type": "Mapped",
+      "interpolation": "Linear",
+      "flag100": [
+        175,
+        240,
+        255
+      ]
+    },
+    "Gradient18": {
+      "type": "Mapped",
+      "interpolation": "Ease In",
+      "flag33": [
+        30,
+        73,
+        165
+      ],
+      "flag0": [
+        0,
+        0,
+        0
+      ]
+    },
+    "Gradient21": {
+      "type": "Radial",
+      "black_flag83": [
+        0,
+        0,
+        0
+      ],
+      "interpolation": "Ease Out - selected and visually verified in native UI"
+    },
+    "emission_weight": 0.5
+  },
+  "supplements": {
+    "Gradient19_flags": [
+      [
+        0,
+        [
+          5,
+          20,
+          40
+        ]
+      ],
+      [
+        50,
+        [
+          30,
+          100,
+          180
+        ]
+      ]
+    ],
+    "Gradient18_endpoints": [
+      [
+        100,
+        [
+          255,
+          255,
+          255
+        ]
+      ]
+    ],
+    "Gradient21_white_position": 36,
+    "base_weight": 0,
+    "scene_camera": "Inherited diagnostic 200cm plane and camera; source not matched"
+  },
+  "pending": [
+    "Composite5 is currently radial proxy, not source Waves/Swirl/Radial blend",
+    "Composite12 still uses course04 partial three-layer graph, not course05 four-layer graph",
+    "Full source ramp flags",
+    "Teacher scene/camera/lights",
+    "Animation and final assessment"
+  ]
+}
