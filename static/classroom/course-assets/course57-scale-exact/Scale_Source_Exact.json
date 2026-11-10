@@ -1,0 +1,44 @@
+{
+  "source_video": "[本机资料路径]",
+  "object": "Cylinder001",
+  "parameter": "Scale",
+  "evidence_type": "visible key properties dialog in original video",
+  "keys": [
+    {
+      "frame": 15,
+      "scale_percent": [
+        35.597,
+        35.597,
+        8.405
+      ],
+      "source_seconds": 1654,
+      "image": "/classroom/course-assets/course57-scale-exact/1654.jpg.webp",
+      "previous_estimate_percent": [
+        36,
+        36,
+        8.64
+      ],
+      "image_sha256": "d54212a243a5b8df03757b2f30fd991e3b78046272526f7772e0d8b52d1c374b"
+    },
+    {
+      "frame": 70,
+      "scale_percent": [
+        109.643,
+        109.643,
+        144.879
+      ],
+      "source_seconds": 1660,
+      "image": "/classroom/course-assets/course57-scale-exact/1660.jpg.webp",
+      "previous_estimate_percent": [
+        110,
+        110,
+        145
+      ],
+      "image_sha256": "1ec9ab1f361f5c584f8bf982742711c4192276fc14ccb5f151d26e9607a243e4"
+    }
+  ],
+  "precision": "Three displayed decimal places; hidden precision unknown",
+  "tangents": "Key15 outgoing curve icon and key70 incoming menu visible; final tangent types and handles require additional verification",
+  "native_application": "pending; existing 03 full render must finish before changing scene",
+  "frame0": "No key at frame0 shown in reviewed curve; previous supplemental frame0 hold needs review"
+}
