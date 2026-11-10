@@ -5,10 +5,28 @@
   "native_complete": false,
   "observations": [
     {
+      "seconds": 20,
+      "node": "Cellular #15 and Composite #12",
+      "visible_values": "Explicit Map Channel 1; Circular; Size 0.02; Spread 0.3; Fractal On; Iterations 3; Adaptive On; Bump Smoothing 0.1; Roughness 0; Thresholds 0 / 0.5 / 1; Cell black; both Division colors white",
+      "explanation": "开场已经有第二套Cellular颗粒分支。#11经过#17，#15经过#16，再分别接Composite #12的Layer 2和Layer 3；不能用一张Cellular直接代替这两支。"
+    },
+    {
       "seconds": 180,
       "node": "Arnold Standard Surface / Wave",
       "visible_values": "Base Weight 1; Base Roughness 0; Specular Weight 0; Specular Roughness 0.2; IOR 1.5; Emission Weight 0.5",
       "explanation": "这是03:00界面值，不是建议把所有水材质都这样设。#18接emission_color。"
+    },
+    {
+      "seconds": 208,
+      "node": "Gradient Ramp #19",
+      "visible_values": "Mapped; Linear; selected flag Position 0, RGB 0 / 16 / 44",
+      "explanation": "老师调整后的起始蓝色。这里抄的是Gradient Ramp面板RGB，不是颜色选择器另一列Display RGB。"
+    },
+    {
+      "seconds": 223,
+      "node": "Gradient Ramp #19",
+      "visible_values": "Mapped; Linear; selected flag Position 50, RGB 13 / 51 / 127",
+      "explanation": "中间色标已结束调整；它与起点、100位置的浅蓝构成三色色谱。"
     },
     {
       "seconds": 240,
@@ -33,6 +51,12 @@
       "node": "Gradient Ramp #21 — intermediate",
       "visible_values": "Radial; Linear; selected white flag Position 45, RGB 255 / 255 / 255; output → opacity",
       "explanation": "单独控制透明度。白色保留表面，黑色让表面透明，灰色形成渐隐边缘。45是此时正在调整的色标位置。"
+    },
+    {
+      "seconds": 392,
+      "node": "Gradient Ramp #21",
+      "visible_values": "Radial; selected white flag Position 36, RGB 255 / 255 / 255",
+      "explanation": "白色色标从45移到了36，06:34与06:36再次一致。原先工程自选的36现在有原片依据；后面再把Interpolation改成Ease Out。"
     },
     {
       "seconds": 420,

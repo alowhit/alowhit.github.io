@@ -1,0 +1,41 @@
+{
+  "material_class": "ai_standard_surface",
+  "layers": [
+    "10_SpFL_EaseIn_PARTIAL_FLAGS",
+    "17_Cellular11_Remap_SUPPLEMENT_flags",
+    "16_Cellular15_Remap_SUPPLEMENT_flags",
+    "14_Radial_Darken_PARTIAL_FLAGS"
+  ],
+  "blend_modes": [
+    0,
+    5,
+    5,
+    4
+  ],
+  "opacity": [
+    100.0,
+    100.0,
+    100.0,
+    90.0
+  ],
+  "source_maps": [
+    {
+      "name": "11_Cellular_SOURCE_21m",
+      "size": 0.009999999776482582,
+      "spread": 0.3499999940395355,
+      "iterations": 5.0,
+      "coordinates": 2,
+      "division1": "(color 128 128 128)",
+      "division2": "(color 255 255 255)"
+    },
+    {
+      "name": "15_Cellular_SOURCE_00m20",
+      "size": 0.019999999552965164,
+      "spread": 0.30000001192092896,
+      "iterations": 3.0,
+      "coordinates": 2,
+      "division1": "(color 255 255 255)",
+      "division2": "(color 255 255 255)"
+    }
+  ]
+}

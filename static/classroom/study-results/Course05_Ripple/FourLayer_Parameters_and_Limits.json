@@ -1,0 +1,79 @@
+{
+  "source": "11月5日教学2.mp4",
+  "native": "/classroom/study-results/Course05_Ripple/02_Course05_FourLayer_Grain_PARTIAL.max",
+  "source_exact": false,
+  "source_verified": {
+    "00:20_Cell15": {
+      "coordType": "Explicit Map Channel 1",
+      "type": "Circular",
+      "size": 0.02,
+      "spread": 0.3,
+      "fractal": true,
+      "iterations": 3,
+      "adaptive": true,
+      "bump_smoothing": 0.1,
+      "roughness": 0,
+      "thresholds": [
+        0,
+        0.5,
+        1
+      ],
+      "cell_color": [
+        0,
+        0,
+        0
+      ],
+      "division_colors": [
+        [
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          255,
+          255
+        ]
+      ]
+    },
+    "03:28_Gradient19_flag0": [
+      0,
+      16,
+      44
+    ],
+    "03:43_Gradient19_flag50": [
+      13,
+      51,
+      127
+    ],
+    "04:00_Gradient19_flag100": [
+      175,
+      240,
+      255
+    ],
+    "06:32_Opacity_white_position": 36,
+    "four_layer_inputs": [
+      "SpFL",
+      "Cellular11 via Gradient17",
+      "Cellular15 via Gradient16",
+      "radial ring"
+    ]
+  },
+  "supplements": {
+    "Gradient16_17": "Linear; black0, gray128 at50, white100; exact teacher remap flags not shown in reviewed frames",
+    "Composite12_modes": [
+      "Normal100",
+      "Multiply100",
+      "Multiply100",
+      "Darken90"
+    ],
+    "Composite12_modes_scope": "Fourth-layer mode carried from previous course, two Cellular multiplications chosen; course05 final layer modes not yet directly read"
+  },
+  "pending": [
+    "Composite5 full Waves/Swirl/Radial branch currently replaced by radial proxy",
+    "Exact Gradient16/17 flags and course05 layer modes",
+    "Source scene camera lighting",
+    "Animation",
+    "Assessment acceptance"
+  ]
+}
