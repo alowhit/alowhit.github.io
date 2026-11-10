@@ -26,18 +26,13 @@
       "cell": "C4",
       "text": "渲染器设置",
       "status": "evidence_present_review_incomplete",
-      "evidence": "03周期UV工程已完成101帧Arnold渲染，输出前后MAX校验值一致；05另有Scale时序修订。",
-      "remaining": "最终提交版Render Setup尚需完整读回；预览渲染成功不证明每个渲染选项符合评分要求。",
+      "evidence": "06实际读回Renderer为Arnold，AA3、Adaptive Off、GPU rendering False、Threads8，场景材质均为ai_standard_surface。",
+      "remaining": "当前是预览设置；最终画质及教师流程匹配仍未验收。",
       "files": [
         {
-          "path": "Course57_Cylinder/Stripe_Readback.json",
-          "sha256": "97b5a9a4203352fe5931e51279c206ac7474b22a4e25e228b20dfcf3b0e40f7f",
-          "download": "/classroom/course-assets/gasbuff-rubric/Course57_Cylinder__Stripe_Readback.json"
-        },
-        {
-          "path": "GasBuff_Assessment/motion03_done.json",
-          "sha256": "317dc1da77d88fc7c56b61db5435fa097aa522d27e791a167b12934eead48299",
-          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__motion03_done.json"
+          "path": "GasBuff_Assessment/RenderSettings06_Readback.json",
+          "sha256": "0351bf9d67d2cee2b657b0027f03a9dd7ccdb16739b23144cc6e6b0aae276388",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__RenderSettings06_Readback.json"
         }
       ]
     },
@@ -45,18 +40,13 @@
       "cell": "C5",
       "text": "标准材质设置",
       "status": "evidence_present_review_incomplete",
-      "evidence": "03周期UV工程已完成101帧Arnold渲染，输出前后MAX校验值一致；05另有Scale时序修订。",
-      "remaining": "最终提交版Render Setup尚需完整读回；预览渲染成功不证明每个渲染选项符合评分要求。",
+      "evidence": "06实际读回Renderer为Arnold，AA3、Adaptive Off、GPU rendering False、Threads8，场景材质均为ai_standard_surface。",
+      "remaining": "当前是预览设置；最终画质及教师流程匹配仍未验收。",
       "files": [
         {
-          "path": "Course57_Cylinder/Stripe_Readback.json",
-          "sha256": "97b5a9a4203352fe5931e51279c206ac7474b22a4e25e228b20dfcf3b0e40f7f",
-          "download": "/classroom/course-assets/gasbuff-rubric/Course57_Cylinder__Stripe_Readback.json"
-        },
-        {
-          "path": "GasBuff_Assessment/motion03_done.json",
-          "sha256": "317dc1da77d88fc7c56b61db5435fa097aa522d27e791a167b12934eead48299",
-          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__motion03_done.json"
+          "path": "GasBuff_Assessment/RenderSettings06_Readback.json",
+          "sha256": "0351bf9d67d2cee2b657b0027f03a9dd7ccdb16739b23144cc6e6b0aae276388",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__RenderSettings06_Readback.json"
         }
       ]
     },
@@ -159,23 +149,18 @@
       "cell": "C11",
       "text": "UV编辑设置",
       "status": "evidence_present_review_incomplete",
-      "evidence": "03版增加周期Channel2供共享Stripe使用；原Channel1与基础几何保持，保存重开后边界相位差为4，并有101帧输出。",
-      "remaining": "周期UV为补充修复；多角度/近景完整材质接缝与老师手工UV步骤仍需验收。",
+      "evidence": "06第45帧已完成四方向渲染，临时隐藏Room后已查看四图，此帧未见明显竖向条纹断裂；03周期Channel2修复仍保留。",
+      "remaining": "仅一帧四方向诊断；其他帧、近景及老师手工UV流程仍未全部核对。",
       "files": [
-        {
-          "path": "Course57_Cylinder/UV_Seam_Audit.json",
-          "sha256": "c56958619094b5b1496e6eb17aa666a3feb290b16894881a3f65613a377aaec9",
-          "download": "/classroom/course-assets/gasbuff-rubric/Course57_Cylinder__UV_Seam_Audit.json"
-        },
         {
           "path": "GasBuff_Assessment/Seam03_Readback.json",
           "sha256": "a40e0cc38b53ce24b93e49f7663f8072bf82694a7edf9841ef60cc9d0bf172f2",
           "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Seam03_Readback.json"
         },
         {
-          "path": "GasBuff_Assessment/Motion03_Verification.json",
-          "sha256": "bb3b637e213abb9adce03995d604a639dc6ce0ca2198c893c5b5a49287eee399",
-          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Motion03_Verification.json"
+          "path": "GasBuff_Assessment/Multiview06_Review.json",
+          "sha256": "58fc4b485aa7ef87ec6f950c7d2134b6e4406942b69d9b7318bc9951d65d3456",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Multiview06_Review.json"
         }
       ]
     },
@@ -249,23 +234,18 @@
       "cell": "C16",
       "text": "设置贴图坐标系",
       "status": "evidence_present_review_incomplete",
-      "evidence": "03版增加周期Channel2供共享Stripe使用；原Channel1与基础几何保持，保存重开后边界相位差为4，并有101帧输出。",
-      "remaining": "周期UV为补充修复；多角度/近景完整材质接缝与老师手工UV步骤仍需验收。",
+      "evidence": "06第45帧已完成四方向渲染，临时隐藏Room后已查看四图，此帧未见明显竖向条纹断裂；03周期Channel2修复仍保留。",
+      "remaining": "仅一帧四方向诊断；其他帧、近景及老师手工UV流程仍未全部核对。",
       "files": [
-        {
-          "path": "Course57_Cylinder/UV_Seam_Audit.json",
-          "sha256": "c56958619094b5b1496e6eb17aa666a3feb290b16894881a3f65613a377aaec9",
-          "download": "/classroom/course-assets/gasbuff-rubric/Course57_Cylinder__UV_Seam_Audit.json"
-        },
         {
           "path": "GasBuff_Assessment/Seam03_Readback.json",
           "sha256": "a40e0cc38b53ce24b93e49f7663f8072bf82694a7edf9841ef60cc9d0bf172f2",
           "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Seam03_Readback.json"
         },
         {
-          "path": "GasBuff_Assessment/Motion03_Verification.json",
-          "sha256": "bb3b637e213abb9adce03995d604a639dc6ce0ca2198c893c5b5a49287eee399",
-          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Motion03_Verification.json"
+          "path": "GasBuff_Assessment/Multiview06_Review.json",
+          "sha256": "58fc4b485aa7ef87ec6f950c7d2134b6e4406942b69d9b7318bc9951d65d3456",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Multiview06_Review.json"
         }
       ]
     },
@@ -325,13 +305,18 @@
       "cell": "C28",
       "text": "设置渲染输出格式",
       "status": "evidence_present_review_incomplete",
-      "evidence": "06版已完成0–100共101帧、30fps、640×480输出与MP4完整解码，关联06源工程哈希。",
-      "remaining": "仍为预览尺寸；最终分辨率、画质及整段视觉验收未完成。",
+      "evidence": "06配套101帧PNG和MP4已存在并完整解码；实际工程Output Size640×480、30fps、动画区间0–100。",
+      "remaining": "发现工程自身Save File关闭且输出路径为空；现有动画依赖脚本指定路径，须补原生输出配置和最终画质。",
       "files": [
         {
           "path": "GasBuff_Assessment/Motion06_Verification.json",
           "sha256": "59f17b82b0c76b4bef09ca7ffeda77e051f3cb6a6e1761f369d5e415b94f9ade",
           "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__Motion06_Verification.json"
+        },
+        {
+          "path": "GasBuff_Assessment/RenderSettings06_Readback.json",
+          "sha256": "0351bf9d67d2cee2b657b0027f03a9dd7ccdb16739b23144cc6e6b0aae276388",
+          "download": "/classroom/course-assets/gasbuff-rubric/GasBuff_Assessment__RenderSettings06_Readback.json"
         }
       ]
     }
