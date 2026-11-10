@@ -39,6 +39,7 @@ jobs:
         with:
           path: public
   deploy:
+    timeout-minutes: 35
     needs: build
     runs-on: ubuntu-latest
     environment:
@@ -48,3 +49,6 @@ jobs:
       - name: Deploy to Pages
         id: deployment
         uses: actions/deploy-pages@v5.0.1
+        with:
+          # File synchronization exceeded the action default of 10 minutes.
+          timeout: "1800000"

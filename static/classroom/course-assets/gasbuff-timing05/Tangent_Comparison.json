@@ -1,0 +1,18 @@
+{
+  "slow": {
+    "rmse_percentage_points": 22.27666934390275,
+    "max_abs_percentage_points": 40.26836352257018
+  },
+  "fast": {
+    "rmse_percentage_points": 0.283689825421529,
+    "max_abs_percentage_points": 0.5934546361070971
+  },
+  "linear": {
+    "rmse_percentage_points": 11.04153238122826,
+    "max_abs_percentage_points": 20.171516107599786
+  },
+  "smooth": {
+    "rmse_percentage_points": 22.27666934390275,
+    "max_abs_percentage_points": 40.26836352257018
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "source_video": "D:/\u8bfe/\u8bfe\u5802\u6559\u5b66\u89c6\u98918.mp4",
+  "track": "Cylinder001 Material opacity Composite map2 Color1",
+  "confirmed": [
+    "Key15 RGB0; key30 RGB1; key70 RGB0",
+    "After selecting Slow incoming at70, source initially has broad symmetric fade",
+    "At2290-2318s teacher drags horizontal incoming tangent handles; color component curves temporarily separate",
+    "At2320s final component curves overlap in a faster early fade with long low tail"
+  ],
+  "existing_project_difference": "Version05 inherits default Slow/Slow fade; manual handle lengths have not been applied",
+  "pending": [
+    "precise per-component tangent lengths",
+    "native matching and save/reopen",
+    "full updated animation"
+  ],
+  "final_curve_image": "/classroom/course-assets/course57-fade-handles/2320.jpg.webp"
+}

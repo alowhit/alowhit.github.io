@@ -1,0 +1,68 @@
+{
+  "source_seconds": 2320,
+  "calibration": {
+    "frame30_x": 817,
+    "frame70_x": 1187,
+    "RGB0_y": 559,
+    "RGB1_y": 299
+  },
+  "samples": [
+    {
+      "frame": 20,
+      "source_RGB_normalized_approx": 0.23846153846153847,
+      "old_default_slow_RGB_normalized": 0.2592592426374847,
+      "difference": 0.020797704175946202
+    },
+    {
+      "frame": 25,
+      "source_RGB_normalized_approx": 0.7269230769230769,
+      "old_default_slow_RGB_normalized": 0.7407407872817096,
+      "difference": 0.013817710358632662
+    },
+    {
+      "frame": 35,
+      "source_RGB_normalized_approx": 0.9326923076923077,
+      "old_default_slow_RGB_normalized": 0.95703125,
+      "difference": 0.02433894230769229
+    },
+    {
+      "frame": 40,
+      "source_RGB_normalized_approx": 0.5923076923076923,
+      "old_default_slow_RGB_normalized": 0.84375,
+      "difference": 0.2514423076923077
+    },
+    {
+      "frame": 45,
+      "source_RGB_normalized_approx": 0.3096153846153846,
+      "old_default_slow_RGB_normalized": 0.68359375,
+      "difference": 0.3739783653846154
+    },
+    {
+      "frame": 50,
+      "source_RGB_normalized_approx": 0.1576923076923077,
+      "old_default_slow_RGB_normalized": 0.5,
+      "difference": 0.3423076923076923
+    },
+    {
+      "frame": 55,
+      "source_RGB_normalized_approx": 0.07692307692307693,
+      "old_default_slow_RGB_normalized": 0.31640625,
+      "difference": 0.23948317307692307
+    },
+    {
+      "frame": 60,
+      "source_RGB_normalized_approx": 0.028846153846153848,
+      "old_default_slow_RGB_normalized": 0.15625,
+      "difference": 0.12740384615384615
+    },
+    {
+      "frame": 65,
+      "source_RGB_normalized_approx": 0.007692307692307693,
+      "old_default_slow_RGB_normalized": 0.04296875,
+      "difference": 0.03527644230769231
+    }
+  ],
+  "method": "Compressed screenshot blue-curve sampling;approximate,not native source values",
+  "native_source": "Course57_Cylinder/Fade_Readback.json",
+  "pending": "Apply manual tangent-handle length after current05 render; do not replace original keys with pixel-sampled keys"
+}

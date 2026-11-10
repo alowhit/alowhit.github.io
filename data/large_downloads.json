@@ -1672,5 +1672,11 @@
     "bytes": 2879488,
     "sha256": "5bc7175bba3b399533746d2f4cc9cf0082f6e9898acb6c0eb9f6cf59970f1cb1",
     "asset_id": 732112148
+  },
+  "course-assets/gasbuff-timing05/05_GasBuff_SourceTiming_PARTIAL.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-fc06802d221bef66-05_GasBuff_SourceTiming_PARTIAL.max",
+    "bytes": 2879488,
+    "sha256": "fc06802d221bef662ba35b8a123fc8d62de9660a0ab10284074342b8b8145fbf",
+    "asset_id": 732151965
   }
 }

@@ -1,7 +1,7 @@
 ---
 title: "3ds Max Learning Log 03: Gas Buff UV Seams and Assessment Evidence"
 date: 2026-11-11T00:04:00+08:00
-lastmod: 2026-11-11T00:25:11+08:00
+lastmod: 2026-11-11T00:35:18+08:00
 summary: "Separating mesh holes from texture seams, keeping diagonal stripes, and mapping the 18 Gas Buff assessment requirements."
 categories: ["Learning Logs"]
 tags: ["3ds Max", "Arnold", "UV", "Particle Flow"]
@@ -33,3 +33,9 @@ Version 03 now has all 101 frames from 0 through 100 rendered at 640×480 and 30
 The source video's Scale key dialogs at 27:34 and 27:40 show more precise values: Frame 15 has X/Y 35.597% and Z 8.405%; Frame 70 has X/Y 109.643% and Z 144.879%. Version 04 applies those displayed values. It was saved, reopened, checked across 101 Scale samples, and rendered at four test frames. The supplemental Frame 0 hold and approximate Slow tangents remain; version 04 does not yet have a full animation.
 
 [View the version guide, version 03 animation, and latest version 04 project](/learn/course57/#gasbuff-revisions). Original screenshots and editing steps are in the [Scale key evidence section](/learn/course57/#scale-exact-source). Matching endpoints does not prove that every intermediate frame matches. Full assessment acceptance remains incomplete.
+
+## Update: Version 05 Corrects Scale Growth Timing
+
+Comparing the source curve with native Max samples supports Out=Fast at Frame 15 and In=Slow at Frame 70, instead of the previous Slow/Slow approximation. Version 05 was saved, reopened, sampled across 101 frames, and rendered at four test frames. Matching Frame 35 and 45 comparisons show the difference. Source pixel sampling is approximate evidence, not a readback of the teacher's native handles.
+
+[View version 05, the curve comparison, and editing steps](/learn/course57/#scale-timing05). Its full animation is in progress. The source also includes manual fade-handle adjustments that have not been applied. The main preview remains version 03, not a finished version 05 animation.
