@@ -85,11 +85,11 @@
     {
       "cell": "E12",
       "requirement": "粒子系统发射动态图形",
-      "evidence": "Shape Instance启用Animated Shape；同一粒子实际网格高度随年龄变化。",
-      "remaining": "Stretch关键帧为补设；老师动态图形设置仍需核对。",
+      "evidence": "04版Shape Instance按Event Start播放Torus动画；实际粒子网格已验证扩张和变细。",
+      "remaining": "Torus为补充模型，不代表老师的贴图水圈；水滴Stretch关键帧也仍需对齐。",
       "status": "partial_evidence_not_final_pass",
-      "file": "/classroom/study-results/Rain_PF/Animated_Shape_Verification.json",
-      "sha256": "6d12d30a71ef8f98cde9a8587196f28bbbcf9b3af61c2876a9b3a724ff0895d0"
+      "file": "/classroom/study-results/Rain_PF/Impact_Ring_Shape_Verification.json",
+      "sha256": "717249f1def6e08cafd80296ccd4a704202879e7537d366d919cb7a9593c3052"
     },
     {
       "cell": "E13",
@@ -130,11 +130,11 @@
     {
       "cell": "E17",
       "requirement": "设置粒子碰撞繁殖检测",
-      "evidence": "Collision Spawn引用Water_Deflector，Offspring=5，Delete Parent启用；实际进入Splash事件。",
-      "remaining": "老师原始事件流程仍待核对；局部波纹未制作。",
+      "evidence": "04版增加Collision Spawn水圈事件；重开后逐帧比较160个水圈，复制下落轨迹误差0 cm、水圈中心保持静止。",
+      "remaining": "新增流程为补充方案，老师原始事件与程序贴图水圈仍待匹配。",
       "status": "partial_evidence_not_final_pass",
-      "file": "/classroom/study-results/Rain_PF/Final_Motion_Audit.json",
-      "sha256": "94644a62c56324381f53a0dd2111ef92ff36ebcdb029c0ef810a1c7fded9a640"
+      "file": "/classroom/study-results/Rain_PF/Impact_Ripple_Readback.json",
+      "sha256": "6e306940bbc69fa36129c31c40db826bef5ef882ff2f6f0ddcc536f0a370018c"
     },
     {
       "cell": "E18",

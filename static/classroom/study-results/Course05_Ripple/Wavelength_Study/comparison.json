@@ -1,0 +1,24 @@
+{
+  "changes": "Only Waves Wave Length Max/Min; teacher palette and opacity unchanged",
+  "cases": [
+    {
+      "max": 20.0,
+      "min": 30.0,
+      "image": "/classroom/study-results/Course05_Ripple/Wavelength_Study/Length_20_30.png.webp",
+      "source_exact": false
+    },
+    {
+      "max": 10.0,
+      "min": 15.0,
+      "image": "/classroom/study-results/Course05_Ripple/Wavelength_Study/Length_10_15.png.webp",
+      "source_exact": false
+    },
+    {
+      "max": 6.0,
+      "min": 9.0,
+      "image": "/classroom/study-results/Course05_Ripple/Wavelength_Study/Length_6_9.png.webp",
+      "source_exact": false
+    }
+  ],
+  "native_scene_unchanged": true
+}
