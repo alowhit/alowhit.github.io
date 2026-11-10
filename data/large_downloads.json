@@ -1618,5 +1618,29 @@
     "bytes": 745472,
     "sha256": "93e1a377ff801a159dbb9e970d765edb74d6761a93dada33330fce7d7747d132",
     "asset_id": 731930114
+  },
+  "study-results/Course10_UV_Study/01_Unwrap_Original_PARTIAL.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-6f337331cec9f696-01_Unwrap_Original_PARTIAL.max",
+    "bytes": 823296,
+    "sha256": "6f337331cec9f6969d5aab37d5b39439ce2c00b19c5e1ef12978fdfe1a1229aa",
+    "asset_id": 731953486
+  },
+  "study-results/Course10_UV_Study/03_UV_Restored_Unwrap_PARTIAL.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-d233ab1b1268ac67-03_UV_Restored_Unwrap_PARTIAL.max",
+    "bytes": 823296,
+    "sha256": "d233ab1b1268ac67013740fe174050097419c2edd0a0f9dfff679ed863f28e87",
+    "asset_id": 731953492
+  },
+  "study-results/Course10_UV_Study/02_UV_Point_Move_SUPPLEMENT.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-e1d40c23639e8e97-02_UV_Point_Move_SUPPLEMENT.max",
+    "bytes": 823296,
+    "sha256": "e1d40c23639e8e979fbe7b15585842347bb259893530fab8a71b47728ce72c58",
+    "asset_id": 731953505
+  },
+  "study-results/Course10_UV_Study/04_UV_Collapsed_PARTIAL.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-67fa4c9bfea9a20a-04_UV_Collapsed_PARTIAL.max",
+    "bytes": 679936,
+    "sha256": "67fa4c9bfea9a20aa8688214fa31924c204c5c13bb0f951e524a28d6092c6c83",
+    "asset_id": 731953504
   }
 }
