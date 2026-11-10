@@ -1,0 +1,14 @@
+{
+  "course-assets/course53-mirror/Motion_Uncompressed.avi": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course53-Motion-Uncompressed.avi",
+    "bytes": 93089710,
+    "sha256": "682e5777e4eed7a12e5460a290bf6f5d02dc8d4c5ecb87c16a69bd5099d8c761",
+    "asset_id": 731630855
+  },
+  "course-assets/course55-growth/Growth_Uncompressed.avi": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course55-Growth-Uncompressed.avi",
+    "bytes": 93089710,
+    "sha256": "a5ed5170dd11223df073d4c2c2049db18789fb7ee5a38393ddfec89adb45f329",
+    "asset_id": 731631796
+  }
+}
