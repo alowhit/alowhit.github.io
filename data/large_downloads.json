@@ -1654,5 +1654,11 @@
     "bytes": 1421312,
     "sha256": "a014b0538df9185191f3b77b1ca56acb05d239003f4e53a0ddf569b84616329d",
     "asset_id": 731985370
+  },
+  "course-assets/course12-base-mesh/14_Base_TopRing96_PARTIAL.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-b948ee82151929ea-14_Base_TopRing96_PARTIAL.max",
+    "bytes": 1421312,
+    "sha256": "b948ee82151929eabb2aef5e40e0a2e73b8dacf8e44ab391a02a0c7b290fd7ff",
+    "asset_id": 732009922
   }
 }

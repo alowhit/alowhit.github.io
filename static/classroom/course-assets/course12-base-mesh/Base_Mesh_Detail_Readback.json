@@ -1,0 +1,28 @@
+{
+  "saved_reopened": true,
+  "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-b948ee82151929ea-14_Base_TopRing96_PARTIAL.max",
+  "vertices": 64,
+  "faces": 32,
+  "height_cm": 40,
+  "bottom_radius_cm": 32,
+  "top_radius_cm": 38.4,
+  "top_xy_scale_this_edit": 0.96,
+  "source": {
+    "965": "Cylinder Radius40 Height40 HeightSegs1 CapSegs1 Sides32",
+    "985": "32 bottom vertices selected, Scale X80 Y80 Z100",
+    "1015": "Top ring trial X139 Y139 Z100; not final",
+    "1020": "Top ring X96 Y96 Z100; last visible percentage before release",
+    "1021_1025": "Released then object mode; profile remains narrower than initial40 radius"
+  },
+  "confidence": "Height40 and bottom80 explicitly visible; top96 is last observed drag value and consistent with released profile, not a saved source mesh readback",
+  "supplemented": [
+    "Origin placement",
+    "Both caps removed; bottom deletion not yet established",
+    "Inherited cameras lighting materials and background"
+  ],
+  "pending": [
+    "Source exact object placement and saved final top radius",
+    "All model UV and animated parameters",
+    "Final composition and full assessment"
+  ]
+}

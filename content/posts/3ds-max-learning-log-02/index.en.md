@@ -32,6 +32,8 @@ The starting dimensions and segment counts are confirmed from the video. The fol
 
 At 28:00, the teacher's RenderView uses `/viewport_camera` at Frame 0. This does not establish an explicit camera object. The Free Cameras, light positions, and backdrop material in these studies are marked as supplemental choices. The renders also reveal gaps at the sides of the backdrop, tight cropping in the close view, and visible sampling noise. These are inspection scenes, not final matches to the source.
 
+A closer review of the base Cylinder confirms Height 40 cm at 16:05 and X/Y Scale 80% for its 32 bottom vertices at 16:25. The last visible top-ring drag value is 96%; earlier trials of 139% and 157% are neither final settings nor successive multipliers. [Version 14 and the modeling steps](/learn/course12/#base-mesh-detail) are now available. Reopening the file confirms bottom radius 32 cm, top radius 38.4 cm, and height 40 cm. The top-ring value remains identified as the last visible drag reading, rather than a value read from the teacher's saved MAX.
+
 ## Remaining Work
 
 - Rain: procedural ring shaders, complete modeling and UV steps, final image quality, and assessment checks.
