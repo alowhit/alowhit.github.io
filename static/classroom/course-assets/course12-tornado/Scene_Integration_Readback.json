@@ -1,0 +1,117 @@
+{
+  "saved_reopened": true,
+  "source_scene": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-fd2d61e5c4cf1c38-11_Color_Branch_Weights.max",
+  "source_sha256": "fd2d61e5c4cf1c38662e26895f15dc6b0479270a517b25edeb997d3d85170f72",
+  "frame": 0,
+  "native_files": [
+    "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-a014b0538df91851-12_Backdrop_Front_Scene_PARTIAL.max",
+    "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-581fc319ccaf6c6d-13_Close_Scene_PARTIAL.max"
+  ],
+  "backdrop_vertices": [
+    [
+      -100.0,
+      -100.0,
+      0.0
+    ],
+    [
+      90.0,
+      -100.0,
+      0.0
+    ],
+    [
+      -100.0,
+      100.0,
+      0.0
+    ],
+    [
+      90.0,
+      100.0,
+      0.0
+    ],
+    [
+      -100.0,
+      100.0,
+      100.0
+    ],
+    [
+      90.0,
+      100.0,
+      100.0
+    ],
+    [
+      -100.0,
+      -80.0,
+      100.0
+    ],
+    [
+      90.0,
+      -80.0,
+      100.0
+    ]
+  ],
+  "backdrop_faces": 3,
+  "materials": {
+    "Tornado": {
+      "material": "Tornado_Arnold_Study",
+      "emission": 1.0,
+      "color_map": "Map46_Orange_Palette:Gradient Ramp",
+      "opacity_map": "CompositeTexturemap:Composite"
+    },
+    "Base_Smoke": {
+      "material": "Base_Smoke_Arnold",
+      "emission": 1.0,
+      "color_map": "Map52_Mapped_Orange:Gradient Ramp",
+      "opacity_map": "CompositeTexturemap:Composite"
+    }
+  },
+  "cameras": [
+    {
+      "name": "Front_Study_Camera_SUPPLEMENT",
+      "position": [
+        0.0,
+        -210.0,
+        45.0
+      ],
+      "direction": [
+        0.0,
+        -1.0,
+        -4.371138828673793e-08
+      ],
+      "fov_degrees": 48.0
+    },
+    {
+      "name": "Close_Study_Camera_SUPPLEMENT",
+      "position": [
+        0.0,
+        -115.0,
+        35.0
+      ],
+      "direction": [
+        0.0,
+        -1.0,
+        -4.371138828673793e-08
+      ],
+      "fov_degrees": 48.0
+    }
+  ],
+  "source_observation": {
+    "time_s": 1680,
+    "camera_selector": "/viewport_camera",
+    "visible_scene_names": [
+      "Cylinder001",
+      "Plane001",
+      "Tornado"
+    ],
+    "frame": 0
+  },
+  "supplemented": [
+    "Both explicit free cameras: source uses viewport_camera; no exact camera transform established",
+    "Key position(-65,-60,80), multiplier1.6; fill(65,-30,60), multiplier0.7",
+    "Backdrop fold coordinates and clay material inherited from supplemental reconstruction"
+  ],
+  "pending": [
+    "Teacher background colors, lights and viewport transform",
+    "Exact source UV edits, model proportions and material flags",
+    "All teacher animation keys and full assessment acceptance"
+  ]
+}

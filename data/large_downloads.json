@@ -1642,5 +1642,17 @@
     "bytes": 679936,
     "sha256": "67fa4c9bfea9a20aa8688214fa31924c204c5c13bb0f951e524a28d6092c6c83",
     "asset_id": 731953504
+  },
+  "course-assets/course12-tornado/13_Close_Scene_PARTIAL.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-581fc319ccaf6c6d-13_Close_Scene_PARTIAL.max",
+    "bytes": 1421312,
+    "sha256": "581fc319ccaf6c6d414ca9c9660b550e59c654be6a690423e8f78c2c7d408ff0",
+    "asset_id": 731985372
+  },
+  "course-assets/course12-tornado/12_Backdrop_Front_Scene_PARTIAL.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-a014b0538df91851-12_Backdrop_Front_Scene_PARTIAL.max",
+    "bytes": 1421312,
+    "sha256": "a014b0538df9185191f3b77b1ca56acb05d239003f4e53a0ddf569b84616329d",
+    "asset_id": 731985370
   }
 }

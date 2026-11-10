@@ -26,6 +26,12 @@ Reviewing the start of Course 10 confirmed the initial Plane settings: Length 30
 
 The starting dimensions and segment counts are confirmed from the video. The folded vertex coordinates remain reconstruction choices based on the images. The current camera, material, and lights are for structural inspection: the result is dark, and the top panel obscures part of the view. Exact source movements, any chamfer operation, and final camera and lighting settings remain unverified.
 
+## Tornado: Putting the Materials Back into a Scene
+
+[Course 12 now includes two scene studies](/learn/course12/#tornado-scene): version 12 uses a frontal camera, while version 13 moves closer to the model. Both retain the orange crossing stripes, base smoke, and folded backdrop. Both were rendered, and version 13 was reopened to check the models, material references, cameras, and backdrop vertices.
+
+At 28:00, the teacher's RenderView uses `/viewport_camera` at Frame 0. This does not establish an explicit camera object. The Free Cameras, light positions, and backdrop material in these studies are marked as supplemental choices. The renders also reveal gaps at the sides of the backdrop, tight cropping in the close view, and visible sampling noise. These are inspection scenes, not final matches to the source.
+
 ## Remaining Work
 
 - Rain: procedural ring shaders, complete modeling and UV steps, final image quality, and assessment checks.
