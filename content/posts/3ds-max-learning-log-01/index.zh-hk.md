@@ -10,6 +10,9 @@ series_order: 1
 draft: false
 ---
 
+> 本篇記錄工程02階段。後續的 [工程03分支試驗](/learn/course05/#waves-swirl-base) 已改用實際 Waves / Swirl / Radial 節點，數值與視覺仍待匹配。
+
+
 這次把現有的 3ds Max 練習整理成[教學學習站](/learn/)，方便從效果預覽找到對應課程，再下載工程對照。**目前是階段成果，七項考核作業仍未全部完成，完整驗收為 0 / 7。**
 
 ## 從哪裡開始

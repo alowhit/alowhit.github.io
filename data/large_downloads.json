@@ -1582,5 +1582,17 @@
     "bytes": 1097728,
     "sha256": "634aabdfe672507da9ba45a52c9b6b0693967ce8ae0bf45172fb0bdc2f2515e5",
     "asset_id": 731766043
+  },
+  "study-results/Course05_Ripple/03_Course05_Waves_Swirl_Radial_PARTIAL.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-2c24291ee63da18d-03_Course05_Waves_Swirl_Radial_PARTIAL.max",
+    "bytes": 2682880,
+    "sha256": "2c24291ee63da18daabcf9b0519c2eb4c2165ee2ea89478efc4c4842519bd746",
+    "asset_id": 731825924
+  },
+  "study-results/Rain_PF/03_Uniform_Splash_Scale.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-2c683ccf0c110a7a-03_Uniform_Splash_Scale.max",
+    "bytes": 2183168,
+    "sha256": "2c683ccf0c110a7a2e0151d731b7a396afc5207aaade2a4be0be4ac4a854bba4",
+    "asset_id": 731765143
   }
 }

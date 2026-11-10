@@ -1,0 +1,12 @@
+{
+  "source_verified": "Course05 visible graph: Waves4 -> Composite5 layer1, Swirl2 -> layer2, Radial Gradient1 -> layer3; Composite5 -> Gradient19 SourceMap",
+  "supplemented": "All underlying Waves4/Swirl2/Radial1 numerical values and Composite5 blend modes/opacities. Waves values borrowed from the user screenshot of a DIFFERENT Waves9 node; not established as teacher Waves4 values. Swirl and radial values are reconstruction choices.",
+  "pending": [
+    "Exact Composite5 numerical settings",
+    "Exact Gradient16/17 flags and final Composite12 modes",
+    "Teacher scene/camera/lights",
+    "Animation",
+    "Assessment acceptance"
+  ],
+  "radial_adjustment": "Supplement white plateau moved to60; black endpoint100. Initial gray128 at50 suppressed outer wave bands too strongly."
+}

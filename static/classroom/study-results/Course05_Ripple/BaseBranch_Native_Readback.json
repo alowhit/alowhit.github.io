@@ -1,0 +1,61 @@
+{
+  "native": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-2c24291ee63da18d-03_Course05_Waves_Swirl_Radial_PARTIAL.max",
+  "material_class": "ai_standard_surface",
+  "classes": [
+    "Water",
+    "swirl",
+    "Gradient_Ramp"
+  ],
+  "layer_names": [
+    "04_Waves_SUPPLEMENT_values",
+    "02_Swirl_SUPPLEMENT_values",
+    "01_Radial_SUPPLEMENT_white0_white60_black100"
+  ],
+  "blend_modes": [
+    0,
+    5,
+    5
+  ],
+  "opacities": [
+    100.0,
+    25.0,
+    100.0
+  ],
+  "waves": {
+    "numWaveSets": "2",
+    "waveRadius": "2.0",
+    "waveLenMax": "20.0",
+    "waveLenMin": "30.0",
+    "Amplitude": "2.0",
+    "phase": "0.0",
+    "Distribution": "0",
+    "randomSeed": "30161"
+  },
+  "waves_coords": 0,
+  "swirl": {
+    "Color_Contrast": "0.5",
+    "Swirl_Intensity": "1.0",
+    "Swirl_Amount": "1.0",
+    "Twist": "2.0",
+    "Constant_Detail": "4",
+    "Center_Position_X": "-0.5",
+    "Center_Position_Y": "-0.5",
+    "Random_Seed": "76.0009994506836"
+  },
+  "radial_type": 8,
+  "radial_flags": [
+    [
+      0,
+      "[255,255,255]"
+    ],
+    [
+      60,
+      "[255,255,255]"
+    ],
+    [
+      100,
+      "[0,0,0]"
+    ]
+  ],
+  "source_exact": false
+}

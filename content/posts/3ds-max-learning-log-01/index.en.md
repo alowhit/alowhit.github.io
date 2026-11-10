@@ -10,6 +10,9 @@ series_order: 1
 draft: false
 ---
 
+> This log records the project 02 stage. The later [project 03 branch study](/learn/course05/#waves-swirl-base) uses actual Waves / Swirl / Radial nodes, with numerical and visual matching still unfinished.
+
+
 The existing 3ds Max exercises are now organized into a [learning site](/learn/), connecting effect previews with lessons and downloadable projects. **These are work-in-progress results: none of the seven assessment assignments has passed full acceptance yet (0 / 7).**
 
 ## Where to Start
