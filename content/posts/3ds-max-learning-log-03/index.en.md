@@ -1,7 +1,7 @@
 ---
 title: "3ds Max Learning Log 03: Gas Buff UV Seams and Assessment Evidence"
 date: 2026-11-11T00:04:00+08:00
-lastmod: 2026-11-11T00:04:00+08:00
+lastmod: 2026-11-11T00:25:11+08:00
 summary: "Separating mesh holes from texture seams, keeping diagonal stripes, and mapping the 18 Gas Buff assessment requirements."
 categories: ["Learning Logs"]
 tags: ["3ds Max", "Arnold", "UV", "Particle Flow"]
@@ -24,4 +24,12 @@ The first positive shear reversed the spiral. Comparing actual renders revealed 
 
 The [Gas Buff evidence table](/classroom/gasbuff-assessment-evidence.html) maps C3–C16 and C25–C28 to existing records and remaining work. Particle speed, direction, lifetime, and Bloom have native project evidence. Supplemental values, estimated curves, camera matching, and final image quality still need work. No marks have been self-awarded.
 
-The assignment page still uses the complete version 02 animation as its main preview. Version 03 is a separate repair study. Its full Frame 0–100 animation, other viewing angles, and remaining material layers must be checked before it can replace the main project.
+At the initial writing, the main preview used version 02 and version 03 had only three comparison frames. The update below records the subsequent full animation and version 04 revision. Other viewing angles and remaining material layers still need checks.
+
+## Update: Full Version 03 Animation and Exact Scale in Version 04
+
+Version 03 now has all 101 frames from 0 through 100 rendered at 640×480 and 30 fps. The MP4 was decoded in full, and the main assignment page pairs it with the version 03 project. Sixteen sampled frames were visually reviewed. Early framing remains small, broad translucent bands still need work, and alternate-view seam checks and full visual acceptance remain incomplete.
+
+The source video's Scale key dialogs at 27:34 and 27:40 show more precise values: Frame 15 has X/Y 35.597% and Z 8.405%; Frame 70 has X/Y 109.643% and Z 144.879%. Version 04 applies those displayed values. It was saved, reopened, checked across 101 Scale samples, and rendered at four test frames. The supplemental Frame 0 hold and approximate Slow tangents remain; version 04 does not yet have a full animation.
+
+[View the version guide, version 03 animation, and latest version 04 project](/learn/course57/#gasbuff-revisions). Original screenshots and editing steps are in the [Scale key evidence section](/learn/course57/#scale-exact-source). Matching endpoints does not prove that every intermediate frame matches. Full assessment acceptance remains incomplete.

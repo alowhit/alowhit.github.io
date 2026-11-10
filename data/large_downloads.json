@@ -1666,5 +1666,11 @@
     "bytes": 2879488,
     "sha256": "2ad4582197d0edcb86028096a4e8f24b6d776a9893dd11352821616853f612ca",
     "asset_id": 732048935
+  },
+  "course-assets/gasbuff-revisions/04_GasBuff_SourceScale_PARTIAL.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-5bc7175bba3b3995-04_GasBuff_SourceScale_PARTIAL.max",
+    "bytes": 2879488,
+    "sha256": "5bc7175bba3b399533746d2f4cc9cf0082f6e9898acb6c0eb9f6cf59970f1cb1",
+    "asset_id": 732112148
   }
 }
