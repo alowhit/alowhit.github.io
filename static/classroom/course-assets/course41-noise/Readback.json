@@ -1,0 +1,95 @@
+{
+  "saved_reopened": true,
+  "file": "/classroom/course-assets/course41-noise/01_Noise1_Late_Offset2_Minus6_Phase2.max",
+  "samples": [
+    {
+      "frame": 0,
+      "phase": 0.0,
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 5,
+      "phase": 0.10000000149011612,
+      "offset": [
+        0.10000000894069672,
+        -0.30000001192092896,
+        0.0
+      ]
+    },
+    {
+      "frame": 13,
+      "phase": 0.25999999046325684,
+      "offset": [
+        0.2600000202655792,
+        -0.7799999713897705,
+        0.0
+      ]
+    },
+    {
+      "frame": 26,
+      "phase": 0.5199999809265137,
+      "offset": [
+        0.5199999809265137,
+        -1.559999942779541,
+        0.0
+      ]
+    },
+    {
+      "frame": 39,
+      "phase": 0.7799999713897705,
+      "offset": [
+        0.7799999713897705,
+        -2.3399999141693115,
+        0.0
+      ]
+    },
+    {
+      "frame": 40,
+      "phase": 0.800000011920929,
+      "offset": [
+        0.8000000715255737,
+        -2.4000000953674316,
+        0.0
+      ]
+    },
+    {
+      "frame": 43,
+      "phase": 0.8600000143051147,
+      "offset": [
+        0.8600000143051147,
+        -2.5799999237060547,
+        0.0
+      ]
+    },
+    {
+      "frame": 100,
+      "phase": 2.0,
+      "offset": [
+        2.0,
+        -6.0,
+        0.0
+      ]
+    }
+  ],
+  "source": "教学记录7.mp4",
+  "observed_phase_samples": {
+    "5": 0.1,
+    "13": 0.26,
+    "26": 0.52,
+    "39": 0.78,
+    "40": 0.8,
+    "43": 0.86,
+    "100": 2
+  },
+  "source_late_endpoint": "10:40 frame100 U2 V-6 W0 Phase2",
+  "limits": [
+    "Offset path reconstructed linearly between0 and100; source intermediate offset panel often stale, exact controllers not confirmed",
+    "Phase samples support linear0..2",
+    "Inherited Course39 shader: Course40 Composite11/Gradient13 still missing",
+    "Inherited model UV camera studio approximations; not final fidelity"
+  ]
+}

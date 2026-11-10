@@ -1,0 +1,48 @@
+{
+  "physical": {
+    "base_weight": "0.0",
+    "reflectivity": "0.0",
+    "roughness": "0.0",
+    "transparency": "0.0",
+    "emission": "1.0",
+    "emit_luminance": "500.0",
+    "emit_kelvin": "6500.0",
+    "emit_color": "(color 55 55 55)"
+  },
+  "physical_reopened": true,
+  "arnold_comparison": "18:00 frame: Emission 0, unassigned comparison material; Base and Specular zero from 13min",
+  "supplements": [
+    "Physical emission RGB 55/55/55 runtime color units; source gray numeric value not confirmed",
+    "Room remains at origin",
+    "Light positioned at (0,0,130), target (0,0,20), reproduces 110cm distance but absolute positions supplied",
+    "No final camera or exposure match; no final render claimed"
+  ],
+  "light": {
+    "shapeType": "3",
+    "quadX": "24.0",
+    "quadY": "24.0",
+    "spread": "1.0",
+    "quadResolution": "500",
+    "quadRoundness": "0.0",
+    "soft_edge": "1.0",
+    "on": "False",
+    "targeted": "True",
+    "intensity": "1.0",
+    "exposure": "6.0",
+    "normalize": "False",
+    "pos": "[0,0,130]",
+    "target": "[0,0,20]",
+    "distance": 110.0,
+    "intensity_basis": "runtime default; intensity/exposure/normalize not visible in source frame, light is OFF"
+  },
+  "quad_reopened": true,
+  "output": [
+    640,
+    480,
+    1.0
+  ],
+  "topology": [
+    488,
+    486
+  ]
+}

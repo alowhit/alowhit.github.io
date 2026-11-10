@@ -1,0 +1,35 @@
+{
+  "source_seconds": [
+    2530,
+    2534
+  ],
+  "source_frame": 63,
+  "target_world": [
+    0.5350000262260437,
+    67.24299621582031,
+    37.840999603271484
+  ],
+  "computed_local": [
+    0.0,
+    0.0,
+    27.236318588256836
+  ],
+  "before_local": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "scale_at63": [
+    1.0670908689498901,
+    1.0670908689498901,
+    1.3893581628799438
+  ],
+  "note": "World Gizmo position matched under current estimated Scale curve; local value is derived, not observed in teacher file.",
+  "reopened_world": [
+    0.5350000262260437,
+    67.24299621582031,
+    37.84100341796875
+  ],
+  "reopened": true,
+  "gizmo_position_keys": 0
+}

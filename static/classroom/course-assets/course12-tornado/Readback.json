@@ -1,0 +1,57 @@
+{
+  "reopened": true,
+  "smoke_layers": [
+    {
+      "size": 0.30000001192092896,
+      "iterations": 5,
+      "exponent": 1.0,
+      "phase": 0.0,
+      "channel": 1,
+      "tiling": [
+        2.0,
+        0.20000000298023224,
+        1.0
+      ],
+      "angle": [
+        0.0,
+        0.0,
+        45.0
+      ]
+    },
+    {
+      "size": 0.30000001192092896,
+      "iterations": 5,
+      "exponent": 1.0,
+      "phase": 0.0,
+      "channel": 2,
+      "tiling": [
+        2.0,
+        0.20000000298023224,
+        1.0
+      ],
+      "angle": [
+        0.0,
+        0.0,
+        45.0
+      ]
+    }
+  ],
+  "confirmed": [
+    "Smoke size0.3 iterations5 exponent1 phase0 UV tiling2,0.2,1 at300s",
+    "Multiply100 inside stripe/Smoke Composite at360s"
+  ],
+  "supplemented": [
+    "Smoke W angle45 inferred from diagonal thumbnail",
+    "Second Smoke copied values and channel2 pending source parameter check",
+    "Inherited UV,flags,camera,lights and material weights"
+  ],
+  "pending": [
+    "Map28 height fade",
+    "Color Correction and final Smoke values",
+    "orange palette and emission weights",
+    "base smoke cylinder",
+    "texture animation",
+    "full scene/camera",
+    "assessment"
+  ]
+}

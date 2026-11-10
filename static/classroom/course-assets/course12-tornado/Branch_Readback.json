@@ -1,0 +1,35 @@
+{
+  "reopened": true,
+  "color_inner_weights": [
+    [
+      100.0,
+      10.0
+    ],
+    [
+      100.0,
+      10.0
+    ]
+  ],
+  "color_gradient_u_tiling": [
+    3.5,
+    3.5
+  ],
+  "opacity_channel2_smoke_size": 0.10000000149011612,
+  "confirmed": [
+    "Map30 Smoke Size0.1 channel2 W45 UVtiling2,0.2,1 at510/540s",
+    "Map36 color stripe channel1 U3.5 W45 at570s",
+    "Map44 color stripe channel2 U3.5 W45 at600/615s",
+    "Map39 second color subComposite Multiply10 at665s",
+    "Map41 first color subComposite Multiply10 at675/690s"
+  ],
+  "pending": [
+    "Independent copied Smoke40/43 final parameters",
+    "All exact gradient flags",
+    "UV mesh camera lighting animation and full rubric"
+  ],
+  "limitations": [
+    "Color Smoke sizes inherited0.3 pending source confirmation",
+    "This is latest observed state for each node,not exhaustive frame review",
+    "Inherited approximate scene and material weights"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "reopened": true,
+  "stages": [
+    {
+      "file": "/classroom/course-assets/course11-tornado/01_Channel2_Only.max",
+      "stage": 0
+    },
+    {
+      "file": "/classroom/course-assets/course11-tornado/02_Normal_Unmasked.max",
+      "stage": 1
+    },
+    {
+      "file": "/classroom/course-assets/course11-tornado/03_Normal_Masked.max",
+      "stage": 2
+    }
+  ],
+  "blend_modes": [
+    0,
+    0
+  ],
+  "layer_opacities": [
+    100.0,
+    100.0
+  ],
+  "layers": [
+    {
+      "name": "Map22_Channel1_Stripes",
+      "channel": 1,
+      "U_Tiling": 3.0,
+      "W_Angle": 45.0
+    },
+    {
+      "name": "Map24_Channel2_Stripes",
+      "channel": 2,
+      "U_Tiling": 3.5,
+      "W_Angle": 45.0
+    }
+  ],
+  "mask": {
+    "connected_layer": 2,
+    "channel": 1,
+    "W_Angle": 0.0,
+    "middle_position": 50.0
+  },
+  "channel2": {
+    "faces": 1440,
+    "verts": 5760,
+    "u_min": 0.5000001192092896,
+    "u_max": 1.5000001192092896
+  },
+  "source_seconds": [
+    120,
+    240,
+    420,
+    480,
+    600,
+    660
+  ],
+  "inferred": [
+    "Channel2 seam shift:normalize copiedU thenmove lowerhalfU+1;source shows a shifted rectangular shell but exact edit values not open"
+  ],
+  "supplements": [
+    "Inherited diagnostic camera,material weights and lights",
+    "UV seams not welded in channel2;per-face UV vertices preserve values"
+  ],
+  "pending": [
+    "exact teacher UV operation",
+    "texture animation keys",
+    "source backdrop and lighting",
+    "later material refinements",
+    "particle/vortex/FumeFX and full rubric"
+  ]
+}

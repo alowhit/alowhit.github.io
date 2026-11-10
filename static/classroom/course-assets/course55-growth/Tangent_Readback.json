@@ -1,0 +1,105 @@
+{
+  "reopened": true,
+  "samples": [
+    {
+      "frame": 0,
+      "scale_percent": [
+        50.0,
+        50.0,
+        0.0
+      ],
+      "z_position": 0.0
+    },
+    {
+      "frame": 25,
+      "scale_percent": [
+        93.75000596046448,
+        93.75000596046448,
+        52.50000357627869
+      ],
+      "z_position": -2.375000238418579
+    },
+    {
+      "frame": 50,
+      "scale_percent": [
+        125.0,
+        125.0,
+        90.00000357627869
+      ],
+      "z_position": 0.0
+    },
+    {
+      "frame": 75,
+      "scale_percent": [
+        143.75,
+        143.75,
+        112.5
+      ],
+      "z_position": 11.875
+    },
+    {
+      "frame": 90,
+      "scale_percent": [
+        149.00000095367432,
+        149.00000095367432,
+        118.7999963760376
+      ],
+      "z_position": 26.75200080871582
+    },
+    {
+      "frame": 100,
+      "scale_percent": [
+        150.0,
+        150.0,
+        120.00000476837158
+      ],
+      "z_position": 38.0
+    }
+  ],
+  "tracks": [
+    {
+      "track": "$Ball.scale.controller",
+      "keys": [
+        {
+          "time": "0f",
+          "in": "smooth",
+          "out": "fast"
+        },
+        {
+          "time": "100f",
+          "in": "slow",
+          "out": "smooth"
+        }
+      ]
+    },
+    {
+      "track": "$Ball.position.controller.Z_Position.controller",
+      "keys": [
+        {
+          "time": "0f",
+          "in": "smooth",
+          "out": "smooth"
+        },
+        {
+          "time": "50f",
+          "in": "smooth",
+          "out": "slow"
+        },
+        {
+          "time": "100f",
+          "in": "smooth",
+          "out": "smooth"
+        }
+      ]
+    }
+  ],
+  "source_comparison": {
+    "frame90_ZPosition": 26.753
+  },
+  "status": "Source presets inferred from icons and curve shape; compare sample90 before claiming exact match",
+  "remaining": [
+    "Falloff S curve",
+    "texture animation",
+    "camera exposure"
+  ]
+}

@@ -1,0 +1,456 @@
+[
+  {
+    "name": "Fire",
+    "class": "PhysicalMaterial",
+    "props": {
+      "material_mode": "2",
+      "base_weight": "0.0",
+      "base_color": "(color 127.5 127.5 127.5)",
+      "reflectivity": "0.0",
+      "roughness": "0.0",
+      "roughness_inv": "False",
+      "metalness": "0.0",
+      "refl_color": "(color 255 255 255)",
+      "diff_roughness": "0.0",
+      "brdf_mode": "True",
+      "brdf_low": "0.05000000074505806",
+      "brdf_high": "1.0",
+      "brdf_curve": "5.0",
+      "anisotropy": "0.0",
+      "anisoangle": "0.25",
+      "aniso_mode": "0",
+      "aniso_channel": "0",
+      "transparency": "0.0",
+      "trans_color": "(color 255 255 255)",
+      "trans_depth": "0.0",
+      "trans_roughness": "0.0",
+      "trans_roughness_inv": "False",
+      "trans_roughness_lock": "True",
+      "trans_ior": "1.5199999809265137",
+      "thin_walled": "False",
+      "dispersion": "0.0",
+      "trans_scatter_color": "(color 0 0 0)",
+      "trans_scatter_aniso": "0.0",
+      "scattering": "0.0",
+      "sss_color": "(color 255 255 255)",
+      "sss_depth": "10.0",
+      "sss_scale": "1.0",
+      "sss_scatter_color": "(color 255 127.5 63.75)",
+      "emission": "1.0",
+      "emit_color": "(color 0 0 0)",
+      "emit_luminance": "500.0",
+      "emit_kelvin": "6500.0",
+      "coating": "0.0",
+      "coat_color": "(color 255 255 255)",
+      "coat_roughness": "0.0",
+      "coat_roughness_inv": "False",
+      "coat_affect_color": "0.5",
+      "coat_affect_roughness": "0.5",
+      "coat_ior": "1.5199999809265137",
+      "coat_anisotropy": "0.0",
+      "coat_anisoangle": "0.25",
+      "sheen": "0.0",
+      "sheen_color": "(color 255 255 255)",
+      "sheen_roughness": "0.30000001192092896",
+      "thin_film": "0.0",
+      "thin_film_thickness": "555.0",
+      "thin_film_ior": "1.2999999523162842",
+      "base_weight_map": "None",
+      "base_color_map": "None",
+      "reflectivity_map": "None",
+      "refl_color_map": "None",
+      "Roughness_Map": "None",
+      "metalness_map": "None",
+      "diff_rough_map": "None",
+      "anisotropy_map": "None",
+      "aniso_angle_map": "None",
+      "transparency_map": "None",
+      "trans_color_map": "None",
+      "trans_rough_map": "None",
+      "trans_ior_map": "None",
+      "scattering_map": "None",
+      "sss_color_map": "None",
+      "sss_scale_map": "None",
+      "emission_map": "None",
+      "emit_color_map": "贴图 #10:Gradient Ramp",
+      "coat_map": "None",
+      "coat_color_map": "None",
+      "coat_rough_map": "None",
+      "bump_map": "None",
+      "coat_bump_map": "None",
+      "displacement_map": "None",
+      "cutout_map": "贴图 #9:Composite",
+      "coat_aniso_map": "None",
+      "coat_aniso_angle_map": "None",
+      "sheen_map": "None",
+      "sheen_color_map": "None",
+      "sheen_rough_map": "None",
+      "thin_film_map": "None",
+      "thin_film_ior_map": "None",
+      "base_weight_map_on": "True",
+      "base_color_map_on": "True",
+      "reflectivity_map_on": "True",
+      "refl_color_map_on": "True",
+      "roughness_map_on": "True",
+      "metalness_map_on": "True",
+      "diff_rough_map_on": "True",
+      "anisotropy_map_on": "True",
+      "aniso_angle_map_on": "True",
+      "transparency_map_on": "True",
+      "trans_color_map_on": "True",
+      "trans_rough_map_on": "True",
+      "trans_ior_map_on": "True",
+      "scattering_map_on": "True",
+      "sss_color_map_on": "True",
+      "sss_scale_map_on": "True",
+      "emission_map_on": "True",
+      "emit_color_map_on": "True",
+      "coat_map_on": "True",
+      "coat_color_map_on": "True",
+      "coat_rough_map_on": "True",
+      "coat_aniso_map_on": "True",
+      "coat_aniso_angle_map_on": "True",
+      "sheen_map_on": "True",
+      "sheen_color_map_on": "True",
+      "sheen_rough_map_on": "True",
+      "thin_film_map_on": "True",
+      "thin_film_ior_map_on": "True",
+      "bump_map_on": "True",
+      "coat_bump_map_on": "True",
+      "displacement_map_on": "True",
+      "cutout_map_on": "True",
+      "bump_map_amt": "0.30000001192092896",
+      "clearcoat_bump_map_amt": "0.30000001192092896",
+      "displacement_map_amt": "1.0",
+      "EffectiveLuminance": "(color 267.035 267.035 267.035)"
+    }
+  },
+  {
+    "name": "贴图 #10",
+    "class": "Gradient_Ramp",
+    "props": {
+      "size": "1.0",
+      "phase": "0.0",
+      "amount": "0.0",
+      "High_Threshold": "1.0",
+      "Threshold_Smoothing": "0.0",
+      "Levels": "4.0",
+      "Low_Threshold": "0.0",
+      "Source_Map_On": "1",
+      "Noise_Type": "0",
+      "Gradient_Type": "5",
+      "Coordinates": "MtlBase:Placement",
+      "output": "MtlBase:Output",
+      "Gradient_Ramp": "ReferenceTarget:JData",
+      "Source_Map": "贴图 #9:Composite"
+    },
+    "flags": {
+      "标志__1": {
+        "color": "[0,0,0]"
+      },
+      "标志__2": {
+        "color": "[255,255,255]"
+      },
+      "标志__3": {
+        "color": "[127.374,1.16274,0]",
+        "position": "4.37710428237915"
+      },
+      "标志__4": {
+        "color": "[231.425,161.171,0]",
+        "position": "95.62289428710938"
+      },
+      "标志__5": {
+        "color": "[189.855,28.3814,0]",
+        "position": "18.518518447875977"
+      },
+      "标志__6": {
+        "color": "[217.629,117.101,0]",
+        "position": "70.0336685180664"
+      }
+    }
+  },
+  {
+    "name": "贴图 #9",
+    "class": "CompositeTexturemap",
+    "props": {
+      "mapEnabled": "#(true, true)",
+      "maskEnabled": "#(true, true)",
+      "blendMode": "#(0, 15)",
+      "layername": "#(\"\", \"\")",
+      "dlgOpened": "#(true, true)",
+      "opacity": "#(100.0, 100.0)",
+      "mapList": "#(贴图 #3:Composite, 贴图 #8:Gradient Ramp)",
+      "Mask": "#(undefined, undefined)"
+    }
+  },
+  {
+    "name": "贴图 #3",
+    "class": "CompositeTexturemap",
+    "props": {
+      "mapEnabled": "#(true, true)",
+      "maskEnabled": "#(true, true)",
+      "blendMode": "#(0, 4)",
+      "layername": "#(\"\", \"\")",
+      "dlgOpened": "#(true, true)",
+      "opacity": "#(100.0, 100.0)",
+      "mapList": "#(贴图 #2:Gradient Ramp, 贴图 #4:Gradient Ramp)",
+      "Mask": "#(undefined, undefined)"
+    }
+  },
+  {
+    "name": "贴图 #2",
+    "class": "Gradient_Ramp",
+    "props": {
+      "size": "1.0",
+      "phase": "0.0",
+      "amount": "0.0",
+      "High_Threshold": "1.0",
+      "Threshold_Smoothing": "0.0",
+      "Levels": "4.0",
+      "Low_Threshold": "0.0",
+      "Source_Map_On": "1",
+      "Noise_Type": "0",
+      "Gradient_Type": "5",
+      "Coordinates": "MtlBase:Placement",
+      "output": "MtlBase:Output",
+      "Gradient_Ramp": "ReferenceTarget:JData",
+      "Source_Map": "贴图 #6:Composite"
+    },
+    "flags": {
+      "标志__1": {
+        "color": "[0,0,0]"
+      },
+      "标志__2": {
+        "color": "[255,255,255]"
+      },
+      "标志__3": {
+        "color": "[142.927,142.927,142.927]",
+        "position": "48.14814758300781"
+      },
+      "标志__4": {
+        "color": "[5.61331,5.61331,5.61331]",
+        "position": "10.437710762023926"
+      },
+      "标志__5": {
+        "color": "[255,255,255]",
+        "position": "56.9023551940918"
+      },
+      "标志__6": {
+        "color": "[60.9011,60.9011,60.9011]",
+        "position": "39.73063659667969"
+      },
+      "标志__7": {
+        "color": "[47.6821,47.6821,47.6821]",
+        "position": "32.3232307434082"
+      },
+      "标志__8": {
+        "color": "[12.8648,12.8648,12.8648]",
+        "position": "24.579124450683594"
+      },
+      "标志__9": {
+        "color": "[2.13515,2.13515,2.13515]",
+        "position": "6.397305965423584"
+      }
+    }
+  },
+  {
+    "name": "贴图 #6",
+    "class": "CompositeTexturemap",
+    "props": {
+      "mapEnabled": "#(true, true)",
+      "maskEnabled": "#(true, true)",
+      "blendMode": "#(0, 4)",
+      "layername": "#(\"\", \"\")",
+      "dlgOpened": "#(true, true)",
+      "opacity": "#(100.0, 100.0)",
+      "mapList": "#(贴图 #1:Cellular, 贴图 #5:Gradient Ramp)",
+      "Mask": "#(undefined, undefined)"
+    }
+  },
+  {
+    "name": "贴图 #1",
+    "class": "Cellular",
+    "props": {
+      "cellColor": "(color 0 0 0)",
+      "divColor1": "(color 127.5 127.5 127.5)",
+      "divColor2": "(color 255 255 255)",
+      "cellMap": "None",
+      "divMap1": "None",
+      "divMap2": "None",
+      "map1Enabled": "True",
+      "map2Enabled": "True",
+      "map3Enabled": "True",
+      "variation": "0.0",
+      "size": "70.0",
+      "spread": "1.2000000476837158",
+      "lowThresh": "0.10000000149011612",
+      "midThresh": "0.20000003278255463",
+      "highThresh": "1.0",
+      "type": "0",
+      "fractal": "True",
+      "iteration": "4.0",
+      "roughness": "0.0",
+      "smooth": "0.0",
+      "adaptive": "True",
+      "coords": "MtlBase:Placement",
+      "output": "MtlBase:Output"
+    },
+    "coords": {
+      "blur": "1.0",
+      "offset": "[0,0,0]",
+      "angle": "[0,0,0]",
+      "coordType": "0",
+      "mapChannel": "1",
+      "Tiling": "[2,0.45,1]",
+      "Blur_Offset": "0.0"
+    }
+  },
+  {
+    "name": "贴图 #5",
+    "class": "Gradient_Ramp",
+    "props": {
+      "size": "3.0",
+      "phase": "3.0",
+      "amount": "0.20000000298023224",
+      "High_Threshold": "1.0",
+      "Threshold_Smoothing": "0.0",
+      "Levels": "4.0",
+      "Low_Threshold": "0.0",
+      "Source_Map_On": "1",
+      "Noise_Type": "1",
+      "Gradient_Type": "4",
+      "Coordinates": "MtlBase:Placement",
+      "output": "MtlBase:Output",
+      "Gradient_Ramp": "ReferenceTarget:JData"
+    },
+    "flags": {
+      "标志__1": {
+        "color": "[0,0,0]"
+      },
+      "标志__2": {
+        "color": "[0,0,0]"
+      },
+      "标志__3": {
+        "color": "[255,255,255]",
+        "position": "73.40067291259766"
+      },
+      "标志__4": {
+        "color": "[23.3945,23.3945,23.3945]",
+        "position": "45.79124450683594"
+      }
+    }
+  },
+  {
+    "name": "贴图 #4",
+    "class": "Gradient_Ramp",
+    "props": {
+      "size": "1.0",
+      "phase": "0.0",
+      "amount": "0.019999999552965164",
+      "High_Threshold": "1.0",
+      "Threshold_Smoothing": "0.0",
+      "Levels": "4.0",
+      "Low_Threshold": "0.0",
+      "Source_Map_On": "1",
+      "Noise_Type": "0",
+      "Gradient_Type": "4",
+      "Coordinates": "MtlBase:Placement",
+      "output": "MtlBase:Output",
+      "Gradient_Ramp": "ReferenceTarget:JData"
+    },
+    "flags": {
+      "标志__1": {
+        "color": "[0,0,0]"
+      },
+      "标志__2": {
+        "color": "[0,0,0]"
+      },
+      "标志__3": {
+        "color": "[31.8089,31.8089,31.8089]",
+        "position": "57.57575607299805"
+      },
+      "标志__4": {
+        "color": "[0,0,0]",
+        "position": "9.090909004211426"
+      },
+      "标志__5": {
+        "color": "[255,255,255]",
+        "position": "92.92929077148438"
+      },
+      "标志__6": {
+        "color": "[18.2992,18.2992,18.2992]",
+        "position": "97.64309692382812"
+      }
+    }
+  },
+  {
+    "name": "贴图 #8",
+    "class": "Gradient_Ramp",
+    "props": {
+      "size": "1.0",
+      "phase": "0.0",
+      "amount": "0.0",
+      "High_Threshold": "1.0",
+      "Threshold_Smoothing": "0.0",
+      "Levels": "4.0",
+      "Low_Threshold": "0.0",
+      "Source_Map_On": "1",
+      "Noise_Type": "0",
+      "Gradient_Type": "5",
+      "Coordinates": "MtlBase:Placement",
+      "output": "MtlBase:Output",
+      "Gradient_Ramp": "ReferenceTarget:JData",
+      "Source_Map": "贴图 #7:Smoke"
+    },
+    "flags": {
+      "标志__1": {
+        "color": "[0,0,0]"
+      },
+      "标志__2": {
+        "color": "[255,255,255]"
+      },
+      "标志__3": {
+        "color": "[57.9198,57.9198,57.9198]",
+        "position": "14.478114128112793"
+      },
+      "标志__4": {
+        "color": "[164.617,164.617,164.617]",
+        "position": "22.89562225341797"
+      },
+      "标志__5": {
+        "color": "[11.3609,11.3609,11.3609]",
+        "position": "10.437710762023926"
+      },
+      "标志__6": {
+        "color": "[255,255,255]",
+        "position": "27.272727966308594"
+      }
+    }
+  },
+  {
+    "name": "贴图 #7",
+    "class": "Smoke",
+    "props": {
+      "size": "40.0",
+      "iterations": "5",
+      "exponent": "0.0949999988079071",
+      "phase": "0.0",
+      "color1": "(color 255 255 255)",
+      "color2": "(color 0 0 0)",
+      "map1": "None",
+      "map2": "None",
+      "map1On": "True",
+      "map2On": "True",
+      "coords": "MtlBase:Placement"
+    },
+    "coords": {
+      "blur": "1.0",
+      "offset": "[0,0,0]",
+      "angle": "[0,0,0]",
+      "coordType": "1",
+      "mapChannel": "1",
+      "Tiling": "[1.5,0.2,1]",
+      "Blur_Offset": "0.0"
+    }
+  }
+]

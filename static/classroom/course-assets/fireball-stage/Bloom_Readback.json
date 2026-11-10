@@ -1,0 +1,14 @@
+{
+  "saved_reopened": true,
+  "file": "/classroom/course-assets/fireball-stage/07_Source_Animation_Bloom.max",
+  "frame": 32,
+  "bloom_threshold": 1.2000000476837158,
+  "bloom_radius": 16.0,
+  "bloom_strength": 0.11999999731779099,
+  "source": "supplemental lens-effects values,teacher values not verified",
+  "baseline": "source_animation_frames/0032.png",
+  "resolution": [
+    640,
+    320
+  ]
+}

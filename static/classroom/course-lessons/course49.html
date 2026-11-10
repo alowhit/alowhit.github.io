@@ -1,0 +1,236 @@
+<!doctype html><html lang="zh-Hans"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Cellular · layered sphere material</title><link rel="stylesheet" href="/classroom/course.css"><header><a href="/classroom/course-assessment.html">Course & assessment</a><a href="/classroom/index.html">已有教学</a><a href="/classroom/particle-flow-study.html">Particle Flow 学习页</a></header><main><p class="tag">SOURCE VIDEO · course49</p><h1>Cellular · layered sphere material</h1><p>课堂6.mp4 · 00:52:39</p><div class="note">新增28个概览抽样、关键参数与接线说明、四个原生节点对照MAX及实际渲染；逐帧参数与本课运镜仍待补齐。</div><p><a href="/learn/course49/">查看已有的详细教学与练习</a>（仍需与当前视频核对）</p><div class="local-source"><p class="video-download"><a href="https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course49.mp4">下载本课原视频 MP4 · 130.7 MB ↓</a> · <a href="/classroom/video-downloads.html">全部原片下载</a></p><p>原片：课堂6.mp4。请选择本机对应视频，文件只在浏览器播放，不会上传。</p><label>选择原片 <input class="source-file" type="file" accept="video/*"></label><video id="sourceVideo" controls preload="none" data-local-video="true"></video></div><p class="muted">视频来自本机 [本机资料路径]</p><section id="layered-sphere"><h2>课堂6 · 从灰度图案到彩色球体</h2>
+<p>52:39原片已检查28个概览抽样，并放大16:00、22:00、42:00、44:00的参数与接线。尚未逐帧核对。四个MAX是从老师保存的原生节点图拆出的教学对照，不冒充视频每个时点的精确保存档。</p>
+<h3>制作顺序：先图案，再颜色，再亮点</h3>
+<ol><li><b>00:00–08:00：Falloff #53 → Gradient Ramp #54。</b>先得到球体上的黑白变化。#54使用Source Map把输入明暗重新分配，不是直接拿UV画直线条纹。</li>
+<li><b>10:00–18:00：加入Cellular #55与Composite #56。</b>从均匀明暗变成不规则区域。16:00可见Size150、Spread3、Chips、Fractal On、Iterations3、Adaptive On、Roughness0、Bump Smoothing0.1；Coordinates为Object XYZ，Tiling各1，Offset/Angle各0。灰色色块没有打开精确RGB，不能根据截图猜逐值颜色。</li>
+<li><b>20:00–24:00：Noise #57与Composite #58。</b>#54先进入#58，再把Noise叠进去；#58继续接#56。22:00可见Noise Type Regular、Size63.5、Low0.4、High1、Phase0。Levels3在Regular模式下是灰色字段，不能把它当成当前生效的Fractal层数。</li>
+<li><b>26:00–28:00：Gradient Ramp #59上色。</b>#56进入#59的Source Map，以紫蓝和暖色取代原有灰度。渐变旗标的全部位置与颜色仍需逐个核对；MAX保留老师原生保存值。</li>
+<li><b>30:00–38:00：Falloff #60 → Gradient Ramp #61。</b>构造局部亮点，与#59通过Composite #62合成。移动Tape002时亮点位置变化；它是贴图计算出的亮点，不等同于场景灯的真实反射。04工程补回材质库丢失的Tape002对象引用，并采用44:00可读Position：X578.193 / Y6.616 / Z349.015 cm。全程位置变化仍待核对。</li>
+<li><b>40:00–44:00：加入Cellular #63。</b>42:00可见Coordinates World XYZ、Tiling X1/Y1/Z0.2、Size100、Spread0.9、Circular、Fractal On、Iterations2、Adaptive On、Roughness0、Bump Smoothing0.1，Threshold0/0.5/1。沿Z改变采样尺度后出现拉长的图案。</li>
+<li><b>46:00–52:39：调整相机与其他球体。</b>最终构图有改变；本次四个对照暂用同一个前课相机，便于比较材质。这段运镜及其他球体的变化仍待补做。</li></ol>
+<h3>接线图</h3><pre>Falloff #53 → Gradient Ramp #54 ─┐
+Noise #57 ─────────────────────┴→ Composite #58 ─┐
+Cellular #55 ───────────────────────────────────┴→ Composite #56
+Composite #56 → Gradient Ramp #59 → Composite #62 / Layer 1
+Cellular #63 ─────────────────────→ Composite #62 / Layer 2
+Falloff #60 → Gradient Ramp #61 ──→ Composite #62 / Layer 3
+Composite #62 → Physical Material / Emission Color</pre>
+<p>44:00可见#62三层各Opacity100：Layer1 Normal，Layer2 Screen，Layer3 Lighten。这里的Opacity是Composite内部的层混合比例，与前课材质的Cutout (Opacity)不是同一个输入。本课学习档已关闭前课Cutout。</p>
+<h3>打开四个工程，看最右侧球体</h3><p>01显示灰度图案；02只加颜色；03加Cellular层；04再加亮点。每个版本均保存、重开、读回并实际渲染。</p><p><b>亮度校正：</b>重新打开老师的MetalTexture.max，确认GeoSphere004使用Material #51，Emission1 / Luminance50 / Kelvin6500。之前误沿用了前课Luminance5，已按保存工程值改成50。原片何时改变此值仍待核对；相机和灯光未因此视作匹配。</p>
+<h3>自己修改亮度：只改一个参数</h3><ol><li>打开04，按M，在Slate双击GeoSphere004的Physical Material材质节点。</li><li>找到Emission区域，保持Emission为1、颜色贴图接线不变，将Luminance设为50，Kelvin6500。</li><li>Render。若想理解差别，可另存练习副本，把Luminance临时改回5再次Render。这里改变的是该材质的发光亮度，不会把所有物体的曝光一起调整。</li></ol><p>这组数值来自老师保存工程；不是凭观感任意加亮。数值从5变50不代表显示器上的像素值也会恰好变十倍。</p><figure><img src="/classroom/course-assets/course49/01_GrayPattern.png.webp" alt="01_GrayPattern"><figcaption>01_GrayPattern · <a href="/classroom/course-assets/course49/01_GrayPattern.max" download>下载可编辑MAX</a></figcaption></figure><figure><img src="/classroom/course-assets/course49/02_ColorRamp.png.webp" alt="02_ColorRamp"><figcaption>02_ColorRamp · <a href="/classroom/course-assets/course49/02_ColorRamp.max" download>下载可编辑MAX</a></figcaption></figure><figure><img src="/classroom/course-assets/course49/03_CellularOverlay.png.webp" alt="03_CellularOverlay"><figcaption>03_CellularOverlay · <a href="/classroom/course-assets/course49/03_CellularOverlay.max" download>下载可编辑MAX</a></figcaption></figure><figure><img src="/classroom/course-assets/course49/04_Highlight.png.webp" alt="04_Highlight"><figcaption>04_Highlight · <a href="/classroom/course-assets/course49/04_Highlight.max" download>下载可编辑MAX</a></figcaption></figure><details><summary>展开修改前的Luminance5对照</summary><img src="/classroom/course-assets/course49/Before_Luminance5.png.webp" alt="修改前Luminance5"><p><a href="/classroom/course-assets/course49/Luminance_Readback.json">原始材质核对、源文件校验值与四档重开记录</a></p></details><h3>跟着操作，避免一次改太多</h3><ol><li>打开04，按M进入Slate。找到GeoSphere004的材质及Composite #62。</li><li>关掉Layer3，渲染比较亮点；再开启Layer3。</li><li>关掉Layer2，渲染比较条纹；再开启Layer2。这样能看清层贡献，而不必先记住所有参数。</li></ol><p><b>未完成项：</b>视频中各次中间调参、准确旗标颜色与位置、GeoSphere旋转时点、Tape002的完整位置变化、本课相机与灯光曝光、最终考核成片。本组使用原生保存节点，不能据此声称与全片逐帧一致。</p><p><a href="/classroom/course-assets/course49/Readback.json">工程读回与限制</a></p><h3>原片定位</h3><details><summary>00:05</summary><button data-time="5">播放这个时点</button><img loading="lazy" src="/classroom/course-assets/course49/source_5.jpg.webp" alt="原片5秒"></details><details><summary>02:00</summary><button data-time="120">播放这个时点</button><img loading="lazy" src="/classroom/course-assets/course49/source_120.jpg.webp" alt="原片120秒"></details><details><summary>04:00</summary><button data-time="240">播放这个时点</button><img loading="lazy" src="/classroom/course-assets/course49/source_240.jpg.webp" alt="原片240秒"></details><details><summary>06:00</summary><button data-time="360">播放这个时点</button><img loading="lazy" src="/classroom/course-assets/course49/source_360.jpg.webp" alt="原片360秒"></details><details><summary>08:00</summary><button data-time="480">播放这个时点</button><img loading="lazy" src="/classroom/course-assets/course49/source_480.jpg.webp" alt="原片480秒"></details><details><summary>10:00</summary><button data-time="600">播放这个时点</button><img loading="lazy" src="/classroom/course-assets/course49/source_600.jpg.webp" alt="原片600秒"></details><details><summary>12:00</summary><button data-time="720">播放这个时点</button><img loading="lazy" src="/classroom/course-assets/course49/source_720.jpg.webp" alt="原片720秒"></details><details><summary>14:00</summary><button data-time="840">播放这个时点</button><img loading="lazy" src="/classroom/course-assets/course49/source_840.jpg.webp" alt="原片840秒"></details><details><summary>16:00</summary><button data-time="960">播放这个时点</button><img loading="lazy" src="/classroom/course-assets/course49/source_960.jpg.webp" alt="原片960秒"></details><details><summary>18:00</summary><button data-time="1080">播放这个时点</button><img loading="lazy" src="/classroom/course-assets/course49/source_1080.jpg.webp" alt="原片1080秒"></details><details><summary>20:00</summary><button data-time="1200">播放这个时点</button><img loading="lazy" src="/classroom/course-assets/course49/source_1200.jpg.webp" alt="原片1200秒"></details><details><summary>22:00</summary><button data-time="1320">播放这个时点</button><img loading="lazy" src="/classroom/course-assets/course49/source_1320.jpg.webp" alt="原片1320秒"></details><details><summary>24:00</summary><button data-time="1440">播放这个时点</button><img loading="lazy" src="/classroom/course-assets/course49/source_1440.jpg.webp" alt="原片1440秒"></details><details><summary>26:00</summary><button data-time="1560">播放这个时点</button><img loading="lazy" src="/classroom/course-assets/course49/source_1560.jpg.webp" alt="原片1560秒"></details><details><summary>28:00</summary><button data-time="1680">播放这个时点</button><img loading="lazy" src="/classroom/course-assets/course49/source_1680.jpg.webp" alt="原片1680秒"></details><details><summary>30:00</summary><button data-time="1800">播放这个时点</button><img loading="lazy" src="/classroom/course-assets/course49/source_1800.jpg.webp" alt="原片1800秒"></details><details><summary>32:00</summary><button data-time="1920">播放这个时点</button><img loading="lazy" src="/classroom/course-assets/course49/source_1920.jpg.webp" alt="原片1920秒"></details><details><summary>34:00</summary><button data-time="2040">播放这个时点</button><img loading="lazy" src="/classroom/course-assets/course49/source_2040.jpg.webp" alt="原片2040秒"></details><details><summary>36:00</summary><button data-time="2160">播放这个时点</button><img loading="lazy" src="/classroom/course-assets/course49/source_2160.jpg.webp" alt="原片2160秒"></details><details><summary>38:00</summary><button data-time="2280">播放这个时点</button><img loading="lazy" src="/classroom/course-assets/course49/source_2280.jpg.webp" alt="原片2280秒"></details><details><summary>40:00</summary><button data-time="2400">播放这个时点</button><img loading="lazy" src="/classroom/course-assets/course49/source_2400.jpg.webp" alt="原片2400秒"></details><details><summary>42:00</summary><button data-time="2520">播放这个时点</button><img loading="lazy" src="/classroom/course-assets/course49/source_2520.jpg.webp" alt="原片2520秒"></details><details><summary>44:00</summary><button data-time="2640">播放这个时点</button><img loading="lazy" src="/classroom/course-assets/course49/source_2640.jpg.webp" alt="原片2640秒"></details><details><summary>46:00</summary><button data-time="2760">播放这个时点</button><img loading="lazy" src="/classroom/course-assets/course49/source_2760.jpg.webp" alt="原片2760秒"></details><details><summary>48:00</summary><button data-time="2880">播放这个时点</button><img loading="lazy" src="/classroom/course-assets/course49/source_2880.jpg.webp" alt="原片2880秒"></details><details><summary>50:00</summary><button data-time="3000">播放这个时点</button><img loading="lazy" src="/classroom/course-assets/course49/source_3000.jpg.webp" alt="原片3000秒"></details><details><summary>52:00</summary><button data-time="3120">播放这个时点</button><img loading="lazy" src="/classroom/course-assets/course49/source_3120.jpg.webp" alt="原片3120秒"></details><details><summary>52:38</summary><button data-time="3158">播放这个时点</button><img loading="lazy" src="/classroom/course-assets/course49/source_3158.jpg.webp" alt="原片3158秒"></details></section><section id="existing-reviewed-lesson"><h2>已有详细教学 · 按本课原视频整理</h2><p>先用灰度衰减与细胞贴图形成球面内部的层次，再加入噪波、紫金配色和外缘亮环。重点是先做灰度结构，最后做颜色。</p><p>以下内容来自旧版补习页已经保存的核对记录。本次按视频文件名接入，保留时间点、补充值和未知项；没有把整合网页计为新的逐帧核对或MAX完成。数值可能属于中间试验，请结合时间点与状态看。</p><p><a href="/learn/course49/">打开旧版交互教学</a> · <a href="/classroom/complete.html#v09">场景、镜头与动画流程</a> · <a href="/classroom/results.html">按作业查看当前成果与下载</a></p><h3>操作步骤</h3><details><summary>1. 灰度结构</summary><p>Falloff #53进入Gradient Ramp #54的源贴图，Ramp与Cellular #55进入Composite #56，输出到材质发射颜色。</p><button data-time="660">定位原片 11:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/later/v09_660.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>2. 核对细胞尺寸</summary><p>Cellular的坐标从显式贴图变为对象XYZ，观察尺度变化。Size=0.4，Spread=3。</p><button data-time="920">定位原片 15:20</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/later/v09_920.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>3. 添加噪波</summary><p>Noise #57加入复合链，尺寸63.5，低阈值0.4，增加不均匀细节。</p><button data-time="1448">定位原片 24:08</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/later/v09_1448.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>4. 独立外缘信号</summary><p>Falloff #60进入Gradient Ramp #61；黑白预览先检查边缘，再与彩色结构合成。</p><button data-time="1975">定位原片 32:55</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/later/v09_1975.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>5. 紫金配色和混合</summary><p>彩色Gradient Ramp #59与边缘Gradient Ramp #61进入Composite #62。画面正在比较混合模式，不把此刻下拉框当最终选择。</p><button data-time="2240">定位原片 37:20</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/later/v09_2240.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>6. 增加细胞层</summary><p>Cellular #63加入复合层，使用世界XYZ。此处是调整中间状态，不能覆盖较早节点的坐标类型。</p><button data-time="2500">定位原片 41:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/later/v09_2500.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>7. 检查最终观感</summary><p>渲染呈紫蓝色内部、暖色边缘的能量球。</p><button data-time="2765">定位原片 46:05</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/later/v09_2765.jpg.webp" alt="已有核对记录的原片截图"></details><h3>参数与用途 · 27条已有记录</h3><p>展开一条记录，即可同时查看数值、用途、核对状态和原片证据。</p><details><summary>最后可见机位与画面检查 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;camera.position_cm&quot;: [
+    -535.458,
+    -882.38,
+    268.641
+  ],
+  &quot;target_distance_cm&quot;: 1145.75,
+  &quot;sensor_width_mm&quot;: 36,
+  &quot;fov_degrees&quot;: 45,
+  &quot;display_focal_length_mm&quot;: 43.2,
+  &quot;f_number&quot;: 8,
+  &quot;zoom&quot;: 1,
+  &quot;depth_of_field&quot;: false
+}</pre><p><b>用途：</b>最后可见机位更方便复现构图，但不是完整棚景精确重建证据。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="3150">定位原片 52:30</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_later/v09_3150.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>末段摄影机与目标可组合的证据 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;camera_position_cm&quot;: [
+    -535.458,
+    -882.38,
+    268.641
+  ],
+  &quot;target_from3020_cm&quot;: [
+    -47.887,
+    153.769,
+    306.417
+  ],
+  &quot;distance_calculated_cm&quot;: 1145.756194,
+  &quot;distance_display_cm&quot;: 1145.75,
+  &quot;FOV&quot;: 45,
+  &quot;sensor_mm&quot;: 36,
+  &quot;f_number&quot;: 8
+}</pre><p><b>用途：</b>补齐或修正上一轮证据，支持老师时点对照工程</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="3080">定位原片 51:20</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/recheck_later/v09_3080.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>后段视口明确是物理摄影机 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;viewport_label&quot;: &quot;PhysCamera001&quot;,
+  &quot;target_distance_cm&quot;: 1145.75,
+  &quot;FOV_degrees&quot;: 45,
+  &quot;camera_sensor_width_mm&quot;: 36,
+  &quot;f_number&quot;: 8
+}</pre><p><b>用途：</b>补齐或修正上一轮证据，支持老师时点对照工程</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="3077">定位原片 51:17</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/recheck_later/v09_3077.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>后撤摄影机，比较主体占画面比例 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;camera.position_cm&quot;: [
+    -1061.438,
+    -844.992,
+    268.641
+  ],
+  &quot;target_distance_cm&quot;: 1423.45,
+  &quot;fov&quot;: 45,
+  &quot;display_focal_length_mm&quot;: 43.3,
+  &quot;f_number&quot;: 8
+}</pre><p><b>用途：</b>说明场景搭建范围也限制可用机位。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="3040">定位原片 50:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_later/v09_3040.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>最后一段移动前目标仍相同 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;selected&quot;: &quot;PhysCamera001.Target&quot;,
+  &quot;target_position_cm&quot;: [
+    -47.887,
+    153.769,
+    306.417
+  ],
+  &quot;viewport_label&quot;: &quot;PhysCamera001&quot;
+}</pre><p><b>用途：</b>补齐或修正上一轮证据，支持老师时点对照工程</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="3020">定位原片 50:20</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/recheck_later/v09_3020.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>调整摄影机目标点 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;target.position_cm&quot;: [
+    -47.887,
+    153.769,
+    306.417
+  ],
+  &quot;render_resolution&quot;: [
+    640,
+    480
+  ],
+  &quot;render_device&quot;: &quot;CPU&quot;
+}</pre><p><b>用途：</b>目标点控制朝向；只移动摄影机和只移动目标会得到不同画面。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="2960">定位原片 49:20</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_later/v09_2960.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>确认摄影机基础参数 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;camera.position_cm&quot;: [
+    375.779,
+    -699.973,
+    268.641
+  ],
+  &quot;target_distance_cm&quot;: 665.024,
+  &quot;sensor_preset&quot;: &quot;35mm全画幅&quot;,
+  &quot;sensor_width_mm&quot;: 36,
+  &quot;specify_fov&quot;: true,
+  &quot;fov_degrees&quot;: 45,
+  &quot;display_focal_length_mm&quot;: 43.1,
+  &quot;zoom&quot;: 1,
+  &quot;f_number&quot;: 8,
+  &quot;lens_breathing&quot;: 1,
+  &quot;depth_of_field&quot;: false,
+  &quot;shutter_type&quot;: &quot;帧&quot;,
+  &quot;shutter_duration_f&quot;: 0.5,
+  &quot;shutter_offset_f&quot;: 0,
+  &quot;motion_blur&quot;: false
+}</pre><p><b>用途：</b>区分镜头视野、摄影机距离和材质观察角的作用。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="2800">定位原片 46:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_later/v09_2800.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>观察纹理尺度与世界坐标 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;Cellular63.size&quot;: 70,
+  &quot;Cellular63.coords&quot;: &quot;World XYZ&quot;,
+  &quot;Cellular63.Z_tiling&quot;: 0.2,
+  &quot;Cellular63.spread&quot;: 0.9,
+  &quot;Cellular63.iterations&quot;: 2
+}</pre><p><b>用途：</b>纹理尺度与模型在世界中的尺寸共同决定斑块大小。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="2720">定位原片 45:20</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_later/v09_2720.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Composite #56 · 最后可读设置</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;layer1&quot;: &quot;Normal 100%&quot;,
+  &quot;layer2&quot;: &quot;Screen 100%&quot;,
+  &quot;masks&quot;: &quot;None&quot;
+}</pre><p><b>用途：</b>把Cellular亮纹叠到主结构</p><p><b>记录状态：</b>视频可读值</p><p><b>来源：</b>深入核对：最后可见状态</p><button data-time="1080">定位原片 18:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/later_deep/v09_1080.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Composite #58 · 最后可读设置</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;layer1&quot;: &quot;Normal 100%&quot;,
+  &quot;layer2&quot;: &quot;Multiply 100%&quot;
+}</pre><p><b>用途：</b>以Noise削弱并打碎渐变</p><p><b>记录状态：</b>视频可读值</p><p><b>来源：</b>深入核对：最后可见状态</p><button data-time="1300">定位原片 21:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/later_deep/v09_1300.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Composite #62 · 最后可读设置</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;layer1&quot;: &quot;Normal 100%&quot;,
+  &quot;layer2&quot;: &quot;Lighten 100%&quot;,
+  &quot;layer3&quot;: &quot;Screen 100%&quot;,
+  &quot;masks&quot;: &quot;None&quot;
+}</pre><p><b>用途：</b>紫金底色、视角亮边、蓝色纹路分层叠加</p><p><b>记录状态：</b>视频可读值</p><p><b>来源：</b>深入核对：最后可见状态</p><button data-time="2620">定位原片 43:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/later_deep/v09_2620.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Gradient Ramp #59 flags · 最后可读设置</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">[
+  {
+    &quot;position&quot;: 0,
+    &quot;scene_rgb_255&quot;: [
+      4,
+      12,
+      65
+    ],
+    &quot;evidence&quot;: 1495
+  },
+  {
+    &quot;position&quot;: 6,
+    &quot;scene_rgb_255&quot;: [
+      59,
+      15,
+      127
+    ],
+    &quot;evidence&quot;: 1614
+  },
+  {
+    &quot;position&quot;: 31,
+    &quot;scene_rgb_255&quot;: [
+      248,
+      135,
+      60
+    ],
+    &quot;evidence&quot;: 1660
+  },
+  {
+    &quot;position&quot;: 71,
+    &quot;scene_rgb_255&quot;: [
+      255,
+      211,
+      78
+    ],
+    &quot;evidence&quot;: 1604
+  },
+  {
+    &quot;position&quot;: 100,
+    &quot;scene_rgb_255&quot;: [
+      255,
+      140,
+      57
+    ],
+    &quot;evidence&quot;: 1530
+  }
+]</pre><p><b>用途：</b>把灰度转换为深蓝、紫、橙、黄、橙；0和100为最后一次被选择时的值，随后概览未见再编辑</p><p><b>记录状态：</b>各旗标最近可读值，非逐帧全程证明</p><p><b>来源：</b>深入核对：最后可见状态</p><button data-time="1660">定位原片 27:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/later_deep/v09_1660.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Gradient Ramp #59 · 最后可读设置</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;type&quot;: &quot;Mapped&quot;,
+  &quot;source&quot;: &quot;Composite #56&quot;,
+  &quot;interpolation&quot;: &quot;Linear&quot;,
+  &quot;noise_amount&quot;: 0,
+  &quot;UV_channel&quot;: 1,
+  &quot;tiling&quot;: [
+    1,
+    1
+  ],
+  &quot;angles&quot;: [
+    0,
+    0,
+    0
+  ]
+}</pre><p><b>用途：</b>来源灰度是调色索引，不是普通平面线性色带</p><p><b>记录状态：</b>视频可读值</p><p><b>来源：</b>深入核对：最后可见状态</p><button data-time="1660">定位原片 27:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/later_deep/v09_1660.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Falloff #60 · 最后可读设置</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;type&quot;: &quot;Perpendicular/Parallel&quot;,
+  &quot;direction&quot;: &quot;Viewing Direction (Camera Z Axis)&quot;,
+  &quot;front_rgb&quot;: [
+    0,
+    0,
+    0
+  ],
+  &quot;side_rgb&quot;: [
+    255,
+    255,
+    255
+  ],
+  &quot;amounts&quot;: [
+    100,
+    100
+  ],
+  &quot;mix_curve&quot;: &quot;straight 0..1&quot;
+}</pre><p><b>用途：</b>把面向摄像机与侧面的区域分开</p><p><b>记录状态：</b>视频可读值</p><p><b>来源：</b>深入核对：最后可见状态</p><button data-time="1680">定位原片 28:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/later_deep/v09_1680.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Gradient Ramp #61 flag0 · 最后可读设置</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;position&quot;: 0,
+  &quot;scene_rgb_255&quot;: [
+    255,
+    205,
+    87
+  ]
+}</pre><p><b>用途：</b>中心暖色光斑；此前2090选色仍在调整</p><p><b>记录状态：</b>视频可读值</p><p><b>来源：</b>深入核对：最后可见状态</p><button data-time="2110">定位原片 35:10</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/later_deep/v09_2110.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Gradient Ramp #61 · 最后可读设置</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;type&quot;: &quot;Mapped&quot;,
+  &quot;source&quot;: &quot;Falloff #60&quot;,
+  &quot;interpolation&quot;: &quot;Linear&quot;,
+  &quot;flags_seen_count&quot;: 5
+}</pre><p><b>用途：</b>从正面金色经黑色转到侧面蓝色</p><p><b>记录状态：</b>视频可读值</p><p><b>来源：</b>深入核对：最后可见状态</p><button data-time="2110">定位原片 35:10</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/later_deep/v09_2110.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Cellular #63 coordinates · 最后可读设置</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;source&quot;: &quot;World XYZ&quot;,
+  &quot;tiling&quot;: [
+    1,
+    1,
+    0.2
+  ],
+  &quot;offset&quot;: [
+    0,
+    0,
+    0
+  ],
+  &quot;angles&quot;: [
+    0,
+    0,
+    0
+  ]
+}</pre><p><b>用途：</b>沿Z拉长细胞，形成纵向烟纹</p><p><b>记录状态：</b>视频可读值</p><p><b>来源：</b>深入核对：最后可见状态</p><button data-time="2580">定位原片 43:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/later_deep/v09_2580.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Cellular #55 · Size / Spread / Iterations</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">0.4 / 3.0 / 3.0</pre><p><b>用途：</b>决定灰度细胞的尺寸、扩散和分形细节。</p><p><b>记录状态：</b>该时间画面读值</p><p><b>来源：</b>v09 11:00</p><button data-time="660">定位原片 11:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/later/v09_660.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Cellular #55 · Cell type / Fractal / Adaptive</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">碎片 / 开 / 开</pre><p><b>用途：</b>细胞轮廓及细节计算方式。</p><p><b>记录状态：</b>该时间画面读值</p><p><b>来源：</b>v09 11:00</p><button data-time="660">定位原片 11:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/later/v09_660.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Cellular #55 · Bump Smoothing / Roughness</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">0.1 / 0.0</pre><p><b>用途：</b>控制细胞过渡。</p><p><b>记录状态：</b>该时间画面读值</p><p><b>来源：</b>v09 11:00</p><button data-time="660">定位原片 11:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/later/v09_660.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Cellular #55 · Threshold Low/Mid/High</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">0.0 / 0.5 / 1.0</pre><p><b>用途：</b>灰度重映射阈值。</p><p><b>记录状态：</b>该时间画面读值</p><p><b>来源：</b>v09 11:00</p><button data-time="660">定位原片 11:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/later/v09_660.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Cellular #55 · 坐标源</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">对象XYZ</pre><p><b>用途：</b>此刻与11:00显式贴图通道状态不同，应按阶段记录。</p><p><b>记录状态：</b>该时间画面读值</p><p><b>来源：</b>v09 15:20</p><button data-time="920">定位原片 15:20</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/later/v09_920.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Noise #57 · 类型 / Size / Low / High / Phase</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">规则 / 63.5 / 0.4 / 1.0 / 0.0</pre><p><b>用途：</b>提供不均匀灰度细节。</p><p><b>记录状态：</b>该时间画面读值</p><p><b>来源：</b>v09 24:08</p><button data-time="1448">定位原片 24:08</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/later/v09_1448.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>GeoSphere004 · Radius / Segments / Type</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">150.0 cm / 64 / 二十面体</pre><p><b>用途：</b>球形承载模型。</p><p><b>记录状态：</b>该时间画面读值</p><p><b>来源：</b>v09 24:08</p><button data-time="1448">定位原片 24:08</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/later/v09_1448.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Gradient Ramp #61 · Gradient type / Source / Interpolation</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">贴图 / Falloff #60 / 线性</pre><p><b>用途：</b>把衰减灰度映射为外缘颜色。</p><p><b>记录状态：</b>该时间画面读值</p><p><b>来源：</b>v09 32:55</p><button data-time="1975">定位原片 32:55</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/later/v09_1975.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Cellular #63 · Size / Spread / Iterations</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">100.0 / 0.9 / 2.0</pre><p><b>用途：</b>第二细胞层的调整状态。</p><p><b>记录状态：</b>该时间画面读值</p><p><b>来源：</b>v09 41:40</p><button data-time="2500">定位原片 41:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/later/v09_2500.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Cellular #63 · 坐标 / 类型 / 分形</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">世界XYZ / 圆形 / 开</pre><p><b>用途：</b>用世界空间控制灰度分布。</p><p><b>记录状态：</b>该时间画面读值</p><p><b>来源：</b>v09 41:40</p><button data-time="2500">定位原片 41:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/later/v09_2500.jpg.webp" alt="已有核对记录的原片截图"></details><h3>节点接线</h3><pre style="white-space:pre-wrap">Falloff53 -&gt; Ramp54.source
+Ramp54 -&gt; Composite58.L1; Noise57 -&gt; Composite58.L2(Multiply)
+Composite58 -&gt; Composite56.L1; Cellular55 -&gt; Composite56.L2(Screen)
+Composite56 -&gt; Ramp59.source
+Falloff60 -&gt; Ramp61.source
+Ramp59 -&gt; Composite62.L1; Ramp61 -&gt; Composite62.L2(Lighten); Cellular63 -&gt; Composite62.L3(Screen)
+Composite62 -&gt; Physical Material51 emission color</pre><h3>跟做练习</h3><p>先暂时绕开彩色Ramp，只渲染黑白结构；确认内部云纹和外缘分别受哪个分支控制后再上色。</p><h3>这组记录仍未解决的内容</h3><ul><li>Falloff53的最终参数未重新核对；使用原已有证据，不能套用Falloff60参数。</li><li>Ramp61其余4旗标完整值未读齐。可自选旗标3暖金、5黑、70深蓝黑、100蓝；这些是补齐值，不是原视频抄值。</li><li>Cellular63边界色1在2580仍被编辑，最终颜色未核对。</li><li>Cellular55保持Size .4，映射平铺补为.005/.005/.005以得到可辨认的大纹理；这是视觉适配，非视频读值。</li><li>Ramp54、Ramp61未读齐旗标、Cellular63颜色均为补齐，实际值见工程参数读回。</li></ul><p>以上为旧版记录中的待核对项；本页其他章节若有更新证据，应按其注明的版本与时点对照，不能把所有阶段数值混成一组最终参数。</p></section><h2>原片画面索引</h2><article class="sample"><button data-time="252.73">定位 00:04:12</button><a href="/classroom/course-assets/frames/course49/01_252.73s.jpg.webp"><img loading="lazy" src="/classroom/course-assets/frames/course49/01_252.73s.jpg.webp" alt="课堂6.mp4 source frame at 01_252.73s"></a></article><article class="sample"><button data-time="947.74">定位 00:15:47</button><a href="/classroom/course-assets/frames/course49/02_947.74s.jpg.webp"><img loading="lazy" src="/classroom/course-assets/frames/course49/02_947.74s.jpg.webp" alt="课堂6.mp4 source frame at 02_947.74s"></a></article><article class="sample"><button data-time="1737.52">定位 00:28:57</button><a href="/classroom/course-assets/frames/course49/03_1737.52s.jpg.webp"><img loading="lazy" src="/classroom/course-assets/frames/course49/03_1737.52s.jpg.webp" alt="课堂6.mp4 source frame at 03_1737.52s"></a></article><article class="sample"><button data-time="2527.3">定位 00:42:07</button><a href="/classroom/course-assets/frames/course49/04_2527.30s.jpg.webp"><img loading="lazy" src="/classroom/course-assets/frames/course49/04_2527.30s.jpg.webp" alt="课堂6.mp4 source frame at 04_2527.30s"></a></article><article class="sample"><button data-time="3001.17">定位 00:50:01</button><a href="/classroom/course-assets/frames/course49/05_3001.17s.jpg.webp"><img loading="lazy" src="/classroom/course-assets/frames/course49/05_3001.17s.jpg.webp" alt="课堂6.mp4 source frame at 05_3001.17s"></a></article><script>const v=document.querySelector("video");document.querySelectorAll("[data-time]").forEach(b=>b.onclick=()=>{const t=+b.dataset.time;if(v.readyState===0){v.preload="metadata";v.load();v.addEventListener("loadedmetadata",()=>{v.currentTime=t;},{once:true});}else{v.currentTime=t;}v.scrollIntoView({behavior:"smooth",block:"center"});});</script></main></html><script src="/classroom/local-video.js" defer></script>

@@ -1,0 +1,10 @@
+{
+  "mean_absolute_difference": 0.7088572916666667,
+  "max_difference": 104.0,
+  "same_frame": 54,
+  "resolution": [
+    800,
+    400
+  ],
+  "interpretation": "Pixel difference confirms changed output, not fidelity to teacher"
+}

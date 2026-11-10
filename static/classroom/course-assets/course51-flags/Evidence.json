@@ -1,0 +1,132 @@
+{
+  "source": "课堂教学视频2.mp4",
+  "scope": "1140–1290s sampled every2sec;1178.25–1179.75 every.25sec; not exhaustive frame review",
+  "interior_flags": [
+    {
+      "position": 14,
+      "color": "Black",
+      "time_seconds": 1272,
+      "evidence": "21:12直接显示14；替代之前19的位置"
+    },
+    {
+      "position": 43,
+      "color": "White",
+      "time_seconds": 1178.25,
+      "evidence": "19:38.25直接显示43；后续抽样中此色标保留在同一位置"
+    },
+    {
+      "position": 52,
+      "color": "Black",
+      "time_seconds": 1276,
+      "evidence": "21:16直接显示52"
+    },
+    {
+      "position": 68,
+      "color": "White",
+      "time_seconds": 1268,
+      "evidence": "21:08直接显示68"
+    },
+    {
+      "position": 80,
+      "color": "Black",
+      "time_seconds": 1266,
+      "evidence": "21:06直接显示80"
+    },
+    {
+      "position": 93,
+      "color": "White",
+      "time_seconds": 1270,
+      "evidence": "21:10直接显示93"
+    }
+  ],
+  "native_status": "07 saved reopened rendered; six interior flags verified; white44 corrected to43",
+  "uncertain": [
+    "endpoint0 hover at1274 shows inconsistent label; no endpoint color upgrade",
+    "final camera transform and exposure",
+    "room emission gray"
+  ],
+  "native_readback": {
+    "file": "/classroom/course-assets/course51-flags/07_SourceRamp_Partial.max",
+    "reopened": true,
+    "changed": "white flag44 estimated corrected to43 based1178.25s; same position retained in later sampled frames",
+    "flags": [
+      {
+        "property": "Flag__3",
+        "position": 14.0,
+        "rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "property": "Flag__4",
+        "position": 43.0,
+        "rgb": [
+          255.0,
+          255.0,
+          255.0
+        ]
+      },
+      {
+        "property": "Flag__5",
+        "position": 52.0,
+        "rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "property": "Flag__6",
+        "position": 68.0,
+        "rgb": [
+          255.0,
+          255.0,
+          255.0
+        ]
+      },
+      {
+        "property": "Flag__7",
+        "position": 80.0,
+        "rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "property": "Flag__8",
+        "position": 93.0,
+        "rgb": [
+          255.0,
+          255.0,
+          255.0
+        ]
+      },
+      {
+        "property": "Flag__9",
+        "position": 100.0,
+        "rgb": [
+          255.0,
+          255.0,
+          255.0
+        ]
+      }
+    ],
+    "source_confirmed_interior": [
+      14,
+      43,
+      52,
+      68,
+      80,
+      93
+    ],
+    "pending": [
+      "endpoint exact colors retained from study;1274s hover label ambiguous",
+      "camera final transform/exposure",
+      "room exact gray",
+      "whole assignment verification"
+    ]
+  }
+}

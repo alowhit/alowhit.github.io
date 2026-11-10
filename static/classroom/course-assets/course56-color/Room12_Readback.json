@@ -1,0 +1,20 @@
+{
+  "original_class": "PhysicalMaterial",
+  "original_name": "Course50 Physical Material 25",
+  "camera_EV": 6.0,
+  "frame": 45,
+  "scope": "Room-only material hypothesis test; assignment of teacher Material26 to Room not directly verified",
+  "reopened": true,
+  "test_class": "ai_standard_surface",
+  "values": {
+    "base": "0.0",
+    "specular": "0.0",
+    "emission": "1.0",
+    "emission_color": "(color 4.335 4.335 4.335)"
+  },
+  "supplements": [
+    "Room assignment inferred",
+    "Base and Specular zero retained as hypothesis from earlier comparison material",
+    "Camera EV6 and geometry inherited, not verified to teacher"
+  ]
+}

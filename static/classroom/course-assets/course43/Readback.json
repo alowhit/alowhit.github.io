@@ -1,0 +1,38 @@
+{
+  "source": "[本机资料路径]",
+  "video": "教学记录9.mp4",
+  "frame": 20,
+  "falloff20_curves": [
+    {
+      "readback_unavailable": "'pymxs.MXSWrapperBase' object has no attribute 'curves'",
+      "preservation": "Original native curve retained without modification"
+    }
+  ],
+  "studies": [
+    {
+      "file": "/classroom/course-assets/course43/01_Core_Soft_Comparison.max",
+      "radius": 58.0,
+      "luminance": 150.0,
+      "cutout": "贴图 #21:Composite"
+    },
+    {
+      "file": "/classroom/course-assets/course43/02_Core_Hard_Comparison.max",
+      "radius": 58.0,
+      "luminance": 150.0,
+      "cutout": "贴图 #24:Gradient Ramp"
+    },
+    {
+      "file": "/classroom/course-assets/course43/03_Core_Saved_State.max",
+      "radius": 65.0,
+      "luminance": 1500.0,
+      "cutout": "贴图 #24:Gradient Ramp"
+    }
+  ],
+  "limits": [
+    "Soft state is a controlled comparison bypassing Ramp24; remaining maps retain Class2 saved values, not exact whole early video state",
+    "Camera/background supplied",
+    "Physical Material retained as used by teacher; renderer is Arnold",
+    "Source colors retained without screenshot RGB sampling"
+  ],
+  "last_file_reopened": true
+}

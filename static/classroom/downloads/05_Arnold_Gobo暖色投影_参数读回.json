@@ -1,0 +1,1093 @@
+{
+  "file": "/classroom/downloads/05_Arnold_Gobo%E6%9A%96%E8%89%B2%E6%8A%95%E5%BD%B1.max",
+  "render_engine": "Arnold",
+  "camera": "$Free_Camera:Study_Camera_FILLED @ [360.000000,-500.000000,430.000000]",
+  "geometry": [
+    {
+      "name": "Projection_Receiver_FILLED",
+      "class": "Plane",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "Receiver_Arnold:Standard_Surface",
+      "dimensions": {
+        "width": 600.0,
+        "length": 600.0,
+        "mapcoords": true
+      }
+    },
+    {
+      "name": "Projection_Sphere_FILLED",
+      "class": "Sphere",
+      "position": [
+        0.0,
+        0.0,
+        60.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "Receiver_Arnold:Standard_Surface",
+      "dimensions": {
+        "radius": 60.0,
+        "segs": 48,
+        "mapcoords": false
+      }
+    }
+  ],
+  "materials": [
+    {
+      "class": "ai_standard_surface",
+      "name": "Receiver_Arnold:Standard_Surface",
+      "properties": {
+        "base": 0.800000011920929,
+        "base_connected": true,
+        "base_shader": null,
+        "base_color": {
+          "scene_rgb_255": [
+            200.0,
+            200.0,
+            200.0
+          ]
+        },
+        "base_color_connected": true,
+        "base_color_shader": null,
+        "diffuse_roughness": 0.0,
+        "diffuse_roughness_connected": true,
+        "diffuse_roughness_shader": null,
+        "Specular": 0.15000000596046448,
+        "specular_connected": true,
+        "specular_shader": null,
+        "specular_color": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "specular_color_connected": true,
+        "specular_color_shader": null,
+        "specular_roughness": 0.20000000298023224,
+        "specular_roughness_connected": true,
+        "specular_roughness_shader": null,
+        "specular_IOR": 1.5,
+        "specular_IOR_connected": true,
+        "specular_IOR_shader": null,
+        "specular_anisotropy": 0.0,
+        "specular_anisotropy_connected": true,
+        "specular_anisotropy_shader": null,
+        "specular_rotation": 0.0,
+        "specular_rotation_connected": true,
+        "specular_rotation_shader": null,
+        "metalness": 0.0,
+        "metalness_connected": true,
+        "metalness_shader": null,
+        "transmission": 0.0,
+        "transmission_connected": true,
+        "transmission_shader": null,
+        "transmission_color": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "transmission_color_connected": true,
+        "transmission_color_shader": null,
+        "transmission_depth": 0.0,
+        "transmission_depth_connected": true,
+        "transmission_depth_shader": null,
+        "transmission_scatter": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "transmission_scatter_connected": true,
+        "transmission_scatter_shader": null,
+        "transmission_scatter_anisotropy": 0.0,
+        "transmission_scatter_anisotropy_connected": true,
+        "transmission_scatter_anisotropy_shader": null,
+        "transmission_dispersion": 0.0,
+        "transmission_dispersion_connected": true,
+        "transmission_dispersion_shader": null,
+        "transmission_extra_roughness": 0.0,
+        "transmission_extra_roughness_connected": true,
+        "transmission_extra_roughness_shader": null,
+        "transmit_aovs": false,
+        "subsurface": 0.0,
+        "subsurface_connected": true,
+        "subsurface_shader": null,
+        "subsurface_color": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "subsurface_color_connected": true,
+        "subsurface_color_shader": null,
+        "subsurface_radius": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "subsurface_radius_connected": true,
+        "subsurface_radius_shader": null,
+        "subsurface_scale": 1.0,
+        "subsurface_scale_connected": true,
+        "subsurface_scale_shader": null,
+        "subsurface_anisotropy": 0.0,
+        "subsurface_anisotropy_connected": true,
+        "subsurface_anisotropy_shader": null,
+        "subsurface_type": 1,
+        "sheen": 0.0,
+        "sheen_connected": true,
+        "sheen_shader": null,
+        "sheen_color": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "sheen_color_connected": true,
+        "sheen_color_shader": null,
+        "sheen_roughness": 0.30000001192092896,
+        "sheen_roughness_connected": true,
+        "sheen_roughness_shader": null,
+        "thin_walled": false,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "normal_connected": true,
+        "normal_shader": null,
+        "tangent": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tangent_connected": true,
+        "tangent_shader": null,
+        "coat": 0.0,
+        "coat_connected": true,
+        "coat_shader": null,
+        "coat_color": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "coat_color_connected": true,
+        "coat_color_shader": null,
+        "coat_roughness": 0.10000000149011612,
+        "coat_roughness_connected": true,
+        "coat_roughness_shader": null,
+        "coat_IOR": 1.5,
+        "coat_IOR_connected": true,
+        "coat_IOR_shader": null,
+        "coat_anisotropy": 0.0,
+        "coat_anisotropy_connected": true,
+        "coat_anisotropy_shader": null,
+        "coat_rotation": 0.0,
+        "coat_rotation_connected": true,
+        "coat_rotation_shader": null,
+        "coat_normal": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "coat_normal_connected": true,
+        "coat_normal_shader": null,
+        "coat_affect_color": 0.0,
+        "coat_affect_color_connected": true,
+        "coat_affect_color_shader": null,
+        "coat_affect_roughness": 0.0,
+        "coat_affect_roughness_connected": true,
+        "coat_affect_roughness_shader": null,
+        "thin_film_thickness": 0.0,
+        "thin_film_thickness_connected": true,
+        "thin_film_thickness_shader": null,
+        "thin_film_IOR": 1.5,
+        "thin_film_IOR_connected": true,
+        "thin_film_IOR_shader": null,
+        "emission": 0.0,
+        "emission_connected": true,
+        "emission_shader": null,
+        "emission_color": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "emission_color_connected": true,
+        "emission_color_shader": null,
+        "opacity": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "opacity_connected": true,
+        "opacity_shader": null,
+        "caustics": false,
+        "internal_reflections": true,
+        "exit_to_background": false,
+        "indirect_diffuse": 1.0,
+        "indirect_specular": 1.0,
+        "dielectric_priority": 0,
+        "aov_id1": "",
+        "id1": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id1_connected": true,
+        "id1_shader": null,
+        "aov_id2": "",
+        "id2": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id2_connected": true,
+        "id2_shader": null,
+        "aov_id3": "",
+        "id3": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id3_connected": true,
+        "id3_shader": null,
+        "aov_id4": "",
+        "id4": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id4_connected": true,
+        "id4_shader": null,
+        "aov_id5": "",
+        "id5": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id5_connected": true,
+        "id5_shader": null,
+        "aov_id6": "",
+        "id6": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id6_connected": true,
+        "id6_shader": null,
+        "aov_id7": "",
+        "id7": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id7_connected": true,
+        "id7_shader": null,
+        "aov_id8": "",
+        "id8": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id8_connected": true,
+        "id8_shader": null,
+        "TheList": [],
+        "Shader_Version": 0
+      }
+    }
+  ],
+  "textures": [
+    {
+      "handle": 92456,
+      "class": "Noise",
+      "name": "#25 Warm Noise:Noise",
+      "properties": {
+        "color1": {
+          "scene_rgb_255": [
+            4.84499979019165,
+            0.2549999952316284,
+            0.0
+          ]
+        },
+        "color2": {
+          "scene_rgb_255": [
+            255.0,
+            156.05999755859375,
+            45.1349983215332
+          ]
+        },
+        "map1": null,
+        "map2": null,
+        "map1Enabled": true,
+        "map2Enabled": true,
+        "size": 120.0,
+        "phase": 0.0,
+        "Levels": 3.0,
+        "thresholdLow": 0.0,
+        "thresholdHigh": 1.0,
+        "type": 0,
+        "coords": {
+          "connection": "MtlBase:Placement",
+          "handle": 92448
+        },
+        "output": {
+          "connection": "MtlBase:Output",
+          "handle": 92453
+        }
+      },
+      "connections": [],
+      "coordinates": {
+        "blur": 1.0,
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "angle": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "coordType": 0,
+        "mapChannel": 1,
+        "Tiling": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Blur_Offset": 0.0
+      }
+    },
+    {
+      "handle": 92465,
+      "class": "Color_Correction",
+      "name": "#26 Gain500 Gamma0.4:Color Correction",
+      "properties": {
+        "color": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "map": {
+          "connection": "#25 Warm Noise:Noise",
+          "handle": 92456
+        },
+        "rewireMode": 0,
+        "rewireR": 0,
+        "rewireG": 1,
+        "rewireB": 2,
+        "rewireA": 3,
+        "hueShift": 0.0,
+        "saturation": 0.0,
+        "tint": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "tintStrength": 0.0,
+        "lightnessMode": 1,
+        "contrast": 0.0,
+        "brightness": 0.0,
+        "exposureMode": 0,
+        "enableR": false,
+        "enableG": false,
+        "enableB": false,
+        "gainRGB": 500.0,
+        "gainR": 100.0,
+        "gainG": 100.0,
+        "gainB": 100.0,
+        "gammaRGB": 0.4000000059604645,
+        "gammaR": 1.0,
+        "gammaG": 1.0,
+        "gammaB": 1.0,
+        "pivotRGB": 1.0,
+        "pivotR": 1.0,
+        "pivotG": 1.0,
+        "pivotB": 1.0,
+        "liftRGB": 0.0,
+        "liftR": 0.0,
+        "liftG": 0.0,
+        "liftB": 0.0,
+        "printerLights": 5.0
+      },
+      "connections": [
+        {
+          "slot": 1,
+          "label": "Map",
+          "target": 92456
+        }
+      ]
+    }
+  ],
+  "lights": [
+    {
+      "name": "ArnoldLight001",
+      "properties": {
+        "on": true,
+        "targeted": false,
+        "targdist": 15.0,
+        "useColor": true,
+        "color": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "usePreset": false,
+        "preSet": 10,
+        "useKelvin": false,
+        "kelvin": 6500.0,
+        "filter": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "intensity": 200.0,
+        "exposure": 6.0,
+        "normalize": false,
+        "Samples": 1,
+        "volume_samples": 2,
+        "shapeType": 2,
+        "lightRadius": 100.0,
+        "lightShapeVisible": false,
+        "cast_shadows": true,
+        "cast_volumetric_shadows": true,
+        "shadow_color": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "shadow_density": 1.0,
+        "camera": 1.0,
+        "Diffuse": 1.0,
+        "Specular": 1.0,
+        "transmission": 1.0,
+        "sss": 1.0,
+        "indirect": 1.0,
+        "max_bounces": 999,
+        "affectViewport": true,
+        "spread": 1.0,
+        "quadX": 24.0,
+        "quadY": 24.0,
+        "height": 48.0,
+        "angle": 0.5,
+        "lens_radius": 0.0,
+        "penumbra_angle": 5.0,
+        "aspect_ratio": 1.0,
+        "spotRoundness": 1.0,
+        "quadRoundness": 0.0,
+        "soft_edge": 1.0,
+        "userOptions": null,
+        "filename": null,
+        "resolution": 1000,
+        "quadResolution": 500,
+        "format": 2,
+        "useTexmap": false,
+        "texmap": null,
+        "lightMesh": null,
+        "alwaysVisibleInViewport": true,
+        "volume": 1.0,
+        "aov": "default",
+        "Cone_Angle": 180.0,
+        "photometricRadius": 0.0,
+        "portal": false,
+        "portal_mode": 1,
+        "aov_indirect": false
+      },
+      "modifiers": [
+        {
+          "arnold_node": "gobo",
+          "arnold_node_density": 0.0,
+          "arnold_node_filter_mode": 2,
+          "arnold_node_slidemap": {
+            "scene_rgb_255": [
+              255.0,
+              255.0,
+              255.0
+            ]
+          },
+          "arnold_link_slidemap": {
+            "connection": "#26 Gain500 Gamma0.4:Color Correction",
+            "handle": 92465
+          },
+          "arnold_node_offset": [
+            0.0,
+            0.0
+          ],
+          "arnold_node_sscale": 1.0,
+          "arnold_node_tscale": 1.0,
+          "arnold_node_swrap": 1,
+          "arnold_node_twrap": 1,
+          "Arnold_Light_Filter": "ArnoldLightFilterModifier:Arnold Light Filter"
+        }
+      ]
+    }
+  ],
+  "saved_frame": "0f",
+  "animation_samples": [
+    {
+      "frame": 0,
+      "geometry": [
+        {
+          "name": "Projection_Receiver_FILLED",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "Projection_Sphere_FILLED",
+          "position": [
+            0.0,
+            0.0,
+            60.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "name": "#25 Warm Noise:Noise",
+          "values": {
+            "size": 120.0,
+            "phase": 0.0,
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "#26 Gain500 Gamma0.4:Color Correction",
+          "values": {
+            "color": {
+              "scene_rgb_255": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "frame": 15,
+      "geometry": [
+        {
+          "name": "Projection_Receiver_FILLED",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "Projection_Sphere_FILLED",
+          "position": [
+            0.0,
+            0.0,
+            60.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "name": "#25 Warm Noise:Noise",
+          "values": {
+            "size": 120.0,
+            "phase": 0.0,
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "#26 Gain500 Gamma0.4:Color Correction",
+          "values": {
+            "color": {
+              "scene_rgb_255": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "frame": 30,
+      "geometry": [
+        {
+          "name": "Projection_Receiver_FILLED",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "Projection_Sphere_FILLED",
+          "position": [
+            0.0,
+            0.0,
+            60.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "name": "#25 Warm Noise:Noise",
+          "values": {
+            "size": 120.0,
+            "phase": 0.0,
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "#26 Gain500 Gamma0.4:Color Correction",
+          "values": {
+            "color": {
+              "scene_rgb_255": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "frame": 40,
+      "geometry": [
+        {
+          "name": "Projection_Receiver_FILLED",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "Projection_Sphere_FILLED",
+          "position": [
+            0.0,
+            0.0,
+            60.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "name": "#25 Warm Noise:Noise",
+          "values": {
+            "size": 120.0,
+            "phase": 0.0,
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "#26 Gain500 Gamma0.4:Color Correction",
+          "values": {
+            "color": {
+              "scene_rgb_255": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "frame": 53,
+      "geometry": [
+        {
+          "name": "Projection_Receiver_FILLED",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "Projection_Sphere_FILLED",
+          "position": [
+            0.0,
+            0.0,
+            60.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "name": "#25 Warm Noise:Noise",
+          "values": {
+            "size": 120.0,
+            "phase": 0.0,
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "#26 Gain500 Gamma0.4:Color Correction",
+          "values": {
+            "color": {
+              "scene_rgb_255": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "frame": 60,
+      "geometry": [
+        {
+          "name": "Projection_Receiver_FILLED",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "Projection_Sphere_FILLED",
+          "position": [
+            0.0,
+            0.0,
+            60.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "name": "#25 Warm Noise:Noise",
+          "values": {
+            "size": 120.0,
+            "phase": 0.0,
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "#26 Gain500 Gamma0.4:Color Correction",
+          "values": {
+            "color": {
+              "scene_rgb_255": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "frame": 70,
+      "geometry": [
+        {
+          "name": "Projection_Receiver_FILLED",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "Projection_Sphere_FILLED",
+          "position": [
+            0.0,
+            0.0,
+            60.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "name": "#25 Warm Noise:Noise",
+          "values": {
+            "size": 120.0,
+            "phase": 0.0,
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "#26 Gain500 Gamma0.4:Color Correction",
+          "values": {
+            "color": {
+              "scene_rgb_255": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "frame": 85,
+      "geometry": [
+        {
+          "name": "Projection_Receiver_FILLED",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "Projection_Sphere_FILLED",
+          "position": [
+            0.0,
+            0.0,
+            60.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "name": "#25 Warm Noise:Noise",
+          "values": {
+            "size": 120.0,
+            "phase": 0.0,
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "#26 Gain500 Gamma0.4:Color Correction",
+          "values": {
+            "color": {
+              "scene_rgb_255": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "frame": 100,
+      "geometry": [
+        {
+          "name": "Projection_Receiver_FILLED",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "Projection_Sphere_FILLED",
+          "position": [
+            0.0,
+            0.0,
+            60.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "name": "#25 Warm Noise:Noise",
+          "values": {
+            "size": 120.0,
+            "phase": 0.0,
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "#26 Gain500 Gamma0.4:Color Correction",
+          "values": {
+            "color": {
+              "scene_rgb_255": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

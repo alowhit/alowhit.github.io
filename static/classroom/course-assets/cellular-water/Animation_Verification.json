@@ -1,0 +1,14 @@
+{
+  "frames": 101,
+  "first": 0,
+  "last": 100,
+  "fps": 30,
+  "duration_seconds": 3.3666666666666667,
+  "dimensions": [
+    640,
+    480
+  ],
+  "all_frames_decoded": true,
+  "unique_frame_hashes": 101,
+  "scope": "Full saved timeline water texture animation; supplementary camera; not rain assessment."
+}

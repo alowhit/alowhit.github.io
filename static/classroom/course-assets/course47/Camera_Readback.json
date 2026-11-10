@@ -1,0 +1,69 @@
+{
+  "source": "课堂4.mp4",
+  "evidence": {
+    "430": "camera target position",
+    "450": "camera position,target distance969.106,FOV45,film36,f8",
+    "780": "distance725/875 black/white linear curve"
+  },
+  "stages": [
+    {
+      "file": "/classroom/course-assets/course47/03_CameraDistance_725_875.max",
+      "reopened": true,
+      "camera": [
+        685.739013671875,
+        -690.1790161132812,
+        263.9809875488281
+      ],
+      "target": [
+        164.3979949951172,
+        125.875,
+        301.760986328125
+      ],
+      "target_distance": 969.1067504882812,
+      "fov": 45.0,
+      "film_width_mm": 36.0,
+      "f_number": 8.0,
+      "exposure_value_supplement": 6.0,
+      "falloff": {
+        "type": 4,
+        "direction": 0,
+        "near": 725.0,
+        "far": 875.0,
+        "extrapolate": false
+      }
+    },
+    {
+      "file": "/classroom/course-assets/course47/04_Object200_SourceCamera.max",
+      "reopened": true,
+      "camera": [
+        685.739013671875,
+        -690.1790161132812,
+        263.9809875488281
+      ],
+      "target": [
+        164.3979949951172,
+        125.875,
+        301.760986328125
+      ],
+      "target_distance": 969.1067504882812,
+      "fov": 45.0,
+      "film_width_mm": 36.0,
+      "f_number": 8.0,
+      "exposure_value_supplement": 6.0,
+      "falloff": {
+        "type": 4,
+        "direction": 3,
+        "near": 10.0,
+        "far": 200.0,
+        "extrapolate": false
+      }
+    }
+  ],
+  "pending": [
+    "camera exposure not shown: native default retained",
+    "lighting temporal state",
+    "early shadow-light experiment",
+    "object curve temporal match",
+    "continuous full video review"
+  ]
+}

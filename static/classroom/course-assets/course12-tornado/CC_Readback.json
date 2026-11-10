@@ -1,0 +1,33 @@
+{
+  "reopened": true,
+  "source_seconds": [
+    450,
+    465
+  ],
+  "values": [
+    {
+      "lightnessMode": 1,
+      "gainRGB": 200.0,
+      "gammaRGB": 0.10000000149011612,
+      "pivotRGB": 0.4000000059604645,
+      "liftRGB": 0.0
+    },
+    {
+      "lightnessMode": 1,
+      "gainRGB": 200.0,
+      "gammaRGB": 0.10000000149011612,
+      "pivotRGB": 0.4000000059604645,
+      "liftRGB": 0.0
+    }
+  ],
+  "confirmed": "Map33 and Map35 Advanced Gain200 Gamma0.1 Pivot0.4 Lift0 shown at450/465s",
+  "pending": [
+    "height fade",
+    "orange material branch",
+    "base smoke model",
+    "final camera lighting",
+    "texture animation",
+    "full rubric"
+  ],
+  "inherited_limitations": "UV seam operation,Smoke angle and second-map settings,gradient stop positions and diagnostic scene remain partly inferred"
+}

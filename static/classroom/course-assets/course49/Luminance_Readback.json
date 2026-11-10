@@ -1,0 +1,43 @@
+{
+  "source": "[本机资料路径]",
+  "sha256": "8eb99a8c889d114017483f9aad2e8cb220750f80860b387528246da68801b8bf",
+  "source_material": {
+    "material": "Material #51",
+    "class": "PhysicalMaterial",
+    "emission": 1.0,
+    "luminance": 50.0,
+    "kelvin": 6500.0,
+    "rotation": "(quat 0.707107 0 0 0.707107)"
+  },
+  "stages": [
+    {
+      "file": "/classroom/course-assets/course49/01_GrayPattern.max",
+      "before_luminance": 5.0,
+      "after_luminance": 50.0,
+      "reopened": true,
+      "rotation": "(quat 0.707107 0 0 0.707107)"
+    },
+    {
+      "file": "/classroom/course-assets/course49/02_ColorRamp.max",
+      "before_luminance": 5.0,
+      "after_luminance": 50.0,
+      "reopened": true,
+      "rotation": "(quat 0.707107 0 0 0.707107)"
+    },
+    {
+      "file": "/classroom/course-assets/course49/03_CellularOverlay.max",
+      "before_luminance": 5.0,
+      "after_luminance": 50.0,
+      "reopened": true,
+      "rotation": "(quat 0.707107 0 0 0.707107)"
+    },
+    {
+      "file": "/classroom/course-assets/course49/04_Highlight.max",
+      "before_luminance": 5.0,
+      "after_luminance": 50.0,
+      "reopened": true,
+      "rotation": "(quat 0.707107 0 0 0.707107)"
+    }
+  ],
+  "scope": "Verified native source value; exact video change time not yet found. Camera and lighting still retained."
+}

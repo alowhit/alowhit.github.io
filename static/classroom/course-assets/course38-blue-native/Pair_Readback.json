@@ -1,0 +1,169 @@
+{
+  "files": [
+    {
+      "file": "/classroom/course-assets/course38-blue-native/01_Red_Comparison.max",
+      "saved_reopened": true,
+      "slate_nodes": 7,
+      "flags": [
+        {
+          "position": 0,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "position": 100,
+          "color": [
+            255.0,
+            220.0,
+            100.0
+          ]
+        },
+        {
+          "position": 32.0,
+          "color": [
+            2.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "position": 77.0,
+          "color": [
+            197.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "position": 97.0,
+          "color": [
+            255.0,
+            127.0,
+            0.0
+          ]
+        },
+        {
+          "position": 100.0,
+          "color": [
+            255.0,
+            220.0,
+            100.0
+          ]
+        },
+        {
+          "position": 100.0,
+          "color": [
+            255.0,
+            220.0,
+            100.0
+          ]
+        },
+        {
+          "position": 100.0,
+          "color": [
+            255.0,
+            220.0,
+            100.0
+          ]
+        },
+        {
+          "position": 100.0,
+          "color": [
+            255.0,
+            220.0,
+            100.0
+          ]
+        }
+      ],
+      "material_class": "ai_standard_surface",
+      "shared_noise": true,
+      "frame": 0
+    },
+    {
+      "file": "/classroom/course-assets/course38-blue-native/02_Blue_PartialSource.max",
+      "saved_reopened": true,
+      "slate_nodes": 7,
+      "flags": [
+        {
+          "position": 0,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "position": 100,
+          "color": [
+            124.0,
+            197.0,
+            255.0
+          ]
+        },
+        {
+          "position": 25.0,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "position": 81.0,
+          "color": [
+            0.0,
+            14.279999732971191,
+            197.3699951171875
+          ]
+        },
+        {
+          "position": 97.0,
+          "color": [
+            0.0,
+            248.3699951171875,
+            255.0
+          ]
+        },
+        {
+          "position": 100.0,
+          "color": [
+            124.0,
+            197.0,
+            255.0
+          ]
+        },
+        {
+          "position": 100.0,
+          "color": [
+            124.0,
+            197.0,
+            255.0
+          ]
+        },
+        {
+          "position": 100.0,
+          "color": [
+            124.0,
+            197.0,
+            255.0
+          ]
+        },
+        {
+          "position": 100.0,
+          "color": [
+            124.0,
+            197.0,
+            255.0
+          ]
+        }
+      ],
+      "material_class": "ai_standard_surface",
+      "shared_noise": true,
+      "frame": 0
+    }
+  ],
+  "scope": "Both files saved and reopened with shared Noise and palette checked;ZoomExtents applied before saving;visual framing persistence requires UI review"
+}

@@ -1,0 +1,159 @@
+<!doctype html><html lang="zh-Hans"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Flame · elongated procedural texture</title><link rel="stylesheet" href="/classroom/course.css"><header><a href="/classroom/course-assessment.html">Course & assessment</a><a href="/classroom/index.html">已有教学</a><a href="/classroom/particle-flow-study.html">Particle Flow 学习页</a></header><main><p class="tag">SOURCE VIDEO · course30</p><h1>Flame · elongated procedural texture</h1><p>教学1.mp4 · 00:26:55</p><div class="note">已接入旧版详细教学：7个操作步骤、33条参数记录及原片证据。整课逐帧复刻与最终考核验收仍未完成。</div><p><a href="/learn/course30/">查看已有的详细教学与练习</a>（仍需与当前视频核对）</p><div class="local-source"><p class="video-download"><a href="https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course30.mp4">下载本课原视频 MP4 · 67.7 MB ↓</a> · <a href="/classroom/video-downloads.html">全部原片下载</a></p><p>原片：教学1.mp4。请选择本机对应视频，文件只在浏览器播放，不会上传。</p><label>选择原片 <input class="source-file" type="file" accept="video/*"></label><video id="sourceVideo" controls preload="none" data-local-video="true"></video></div><p class="muted">视频来自本机 [本机资料路径]</p><section id="fire-detail-review"><h2>火焰细节：Cellular、Solid threshold 与带噪波的渐变</h2><p>原片《教学1》长约26分56秒。本轮查看27个间隔画面，并核对11个原分辨率时点；尚未完成全片逐操作复刻或本节MAX验证。</p><p>先分清三个操作：Cellular的Size控制斑块大小；Coordinates Tiling改变斑块比例；Gradient Ramp的Solid插值把灰度切成黑白。之后加入另一张渐变，控制不同高度的亮度或形状分布。</p><ol><li>先检查Plane尺寸：350×500cm、1×1 Segs、Generate Mapping Coords开启。</li><li>Cellular以Size50、Spread3制作较细图案；Tiling2/0.5/1拉长形状。Fractal在后半段开启，Iterations3。</li><li>Cellular接Gradient Ramp #2 Source Map，Mapped + Solid，白色色标Position11。</li><li>观察Composite #3：黑白结果再与高度渐变混合；已看到Layer2使用Darken。</li><li>再区分后半段Composite #6：它直接接Cellular和Gradient Ramp #5，不能误接成上面的黑白结果。</li><li>Gradient Ramp #5后期Noise值为Amount0.5、Size10、Phase5（Frame100），Fractal、Levels4。先核对动画起点再制作动画，单独填写Phase5不会自动产生运动。</li></ol><p>这些数值属于不同时间点。下方特意保留试验过程，避免将多个试验值拼成一个原片从未出现的设置。</p><details><summary>06:30 · Cellular and plane</summary><p>Plane：Length350cm、Width500cm，Length/Width Segs均为1，Generate Mapping Coords开启。Cellular此时Circular、Size50、Spread3、Fractal关闭、Bump Smoothing0、Roughness0，Threshold Low/Mid/High = 0.03/0.15/1。这是此时的试验值，不能当作全片最终阈值。</p><button data-time="390">Locate source video</button><img loading="lazy" src="/classroom/course-assets/course30/390.png.webp" alt="Cellular and plane"></details><details><summary>09:30 · Mapped Solid ramp</summary><p>Gradient Ramp #2：Gradient Type Mapped，Source Map为Cellular #1；Interpolation Solid，Noise Amount0。选中白色色标Position11、RGB255/255/255。</p><button data-time="570">Locate source video</button><img loading="lazy" src="/classroom/course-assets/course30/570.png.webp" alt="Mapped Solid ramp"></details><details><summary>11:00 · Stretch and add detail</summary><p>Cellular Object XYZ：Offset0/0/0，Tiling2/0.5/1，Angle0/0/0。窗口正在拖动，有透明叠影；坐标可读，其他被遮挡参数不据此确认。</p><button data-time="660">Locate source video</button><img loading="lazy" src="/classroom/course-assets/course30/660.png.webp" alt="Stretch and add detail"></details><details><summary>14:00 · Darken after threshold</summary><p>Composite #3 的Layer2显示Darken、Opacity100。这时已经先做黑白形状，再用另一渐变压暗一部分区域；渲染仍在进行。</p><button data-time="840">Locate source video</button><img loading="lazy" src="/classroom/course-assets/course30/840.png.webp" alt="Darken after threshold"></details><details><summary>16:00 · Height gradient #4</summary><p>Gradient Ramp #4：W Angle90，Gradient Type Linear，Interpolation Ease In，Noise Amount0。选中色标Position98、RGB18/18/18。还有其他色标未逐一选中，不把截图中大致位置当成精确值。</p><button data-time="960">Locate source video</button><img loading="lazy" src="/classroom/course-assets/course30/960.png.webp" alt="Height gradient #4"></details><details><summary>17:30 · Offset trial at Frame100</summary><p>Cellular在Frame100显示Offset0/150/0，Tiling2/0.5/1；Circular、Fractal开启、Iterations3、Adaptive开启，Size50、Spread3。这是动画试验中间状态。</p><button data-time="1050">Locate source video</button><img loading="lazy" src="/classroom/course-assets/course30/1050.png.webp" alt="Offset trial at Frame100"></details><details><summary>19:00 · Another offset state</summary><p>当前Frame27，Cellular显示Offset0/−150/50。老师仍在调整动画；不要把这张图误标为Frame100最终值，也不能凭它推断所有关键帧时间。</p><button data-time="1140">Locate source video</button><img loading="lazy" src="/classroom/course-assets/course30/1140.png.webp" alt="Another offset state"></details><details><summary>20:00 · Later offset state</summary><p>当前Frame96，Cellular显示Offset0/−150/100；Fractal开启、Iterations3、Adaptive开启，Size50、Spread3。关键帧完整时间与切线还需更密集核对。</p><button data-time="1200">Locate source video</button><img loading="lazy" src="/classroom/course-assets/course30/1200.png.webp" alt="Later offset state"></details><details><summary>21:30 · Second Composite branch</summary><p>Cellular #1直接接Composite #6 Layer1；Gradient Ramp #5接Layer2。这是另一条合成分支，不能照搬前面Composite #3的输入。此时正在打开Blend Mode菜单，不能据菜单停留画面断言最终模式。</p><button data-time="1290">Locate source video</button><img loading="lazy" src="/classroom/course-assets/course30/1290.png.webp" alt="Second Composite branch"></details><details><summary>25:00 · Noise trial on gradient #5</summary><p>Gradient Ramp #5：W Angle90，Linear，Ease In；选中色标Position19、RGB23/23/23。Noise Amount0.8、Size25、Phase1.5、Fractal、Levels4。当前Frame30，RenderView显示Render Aborted，因此画面不是该组值的完成渲染验收。</p><button data-time="1500">Locate source video</button><img loading="lazy" src="/classroom/course-assets/course30/1500.png.webp" alt="Noise trial on gradient #5"></details><details><summary>26:30 · Later noise settings</summary><p>Gradient Ramp #5：Noise Amount0.5、Size10、Phase5、Fractal、Levels4；Phase旁有红色关键帧标记，当前Frame100。仍选中Position19、RGB23/23/23；W90、Linear、Ease In。后续渲染出现集中在部分高度的细碎黑白形状。</p><button data-time="1590">Locate source video</button><img loading="lazy" src="/classroom/course-assets/course30/1590.png.webp" alt="Later noise settings"></details><p>待补：两张高度渐变的完整色标、Cellular阈值在更晚时点是否再次修改、所有动画关键帧与曲线、相机灯光、本节原生MAX及完整渲染。</p></section><section id="fire-detail-followup"><h2>补核：Multiply 与色标</h2><p>更密集的原片画面已补齐以下数值。对应练习应使用明确的阶段，不能把试验值当作最终值。</p><pre>Cellular #1 → Composite #6 Layer 1 (Normal, 100%)
+Gradient Ramp #5 → Composite #6 Layer 2 (Multiply, 100%)</pre><p>Multiply会让黑色部分压暗输入，白色部分保留输入；所以这层渐变能控制哪些高度留下更多纹理。先单看Gradient Ramp的黑白分布，再查看Composite输出，更容易理解。</p><table><thead><tr><th>Gradient Ramp #5 Flag</th><th>Position</th><th>RGB shown</th></tr></thead><tbody><tr><td>Black endpoint</td><td>0</td><td>0 / 0 / 0</td></tr><tr><td>Dark gray, later position</td><td>19</td><td>23 / 23 / 23</td></tr><tr><td>White, at21:10</td><td>72</td><td>255 / 255 / 255</td></tr></tbody></table><p>右端点尚未找到单独选中的清晰画面，不能据预览估算精确RGB。白色色标72是21:10的可见值，片尾是否微调位置仍需核对。</p><details><summary>07:30 · Fractal and thresholds</summary><p>Cellular：Circular，Size50、Spread3，Fractal On、Iterations3、Adaptive On，Bump Smoothing0、Roughness0；Threshold Low/Mid/High=0.1/0.2/1。这比06:30的0.03/0.15/1更晚，并在08:00仍可见。</p><button data-time="450">Locate source video</button><img loading="lazy" src="/classroom/course-assets/course30/450.png.webp" alt="Fractal and thresholds"></details><details><summary>21:10 · White flag</summary><p>Gradient Ramp #5：选中白色色标，Position72、RGB255/255/255；W Angle90。此时Interpolation仍为Linear；后面改为Ease In。</p><button data-time="1270">Locate source video</button><img loading="lazy" src="/classroom/course-assets/course30/1270.png.webp" alt="White flag"></details><details><summary>21:20 · Dark gray flag trial</summary><p>Gradient Ramp #5：新增灰色色标Position32，RGB23/23/23；Interpolation已改为Ease In。后续该灰色色标移到Position19。</p><button data-time="1280">Locate source video</button><img loading="lazy" src="/classroom/course-assets/course30/1280.png.webp" alt="Dark gray flag trial"></details><details><summary>22:00 · Confirmed Multiply</summary><p>Composite #6：Layer1为Cellular，Normal、Opacity100；Layer2为Gradient Ramp #5，Multiply、Opacity100；两个Mask均为None。不要把上一节Soft Light沿用到这个Composite。</p><button data-time="1320">Locate source video</button><img loading="lazy" src="/classroom/course-assets/course30/1320.png.webp" alt="Confirmed Multiply"></details><details><summary>22:20 · Black endpoint</summary><p>Gradient Ramp #5：选中左端点Position0、RGB0/0/0。W90、Linear渐变、Ease In插值。Noise Amount正在编辑为0.2，此时还不是片尾0.5。</p><button data-time="1340">Locate source video</button><img loading="lazy" src="/classroom/course-assets/course30/1340.png.webp" alt="Black endpoint"></details><details><summary>22:50 · Move the gray flag</summary><p>Gradient Ramp #5灰色色标已在Position19、RGB23/23/23；Noise此时Amount0.5、Size1、Phase0、Regular。这组噪波值仍在试验，后续会改Size及Noise Type。</p><button data-time="1370">Locate source video</button><img loading="lazy" src="/classroom/course-assets/course30/1370.png.webp" alt="Move the gray flag"></details><details><summary>23:00 · Noise scale trial</summary><p>Noise Size此时输入50，Amount0.5、Phase0、Regular。不要与片尾的Size10、Fractal混为同一状态。</p><button data-time="1380">Locate source video</button><img loading="lazy" src="/classroom/course-assets/course30/1380.png.webp" alt="Noise scale trial"></details></section><section id="fire-detail-native"><h2>可编辑练习：尚有边缘差异</h2><p><a href="/classroom/course-assets/course30/Course30_FireDetail.max" download>Download MAX study</a> · <a href="/classroom/course-assets/course30/Readback.json">Saved parameter readback</a></p><p>已在3ds Max中保存、重开并渲染Frame0/50/100。保留原生Cellular、Gradient Ramp、Composite节点。读取确认Size50、Spread3、Fractal On、Iterations3、Tiling2/0.5/1、Threshold0.1/0.2/1；Composite Normal/Multiply；Gradient W90、Noise Amount0.5、Size10、Fractal、Levels4。</p><p><strong>复刻还没通过：</strong>本机火舌边缘比原片柔和。当前练习让Composite直接驱动Emission Color；还需追踪原片该输出之后的完整连接、阈值与模糊设置。不要把这份文件当作老师最终效果。</p><p>补充值明确列出：渐变右端100设黑；细胞边界灰色127.5；Offset动画用Frame0的0/0/0到Frame100的0/−150/100；Phase由0到5。完整动画关键帧没有逐值核准。白色色标72沿用21:10可见值，后续是否调整未核准。摄影棚和相机沿用前节，背景仍不同。</p><figure><img loading="lazy" src="/classroom/course-assets/course30/GUI_Frame000.png.webp" alt="Local Arnold render frame 0"><figcaption>Frame 0 · 本机渲染，供差异对照</figcaption></figure><figure><img loading="lazy" src="/classroom/course-assets/course30/GUI_Frame050.png.webp" alt="Local Arnold render frame 50"><figcaption>Frame 50 · 本机渲染，供差异对照</figcaption></figure><figure><img loading="lazy" src="/classroom/course-assets/course30/GUI_Frame100.png.webp" alt="Local Arnold render frame 100"><figcaption>Frame 100 · 本机渲染，供差异对照</figcaption></figure></section><section id="existing-reviewed-lesson"><h2>已有详细教学 · 按本课原视频整理</h2><p>继承已有Loft背景和灯光，从前视图新建Length350、Width500的火焰Plane。原片主要用透视视口渲染；旧孤立平面长宽误置，新11号完整场景已修正。</p><p>以下内容来自旧版补习页已经保存的核对记录。本次按视频文件名接入，保留时间点、补充值和未知项；没有把整合网页计为新的逐帧核对或MAX完成。数值可能属于中间试验，请结合时间点与状态看。</p><p><a href="/learn/course30/">打开旧版交互教学</a> · <a href="/classroom/complete.html#v04">场景、镜头与动画流程</a> · <a href="/classroom/results.html">按作业查看当前成果与下载</a></p><h3>操作步骤</h3><details><summary>1. 平面与细胞贴图</summary><p>建立平面，开始查看Cellular；本课基于二维贴图制造火焰形状。</p><button data-time="200">定位原片 03:20</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v04_200.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>2. 细胞参数实验</summary><p>观察Size、Spread、Fractal及阈值对细胞轮廓的影响。</p><button data-time="340">定位原片 05:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v04_340.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>3. 拉伸和分形</summary><p>Cellular设置为圆形、分形，调整阈值以得到分叉轮廓。</p><button data-time="700">定位原片 11:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v04_700.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>4. 竖向渐变</summary><p>Gradient Ramp旋转W90°，将灰度变化改成高度方向；中间旗标和插值改变火焰高度分布。</p><button data-time="875">定位原片 14:35</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v04_875.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>5. 贴图偏移动画</summary><p>第100帧Cellular坐标偏移可读为(0,-150,50)，模型不必实际向上移动也能让图案流动。</p><button data-time="1150">定位原片 19:10</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v04_1150.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>6. 噪声边缘</summary><p>Gradient Ramp的噪声对高度遮罩形成不规则边缘。</p><button data-time="1420">定位原片 23:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v04_1420.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>7. 调整动画中的纹理</summary><p>查看第71帧，Gradient Ramp的噪声相位3.55；与终点相位5的样本一致，但完整控制器未核验。</p><button data-time="1550">定位原片 25:50</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v04_1550.jpg.webp" alt="已有核对记录的原片截图"></details><h3>参数与用途 · 33条已有记录</h3><p>展开一条记录，即可同时查看数值、用途、核对状态和原片证据。</p><details><summary>同一Cellular在第100帧改Z为100 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;node&quot;: &quot;Cellular #1&quot;,
+  &quot;frame&quot;: 100,
+  &quot;Offset&quot;: [
+    0,
+    -150,
+    100
+  ],
+  &quot;Tiling&quot;: [
+    2,
+    0.5,
+    1
+  ],
+  &quot;Angle&quot;: [
+    0,
+    0,
+    0
+  ],
+  &quot;AutoKey&quot;: true
+}</pre><p><b>用途：</b>补齐或纠正前次视频复核记录，按截图时点区分实验与最终状态。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="1151">定位原片 19:11</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/recheck_fire/v04_1151.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>用贴图坐标做火焰运动 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;终点帧&quot;: 100,
+  &quot;Cellular终点Offset&quot;: [
+    0,
+    -150,
+    50
+  ]
+}</pre><p><b>用途：</b>移动噪声采样位置使火焰流动，而非移动整张卡片。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="1150">定位原片 19:10</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_fire/v04_1150.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Cellular Offset Z50是中间试验 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;node&quot;: &quot;Cellular #1&quot;,
+  &quot;frame&quot;: 100,
+  &quot;Offset&quot;: [
+    0,
+    -150,
+    50
+  ],
+  &quot;AutoKey&quot;: true
+}</pre><p><b>用途：</b>补齐或纠正前次视频复核记录，按截图时点区分实验与最终状态。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="1100">定位原片 18:20</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/recheck_fire/v04_1100.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Cellular初始编辑状态 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;node&quot;: &quot;Cellular #1&quot;,
+  &quot;frame&quot;: 100,
+  &quot;Offset&quot;: [
+    0,
+    0,
+    0
+  ],
+  &quot;Tiling&quot;: [
+    2,
+    0.5,
+    1
+  ],
+  &quot;Angle&quot;: [
+    0,
+    0,
+    0
+  ],
+  &quot;coordinates&quot;: &quot;Object XYZ&quot;,
+  &quot;AutoKey&quot;: true
+}</pre><p><b>用途：</b>补齐或纠正前次视频复核记录，按截图时点区分实验与最终状态。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="1000">定位原片 16:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/recheck_fire/v04_1000.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>渲染检查卡片方向和高度渐变 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;Length cm&quot;: 350,
+  &quot;Width cm&quot;: 500,
+  &quot;段数&quot;: [
+    1,
+    1
+  ],
+  &quot;渲染尺寸&quot;: [
+    640,
+    480
+  ],
+  &quot;设备&quot;: &quot;CPU&quot;,
+  &quot;相机&quot;: &quot;/viewport_camera&quot;
+}</pre><p><b>用途：</b>分离检查UV方向、模型尺寸和shader形状。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="780">定位原片 13:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_fire/v04_780.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>将Fire材质指定给Plane001 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;视频实际材质类型&quot;: &quot;Physical Material&quot;,
+  &quot;对象&quot;: &quot;Plane001&quot;,
+  &quot;材质名&quot;: &quot;Fire&quot;
+}</pre><p><b>用途：</b>只有把材质赋给模型，节点变化才会进入场景渲染。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="110">定位原片 01:50</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_fire/v04_110.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>把火焰卡片设成一片大面 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;Length cm&quot;: 350,
+  &quot;Width cm&quot;: 500,
+  &quot;Length Segs&quot;: 1,
+  &quot;Width Segs&quot;: 1,
+  &quot;Faces&quot;: 2
+}</pre><p><b>用途：</b>宽500、高350的卡片提供贴图范围；无需增加网格细分。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="70">定位原片 01:10</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_fire/v04_780.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>火焰平面方向与背景来源 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;plane&quot;: &quot;前视图可见完整矩形，顶/左视图为薄线；世界XZ方向竖直卡片&quot;,
+  &quot;Loft001&quot;: &quot;场景载入时已存在，未见修改器参数&quot;
+}</pre><p><b>用途：</b>补齐或纠正前次视频复核记录，按截图时点区分实验与最终状态。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="60">定位原片 01:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/recheck_fire/v04_60.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>先认清继承的舞台与灯 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;对象&quot;: &quot;ArnoldLight001&quot;,
+  &quot;形状&quot;: &quot;Quad&quot;,
+  &quot;Quad X&quot;: 100,
+  &quot;Quad Y&quot;: 100,
+  &quot;Spread&quot;: 1,
+  &quot;Resolution&quot;: 500,
+  &quot;Roundness&quot;: 0,
+  &quot;Soft Edge&quot;: 1,
+  &quot;Intensity&quot;: 500,
+  &quot;Exposure&quot;: 6,
+  &quot;实际强度&quot;: 32000,
+  &quot;Normalize Energy&quot;: false,
+  &quot;位置cm&quot;: [
+    707.468,
+    -1299.118,
+    292.297
+  ]
+}</pre><p><b>用途：</b>背景承接火焰和灯光；先确认有舞台可渲染。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="10">定位原片 00:10</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_fire/v04_10.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>继承主灯目标距离 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;light&quot;: &quot;ArnoldLight001&quot;,
+  &quot;position_cm&quot;: [
+    707.468,
+    -1299.118,
+    292.297
+  ],
+  &quot;Targeted&quot;: true,
+  &quot;TargetDistance_cm&quot;: 1193.839
+}</pre><p><b>用途：</b>补齐或纠正前次视频复核记录，按截图时点区分实验与最终状态。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="5">定位原片 00:05</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/recheck_fire/v04_5.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Gradient Ramp #4 · flag at 9</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">[
+  0,
+  0,
+  0
+]</pre><p><b>用途：</b></p><p><b>记录状态：</b>深入核对 / observed</p><p><b>来源：</b>深入核对：最后可见状态</p><button data-time="855">定位原片 14:15</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire_deep/v04_855.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Gradient Ramp #4 · flag at 58</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">[
+  32,
+  32,
+  32
+]</pre><p><b>用途：</b></p><p><b>记录状态：</b>深入核对 / observed</p><p><b>来源：</b>深入核对：最后可见状态</p><button data-time="890">定位原片 14:50</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire_deep/v04_890.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Gradient Ramp #4 · flag at 93</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">[
+  255,
+  255,
+  255
+]</pre><p><b>用途：</b></p><p><b>记录状态：</b>深入核对 / observed</p><p><b>来源：</b>深入核对：最后可见状态</p><button data-time="940">定位原片 15:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire_deep/v04_940.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Gradient Ramp #4 · flag at 98</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">[
+  18,
+  18,
+  18
+]</pre><p><b>用途：</b></p><p><b>记录状态：</b>深入核对 / observed</p><p><b>来源：</b>深入核对：最后可见状态</p><button data-time="950">定位原片 15:50</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire_deep/v04_950.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Gradient Ramp #4 · flag at 100</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">[
+  0,
+  0,
+  0
+]</pre><p><b>用途：</b></p><p><b>记录状态：</b>深入核对 / observed</p><p><b>来源：</b>深入核对：最后可见状态</p><button data-time="930">定位原片 15:30</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire_deep/v04_930.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Gradient Ramp #2 · threshold</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;type&quot;: &quot;Map&quot;,
+  &quot;interpolation&quot;: &quot;Solid&quot;,
+  &quot;white_flag_position&quot;: 11,
+  &quot;white_RGB&quot;: [
+    255,
+    255,
+    255
+  ],
+  &quot;source&quot;: &quot;Cellular #1&quot;
+}</pre><p><b>用途：</b></p><p><b>记录状态：</b>深入核对 / observed</p><p><b>来源：</b>深入核对：最后可见状态</p><button data-time="590">定位原片 09:50</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire_deep/v04_590.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Composite #3 · layers</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">[
+  {
+    &quot;layer&quot;: 1,
+    &quot;mode&quot;: &quot;Normal&quot;,
+    &quot;opacity&quot;: 100
+  },
+  {
+    &quot;layer&quot;: 2,
+    &quot;mode&quot;: &quot;Darken&quot;,
+    &quot;opacity&quot;: 100
+  }
+]</pre><p><b>用途：</b></p><p><b>记录状态：</b>深入核对 / observed</p><p><b>来源：</b>深入核对：最后可见状态</p><button data-time="845">定位原片 14:05</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire_deep/v04_845.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Cellular #1 · offset before animation</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">[
+  0,
+  0,
+  0
+]</pre><p><b>用途：</b></p><p><b>记录状态：</b>深入核对 / observed</p><p><b>来源：</b>深入核对：最后可见状态</p><button data-time="1005">定位原片 16:45</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire_deep/v04_1005.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Cellular #1 · offset at frame100</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">[
+  0,
+  -150,
+  50
+]</pre><p><b>用途：</b>Y tested +150 before corrected to -150; Z later50. Tangent interpolation not shown.</p><p><b>记录状态：</b>深入核对 / observed</p><p><b>来源：</b>深入核对：最后可见状态</p><button data-time="1150">定位原片 19:10</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire_deep/v04_1150.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Plane001 · Length / Width</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">350 cm / 500 cm</pre><p><b>用途：</b>控制火焰贴片实际尺寸。</p><p><b>记录状态：</b>视频读值（该时点）</p><p><b>来源：</b>旧版教学记录</p><button data-time="1150">定位原片 19:10</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v04_1150.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Plane001 · Length Segs / Width Segs</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">1 / 1</pre><p><b>用途：</b>贴图效果不依赖高密度几何。</p><p><b>记录状态：</b>视频读值（该时点）</p><p><b>来源：</b>旧版教学记录</p><button data-time="1150">定位原片 19:10</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v04_1150.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Plane001 · Generate Mapping Coords / Real-World</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">开 / 关</pre><p><b>用途：</b>提供显式UV通道。</p><p><b>记录状态：</b>视频读值（该时点）</p><p><b>来源：</b>旧版教学记录</p><button data-time="1150">定位原片 19:10</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v04_1150.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Cellular #1 · Coordinate Source / Tiling</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">Object XYZ / (2,0.5,1)</pre><p><b>用途：</b>各向异性采样，把细胞拉成长条。</p><p><b>记录状态：</b>视频读值（该时点）</p><p><b>来源：</b>旧版教学记录</p><button data-time="1150">定位原片 19:10</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v04_1150.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Cellular #1 · Offset at frame 100</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">(0,-150,50)</pre><p><b>用途：</b>纹理在模型上的流动。起点仍待核验。</p><p><b>记录状态：</b>视频读值（该时点）</p><p><b>来源：</b>旧版教学记录</p><button data-time="1150">定位原片 19:10</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v04_1150.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Cellular #1 · Size / Spread</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">50 / 3</pre><p><b>用途：</b>决定细胞尺度与分界宽度。</p><p><b>记录状态：</b>视频读值（该时点）</p><p><b>来源：</b>旧版教学记录</p><button data-time="700">定位原片 11:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v04_700.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Cellular #1 · Type / Fractal / Iterations / Adaptive</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">Circular / 开 / 3 / 开</pre><p><b>用途：</b>生成不规则多尺度火焰轮廓。</p><p><b>记录状态：</b>视频读值（该时点）</p><p><b>来源：</b>旧版教学记录</p><button data-time="700">定位原片 11:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v04_700.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Cellular #1 · Low / Mid / High Threshold</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">0.1 / 0.2 / 1</pre><p><b>用途：</b>改变细胞颜色过渡分布。</p><p><b>记录状态：</b>视频读值（该时点）</p><p><b>来源：</b>旧版教学记录</p><button data-time="700">定位原片 11:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v04_700.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Cellular #1 · Bump Smooth / Roughness / Variation</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">0 / 0 / 0</pre><p><b>用途：</b>该时点可见数值；不是所有时点恒定。</p><p><b>记录状态：</b>视频读值（该时点）</p><p><b>来源：</b>旧版教学记录</p><button data-time="700">定位原片 11:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v04_700.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Gradient Ramp #4 · W Angle / Type / Interpolation</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">90° / Linear / Ease In</pre><p><b>用途：</b>形成竖向而非横向高度渐变。</p><p><b>记录状态：</b>视频读值（该时点）</p><p><b>来源：</b>旧版教学记录</p><button data-time="875">定位原片 14:35</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v04_875.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Gradient Ramp #4 · Selected flag</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">Position50; RGB(32,32,32)</pre><p><b>用途：</b>该旗标控制中部灰度。</p><p><b>记录状态：</b>视频读值（该时点）</p><p><b>来源：</b>旧版教学记录</p><button data-time="875">定位原片 14:35</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v04_875.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Gradient Ramp #5 · Selected flag</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">Position19; RGB(23,23,23)</pre><p><b>用途：</b>调节灰度遮罩的低端分布。</p><p><b>记录状态：</b>视频读值（该时点）</p><p><b>来源：</b>旧版教学记录</p><button data-time="1420">定位原片 23:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v04_1420.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Gradient Ramp #5 · Noise Amount / Size</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">0.8 / 25</pre><p><b>用途：</b>这是实验中间值；后面继续修改。</p><p><b>记录状态：</b>视频读值（该时点）</p><p><b>来源：</b>旧版教学记录</p><button data-time="1420">定位原片 23:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v04_1420.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Gradient Ramp #5 · Noise Type / Amount / Size / Phase</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">Fractal / 0.5 / 10 / 3.55 (frame71)</pre><p><b>用途：</b>用于高度遮罩的动态扰动。</p><p><b>记录状态：</b>视频读值（该时点）</p><p><b>来源：</b>旧版教学记录</p><button data-time="1550">定位原片 25:50</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v04_1550.jpg.webp" alt="已有核对记录的原片截图"></details><h3>跟做练习</h3><p>先复现本课黑白形状，再观察颜色或动画的作用；每次只修改一个参数，并对照对应截图。</p><h3>这组记录仍未解决的内容</h3><ul><li>视频Physical Material适配为Arnold Standard Surface。</li><li>火焰平面350×500、相机、未展示的动画起点及端点白色为补齐值。</li><li>Ramp8插值未确认，工程采用Linear；其余新增旗标数值和最终合成模式见“深入核对”。</li></ul><p>以上为旧版记录中的待核对项；本页其他章节若有更新证据，应按其注明的版本与时点对照，不能把所有阶段数值混成一组最终参数。</p></section><h2>原片画面索引</h2><article class="sample"><button data-time="129.27">定位 00:02:09</button><a href="/classroom/course-assets/frames/course30/01_129.27s.jpg.webp"><img loading="lazy" src="/classroom/course-assets/frames/course30/01_129.27s.jpg.webp" alt="教学1.mp4 source frame at 01_129.27s"></a></article><article class="sample"><button data-time="484.76">定位 00:08:04</button><a href="/classroom/course-assets/frames/course30/02_484.76s.jpg.webp"><img loading="lazy" src="/classroom/course-assets/frames/course30/02_484.76s.jpg.webp" alt="教学1.mp4 source frame at 02_484.76s"></a></article><article class="sample"><button data-time="888.73">定位 00:14:48</button><a href="/classroom/course-assets/frames/course30/03_888.73s.jpg.webp"><img loading="lazy" src="/classroom/course-assets/frames/course30/03_888.73s.jpg.webp" alt="教学1.mp4 source frame at 03_888.73s"></a></article><article class="sample"><button data-time="1292.7">定位 00:21:32</button><a href="/classroom/course-assets/frames/course30/04_1292.70s.jpg.webp"><img loading="lazy" src="/classroom/course-assets/frames/course30/04_1292.70s.jpg.webp" alt="教学1.mp4 source frame at 04_1292.70s"></a></article><article class="sample"><button data-time="1535.08">定位 00:25:35</button><a href="/classroom/course-assets/frames/course30/05_1535.08s.jpg.webp"><img loading="lazy" src="/classroom/course-assets/frames/course30/05_1535.08s.jpg.webp" alt="教学1.mp4 source frame at 05_1535.08s"></a></article><script>const v=document.querySelector("video");document.querySelectorAll("[data-time]").forEach(b=>b.onclick=()=>{const t=+b.dataset.time;if(v.readyState===0){v.preload="metadata";v.load();v.addEventListener("loadedmetadata",()=>{v.currentTime=t;},{once:true});}else{v.currentTime=t;}v.scrollIntoView({behavior:"smooth",block:"center"});});</script></main></html><script src="/classroom/local-video.js" defer></script>

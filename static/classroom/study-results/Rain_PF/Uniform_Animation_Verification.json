@@ -1,0 +1,16 @@
+{
+  "native_file": "/classroom/course-assets/rain-uniform/03_Uniform_Splash_Scale.max",
+  "source_sha256": "2c683ccf0c110a7a2e0151d731b7a396afc5207aaade2a4be0be4ac4a854bba4",
+  "frames": 121,
+  "first": 0,
+  "last": 120,
+  "fps": 30,
+  "size": [
+    640,
+    480
+  ],
+  "mp4_decoded_frames": 121,
+  "pngs_verified": true,
+  "movie_sha256": "f81a8b3082875216edd924756c464f63e5351509ef12763120850c8e9a9a7e11",
+  "scope": "Uniform splash scaling study animation; remaining teacher alignment and local-impact ripple work not complete."
+}

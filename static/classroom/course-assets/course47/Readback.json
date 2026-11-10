@@ -1,0 +1,41 @@
+{
+  "source": "课堂4.mp4",
+  "stages": [
+    {
+      "file": "/classroom/course-assets/course47/01_Object_Far300.max",
+      "reopened": true,
+      "type": 4,
+      "direction": 3,
+      "near": 10.0,
+      "far": 300.0,
+      "point": "[459.374,-17.81,185.942]",
+      "emission": 1.0,
+      "luminance": 5.0
+    },
+    {
+      "file": "/classroom/course-assets/course47/02_Object_Far200.max",
+      "reopened": true,
+      "type": 4,
+      "direction": 3,
+      "near": 10.0,
+      "far": 200.0,
+      "point": "[459.374,-17.81,185.942]",
+      "emission": 1.0,
+      "luminance": 5.0
+    }
+  ],
+  "curve": "copied from teacher saved Falloff50; native curve retained, temporal match to18:50 not yet verified",
+  "matched": "17:00 Point001 position459.374,-17.81,185.942; size150; Near10 Far300 then18:50Far200; Object reference",
+  "supplements": [
+    "previous lesson camera and lighting retained",
+    "Luminance5 retained from course46; not visible in current source panel"
+  ],
+  "pending": [
+    "camera framing and transforms",
+    "camera-distance stage725/875",
+    "Shadow Light early stage",
+    "exact temporal curve verification",
+    "full-video continuous review",
+    "assessment deliverable"
+  ]
+}

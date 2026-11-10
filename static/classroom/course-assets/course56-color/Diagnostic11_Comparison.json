@@ -1,0 +1,26 @@
+{
+  "A_D_exactly_identical": true,
+  "background_difference_RGB_means": {
+    "A_Original": [
+      1.8696321614583333,
+      0.9648404947916667,
+      0.6263704427083333
+    ],
+    "B_NoFourthNoise": [
+      6.047923177083334,
+      3.090302734375,
+      2.01845703125
+    ],
+    "C_NoOpacity": [
+      25.835416666666667,
+      7.6542578125,
+      5.886383463541667
+    ],
+    "D_WhiteEmissionColor": [
+      1.8696321614583333,
+      0.9648404947916667,
+      0.6263704427083333
+    ]
+  },
+  "conclusion": "Fourth opacity layer attenuates strongly; changing unconnected constant emission color has no effect with current shader map. Camera not isolated by this test."
+}

@@ -1,0 +1,102 @@
+{
+  "source": "课堂6.mp4",
+  "native_archive_index": 14,
+  "stages": [
+    {
+      "file": "/classroom/course-assets/course49/01_GrayPattern.max",
+      "reopened": true,
+      "emission_map": "贴图 #56",
+      "cutout_enabled": false,
+      "emission": 1.0,
+      "luminance": 50.0
+    },
+    {
+      "file": "/classroom/course-assets/course49/02_ColorRamp.max",
+      "reopened": true,
+      "emission_map": "贴图 #59",
+      "cutout_enabled": false,
+      "emission": 1.0,
+      "luminance": 50.0
+    },
+    {
+      "file": "/classroom/course-assets/course49/03_CellularOverlay.max",
+      "reopened": true,
+      "emission_map": "贴图 #62",
+      "cutout_enabled": false,
+      "emission": 1.0,
+      "luminance": 50.0
+    },
+    {
+      "file": "/classroom/course-assets/course49/04_Highlight.max",
+      "reopened": true,
+      "emission_map": "贴图 #62",
+      "cutout_enabled": false,
+      "emission": 1.0,
+      "luminance": 50.0
+    }
+  ],
+  "bindings": [],
+  "graph": [
+    {
+      "name": "贴图 #62",
+      "class": "CompositeTexturemap"
+    },
+    {
+      "name": "贴图 #59",
+      "class": "Gradient_Ramp"
+    },
+    {
+      "name": "贴图 #56",
+      "class": "CompositeTexturemap"
+    },
+    {
+      "name": "贴图 #58",
+      "class": "CompositeTexturemap"
+    },
+    {
+      "name": "贴图 #54",
+      "class": "Gradient_Ramp"
+    },
+    {
+      "name": "贴图 #53",
+      "class": "falloff"
+    },
+    {
+      "name": "贴图 #57",
+      "class": "Noise"
+    },
+    {
+      "name": "贴图 #55",
+      "class": "Cellular"
+    },
+    {
+      "name": "贴图 #63",
+      "class": "Cellular"
+    },
+    {
+      "name": "贴图 #61",
+      "class": "Gradient_Ramp"
+    },
+    {
+      "name": "贴图 #60",
+      "class": "falloff"
+    }
+  ],
+  "modes": [
+    0,
+    9,
+    8
+  ],
+  "opacity": [
+    100.0,
+    100.0,
+    100.0
+  ],
+  "limits": [
+    "Native saved graph, intermediate states are explanatory isolations, not verified exact temporal copies",
+    "Previous lesson camera retained; this lesson camera movements pending",
+    "Object-direction highlight rebound to current Tape002 if library reference absent; exact transform pending",
+    "28 overview samples, not exhaustive frame review",
+    "Emission1/Luminance50/Kelvin6500 verified from source save; temporal change point pending"
+  ]
+}

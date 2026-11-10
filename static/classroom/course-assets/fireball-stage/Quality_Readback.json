@@ -1,0 +1,14 @@
+{
+  "saved_reopened": true,
+  "file": "/classroom/course-assets/fireball-stage/09_Fireball_Bloom_Animation.max",
+  "frame": 32,
+  "AA_samples": 4,
+  "GI_diffuse_samples": 3,
+  "bloom_strength": 0.6000000238418579,
+  "render_seconds": 14.178200006484985,
+  "size": [
+    640,
+    320
+  ],
+  "source": "Original source animation; supplemental sampling and Lens Effects"
+}

@@ -1,0 +1,23 @@
+{
+  "source": "Test4_Source_Study.max",
+  "model_preserved": true,
+  "material_preserved": true,
+  "camera_supplement": true,
+  "camera_position": "[-0.233846,-130.479,77.6847]",
+  "camera_target": "[-0.233846,-0.479103,52.6847]",
+  "fov": 35,
+  "bounds": [
+    "[-4.98926,-5.23452,40.7255]",
+    "[4.52157,4.27631,64.644]"
+  ],
+  "vertices": 482,
+  "faces": 960,
+  "drop_position": "[-0.233845,-0.479104,52.6847]",
+  "material_class": "ai_standard_surface",
+  "base": 0.0,
+  "specular": 0.0,
+  "emission": 0.800000011920929,
+  "emission_map": "贴图 #56:Composite",
+  "opacity_map": "贴图 #45:Falloff",
+  "scope": "Static source water-drop model/material study; not Particle Flow rain or impact simulation."
+}

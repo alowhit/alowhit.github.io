@@ -1,0 +1,21 @@
+{
+  "file": "/classroom/course-assets/course45/05_Object_Direction_Corrected.max",
+  "reopened": true,
+  "direction": 3,
+  "object": "Box001",
+  "gui_label": "Object",
+  "old_direction": 1,
+  "old_gui_label": "Camera X-Axis",
+  "renders": [
+    "/classroom/course-assets/course45/05_Object_Direction_Corrected.png.webp",
+    "/classroom/course-assets/course45/05a_Through_Rim.png.webp",
+    "/classroom/course-assets/course45/05b_Through_Highlight.png.webp"
+  ],
+  "pending": [
+    "Highlight curve linear; GUI trial discarded",
+    "Rim curve approximate",
+    "Box position inherited later teacher file",
+    "gray values supplemental",
+    "camera mismatch"
+  ]
+}

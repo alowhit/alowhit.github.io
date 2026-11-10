@@ -1,0 +1,18 @@
+{
+  "file": "/classroom/course-assets/course51-camera/06_SourceLens_Partial.max",
+  "reopened": true,
+  "specify_fov": false,
+  "film_width_mm": 36.0,
+  "focal_length_mm": 40.0,
+  "zoom_factor": 1.0,
+  "f_number": 8.0,
+  "use_dof": false,
+  "motion_blur_enabled": false,
+  "camera_position_supplement": "[0,-125,40]",
+  "target_supplement": "[0,65.956,40]",
+  "exposure_unconfirmed": 6.0,
+  "limitations": [
+    "Lens controls match creation-stage570s; final transform and exposure not recovered",
+    "Gradient flags still partly estimated; room emission gray supplemental"
+  ]
+}

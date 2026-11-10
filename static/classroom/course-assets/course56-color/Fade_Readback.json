@@ -1,0 +1,472 @@
+{
+  "reopened": true,
+  "blend_modes": [
+    0,
+    5,
+    4
+  ],
+  "layer_opacity": [
+    100.0,
+    100.0,
+    100.0
+  ],
+  "keys": [
+    {
+      "time": "0f",
+      "value": 0.0,
+      "in": "smooth",
+      "out": "linear"
+    },
+    {
+      "time": "15f",
+      "value": 0.0,
+      "in": "linear",
+      "out": "smooth"
+    },
+    {
+      "time": "30f",
+      "value": 0.019999999552965164,
+      "in": "smooth",
+      "out": "smooth"
+    },
+    {
+      "time": "45f",
+      "value": -0.05000000074505806,
+      "in": "smooth",
+      "out": "slow"
+    },
+    {
+      "time": "60f",
+      "value": -0.3199999928474426,
+      "in": "linear",
+      "out": "smooth"
+    }
+  ],
+  "samples": [
+    {
+      "frame": 0,
+      "V_Offset": 0.0
+    },
+    {
+      "frame": 1,
+      "V_Offset": 0.0
+    },
+    {
+      "frame": 2,
+      "V_Offset": 0.0
+    },
+    {
+      "frame": 3,
+      "V_Offset": 0.0
+    },
+    {
+      "frame": 4,
+      "V_Offset": 0.0
+    },
+    {
+      "frame": 5,
+      "V_Offset": 0.0
+    },
+    {
+      "frame": 6,
+      "V_Offset": 0.0
+    },
+    {
+      "frame": 7,
+      "V_Offset": 0.0
+    },
+    {
+      "frame": 8,
+      "V_Offset": 0.0
+    },
+    {
+      "frame": 9,
+      "V_Offset": 0.0
+    },
+    {
+      "frame": 10,
+      "V_Offset": 0.0
+    },
+    {
+      "frame": 11,
+      "V_Offset": 0.0
+    },
+    {
+      "frame": 12,
+      "V_Offset": 0.0
+    },
+    {
+      "frame": 13,
+      "V_Offset": 0.0
+    },
+    {
+      "frame": 14,
+      "V_Offset": 0.0
+    },
+    {
+      "frame": 15,
+      "V_Offset": 0.0
+    },
+    {
+      "frame": 16,
+      "V_Offset": 0.00035851856227964163
+    },
+    {
+      "frame": 17,
+      "V_Offset": 0.0013570372248068452
+    },
+    {
+      "frame": 18,
+      "V_Offset": 0.0028800000436604023
+    },
+    {
+      "frame": 19,
+      "V_Offset": 0.004811852239072323
+    },
+    {
+      "frame": 20,
+      "V_Offset": 0.007037037052214146
+    },
+    {
+      "frame": 21,
+      "V_Offset": 0.009440001100301743
+    },
+    {
+      "frame": 22,
+      "V_Offset": 0.011905184015631676
+    },
+    {
+      "frame": 23,
+      "V_Offset": 0.014317037537693977
+    },
+    {
+      "frame": 24,
+      "V_Offset": 0.01655999943614006
+    },
+    {
+      "frame": 25,
+      "V_Offset": 0.018518518656492233
+    },
+    {
+      "frame": 26,
+      "V_Offset": 0.020077036693692207
+    },
+    {
+      "frame": 27,
+      "V_Offset": 0.02112000063061714
+    },
+    {
+      "frame": 28,
+      "V_Offset": 0.021531851962208748
+    },
+    {
+      "frame": 29,
+      "V_Offset": 0.021197037771344185
+    },
+    {
+      "frame": 30,
+      "V_Offset": 0.019999999552965164
+    },
+    {
+      "frame": 31,
+      "V_Offset": 0.017656296491622925
+    },
+    {
+      "frame": 32,
+      "V_Offset": 0.014094814658164978
+    },
+    {
+      "frame": 33,
+      "V_Offset": 0.009520000778138638
+    },
+    {
+      "frame": 34,
+      "V_Offset": 0.004136295523494482
+    },
+    {
+      "frame": 35,
+      "V_Offset": -0.001851854263804853
+    },
+    {
+      "frame": 36,
+      "V_Offset": -0.008240001276135445
+    },
+    {
+      "frame": 37,
+      "V_Offset": -0.014823704026639462
+    },
+    {
+      "frame": 38,
+      "V_Offset": -0.021398521959781647
+    },
+    {
+      "frame": 39,
+      "V_Offset": -0.02776000089943409
+    },
+    {
+      "frame": 40,
+      "V_Offset": -0.03370370715856552
+    },
+    {
+      "frame": 41,
+      "V_Offset": -0.03902518376708031
+    },
+    {
+      "frame": 42,
+      "V_Offset": -0.0435200035572052
+    },
+    {
+      "frame": 43,
+      "V_Offset": -0.04698370769619942
+    },
+    {
+      "frame": 44,
+      "V_Offset": -0.04921185225248337
+    },
+    {
+      "frame": 45,
+      "V_Offset": -0.05000000074505806
+    },
+    {
+      "frame": 46,
+      "V_Offset": -0.05190518498420715
+    },
+    {
+      "frame": 47,
+      "V_Offset": -0.05741926282644272
+    },
+    {
+      "frame": 48,
+      "V_Offset": -0.06624000519514084
+    },
+    {
+      "frame": 49,
+      "V_Offset": -0.07806519418954849
+    },
+    {
+      "frame": 50,
+      "V_Offset": -0.09259258955717087
+    },
+    {
+      "frame": 51,
+      "V_Offset": -0.10952001065015793
+    },
+    {
+      "frame": 52,
+      "V_Offset": -0.12854517996311188
+    },
+    {
+      "frame": 53,
+      "V_Offset": -0.14936593174934387
+    },
+    {
+      "frame": 54,
+      "V_Offset": -0.1716800034046173
+    },
+    {
+      "frame": 55,
+      "V_Offset": -0.19518518447875977
+    },
+    {
+      "frame": 56,
+      "V_Offset": -0.21957924962043762
+    },
+    {
+      "frame": 57,
+      "V_Offset": -0.24456000328063965
+    },
+    {
+      "frame": 58,
+      "V_Offset": -0.26982519030570984
+    },
+    {
+      "frame": 59,
+      "V_Offset": -0.2950725853443146
+    },
+    {
+      "frame": 60,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 61,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 62,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 63,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 64,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 65,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 66,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 67,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 68,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 69,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 70,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 71,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 72,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 73,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 74,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 75,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 76,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 77,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 78,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 79,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 80,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 81,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 82,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 83,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 84,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 85,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 86,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 87,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 88,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 89,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 90,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 91,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 92,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 93,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 94,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 95,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 96,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 97,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 98,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 99,
+      "V_Offset": -0.3199999928474426
+    },
+    {
+      "frame": 100,
+      "V_Offset": -0.3199999928474426
+    }
+  ],
+  "confirmed": [
+    "31:20 Layer1 Normal Layer2 Multiply Layer3 Darken opacity100",
+    "31:00 white flag31; W Angle90 Linear gradient; source interpolation Ease Out",
+    "36:00 key30 .020;36:20 key45 -.050;37:00 key60 -.320"
+  ],
+  "estimated": [
+    "black middle stop50 from handle location",
+    "keys0/15 value0 inferred from curve",
+    "tangents inferred, not exact teacher handles",
+    "Linear flag interpolation pending native Ease Out correction"
+  ],
+  "correction": "Previous55/56 stages used enum4 Darken while labelled Multiply. New03 and04 use enum5 Multiply. Old checkpoints retained for comparison.",
+  "remaining": [
+    "source Ease Out ramp interpolation",
+    "early transform retiming",
+    "fourth Noise layer",
+    "model Noise modifier",
+    "exact camera exposure",
+    "full animation",
+    "assessment"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "file": "/classroom/course-assets/fireball-stage/03_Taller_Room_Higher_Samples.max",
+  "saved_reopened": true,
+  "frame": 32,
+  "render_seconds": 94.28850150108337,
+  "AA_samples": 6,
+  "GI_diffuse_samples": 4,
+  "room_scale": [
+    1.0,
+    1.0,
+    2.0
+  ],
+  "room_bounds": "#([-1400,-600,-2.45938e-05], [1400,400,800])",
+  "fidelity": "Supplemental room scale and sampling; camera and shader unchanged from 02."
+}

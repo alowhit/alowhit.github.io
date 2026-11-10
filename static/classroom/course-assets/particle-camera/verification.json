@@ -1,0 +1,154 @@
+{
+  "source": "[本机资料路径]",
+  "source_sha256": "fbf29b3a8b9be1c44573185fe1603db6dcea3cc557af7e5afc74f92ed2309dbd",
+  "source_settings": {
+    "renderer": "Default_Scanline_Renderer",
+    "frame_rate": 30,
+    "range": "(interval 0f 100f)"
+  },
+  "supplemental_camera": {
+    "position": [
+      0,
+      -200,
+      60
+    ],
+    "target": [
+      0,
+      0,
+      60
+    ],
+    "fov": 45,
+    "output": [
+      640,
+      640
+    ]
+  },
+  "changes": [
+    "Added Study_Camera",
+    "GeoSphere001 and GeoSphere002 renderable=false; still available to particle operators"
+  ],
+  "preserved": "Particle Flow operators, links, material, seeds, frame range and renderer loaded from source study",
+  "saved_scene_reloaded_before_render": true,
+  "samples": [
+    {
+      "frame": 0,
+      "particles": 120
+    },
+    {
+      "frame": 4,
+      "particles": 120
+    },
+    {
+      "frame": 8,
+      "particles": 120
+    },
+    {
+      "frame": 12,
+      "particles": 120
+    },
+    {
+      "frame": 16,
+      "particles": 120
+    },
+    {
+      "frame": 20,
+      "particles": 120
+    },
+    {
+      "frame": 24,
+      "particles": 120
+    },
+    {
+      "frame": 28,
+      "particles": 120
+    },
+    {
+      "frame": 32,
+      "particles": 120
+    },
+    {
+      "frame": 36,
+      "particles": 120
+    },
+    {
+      "frame": 40,
+      "particles": 120
+    },
+    {
+      "frame": 44,
+      "particles": 120
+    },
+    {
+      "frame": 48,
+      "particles": 120
+    },
+    {
+      "frame": 52,
+      "particles": 120
+    },
+    {
+      "frame": 56,
+      "particles": 120
+    },
+    {
+      "frame": 60,
+      "particles": 120
+    },
+    {
+      "frame": 64,
+      "particles": 120
+    },
+    {
+      "frame": 68,
+      "particles": 120
+    },
+    {
+      "frame": 72,
+      "particles": 120
+    },
+    {
+      "frame": 76,
+      "particles": 120
+    },
+    {
+      "frame": 80,
+      "particles": 120
+    },
+    {
+      "frame": 84,
+      "particles": 120
+    },
+    {
+      "frame": 88,
+      "particles": 120
+    },
+    {
+      "frame": 92,
+      "particles": 120
+    },
+    {
+      "frame": 96,
+      "particles": 120
+    },
+    {
+      "frame": 100,
+      "particles": 120
+    }
+  ],
+  "not_final_assessment": true,
+  "gui_verification": {
+    "opened_saved_scene": true,
+    "f9_frame": 0,
+    "camera": "Study_Camera",
+    "observed": "Full cloud visible, standalone reference spheres absent",
+    "date": "2026-11-09"
+  },
+  "preview": {
+    "file": "/classroom/course-assets/particle-camera/ParticleFlow_Preview.mp4",
+    "sample_count": 26,
+    "sample_step": 4,
+    "playback_fps": 7.5,
+    "not_full_frame_output": true
+  },
+  "scene_sha256": "bc01e65ac21adcb22a7b568078487cfe0d06e167ce65782970601b4d6bee542d"
+}

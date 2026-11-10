@@ -1,0 +1,248 @@
+{
+  "assignment": "火球",
+  "rubric_source_sha256": "603b28f9cbe4aeb4287054b534b8f34d226b578d141bb28dba339c234729688b",
+  "scope": "Evidence map,not grading or completion certification",
+  "rows": [
+    {
+      "cell": "B3",
+      "requirement": "尺寸设置",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "已读回基础圆柱 Radius100 / Height800、10段、24边。",
+      "remaining": "系统单位、最终整体尺寸仍需在交付工程内统一复核。",
+      "files": [
+        {
+          "path": "Course35_FireballModel/Readback.json",
+          "bytes": 1448,
+          "sha256": "2af32af447078c884b1a5be317b6e1aada019b37648716d39ef4d3e3eca060dd"
+        }
+      ],
+      "lesson": "course35.html#carrier-model"
+    },
+    {
+      "cell": "B4",
+      "requirement": "渲染器设置",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "Arnold 渲染已实际输出；09预览 AA4、Diffuse3。",
+      "remaining": "最终整段输出质量仍待验收。",
+      "files": [
+        {
+          "path": "Fireball_Assessment/Stage_Inspection.json",
+          "bytes": 12003,
+          "sha256": "3d16b691f3aeaf422a942ce01562daf7dca3e3211772201e00460cd1024738fa"
+        },
+        {
+          "path": "Fireball_Assessment/Quality_Readback.json",
+          "bytes": 342,
+          "sha256": "ab631eb8ea7c2084fa7dd1b3cc777faeda74e71af1b9c3decd1c10be35ac86b1"
+        }
+      ],
+      "lesson": "course43.html#fireball-bloom"
+    },
+    {
+      "cell": "B5",
+      "requirement": "标准材质设置",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "源文件含 ai_standard_surface、PhysicalMaterial、ai_two_sided。",
+      "remaining": "不同材质类别应按实际节点说明；不能将 Physical Material 全部改称 Arnold Standard Surface。",
+      "files": [
+        {
+          "path": "Class2_Fire_Deep/Deep_Readback.json",
+          "bytes": 36661,
+          "sha256": "1c38c7fa9fed46ff8423ce69d56925240869ab3bfee209e6bf650efe867a8299"
+        }
+      ],
+      "lesson": "course42.html#two-sided-study"
+    },
+    {
+      "cell": "B6",
+      "requirement": "程序纹理贴图设置",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "原生 Noise、Gradient Ramp、Composite、Falloff 属性与连接已读回。",
+      "remaining": "部分 Falloff 曲线控制点和课堂中途值尚未逐值核对。",
+      "files": [
+        {
+          "path": "Class2_Fire_Deep/Deep_Readback.json",
+          "bytes": 36661,
+          "sha256": "1c38c7fa9fed46ff8423ce69d56925240869ab3bfee209e6bf650efe867a8299"
+        }
+      ],
+      "lesson": "course43.html#core-and-shell"
+    },
+    {
+      "cell": "B7",
+      "requirement": "材质及贴图应用设置",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "三个火球模型已保留材质分配并实际组合渲染。",
+      "remaining": "最终所有子材质连接仍需对交付版汇总复核。",
+      "files": [
+        {
+          "path": "Class2_Fire_Deep/Deep_Readback.json",
+          "bytes": 36661,
+          "sha256": "1c38c7fa9fed46ff8423ce69d56925240869ab3bfee209e6bf650efe867a8299"
+        },
+        {
+          "path": "Class2_Fire_Deep/Layers_Readback.json",
+          "bytes": 549,
+          "sha256": "1ec9a669bea20c3f606a5c166a817ab6abbf93919c827a228f02df9fdb7ec064"
+        }
+      ],
+      "lesson": "course43.html#core-and-shell"
+    },
+    {
+      "cell": "B8",
+      "requirement": "动态纹理设置",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "Phase、Offset六时刻读回；原生0–100帧已实际渲染。",
+      "remaining": "保留控制器不等于老师所有关键帧及切线均已逐值复刻。",
+      "files": [
+        {
+          "path": "Class2_Fire_Deep/Animation_Readback.json",
+          "bytes": 4440,
+          "sha256": "5ee80f7769c7f8b6fc5abb7b6c2ec768b9d59eafe1a956bee8d6d00b86c36fc1"
+        },
+        {
+          "path": "Fireball_Assessment/Animation_Verification.json",
+          "bytes": 22734,
+          "sha256": "bb86944b02614181464ca5a205a94dc487f0ce68fc17ffc702d9dd54ae49ce94"
+        }
+      ],
+      "lesson": "course43.html#fireball-animation-parameters"
+    },
+    {
+      "cell": "B9",
+      "requirement": "场景模型设置",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "Loft001及三个火球模型在源保存视口中参与渲染。",
+      "remaining": "原生场景存在不等于Loft创建的每个操作都已逐步复刻。",
+      "files": [
+        {
+          "path": "Fireball_Assessment/Source_View_Inspection.json",
+          "bytes": 491,
+          "sha256": "544ec3eeb7a61e5e77cd05abc06003ec525a4b83b8296aec029c1298dec014ce"
+        }
+      ],
+      "lesson": "course43.html#fireball-source-view"
+    },
+    {
+      "cell": "B10",
+      "requirement": "多边形编辑设置",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "双端开口修正版已保存重开：240面264顶点，无残留端盖。",
+      "remaining": "后续Taper和头部修改器顺序及每个中间拓扑仍需检查。",
+      "files": [
+        {
+          "path": "Course35_FireballModel/Both_Ends_Readback.json",
+          "bytes": 631,
+          "sha256": "6b47f91aa269a625ebc72f17fe308b86ae2bd39c2b81eafd1133f6c519c252e9"
+        }
+      ],
+      "lesson": "course35.html#cap-correction"
+    },
+    {
+      "cell": "B11",
+      "requirement": "UV编辑设置",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "最终09工程Frame50已读取：三个效果模型均有Map Channel 1，无零面积UV三角形；展开图与接缝边数已导出。",
+      "remaining": "老师手动UV编辑步骤、纹理接缝动画表现、重叠及拉伸仍未全部核对。",
+      "files": [
+        {
+          "path": "Fireball_Assessment/Final_UV_Audit.json",
+          "bytes": 30770,
+          "sha256": "8a8a98986731d4b6ce604857a658cc6c8467cab8b0d9691548922b54727e0620"
+        }
+      ],
+      "lesson": "course43.html#final-uv-audit"
+    },
+    {
+      "cell": "B12",
+      "requirement": "设置贴图坐标系",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "Noise与Ramp的 Coordinates、Channel、Tiling和Offset已读回。",
+      "remaining": "需要继续区分贴图坐标设置与网格UV编辑，二者不能互相代替。",
+      "files": [
+        {
+          "path": "Class2_Fire_Deep/Deep_Readback.json",
+          "bytes": 36661,
+          "sha256": "1c38c7fa9fed46ff8423ce69d56925240869ab3bfee209e6bf650efe867a8299"
+        }
+      ],
+      "lesson": "course43.html#fireball-animation-parameters"
+    },
+    {
+      "cell": "B25",
+      "requirement": "设置镜头效果光晕特效",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "原生Arnold Lens Effects已保存重开，并完成0–100帧光晕动画。",
+      "remaining": "光晕参数为补设；老师原参数和最终效果仍待核对。",
+      "files": [
+        {
+          "path": "Fireball_Assessment/Bloom_Strong_Readback.json",
+          "bytes": 373,
+          "sha256": "4ff6560821288a6b4b7a0319691e31d07b0fb96270b55b90b20f636fab3f532a"
+        },
+        {
+          "path": "Fireball_Assessment/Bloom_Animation_Verification.json",
+          "bytes": 22820,
+          "sha256": "a59c978c8136d2307b2e2fefc9cf57221a0a75340f0b96c32bf947b4b9ae2042"
+        }
+      ],
+      "lesson": "course43.html#fireball-bloom-animation"
+    },
+    {
+      "cell": "B26",
+      "requirement": "设置光晕尺寸强度",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "Radius16，Strength0.12与0.6两版实际渲染。",
+      "remaining": "数值为补设值，尚未判定最终审美和评分通过。",
+      "files": [
+        {
+          "path": "Fireball_Assessment/Bloom_Readback.json",
+          "bytes": 371,
+          "sha256": "24e7620ba8c844cbe47e53e51b8e06be4ee62facbc1e4c82b467e8967a9431d0"
+        },
+        {
+          "path": "Fireball_Assessment/Bloom_Strong_Readback.json",
+          "bytes": 373,
+          "sha256": "4ff6560821288a6b4b7a0319691e31d07b0fb96270b55b90b20f636fab3f532a"
+        }
+      ],
+      "lesson": "course43.html#fireball-bloom"
+    },
+    {
+      "cell": "B27",
+      "requirement": "设置光晕影响范围",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "Threshold1.2已保存重开读回。",
+      "remaining": "亮度阈值有证据；若要求对象或AOV选择范围，还需另行确认与实现。",
+      "files": [
+        {
+          "path": "Fireball_Assessment/Bloom_Strong_Readback.json",
+          "bytes": 373,
+          "sha256": "4ff6560821288a6b4b7a0319691e31d07b0fb96270b55b90b20f636fab3f532a"
+        }
+      ],
+      "lesson": "course43.html#fireball-bloom"
+    },
+    {
+      "cell": "B28",
+      "requirement": "设置渲染输出格式",
+      "status": "evidence_present_review_incomplete",
+      "evidence": "无光晕与光晕两版均输出101帧；光晕H.264 MP4已完整解码101帧。",
+      "remaining": "当前640×320为预览尺寸；最终尺寸、视觉质量和提交打包尚待验收。",
+      "files": [
+        {
+          "path": "Fireball_Assessment/Animation_Verification.json",
+          "bytes": 22734,
+          "sha256": "bb86944b02614181464ca5a205a94dc487f0ce68fc17ffc702d9dd54ae49ce94"
+        },
+        {
+          "path": "Fireball_Assessment/Bloom_Animation_Verification.json",
+          "bytes": 22820,
+          "sha256": "a59c978c8136d2307b2e2fefc9cf57221a0a75340f0b96c32bf947b4b9ae2042"
+        }
+      ],
+      "lesson": "course43.html#fireball-bloom-animation"
+    }
+  ],
+  "final_pass": false
+}

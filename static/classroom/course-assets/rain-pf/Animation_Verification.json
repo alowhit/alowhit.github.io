@@ -1,0 +1,20 @@
+{
+  "frames": 121,
+  "first": 0,
+  "last": 120,
+  "fps": 30,
+  "seconds": 4.033333333333333,
+  "dimensions": [
+    640,
+    480
+  ],
+  "decoded_all_pngs": true,
+  "unique_frame_hashes": 121,
+  "native_scene": "/classroom/course-assets/rain-pf/Rain_Animated_Study.max",
+  "provenance": "Original drop model/shader and water shader with supplemental PF simulation, shape deformation and camera",
+  "not_claimed": [
+    "complete rain rubric",
+    "teacher-exact PF parameters",
+    "impact-local circular ripple simulation"
+  ]
+}

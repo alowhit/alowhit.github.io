@@ -1,0 +1,53 @@
+{
+  "modifier": {
+    "strength": [
+      20.0,
+      20.0,
+      0.0
+    ],
+    "scale": 100.0,
+    "fractal": true,
+    "roughness": 0.0,
+    "iterations": 6.0,
+    "animate": true,
+    "frequency": 0.25
+  },
+  "noise": {
+    "type": 2,
+    "size": 0.30000001192092896,
+    "levels": 3.0,
+    "thresholdLow": 0.0,
+    "thresholdHigh": 0.8999999761581421,
+    "phase": -4.0,
+    "tiling": [
+      3.0,
+      4.0,
+      1.0
+    ],
+    "offset": [
+      0.0,
+      8.0,
+      0.0
+    ],
+    "color1": "(color 18.36 18.36 18.36)"
+  },
+  "blend_modes": [
+    0,
+    5,
+    4,
+    5
+  ],
+  "confirmed": [
+    "50:00 modifier20/20/0 scale100 Fractal0roughness6iterations AnimateON frequency.25",
+    "44:00 fourthLayer Multiply100",
+    "55:00 Noise size.3 Turbulence levels3 threshold0/.9 tiling3/4/1 offset0/8/0 phase-4",
+    "54:10 color1 sceneRGB .072 display77"
+  ],
+  "limitations": [
+    "Color uses rounded scene .072 as displayed",
+    "First opacity fixed at Frame28 snapshot; gradient flags approximate",
+    "Fourth Noise fixed at final source values, no recovered keyframes",
+    "Modifier default gizmo/phase start used; full trajectory not verified",
+    "Camera and full timeline still incomplete"
+  ]
+}

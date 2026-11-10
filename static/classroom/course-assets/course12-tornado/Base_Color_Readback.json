@@ -1,0 +1,53 @@
+{
+  "reopened": true,
+  "shared_composite_for_color_and_opacity": true,
+  "flags": [
+    {
+      "position": 0,
+      "scene_rgb_255": [
+        255.0,
+        30.0,
+        0.0
+      ]
+    },
+    {
+      "position": 50.0,
+      "scene_rgb_255": [
+        255.0,
+        60.0,
+        0.0
+      ]
+    },
+    {
+      "position": 100,
+      "scene_rgb_255": [
+        255.0,
+        179.0,
+        23.0
+      ]
+    }
+  ],
+  "base": 0.0,
+  "specular": 0.0,
+  "emission": 1.0,
+  "confirmed": [
+    "Left SceneRGB255,30,0 at1585s",
+    "Middle SceneRGB255,60,0 Position50 at1596s",
+    "Right SceneRGB255,179,23 Position100 at1602s",
+    "Mapped type Linear interpolation source Composite49 at1605s",
+    "Emission1 at1665s;Specular0 at1635s;Base0 at1620s"
+  ],
+  "precision": "RGB255 integers read from ramp status; color-picker scene decimals rounded to three digits",
+  "pending": [
+    "exact mesh transforms",
+    "animation",
+    "source camera/background",
+    "full assessment"
+  ],
+  "inherited_limitations": [
+    "Estimated gradient mask flags and model proportions",
+    "Diagnostic camera and lighting",
+    "Main tornado palette and UV remain partly estimated",
+    "Unused native template flags overlap at100"
+  ]
+}

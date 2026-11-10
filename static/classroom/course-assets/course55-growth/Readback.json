@@ -1,0 +1,131 @@
+{
+  "stages": [
+    {
+      "stage": "01_Early_ZGrowth",
+      "reopened": true,
+      "samples": [
+        {
+          "frame": 0,
+          "scale_percent": [
+            100.0,
+            100.0,
+            0.0
+          ],
+          "position": "[0,65.956,0]"
+        },
+        {
+          "frame": 25,
+          "scale_percent": [
+            100.0,
+            100.0,
+            15.62499850988388
+          ],
+          "position": "[0,65.956,0]"
+        },
+        {
+          "frame": 50,
+          "scale_percent": [
+            100.0,
+            100.0,
+            50.0
+          ],
+          "position": "[0,65.956,0]"
+        },
+        {
+          "frame": 75,
+          "scale_percent": [
+            100.0,
+            100.0,
+            84.375
+          ],
+          "position": "[0,65.956,19]"
+        },
+        {
+          "frame": 100,
+          "scale_percent": [
+            100.0,
+            100.0,
+            100.0
+          ],
+          "position": "[0,65.956,38]"
+        }
+      ],
+      "scale_controller": "bezier_scale",
+      "scale_keys": 2
+    },
+    {
+      "stage": "02_Late_Growth_Falloff",
+      "reopened": true,
+      "samples": [
+        {
+          "frame": 0,
+          "scale_percent": [
+            50.0,
+            50.0,
+            0.0
+          ],
+          "position": "[0,65.956,0]"
+        },
+        {
+          "frame": 25,
+          "scale_percent": [
+            65.625,
+            65.625,
+            18.74999850988388
+          ],
+          "position": "[0,65.956,0]"
+        },
+        {
+          "frame": 50,
+          "scale_percent": [
+            100.0,
+            100.0,
+            60.00000238418579
+          ],
+          "position": "[0,65.956,0]"
+        },
+        {
+          "frame": 75,
+          "scale_percent": [
+            134.375,
+            134.375,
+            101.25000476837158
+          ],
+          "position": "[0,65.956,19]"
+        },
+        {
+          "frame": 100,
+          "scale_percent": [
+            150.0,
+            150.0,
+            120.00000476837158
+          ],
+          "position": "[0,65.956,38]"
+        }
+      ],
+      "scale_controller": "bezier_scale",
+      "scale_keys": 2
+    }
+  ],
+  "confirmed": [
+    "00:40 Scale0 XYZ100,100,0;01:00 Scale100 XYZ100,100,100",
+    "20:10 Scale100 XYZ150,150,120;21:00 Scale0 XYZ50,50,0",
+    "24:00 ZPosition key50 value0; endpoint38 visible at20:00",
+    "12:00 Composite Layer1 Normal Layer2 Multiply opacity100",
+    "14:00 Falloff white/black PerpendicularParallel CameraZ"
+  ],
+  "supplemented": [
+    "ZPosition0 normalized to0, source early intermediate-.301",
+    "default Bezier tangents, source later ease handles not matched",
+    "Falloff linear mix curve rather than unmeasured S curve",
+    "prior static gradient retained; texture animation not yet reconstructed",
+    "camera room brightness retained from learning version"
+  ],
+  "pending": [
+    "exact Scale In/Out tangents and Position acceleration",
+    "Falloff Mix Curve handles",
+    "gradient animation",
+    "full animation render",
+    "assessment integration"
+  ]
+}

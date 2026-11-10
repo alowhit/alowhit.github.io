@@ -1,0 +1,91 @@
+{
+  "file": "/classroom/full-downloads/14_%E5%AE%9E%E4%BD%93%E5%9C%86%E6%9F%B1%E4%B8%8EArnold_Mesh%E7%81%AF.max",
+  "frame_to_view": 40,
+  "camera": {
+    "name": "PhysCamera_Study_FILLED_target",
+    "position": [
+      275.5905456542969,
+      -433.07086181640625,
+      196.8503875732422
+    ],
+    "fov": 45.0,
+    "film_width_mm": 36.0,
+    "f_number": 8.0,
+    "target_EV_FILLED": 6.0
+  },
+  "lights": [
+    {
+      "name": "Arnold_Quad_FILLED_position",
+      "shapeType": 3,
+      "intensity": 500.0,
+      "exposure": 6.0,
+      "normalize": false,
+      "on": false
+    },
+    {
+      "name": "ArnoldLight002_Mesh",
+      "shapeType": 8,
+      "intensity": 1.0,
+      "exposure": 2.0,
+      "normalize": false,
+      "on": true
+    }
+  ],
+  "objects": [
+    {
+      "name": "Room_FILLED_cyclorama",
+      "class": "Editable_mesh",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Arnold_Quad_FILLED_position",
+      "class": "Arnold_Light",
+      "position": [
+        -98.4251937866211,
+        -59.055118560791016,
+        196.8503875732422
+      ]
+    },
+    {
+      "name": "PhysCamera_Study_FILLED_target",
+      "class": "Physical",
+      "position": [
+        275.5905456542969,
+        -433.07086181640625,
+        196.8503875732422
+      ]
+    },
+    {
+      "name": "Cylinder001_MeshEmitter",
+      "class": "PolyMeshObject",
+      "position": [
+        -104.76929473876953,
+        -94.36102294921875,
+        56.95471954345703
+      ]
+    },
+    {
+      "name": "ArnoldLight002_Mesh",
+      "class": "Arnold_Light",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Receiver_Ball_FILLED",
+      "class": "Sphere",
+      "position": [
+        0.0,
+        0.0,
+        35.43307113647461
+      ]
+    }
+  ],
+  "note": "Room dimensions, light placement, exposure and camera aim are supplemental; video values are labelled by time in the full course, not an entire final scene copied."
+}

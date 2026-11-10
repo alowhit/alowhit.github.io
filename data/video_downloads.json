@@ -1,0 +1,343 @@
+{
+  "release": "https://github.com/alowhit/alowhit.github.io/releases/tag/vfx-source-videos-2026-11",
+  "tag": "vfx-source-videos-2026-11",
+  "assets": {
+    "course01": {
+      "name": "11月4日教学1.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course01.mp4",
+      "bytes": 29222472,
+      "sha256": "ff9817cc4e2cf4e36689ee996eca784b25bc5c82283895fa38de85f947a25259",
+      "github_digest_verified": true
+    },
+    "course02": {
+      "name": "11月4日教学2.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course02.mp4",
+      "bytes": 20289625,
+      "sha256": "2f09d2d2edf76df95fda1b197ff3d9a9050bb38f99967825dfb71d7bdf7c2c99",
+      "github_digest_verified": true
+    },
+    "course03": {
+      "name": "11月4日教学3.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course03.mp4",
+      "bytes": 102528270,
+      "sha256": "81952d50ef72be650471bf95fd5b7e7a132ef634bf77fe53d7399ae4a5f7f5b1",
+      "github_digest_verified": true
+    },
+    "course04": {
+      "name": "11月5日教学1.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course04.mp4",
+      "bytes": 52555919,
+      "sha256": "0448d3a0ea40ef581ca453ca29ccbe8741215ea24b8e6ef93ad1e01e8e6ce767",
+      "github_digest_verified": true
+    },
+    "course05": {
+      "name": "11月5日教学2.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course05.mp4",
+      "bytes": 19801136,
+      "sha256": "b0de3f9d8e817bb9f4bc494250616ebfc7da69b8a62d104bca4db7ae631f3d38",
+      "github_digest_verified": true
+    },
+    "course06": {
+      "name": "11月5日教学3.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course06.mp4",
+      "bytes": 29504257,
+      "sha256": "5afd9df99892ae63b412d61d4295709d2a070f0406f6137275f5af14914e630a",
+      "github_digest_verified": true
+    },
+    "course07": {
+      "name": "11月5日教学4.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course07.mp4",
+      "bytes": 70305823,
+      "sha256": "9960a4f43c1157f81a0815addb3e068ef3e07e9466862e550eb85f0e67393411",
+      "github_digest_verified": true
+    },
+    "course08": {
+      "name": "11月5日教学5.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course08.mp4",
+      "bytes": 86983121,
+      "sha256": "515dd31cacf0f2731e4f57ec537379dd50b2e2946d3ddf992765862d960f2f0f",
+      "github_digest_verified": true
+    },
+    "course09": {
+      "name": "11月9课堂1.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course09.mp4",
+      "bytes": 41394685,
+      "sha256": "9d1651fa2a84dd071d20c4a4c7b606dd23bd9ccd8b8dd9ba3e2cc0a77226aeff",
+      "github_digest_verified": true
+    },
+    "course10": {
+      "name": "11月9课堂2.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course10.mp4",
+      "bytes": 105682541,
+      "sha256": "2a271a01c16121952bb2825c066fd38faa424f535cb7fa6b0f18fbfc670def68",
+      "github_digest_verified": true
+    },
+    "course11": {
+      "name": "11月9课堂3.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course11.mp4",
+      "bytes": 33748395,
+      "sha256": "77a43dfb8198e53d64dfd090975613e05327c8a41e5ba4182b042e9301e4fdca",
+      "github_digest_verified": true
+    },
+    "course12": {
+      "name": "11月9课堂4.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course12.mp4",
+      "bytes": 78742004,
+      "sha256": "591b9d5485a00711764c721c556f6e8dcab41978b14b9927524ca2510b284c7b",
+      "github_digest_verified": true
+    },
+    "course13": {
+      "name": "11月9课堂5.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course13.mp4",
+      "bytes": 50904040,
+      "sha256": "60c3d9efbf2bef337c1063a6a86a92ba0cb71a4afd4bed5c723cbe7ed32601aa",
+      "github_digest_verified": true
+    },
+    "course14": {
+      "name": "11月9课堂6.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course14.mp4",
+      "bytes": 135625088,
+      "sha256": "590effd644704178f27e88d6fcbd6f5c653e272b0bded691f38be64f017b033e",
+      "github_digest_verified": true
+    },
+    "course15": {
+      "name": "11月9课堂7.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course15.mp4",
+      "bytes": 257736604,
+      "sha256": "eaea120e438702a52e82bbac2d01eb3eb31bd73f7071fa1a9805eb828f94b071",
+      "github_digest_verified": true
+    },
+    "course16": {
+      "name": "11月9课堂8.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course16.mp4",
+      "bytes": 59295425,
+      "sha256": "f35a16c997a195927a68fbe08a005f3c026746083176e9bd6f7d609960111054",
+      "github_digest_verified": true
+    },
+    "course26": {
+      "name": "录屏1.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course26.mp4",
+      "bytes": 21333881,
+      "sha256": "7887570bfbfe75567915554868f2562546f93575225f3bf015bcb2a4ebf05780",
+      "github_digest_verified": true
+    },
+    "course27": {
+      "name": "录屏2.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course27.mp4",
+      "bytes": 39705990,
+      "sha256": "cc9380919c54b64c7405332b32eb185cdd94ae03fcdf7e2578bf1a817b4255e2",
+      "github_digest_verified": true
+    },
+    "course28": {
+      "name": "录屏3.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course28.mp4",
+      "bytes": 23419688,
+      "sha256": "30dacae931a5d3951b1b94b94a12a406f33e1ee94a5449d7b0cfbb2ec79c7ce5",
+      "github_digest_verified": true
+    },
+    "course29": {
+      "name": "录屏4.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course29.mp4",
+      "bytes": 11432102,
+      "sha256": "d211a3feae1871951e1ab67da52367e02ff77b2ebbfd9f3ff71e5bf3049b0d08",
+      "github_digest_verified": true
+    },
+    "course30": {
+      "name": "教学1.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course30.mp4",
+      "bytes": 70944476,
+      "sha256": "e718cb7626d798bdf235369d11781bec239c1bfa33c1bdb3e220bb61601ca5d2",
+      "github_digest_verified": true
+    },
+    "course31": {
+      "name": "教学2.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course31.mp4",
+      "bytes": 84803952,
+      "sha256": "273ac92ef76b8bfe518dabbd83f6b6b3dfbe8e468faa1bd18e495199020ed848",
+      "github_digest_verified": true
+    },
+    "course32": {
+      "name": "教学3.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course32.mp4",
+      "bytes": 139151235,
+      "sha256": "ebeb5de33b3e07a715e6ae8f024a22a11ed06806b96b0a4889d4582eda382f24",
+      "github_digest_verified": true
+    },
+    "course33": {
+      "name": "教学4.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course33.mp4",
+      "bytes": 42550761,
+      "sha256": "3eafda83a3495ef812ebd593542d4bdac5b0765ce47b54431d0dd42be5676f4a",
+      "github_digest_verified": true
+    },
+    "course34": {
+      "name": "教学5.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course34.mp4",
+      "bytes": 59449068,
+      "sha256": "2d53684a12666b2e95eb9becb4cb9973a192fcdd47a1225364541061e31ff7f2",
+      "github_digest_verified": true
+    },
+    "course35": {
+      "name": "教学记录1.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course35.mp4",
+      "bytes": 46577947,
+      "sha256": "34379cfb8bd0131f60209c170605cf8ade1f015cae066f72551da838a7f3abcf",
+      "github_digest_verified": true
+    },
+    "course36": {
+      "name": "教学记录2.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course36.mp4",
+      "bytes": 50088571,
+      "sha256": "6ed7b6f07a9e9c01e40328e43580de25dd1807ec1b9726695e57e0a6fb7fe94f",
+      "github_digest_verified": true
+    },
+    "course37": {
+      "name": "教学记录3.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course37.mp4",
+      "bytes": 123565199,
+      "sha256": "8cccdaa4d1e9d72d98ddede33b9b3a240a957b149cbe894fdfa4a409e348b0fa",
+      "github_digest_verified": true
+    },
+    "course38": {
+      "name": "教学记录4.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course38.mp4",
+      "bytes": 178367679,
+      "sha256": "7c423757463497c140b4ff30891eab766af8e026f866682a08908865316b640d",
+      "github_digest_verified": true
+    },
+    "course39": {
+      "name": "教学记录5.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course39.mp4",
+      "bytes": 41923034,
+      "sha256": "4d3683fb3670ca869140c84b00fb896b7438ebb862d983f37b65424d56b81430",
+      "github_digest_verified": true
+    },
+    "course40": {
+      "name": "教学记录6.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course40.mp4",
+      "bytes": 103593474,
+      "sha256": "f550c005854dd97121e5837e227624fce49ef9d15e6b446b0b36d06516d431b0",
+      "github_digest_verified": true
+    },
+    "course41": {
+      "name": "教学记录7.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course41.mp4",
+      "bytes": 33957185,
+      "sha256": "8d525889c831d086ed91b22a0ed2c06830b5d4a341bb73c9259696893a0c62ce",
+      "github_digest_verified": true
+    },
+    "course42": {
+      "name": "教学记录8.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course42.mp4",
+      "bytes": 105922352,
+      "sha256": "51190c6247561c39e5554034afc8ee74266285d8ac53726bac06aabe0881b183",
+      "github_digest_verified": true
+    },
+    "course43": {
+      "name": "教学记录9.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course43.mp4",
+      "bytes": 82233594,
+      "sha256": "318ee85151498717e35a1b58737a65646b1bbf7f3161300418ba67c3c5ff67b7",
+      "github_digest_verified": true
+    },
+    "course44": {
+      "name": "课堂1.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course44.mp4",
+      "bytes": 75028053,
+      "sha256": "809a6c4d454a58150f23a8849cfd4608a43d3bd77692d675dabe882e60f81aba",
+      "github_digest_verified": true
+    },
+    "course45": {
+      "name": "课堂2.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course45.mp4",
+      "bytes": 185071830,
+      "sha256": "8c856800971dfd6281bc636b7d4fe28cf5a08a288e3771c47c1041f5cd518155",
+      "github_digest_verified": true
+    },
+    "course46": {
+      "name": "课堂3.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course46.mp4",
+      "bytes": 33467338,
+      "sha256": "b4d07f5e51be4aa6106247286bbb26d09445d03112929800ec739982c81328d5",
+      "github_digest_verified": true
+    },
+    "course47": {
+      "name": "课堂4.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course47.mp4",
+      "bytes": 50418722,
+      "sha256": "61ef48a4c0747b476b3b807af5fdcc77a7d5d11bfa6b8410be10f93866e5e9a4",
+      "github_digest_verified": true
+    },
+    "course48": {
+      "name": "课堂5.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course48.mp4",
+      "bytes": 15582384,
+      "sha256": "3f81b3c1eeacad6f7ff1ea1d5f92ab43d9928c235bf4512b7cd5e45aa88ac2fd",
+      "github_digest_verified": true
+    },
+    "course49": {
+      "name": "课堂6.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course49.mp4",
+      "bytes": 137034895,
+      "sha256": "1fff1ecbb46ef3ea4877a6025b12652760a9773bc63ed3d9952236aefc4ceb3f",
+      "github_digest_verified": true
+    },
+    "course50": {
+      "name": "课堂教学视频1.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course50.mp4",
+      "bytes": 55138977,
+      "sha256": "26a5b06705eb00d3fd316f1a01704f46b535fdaa30916642946503134073deba",
+      "github_digest_verified": true
+    },
+    "course51": {
+      "name": "课堂教学视频2.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course51.mp4",
+      "bytes": 53145458,
+      "sha256": "ad2a223792c96d163b386a673ab645b4855ebf6f3c24e7195941a322ace8c838",
+      "github_digest_verified": true
+    },
+    "course52": {
+      "name": "课堂教学视频3.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course52.mp4",
+      "bytes": 38740354,
+      "sha256": "dd7cb446f5b84ba529c12763c657cf09b9a38f51fe3bffced9dd48c7327e1ba4",
+      "github_digest_verified": true
+    },
+    "course53": {
+      "name": "课堂教学视频4.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course53.mp4",
+      "bytes": 43785855,
+      "sha256": "c0f1b15fcff51671191156de17829cecb45c84947a5548660e942adc6ad7214c",
+      "github_digest_verified": true
+    },
+    "course54": {
+      "name": "课堂教学视频5.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course54.mp4",
+      "bytes": 17360469,
+      "sha256": "6f2989e2458132a2051e1fe701444ba5a1d7dfb0dd39343b38bcf5874d328ddc",
+      "github_digest_verified": true
+    },
+    "course55": {
+      "name": "课堂教学视频6.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course55.mp4",
+      "bytes": 75228525,
+      "sha256": "4ff4f57fe9009ed9343c225826d4e2a3d6054c74b26379947fc65d78cd243f19",
+      "github_digest_verified": true
+    },
+    "course56": {
+      "name": "课堂教学视频7.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course56.mp4",
+      "bytes": 143905785,
+      "sha256": "81891181517fdfc78392fd40075931c57d2c94da3dbfeaa56cf8c3b10419a9b5",
+      "github_digest_verified": true
+    },
+    "course57": {
+      "name": "课堂教学视频8.mp4",
+      "download": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course57.mp4",
+      "bytes": 128888528,
+      "sha256": "2862fe2d410bfe4cc2f005146cb8504aeaf34a0ec14afdff4d2e78411b084d2e",
+      "github_digest_verified": true
+    }
+  },
+  "failures": {}
+}

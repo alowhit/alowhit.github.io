@@ -1,0 +1,54 @@
+{
+  "reopened": true,
+  "blend_modes": [
+    0,
+    23
+  ],
+  "shared_stripe": true,
+  "palette_flags_runtime_RGB": [
+    [
+      0,
+      [
+        114,
+        234,
+        255
+      ]
+    ],
+    [
+      38,
+      [
+        33,
+        119,
+        255
+      ]
+    ],
+    [
+      75,
+      [
+        0,
+        161,
+        111
+      ]
+    ],
+    [
+      100,
+      [
+        0,
+        19,
+        255
+      ]
+    ]
+  ],
+  "confirmed": [
+    "Color blend Layer2 100 at1300s",
+    "Position0 RGB114/234/255 at1360s",
+    "Position38 RGB33/119/255 at1420s",
+    "Position100 RGB0/19/255 at1440s",
+    "W Angle90 Linear interpolation"
+  ],
+  "estimated": [
+    "Position75 green RGB0/161/111",
+    "inherited camera, height ramp, animation"
+  ],
+  "color_note": "Ramp label RGB values use scene components times255; do not confuse with Display RGB in color picker. Finality of intermediate edited colors still needs review."
+}

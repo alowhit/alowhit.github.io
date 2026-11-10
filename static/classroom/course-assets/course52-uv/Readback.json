@@ -1,0 +1,68 @@
+{
+  "stages": [
+    {
+      "file": "/classroom/course-assets/course52-uv/01_Gradient_NoNoise.max",
+      "reopened": true,
+      "noise_amount": 0.0,
+      "noise_size": 1.0,
+      "noise_phase": 0.0,
+      "noise_type": 0,
+      "w_angle": 90.0,
+      "modifiers": [],
+      "radius": 40.0,
+      "segments": 64,
+      "position": "[0,65.956,40]",
+      "flag55": "[56,56,56]",
+      "notes": "camera/exposure inherited supplement; other ramp stops estimated; UV inspection modifier keeps generated UVs"
+    },
+    {
+      "file": "/classroom/course-assets/course52-uv/02_Gradient_Noise.max",
+      "reopened": true,
+      "noise_amount": 0.20000000298023224,
+      "noise_size": 1.0,
+      "noise_phase": 0.0,
+      "noise_type": 0,
+      "w_angle": 90.0,
+      "modifiers": [],
+      "radius": 40.0,
+      "segments": 64,
+      "position": "[0,65.956,40]",
+      "flag55": "[56,56,56]",
+      "notes": "camera/exposure inherited supplement; other ramp stops estimated; UV inspection modifier keeps generated UVs"
+    },
+    {
+      "file": "/classroom/course-assets/course52-uv/03_UV_Inspection.max",
+      "reopened": true,
+      "noise_amount": 0.20000000298023224,
+      "noise_size": 1.0,
+      "noise_phase": 0.0,
+      "noise_type": 0,
+      "w_angle": 90.0,
+      "modifiers": [
+        "Unwrap_UVW"
+      ],
+      "radius": 40.0,
+      "segments": 64,
+      "position": "[0,65.956,40]",
+      "flag55": "[56,56,56]",
+      "notes": "camera/exposure inherited supplement; other ramp stops estimated; UV inspection modifier keeps generated UVs"
+    }
+  ],
+  "confirmed": [
+    "Noise Amount0.2 Size1 Phase0 Regular",
+    "W Angle90 channel1 tiling1 offsets0",
+    "flag Position55 RGB56 at03:00/15:30",
+    "Sphere radius40 segments64",
+    "Unwrap UVW visible04:00-10:30; absent11:00 onward"
+  ],
+  "supplemented": [
+    "unselected gradient stops estimated",
+    "inherited supplemental camera/exposure and room emission color"
+  ],
+  "pending": [
+    "exact other stop values",
+    "precise UV editor actions, no unobserved UV transforms applied",
+    "source background brightness and camera match",
+    "assessment integration"
+  ]
+}

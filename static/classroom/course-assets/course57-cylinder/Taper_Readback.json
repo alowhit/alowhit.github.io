@@ -1,0 +1,24 @@
+{
+  "reopened": true,
+  "modifier_class": "Taper",
+  "values": {
+    "amount": "1.0",
+    "curve": "0.0",
+    "primaryaxis": "2",
+    "effectaxis": "2",
+    "symmetry": "False",
+    "limit": "False"
+  },
+  "source_seconds": 2520,
+  "confirmed": [
+    "Amount1 Curve0 PrimaryZ EffectXY SymmetryOff LimitOff at42min"
+  ],
+  "pending": [
+    "Source2540s moves Taper Gizmo; exact local transform not yet matched",
+    "camera exact match",
+    "texture seam",
+    "brightness",
+    "assessment"
+  ],
+  "gui_verified": true
+}

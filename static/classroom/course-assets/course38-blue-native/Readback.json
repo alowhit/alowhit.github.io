@@ -1,0 +1,110 @@
+{
+  "saved_reopened": true,
+  "frame": 54,
+  "material_class": "ai_standard_surface",
+  "flags": [
+    {
+      "index": 1,
+      "position": 0.0,
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "index": 2,
+      "position": 100.0,
+      "color": [
+        124.0,
+        197.0,
+        255.0
+      ]
+    },
+    {
+      "index": 3,
+      "position": 25.0,
+      "color": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "index": 4,
+      "position": 81.0,
+      "color": [
+        0.0,
+        14.279999732971191,
+        197.3699951171875
+      ]
+    },
+    {
+      "index": 5,
+      "position": 97.0,
+      "color": [
+        0.0,
+        248.3699951171875,
+        255.0
+      ]
+    },
+    {
+      "index": 6,
+      "position": 100.0,
+      "color": [
+        124.0,
+        197.0,
+        255.0
+      ]
+    },
+    {
+      "index": 7,
+      "position": 100.0,
+      "color": [
+        124.0,
+        197.0,
+        255.0
+      ]
+    },
+    {
+      "index": 8,
+      "position": 100.0,
+      "color": [
+        124.0,
+        197.0,
+        255.0
+      ]
+    },
+    {
+      "index": 9,
+      "position": 100.0,
+      "color": [
+        124.0,
+        197.0,
+        255.0
+      ]
+    }
+  ],
+  "shared_noise_verified": true,
+  "source_confirmed": [
+    "position81 at2804s",
+    "position97 at2813s",
+    "position100 panelRGB124197255 at2826s"
+  ],
+  "source_trial_values": [
+    "position81 blue derived from displayed scene floats0,.056,.774 at2810s;final acceptance unverified",
+    "position97 cyan from scene floats0,.974,1 at2813s;final acceptance unverified"
+  ],
+  "supplementary": [
+    "black stop position25 estimated;not teacher numeric value",
+    "additional template flags coincide at100",
+    "S curve inherited approximation",
+    "camera and scene inherited study settings",
+    "red palette inherited partial source values"
+  ],
+  "remaining": [
+    "exact final all source flags",
+    "exact teacher camera lighting UV",
+    "full source animation and rubric verification"
+  ]
+}

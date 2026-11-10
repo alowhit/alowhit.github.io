@@ -1,0 +1,1621 @@
+{
+  "file": "/classroom/downloads/08_%E5%86%B2%E5%87%BB%E8%83%BD%E9%87%8F%E5%9B%A2.max",
+  "render_engine": "Arnold",
+  "camera": "$Free_Camera:Study_Camera_FILLED @ [150.000000,-260.000000,130.000000]",
+  "geometry": [
+    {
+      "name": "Impact_Sphere",
+      "class": "Sphere",
+      "position": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "scale": [
+        0.11999999731779099,
+        0.11999999731779099,
+        1.5
+      ],
+      "material": "Impact_Arnold:Standard_Surface",
+      "dimensions": {
+        "radius": 40.0,
+        "segs": 64,
+        "mapcoords": true
+      }
+    }
+  ],
+  "materials": [
+    {
+      "class": "ai_standard_surface",
+      "name": "Impact_Arnold:Standard_Surface",
+      "properties": {
+        "base": 0.0,
+        "base_connected": true,
+        "base_shader": null,
+        "base_color": {
+          "scene_rgb_255": [
+            204.0,
+            204.0,
+            204.0
+          ]
+        },
+        "base_color_connected": true,
+        "base_color_shader": null,
+        "diffuse_roughness": 0.0,
+        "diffuse_roughness_connected": true,
+        "diffuse_roughness_shader": null,
+        "Specular": 0.0,
+        "specular_connected": true,
+        "specular_shader": null,
+        "specular_color": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "specular_color_connected": true,
+        "specular_color_shader": null,
+        "specular_roughness": 0.20000000298023224,
+        "specular_roughness_connected": true,
+        "specular_roughness_shader": null,
+        "specular_IOR": 1.5,
+        "specular_IOR_connected": true,
+        "specular_IOR_shader": null,
+        "specular_anisotropy": 0.0,
+        "specular_anisotropy_connected": true,
+        "specular_anisotropy_shader": null,
+        "specular_rotation": 0.0,
+        "specular_rotation_connected": true,
+        "specular_rotation_shader": null,
+        "metalness": 0.0,
+        "metalness_connected": true,
+        "metalness_shader": null,
+        "transmission": 0.0,
+        "transmission_connected": true,
+        "transmission_shader": null,
+        "transmission_color": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "transmission_color_connected": true,
+        "transmission_color_shader": null,
+        "transmission_depth": 0.0,
+        "transmission_depth_connected": true,
+        "transmission_depth_shader": null,
+        "transmission_scatter": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "transmission_scatter_connected": true,
+        "transmission_scatter_shader": null,
+        "transmission_scatter_anisotropy": 0.0,
+        "transmission_scatter_anisotropy_connected": true,
+        "transmission_scatter_anisotropy_shader": null,
+        "transmission_dispersion": 0.0,
+        "transmission_dispersion_connected": true,
+        "transmission_dispersion_shader": null,
+        "transmission_extra_roughness": 0.0,
+        "transmission_extra_roughness_connected": true,
+        "transmission_extra_roughness_shader": null,
+        "transmit_aovs": false,
+        "subsurface": 0.0,
+        "subsurface_connected": true,
+        "subsurface_shader": null,
+        "subsurface_color": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "subsurface_color_connected": true,
+        "subsurface_color_shader": null,
+        "subsurface_radius": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "subsurface_radius_connected": true,
+        "subsurface_radius_shader": null,
+        "subsurface_scale": 1.0,
+        "subsurface_scale_connected": true,
+        "subsurface_scale_shader": null,
+        "subsurface_anisotropy": 0.0,
+        "subsurface_anisotropy_connected": true,
+        "subsurface_anisotropy_shader": null,
+        "subsurface_type": 1,
+        "sheen": 0.0,
+        "sheen_connected": true,
+        "sheen_shader": null,
+        "sheen_color": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "sheen_color_connected": true,
+        "sheen_color_shader": null,
+        "sheen_roughness": 0.30000001192092896,
+        "sheen_roughness_connected": true,
+        "sheen_roughness_shader": null,
+        "thin_walled": false,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "normal_connected": true,
+        "normal_shader": null,
+        "tangent": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tangent_connected": true,
+        "tangent_shader": null,
+        "coat": 0.0,
+        "coat_connected": true,
+        "coat_shader": null,
+        "coat_color": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "coat_color_connected": true,
+        "coat_color_shader": null,
+        "coat_roughness": 0.10000000149011612,
+        "coat_roughness_connected": true,
+        "coat_roughness_shader": null,
+        "coat_IOR": 1.5,
+        "coat_IOR_connected": true,
+        "coat_IOR_shader": null,
+        "coat_anisotropy": 0.0,
+        "coat_anisotropy_connected": true,
+        "coat_anisotropy_shader": null,
+        "coat_rotation": 0.0,
+        "coat_rotation_connected": true,
+        "coat_rotation_shader": null,
+        "coat_normal": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "coat_normal_connected": true,
+        "coat_normal_shader": null,
+        "coat_affect_color": 0.0,
+        "coat_affect_color_connected": true,
+        "coat_affect_color_shader": null,
+        "coat_affect_roughness": 0.0,
+        "coat_affect_roughness_connected": true,
+        "coat_affect_roughness_shader": null,
+        "thin_film_thickness": 0.0,
+        "thin_film_thickness_connected": true,
+        "thin_film_thickness_shader": null,
+        "thin_film_IOR": 1.5,
+        "thin_film_IOR_connected": true,
+        "thin_film_IOR_shader": null,
+        "emission": 1.0,
+        "emission_connected": true,
+        "emission_shader": null,
+        "emission_color": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "emission_color_connected": true,
+        "emission_color_shader": {
+          "connection": "#6 Yellow cyan:Gradient Ramp",
+          "handle": 102114
+        },
+        "opacity": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "opacity_connected": true,
+        "opacity_shader": {
+          "connection": "CompositeTexturemap:Composite",
+          "handle": 103133
+        },
+        "caustics": false,
+        "internal_reflections": true,
+        "exit_to_background": false,
+        "indirect_diffuse": 1.0,
+        "indirect_specular": 1.0,
+        "dielectric_priority": 0,
+        "aov_id1": "",
+        "id1": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id1_connected": true,
+        "id1_shader": null,
+        "aov_id2": "",
+        "id2": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id2_connected": true,
+        "id2_shader": null,
+        "aov_id3": "",
+        "id3": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id3_connected": true,
+        "id3_shader": null,
+        "aov_id4": "",
+        "id4": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id4_connected": true,
+        "id4_shader": null,
+        "aov_id5": "",
+        "id5": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id5_connected": true,
+        "id5_shader": null,
+        "aov_id6": "",
+        "id6": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id6_connected": true,
+        "id6_shader": null,
+        "aov_id7": "",
+        "id7": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id7_connected": true,
+        "id7_shader": null,
+        "aov_id8": "",
+        "id8": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id8_connected": true,
+        "id8_shader": null,
+        "TheList": [],
+        "Shader_Version": 0
+      }
+    }
+  ],
+  "textures": [
+    {
+      "handle": 103117,
+      "class": "Noise",
+      "name": "#8 Turbulence:Noise",
+      "properties": {
+        "color1": {
+          "scene_rgb_255": [
+            17.34000015258789,
+            17.34000015258789,
+            17.34000015258789
+          ]
+        },
+        "color2": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "map1": null,
+        "map2": null,
+        "map1Enabled": true,
+        "map2Enabled": true,
+        "size": 0.30000001192092896,
+        "phase": 0.0,
+        "Levels": 3.0,
+        "thresholdLow": 0.0,
+        "thresholdHigh": 0.8999999761581421,
+        "type": 2,
+        "coords": {
+          "connection": "MtlBase:Placement",
+          "handle": 103107
+        },
+        "output": {
+          "connection": "MtlBase:Output",
+          "handle": 103114
+        }
+      },
+      "connections": [],
+      "coordinates": {
+        "blur": 1.0,
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "angle": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "coordType": 2,
+        "mapChannel": 1,
+        "Tiling": [
+          3.0,
+          4.0,
+          1.0
+        ],
+        "Blur_Offset": 0.0
+      }
+    },
+    {
+      "handle": 103133,
+      "class": "CompositeTexturemap",
+      "name": "CompositeTexturemap:Composite",
+      "properties": {
+        "mapEnabled": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "maskEnabled": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "blendMode": [
+          0,
+          5,
+          4,
+          5,
+          5
+        ],
+        "layername": [
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "dlgOpened": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "opacity": [
+          100.0,
+          100.0,
+          100.0,
+          100.0,
+          100.0
+        ],
+        "mapList": [
+          {
+            "connection": "#1 Shape_FILLED:Gradient Ramp",
+            "handle": 102568
+          },
+          {
+            "connection": "#4 Edge_FILLED:Falloff",
+            "handle": 102641
+          },
+          {
+            "connection": "#7 Moving gate_FILLED:Gradient Ramp",
+            "handle": 103040
+          },
+          {
+            "connection": "#8 Turbulence:Noise",
+            "handle": 103117
+          },
+          {
+            "connection": "VisibilityEnvelope_FILLED:Color Correction",
+            "handle": 103129
+          }
+        ],
+        "Mask": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "connections": [
+        {
+          "slot": 1,
+          "label": " Layer 1",
+          "target": 102568
+        },
+        {
+          "slot": 3,
+          "label": " Layer 2",
+          "target": 102641
+        },
+        {
+          "slot": 5,
+          "label": " Layer 3",
+          "target": 103040
+        },
+        {
+          "slot": 7,
+          "label": " Layer 4",
+          "target": 103117
+        },
+        {
+          "slot": 9,
+          "label": " Layer 5",
+          "target": 103129
+        }
+      ]
+    },
+    {
+      "handle": 103129,
+      "class": "Color_Correction",
+      "name": "VisibilityEnvelope_FILLED:Color Correction",
+      "properties": {
+        "color": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "map": null,
+        "rewireMode": 0,
+        "rewireR": 0,
+        "rewireG": 1,
+        "rewireB": 2,
+        "rewireA": 3,
+        "hueShift": 0.0,
+        "saturation": 0.0,
+        "tint": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "tintStrength": 0.0,
+        "lightnessMode": 0,
+        "contrast": 0.0,
+        "brightness": 0.0,
+        "exposureMode": 0,
+        "enableR": false,
+        "enableG": false,
+        "enableB": false,
+        "gainRGB": 100.0,
+        "gainR": 100.0,
+        "gainG": 100.0,
+        "gainB": 100.0,
+        "gammaRGB": 1.0,
+        "gammaR": 1.0,
+        "gammaG": 1.0,
+        "gammaB": 1.0,
+        "pivotRGB": 1.0,
+        "pivotR": 1.0,
+        "pivotG": 1.0,
+        "pivotB": 1.0,
+        "liftRGB": 0.0,
+        "liftR": 0.0,
+        "liftG": 0.0,
+        "liftB": 0.0,
+        "printerLights": 5.0
+      },
+      "connections": []
+    },
+    {
+      "handle": 102114,
+      "class": "Gradient_Ramp",
+      "name": "#6 Yellow cyan:Gradient Ramp",
+      "properties": {
+        "size": 4.0,
+        "phase": 2.299999952316284,
+        "amount": 0.5,
+        "Gradient_Type": 4,
+        "Noise_Type": 2,
+        "Levels": 4.0,
+        "Low_Threshold": 0.0,
+        "High_Threshold": 1.0,
+        "Threshold_Smoothing": 0.0,
+        "Source_Map_On": 1,
+        "Coordinates": {
+          "connection": "MtlBase:Placement",
+          "handle": 101728
+        },
+        "output": {
+          "connection": "MtlBase:Output",
+          "handle": 101733
+        },
+        "Gradient_Ramp": "ReferenceTarget:JData"
+      },
+      "connections": [],
+      "coordinates": {
+        "blur": 1.0,
+        "mapping": 0,
+        "mapChannel": 1,
+        "mappingType": 0,
+        "UVW_Type": 0,
+        "U_Mirror": false,
+        "V_Mirror": false,
+        "U_Tile": true,
+        "V_Tile": true,
+        "showMapOnBack": true,
+        "Noise_On": false,
+        "Noise_Animate": false,
+        "UVTransform": "(matrix3 [0,1,0] [-1,0,0] [0,0,1] [1,0,0])",
+        "realWorldScale": false,
+        "realWorldHeight": 1.0,
+        "realWorldWidth": 1.0,
+        "phase": 0.0,
+        "Blur_Offset": 0.0,
+        "w_angle": 90.0,
+        "U_Offset": 0.0,
+        "V_Offset": 0.0,
+        "U_Tiling": 1.0,
+        "V_Tiling": 1.0,
+        "U_Angle": 0.0,
+        "V_Angle": 0.0,
+        "Noise_Amount": 1.0,
+        "Noise_Size": 1.0,
+        "Noise_Levels": 1
+      },
+      "flags": [
+        {
+          "color": [
+            255.0,
+            245.0,
+            0.0
+          ]
+        },
+        {
+          "color": [
+            0.0,
+            70.0,
+            255.0
+          ]
+        },
+        {
+          "color": [
+            0.0,
+            220.0,
+            255.0
+          ],
+          "position": 50.0
+        },
+        {
+          "color": [
+            0.0,
+            70.0,
+            255.0
+          ],
+          "position": 100.0
+        },
+        {
+          "color": [
+            0.0,
+            70.0,
+            255.0
+          ],
+          "position": 100.0
+        },
+        {
+          "color": [
+            0.0,
+            70.0,
+            255.0
+          ],
+          "position": 100.0
+        },
+        {
+          "color": [
+            0.0,
+            70.0,
+            255.0
+          ],
+          "position": 100.0
+        },
+        {
+          "color": [
+            0.0,
+            70.0,
+            255.0
+          ],
+          "position": 100.0
+        },
+        {
+          "color": [
+            0.0,
+            70.0,
+            255.0
+          ],
+          "position": 100.0
+        }
+      ]
+    },
+    {
+      "handle": 102568,
+      "class": "Gradient_Ramp",
+      "name": "#1 Shape_FILLED:Gradient Ramp",
+      "properties": {
+        "size": 1.0,
+        "phase": 0.0,
+        "amount": 0.0,
+        "Gradient_Type": 4,
+        "Noise_Type": 0,
+        "Levels": 4.0,
+        "Low_Threshold": 0.0,
+        "High_Threshold": 1.0,
+        "Threshold_Smoothing": 0.0,
+        "Source_Map_On": 1,
+        "Coordinates": {
+          "connection": "MtlBase:Placement",
+          "handle": 102182
+        },
+        "output": {
+          "connection": "MtlBase:Output",
+          "handle": 102187
+        },
+        "Gradient_Ramp": "ReferenceTarget:JData"
+      },
+      "connections": [],
+      "coordinates": {
+        "blur": 1.0,
+        "mapping": 0,
+        "mapChannel": 1,
+        "mappingType": 0,
+        "UVW_Type": 0,
+        "U_Mirror": false,
+        "V_Mirror": false,
+        "U_Tile": true,
+        "V_Tile": true,
+        "showMapOnBack": true,
+        "Noise_On": false,
+        "Noise_Animate": false,
+        "UVTransform": "(matrix3 [0,1,0] [-1,0,0] [0,0,1] [1,0,0])",
+        "realWorldScale": false,
+        "realWorldHeight": 1.0,
+        "realWorldWidth": 1.0,
+        "phase": 0.0,
+        "Blur_Offset": 0.0,
+        "w_angle": 90.0,
+        "U_Offset": 0.0,
+        "V_Offset": 0.0,
+        "U_Tiling": 1.0,
+        "V_Tiling": 1.0,
+        "U_Angle": 0.0,
+        "V_Angle": 0.0,
+        "Noise_Amount": 1.0,
+        "Noise_Size": 1.0,
+        "Noise_Levels": 1
+      },
+      "flags": [
+        {
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ],
+          "position": 12.0
+        },
+        {
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ],
+          "position": 70.0
+        },
+        {
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": 100.0
+        },
+        {
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": 100.0
+        },
+        {
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": 100.0
+        },
+        {
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": 100.0
+        },
+        {
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": 100.0
+        }
+      ]
+    },
+    {
+      "handle": 103040,
+      "class": "Gradient_Ramp",
+      "name": "#7 Moving gate_FILLED:Gradient Ramp",
+      "properties": {
+        "size": 1.0,
+        "phase": 0.0,
+        "amount": 0.0,
+        "Gradient_Type": 4,
+        "Noise_Type": 0,
+        "Levels": 4.0,
+        "Low_Threshold": 0.0,
+        "High_Threshold": 1.0,
+        "Threshold_Smoothing": 0.0,
+        "Source_Map_On": 1,
+        "Coordinates": {
+          "connection": "MtlBase:Placement",
+          "handle": 102654
+        },
+        "output": {
+          "connection": "MtlBase:Output",
+          "handle": 102659
+        },
+        "Gradient_Ramp": "ReferenceTarget:JData"
+      },
+      "connections": [],
+      "coordinates": {
+        "blur": 1.0,
+        "mapping": 0,
+        "mapChannel": 1,
+        "mappingType": 0,
+        "UVW_Type": 0,
+        "U_Mirror": false,
+        "V_Mirror": false,
+        "U_Tile": true,
+        "V_Tile": true,
+        "showMapOnBack": true,
+        "Noise_On": false,
+        "Noise_Animate": false,
+        "UVTransform": "(matrix3 [0,1,0] [-1,0,0] [0,0,1] [1,0,0])",
+        "realWorldScale": false,
+        "realWorldHeight": 1.0,
+        "realWorldWidth": 1.0,
+        "phase": 0.0,
+        "Blur_Offset": 0.0,
+        "w_angle": 90.0,
+        "U_Offset": 0.0,
+        "V_Offset": 0.0,
+        "U_Tiling": 1.0,
+        "V_Tiling": 1.0,
+        "U_Angle": 0.0,
+        "V_Angle": 0.0,
+        "Noise_Amount": 1.0,
+        "Noise_Size": 1.0,
+        "Noise_Levels": 1
+      },
+      "flags": [
+        {
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": 20.0
+        },
+        {
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ],
+          "position": 45.0
+        },
+        {
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ],
+          "position": 80.0
+        },
+        {
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": 100.0
+        },
+        {
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": 100.0
+        },
+        {
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": 100.0
+        },
+        {
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": 100.0
+        }
+      ]
+    },
+    {
+      "handle": 102641,
+      "class": "falloff",
+      "name": "#4 Edge_FILLED:Falloff",
+      "properties": {
+        "color1": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "map1Amount": 100.0,
+        "map1": null,
+        "map1On": true,
+        "color2": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "map2Amount": 100.0,
+        "map2": null,
+        "map2On": true,
+        "type": 1,
+        "direction": 0,
+        "node": null,
+        "mtlIOROverride": true,
+        "ior": 1.600000023841858,
+        "extrapolateOn": false,
+        "nearDistance": 0.0,
+        "farDistance": 100.0,
+        "Texture_Output": {
+          "connection": "MtlBase:Output",
+          "handle": 102635
+        },
+        "MixCurve": "ReferenceTarget:CurveControl"
+      },
+      "connections": []
+    }
+  ],
+  "lights": [],
+  "saved_frame": "0f",
+  "animation_samples": [
+    {
+      "frame": 0,
+      "geometry": [
+        {
+          "name": "Impact_Sphere",
+          "position": [
+            0.0,
+            0.0,
+            90.0
+          ],
+          "scale": [
+            0.11999999731779099,
+            0.11999999731779099,
+            1.5
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "name": "#8 Turbulence:Noise",
+          "values": {
+            "size": 0.30000001192092896,
+            "phase": 0.0,
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "VisibilityEnvelope_FILLED:Color Correction",
+          "values": {
+            "color": {
+              "scene_rgb_255": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        },
+        {
+          "name": "#6 Yellow cyan:Gradient Ramp",
+          "values": {
+            "size": 4.0,
+            "phase": 2.299999952316284,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#1 Shape_FILLED:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#7 Moving gate_FILLED:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "frame": 15,
+      "geometry": [
+        {
+          "name": "Impact_Sphere",
+          "position": [
+            0.0,
+            0.0,
+            90.0
+          ],
+          "scale": [
+            0.4000000059604645,
+            0.4000000059604645,
+            1.5
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "name": "#8 Turbulence:Noise",
+          "values": {
+            "size": 0.30000001192092896,
+            "phase": -1.0,
+            "offset": [
+              0.0,
+              2.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "VisibilityEnvelope_FILLED:Color Correction",
+          "values": {
+            "color": {
+              "scene_rgb_255": [
+                255.0,
+                255.0,
+                255.0
+              ]
+            }
+          }
+        },
+        {
+          "name": "#6 Yellow cyan:Gradient Ramp",
+          "values": {
+            "size": 4.0,
+            "phase": 2.299999952316284,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#1 Shape_FILLED:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#7 Moving gate_FILLED:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": -0.09056603908538818
+          }
+        }
+      ]
+    },
+    {
+      "frame": 30,
+      "geometry": [
+        {
+          "name": "Impact_Sphere",
+          "position": [
+            0.0,
+            0.0,
+            50.625
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.125
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "name": "#8 Turbulence:Noise",
+          "values": {
+            "size": 0.30000001192092896,
+            "phase": -2.0,
+            "offset": [
+              0.0,
+              4.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "VisibilityEnvelope_FILLED:Color Correction",
+          "values": {
+            "color": {
+              "scene_rgb_255": [
+                255.0,
+                255.0,
+                255.0
+              ]
+            }
+          }
+        },
+        {
+          "name": "#6 Yellow cyan:Gradient Ramp",
+          "values": {
+            "size": 4.0,
+            "phase": 2.299999952316284,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#1 Shape_FILLED:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#7 Moving gate_FILLED:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": -0.18113207817077637
+          }
+        }
+      ]
+    },
+    {
+      "frame": 40,
+      "geometry": [
+        {
+          "name": "Impact_Sphere",
+          "position": [
+            0.0,
+            0.0,
+            22.5
+          ],
+          "scale": [
+            1.625,
+            1.625,
+            0.75
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "name": "#8 Turbulence:Noise",
+          "values": {
+            "size": 0.30000001192092896,
+            "phase": -2.6666667461395264,
+            "offset": [
+              0.0,
+              5.333333492279053,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "VisibilityEnvelope_FILLED:Color Correction",
+          "values": {
+            "color": {
+              "scene_rgb_255": [
+                255.0,
+                255.0,
+                255.0
+              ]
+            }
+          }
+        },
+        {
+          "name": "#6 Yellow cyan:Gradient Ramp",
+          "values": {
+            "size": 4.0,
+            "phase": 2.299999952316284,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#1 Shape_FILLED:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#7 Moving gate_FILLED:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": -0.24150943756103516
+          }
+        }
+      ]
+    },
+    {
+      "frame": 53,
+      "geometry": [
+        {
+          "name": "Impact_Sphere",
+          "position": [
+            0.0,
+            0.0,
+            2.7562499046325684
+          ],
+          "scale": [
+            2.4375,
+            2.4375,
+            0.26249998807907104
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "name": "#8 Turbulence:Noise",
+          "values": {
+            "size": 0.30000001192092896,
+            "phase": -3.5333333015441895,
+            "offset": [
+              0.0,
+              7.066666603088379,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "VisibilityEnvelope_FILLED:Color Correction",
+          "values": {
+            "color": {
+              "scene_rgb_255": [
+                255.0,
+                255.0,
+                255.0
+              ]
+            }
+          }
+        },
+        {
+          "name": "#6 Yellow cyan:Gradient Ramp",
+          "values": {
+            "size": 4.0,
+            "phase": 2.299999952316284,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#1 Shape_FILLED:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#7 Moving gate_FILLED:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": -0.3199999928474426
+          }
+        }
+      ]
+    },
+    {
+      "frame": 60,
+      "geometry": [
+        {
+          "name": "Impact_Sphere",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            2.875,
+            2.875,
+            0.07999999821186066
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "name": "#8 Turbulence:Noise",
+          "values": {
+            "size": 0.30000001192092896,
+            "phase": -4.0,
+            "offset": [
+              0.0,
+              8.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "VisibilityEnvelope_FILLED:Color Correction",
+          "values": {
+            "color": {
+              "scene_rgb_255": [
+                255.0,
+                255.0,
+                255.0
+              ]
+            }
+          }
+        },
+        {
+          "name": "#6 Yellow cyan:Gradient Ramp",
+          "values": {
+            "size": 4.0,
+            "phase": 2.299999952316284,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#1 Shape_FILLED:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#7 Moving gate_FILLED:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": -0.36226415634155273
+          }
+        }
+      ]
+    },
+    {
+      "frame": 70,
+      "geometry": [
+        {
+          "name": "Impact_Sphere",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            3.5,
+            3.5,
+            0.07999999821186066
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "name": "#8 Turbulence:Noise",
+          "values": {
+            "size": 0.30000001192092896,
+            "phase": -4.666666507720947,
+            "offset": [
+              0.0,
+              9.333333015441895,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "VisibilityEnvelope_FILLED:Color Correction",
+          "values": {
+            "color": {
+              "scene_rgb_255": [
+                153.0,
+                153.0,
+                153.0
+              ]
+            }
+          }
+        },
+        {
+          "name": "#6 Yellow cyan:Gradient Ramp",
+          "values": {
+            "size": 4.0,
+            "phase": 2.299999952316284,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#1 Shape_FILLED:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#7 Moving gate_FILLED:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": -0.4226415157318115
+          }
+        }
+      ]
+    },
+    {
+      "frame": 85,
+      "geometry": [
+        {
+          "name": "Impact_Sphere",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            4.4375,
+            4.4375,
+            0.07999999821186066
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "name": "#8 Turbulence:Noise",
+          "values": {
+            "size": 0.30000001192092896,
+            "phase": -5.666666507720947,
+            "offset": [
+              0.0,
+              11.333333015441895,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "VisibilityEnvelope_FILLED:Color Correction",
+          "values": {
+            "color": {
+              "scene_rgb_255": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        },
+        {
+          "name": "#6 Yellow cyan:Gradient Ramp",
+          "values": {
+            "size": 4.0,
+            "phase": 2.299999952316284,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#1 Shape_FILLED:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#7 Moving gate_FILLED:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": -0.5132075548171997
+          }
+        }
+      ]
+    },
+    {
+      "frame": 100,
+      "geometry": [
+        {
+          "name": "Impact_Sphere",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            5.375,
+            5.375,
+            0.07999999821186066
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "name": "#8 Turbulence:Noise",
+          "values": {
+            "size": 0.30000001192092896,
+            "phase": -6.666666507720947,
+            "offset": [
+              0.0,
+              13.333333015441895,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "VisibilityEnvelope_FILLED:Color Correction",
+          "values": {
+            "color": {
+              "scene_rgb_255": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        },
+        {
+          "name": "#6 Yellow cyan:Gradient Ramp",
+          "values": {
+            "size": 4.0,
+            "phase": 2.299999952316284,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#1 Shape_FILLED:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#7 Moving gate_FILLED:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": -0.6037735939025879
+          }
+        }
+      ]
+    }
+  ]
+}

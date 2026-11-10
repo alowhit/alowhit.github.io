@@ -1,0 +1,56 @@
+{
+  "renders": [
+    {
+      "file": "/classroom/course-assets/course37-coordinates/06_Explicit_Size80.png.webp",
+      "size": [
+        400,
+        800,
+        3
+      ],
+      "white_pixels": 29281,
+      "white_pixel_fraction": 0.091503125,
+      "download_sha256_matches": true
+    },
+    {
+      "file": "/classroom/course-assets/course37-coordinates/07_Explicit_Size01.png.webp",
+      "size": [
+        400,
+        800,
+        3
+      ],
+      "white_pixels": 29222,
+      "white_pixel_fraction": 0.09131875,
+      "download_sha256_matches": true
+    },
+    {
+      "file": "/classroom/course-assets/course37-coordinates/08_ObjectXYZ_Size80.png.webp",
+      "size": [
+        400,
+        800,
+        3
+      ],
+      "white_pixels": 29197,
+      "white_pixel_fraction": 0.091240625,
+      "download_sha256_matches": true
+    }
+  ],
+  "comparison": [
+    {
+      "files": [
+        "06_Explicit_Size80",
+        "07_Explicit_Size01"
+      ],
+      "mean_absolute_RGB_difference": 0.0191875,
+      "max_absolute_RGB_difference": 44
+    },
+    {
+      "files": [
+        "06_Explicit_Size80",
+        "08_ObjectXYZ_Size80"
+      ],
+      "mean_absolute_RGB_difference": 0.0205375,
+      "max_absolute_RGB_difference": 37
+    }
+  ],
+  "assessment": "Native settings saved and reopened; display clipping suspected, not causally proven. Exposure test not executed. Visual fidelity not passed."
+}

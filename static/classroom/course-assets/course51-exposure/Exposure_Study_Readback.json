@@ -1,0 +1,31 @@
+{
+  "file": "/classroom/course-assets/course51-exposure/08_Exposure_Control_STUDY.max",
+  "reopened": true,
+  "purpose": "controlled exposure study; source controller not confirmed",
+  "controller_class": "Physical_Camera_Exposure_Control",
+  "properties": {
+    "highlights": "0.25",
+    "midtones": "1.0",
+    "shadows": "0.20000000298023224",
+    "saturation": "1.0",
+    "physical_scale_mode": "1",
+    "physical_scale": "1500.0",
+    "use_physical_camera_controls": "True",
+    "use_global_ev": "0",
+    "global_ev": "6.0",
+    "ev_compensation": "0.0",
+    "active": "True",
+    "processBG": "True",
+    "white_balance_type": "0",
+    "white_balance_illuminant": "0",
+    "white_balance_illuminant_colorpreview": "(color 255 255 255)",
+    "white_balance_kelvin": "6500.0",
+    "white_balance_kelvin_colorpreview": "(color 255 255 255)",
+    "white_balance_custom": "(color 255 255 255)",
+    "vignetting_enabled": "False",
+    "vignetting_amount": "1.0"
+  },
+  "camera_ev": 6.0,
+  "room_emit_color": "(color 55 55 55)",
+  "reference": "07_SourceRamp_Partial.png same materials,geometry,camera; only scene exposure controller added"
+}

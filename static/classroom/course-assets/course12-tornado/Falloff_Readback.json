@@ -1,0 +1,38 @@
+{
+  "reopened": true,
+  "opacities": [
+    100.0,
+    80.0,
+    100.0,
+    100.0
+  ],
+  "blend_modes": [
+    0,
+    5,
+    5,
+    5
+  ],
+  "falloff_type": 1,
+  "falloff_direction": 0,
+  "colors": [
+    "(color 255 255 255)",
+    "(color 0 0 0)"
+  ],
+  "confirmed": [
+    "Falloff white/front black/side Perpendicular/Parallel Viewing Direction at1350s",
+    "Map48 Ease In at1470s",
+    "Layer2 Multiply80 Layer4 Multiply100 at1485s"
+  ],
+  "template": "NativeEase9.mat: previously visually verified Ease In",
+  "pending": [
+    "Map52 orange palette",
+    "exact modeling transforms",
+    "animation",
+    "source camera/background",
+    "full assessment"
+  ],
+  "inherited_limitations": [
+    "Estimated gradient flags and mesh proportions",
+    "Supplemental gray emission and diagnostic scene"
+  ]
+}

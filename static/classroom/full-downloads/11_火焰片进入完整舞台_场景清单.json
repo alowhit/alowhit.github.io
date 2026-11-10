@@ -1,0 +1,65 @@
+{
+  "file": "/classroom/full-downloads/11_%E7%81%AB%E7%84%B0%E7%89%87%E8%BF%9B%E5%85%A5%E5%AE%8C%E6%95%B4%E8%88%9E%E5%8F%B0.max",
+  "frame_to_view": 35,
+  "camera": {
+    "name": "PhysCamera_Study_FILLED_target",
+    "position": [
+      0.0,
+      -393.7007751464844,
+      90.55117797851562
+    ],
+    "fov": 45.0,
+    "film_width_mm": 36.0,
+    "f_number": 8.0,
+    "target_EV_FILLED": 0.0
+  },
+  "lights": [
+    {
+      "name": "Arnold_Quad_FILLED_position",
+      "shapeType": 3,
+      "intensity": 500.0,
+      "exposure": -10.0,
+      "normalize": false,
+      "on": true
+    }
+  ],
+  "objects": [
+    {
+      "name": "Room_FILLED_cyclorama",
+      "class": "Editable_mesh",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Arnold_Quad_FILLED_position",
+      "class": "Arnold_Light",
+      "position": [
+        -98.4251937866211,
+        -59.055118560791016,
+        196.8503875732422
+      ]
+    },
+    {
+      "name": "PhysCamera_Study_FILLED_target",
+      "class": "Physical",
+      "position": [
+        0.0,
+        -393.7007751464844,
+        90.55117797851562
+      ]
+    },
+    {
+      "name": "Fire_Plane_500x350",
+      "class": "Plane",
+      "position": [
+        0.0,
+        -73.98622131347656,
+        0.0
+      ]
+    }
+  ],
+  "note": "Room dimensions, light placement, exposure and camera aim are supplemental; video values are labelled by time in the full course, not an entire final scene copied."
+}

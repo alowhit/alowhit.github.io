@@ -1,0 +1,98 @@
+{
+  "frame": 32,
+  "source": "Class2 saved geometry/materials",
+  "restored": "Loft001 renderable",
+  "objects": [
+    {
+      "name": "Line001",
+      "class": "line"
+    },
+    {
+      "name": "Line002",
+      "class": "line"
+    },
+    {
+      "name": "Loft001",
+      "class": "Editable_Poly"
+    },
+    {
+      "name": "Cylinder001",
+      "class": "PolyMeshObject"
+    },
+    {
+      "name": "Ori",
+      "class": "Dummy"
+    },
+    {
+      "name": "Text002",
+      "class": "text"
+    },
+    {
+      "name": "Line004",
+      "class": "SplineShape"
+    },
+    {
+      "name": "Text001",
+      "class": "text"
+    },
+    {
+      "name": "Line005",
+      "class": "SplineShape"
+    },
+    {
+      "name": "Text003",
+      "class": "text"
+    },
+    {
+      "name": "Line003",
+      "class": "SplineShape"
+    },
+    {
+      "name": "Sphere001",
+      "class": "Sphere"
+    },
+    {
+      "name": "Cylinder002",
+      "class": "PolyMeshObject"
+    },
+    {
+      "name": "Study_Camera_SUPPLEMENT",
+      "class": "Freecamera"
+    }
+  ],
+  "variants": [
+    {
+      "file": "/classroom/course-assets/fireball-stage/01_Source_Room_Front.max",
+      "camera_position": [
+        -265.0,
+        -1146.02001953125,
+        153.07200622558594
+      ],
+      "direction": [
+        0.0,
+        -1.0,
+        -4.371138828673793e-08
+      ],
+      "saved_reopened": true
+    },
+    {
+      "file": "/classroom/course-assets/fireball-stage/02_Source_Room_Oblique.max",
+      "camera_position": [
+        55.0,
+        -1100.0,
+        500.0
+      ],
+      "direction": [
+        0.2671402096748352,
+        -0.9182942509651184,
+        0.2921845614910126
+      ],
+      "saved_reopened": true
+    }
+  ],
+  "limitations": [
+    "Camera positions are supplemental estimates,not exact source viewport transforms",
+    "Class2 saved shader values differ from some lesson checkpoints",
+    "No final glow or assessment pass yet"
+  ]
+}

@@ -1,0 +1,161 @@
+<!doctype html><html lang="zh-Hans"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Cylinder texture animation</title><link rel="stylesheet" href="/classroom/course.css"><header><a href="/classroom/course-assessment.html">Course & assessment</a><a href="/classroom/index.html">已有教学</a><a href="/classroom/particle-flow-study.html">Particle Flow 学习页</a></header><main><p class="tag">SOURCE VIDEO · course03</p><h1>Cylinder texture animation</h1><p>11月4日教学3.mp4 · 00:52:40</p><div class="note">已接入旧版详细教学：4个操作步骤、55条参数记录及原片证据。整课逐帧复刻与最终考核验收仍未完成。</div><p><a href="/learn/course03/">查看已有的详细教学与练习</a>（仍需与当前视频核对）</p><div class="local-source"><p class="video-download"><a href="https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course03.mp4">下载本课原视频 MP4 · 97.8 MB ↓</a> · <a href="/classroom/video-downloads.html">全部原片下载</a></p><p>原片：11月4日教学3.mp4。请选择本机对应视频，文件只在浏览器播放，不会上传。</p><label>选择原片 <input class="source-file" type="file" accept="video/*"></label><video id="sourceVideo" controls preload="none" data-local-video="true"></video></div><p class="muted">视频来自本机 [本机资料路径]</p><section id="existing-reviewed-lesson"><h2>已有详细教学 · 按本课原视频整理</h2><p>为碎片叠加颜色与细节；分别动画化模型缩放、程序纹理偏移和侵蚀遮罩，让碎片展开并消失。</p><p>以下内容来自旧版补习页已经保存的核对记录。本次按视频文件名接入，保留时间点、补充值和未知项；没有把整合网页计为新的逐帧核对或MAX完成。数值可能属于中间试验，请结合时间点与状态看。</p><p><a href="/learn/course03/">打开旧版交互教学</a> · <a href="/classroom/complete.html#v03">场景、镜头与动画流程</a> · <a href="/classroom/results.html">按作业查看当前成果与下载</a></p><h3>操作步骤</h3><details><summary>1. 颜色分支</summary><p>独立Cellular驱动蓝—橙—金渐变，颜色图与形状遮罩分开。</p><button data-time="1380">定位原片 23:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_1380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>2. Noise细节</summary><p>Fractal Noise，Size .1，Tiling 7/1.5/1，Low .3、High .8。</p><button data-time="1560">定位原片 26:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_1560.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>3. 侵蚀动画</summary><p>消散Cellular的Size从.2到.02，Spread从.1到8，逐渐改变可见区域。</p><button data-time="2380">定位原片 39:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_2380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>4. 消散曲线</summary><p>根据已读关键值重建；视频未完整展示的切线柄采用补齐曲线，不能当作完全一致。</p><button data-time="2580">定位原片 43:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_2580.jpg.webp" alt="已有核对记录的原片截图"></details><h3>参数与用途 · 55条已有记录</h3><p>展开一条记录，即可同时查看数值、用途、核对状态和原片证据。</p><details><summary>确认渲染正在逐帧推进 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;render_device&quot;: &quot;CPU&quot;,
+  &quot;render_camera&quot;: &quot;/viewport_camera&quot;,
+  &quot;render_size&quot;: [
+    640,
+    480
+  ],
+  &quot;progress_total_frames&quot;: 34,
+  &quot;sample_frame_number&quot;: 21,
+  &quot;sample_progress&quot;: &quot;8/34&quot;
+}</pre><p><b>用途：</b>验证输出视角、范围与设备确实符合设置。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="3090">定位原片 51:30</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_first/v03_3090.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>补齐AVI文件压缩设置 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;container&quot;: &quot;AVI&quot;,
+  &quot;compressor&quot;: &quot;未压缩&quot;,
+  &quot;quality_active&quot;: false,
+  &quot;keyframe_rate_active&quot;: false
+}</pre><p><b>用途：</b>复刻老师输出方式；未压缩会产生较大视频文件。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="3068.0">定位原片 51:08</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/recheck_first/v03_3068.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>指定输出文件 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;visible_output_name&quot;: &quot;Test3&quot;,
+  &quot;subsequent_render_title&quot;: &quot;Test3.avi&quot;
+}</pre><p><b>用途：</b>让动画真正写入文件，而不只停留在RenderView。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="3060">定位原片 51:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_first/v03_3060.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>输出每3帧与整段动画的区别 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;range&quot;: [
+    0,
+    100
+  ],
+  &quot;every_nth_frame&quot;: 3,
+  &quot;rendered_frame_count&quot;: 34,
+  &quot;last_sampled_frame&quot;: 99,
+  &quot;width&quot;: 640,
+  &quot;height&quot;: 480,
+  &quot;image_aspect&quot;: 1.333,
+  &quot;pixel_aspect&quot;: 1.0,
+  &quot;aperture_width_mm&quot;: 36
+}</pre><p><b>用途：</b>理解老师为快速试片跳帧，而不是遗漏动画关键帧。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="3030.0">定位原片 50:30</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/recheck_first/v03_3030.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>设置动画渲染范围与尺寸 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;renderer&quot;: &quot;Arnold&quot;,
+  &quot;view&quot;: &quot;四元菜单4—透视&quot;,
+  &quot;range&quot;: [
+    0,
+    100
+  ],
+  &quot;every_nth_frame&quot;: 3,
+  &quot;width&quot;: 640,
+  &quot;height&quot;: 480,
+  &quot;image_aspect&quot;: 1.333,
+  &quot;pixel_aspect&quot;: 1.0,
+  &quot;aperture_width_mm&quot;: 36
+}</pre><p><b>用途：</b>先以较低分辨率和隔帧输出验证整段动画，控制等待时间。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="3030">定位原片 50:30</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_first/v03_3030.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>用常量颜色做整体淡出 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;curve&quot;: &quot;白/1到黑/0的直线&quot;
+}</pre><p><b>用途：</b>整体淡出补上细胞侵蚀后残留的可见碎片。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="2980">定位原片 49:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_first/v03_2980.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>修正Cellular边界颜色1的最终可见中间关键帧 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;track&quot;: &quot;Luft / opacity Map9 Composite / Map2 / 边界颜色1&quot;,
+  &quot;last_visible_middle_key&quot;: {
+    &quot;frame&quot;: 50,
+    &quot;value&quot;: 184.93
+  },
+  &quot;start_visible_value&quot;: 255,
+  &quot;end_visible_value&quot;: 0,
+  &quot;end_frame_estimate&quot;: 98,
+  &quot;replaces_intermediate_samples&quot;: [
+    {
+      &quot;frame&quot;: 48,
+      &quot;value&quot;: 189.72
+    },
+    {
+      &quot;frame&quot;: 41,
+      &quot;value&quot;: 89.76
+    }
+  ]
+}</pre><p><b>用途：</b>避免把尝试曲线的中间状态当成最终侵蚀节奏。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="2910.0">定位原片 48:30</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/recheck_first/v03_2924.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>核对消散末端参数 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;frame&quot;: 100,
+  &quot;size&quot;: 0.02,
+  &quot;spread&quot;: 8,
+  &quot;division_color1&quot;: &quot;黑&quot;
+}</pre><p><b>用途：</b>区分动画采样值与真正的终点。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="2500">定位原片 41:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_first/v03_2500.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>加入消散Cellular并分别设关键点 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;size_endpoints&quot;: [
+    0.2,
+    0.02
+  ],
+  &quot;spread_endpoints&quot;: [
+    0.1,
+    8
+  ],
+  &quot;map_channel&quot;: 1,
+  &quot;tiling&quot;: [
+    1,
+    1,
+    1
+  ]
+}</pre><p><b>用途：</b>细胞变密和分布变化共同侵蚀可见区域。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="2340">定位原片 39:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_first/v03_2340.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>透视构图与实际相机的区别 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;render_camera&quot;: &quot;/viewport_camera&quot;,
+  &quot;render_device_visible&quot;: &quot;CPU&quot;,
+  &quot;scene_object_visible&quot;: &quot;Cylinder001&quot;
+}</pre><p><b>用途：</b>避免把自动生成的viewport_camera误认为老师创建了实体相机。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="1720.0">定位原片 28:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/recheck_first/v03_1720.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>再次独立核对缩放曲线 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;samples&quot;: [
+    {
+      &quot;frame&quot;: 68,
+      &quot;xyz_percent&quot;: [
+        134.64,
+        134.64,
+        134.64
+      ],
+      &quot;image&quot;: &quot;evidence/recheck_first/v03_1720.jpg&quot;
+    },
+    {
+      &quot;frame&quot;: 86,
+      &quot;xyz_percent&quot;: [
+        147.06,
+        147.06,
+        147.06
+      ],
+      &quot;image&quot;: &quot;evidence/recheck_first/v03_1760.jpg&quot;
+    },
+    {
+      &quot;frame&quot;: 94,
+      &quot;xyz_percent&quot;: [
+        149.46,
+        149.46,
+        149.46
+      ],
+      &quot;image&quot;: &quot;evidence/recheck_first/v03_472.jpg&quot;
+    }
+  ]
+}</pre><p><b>用途：</b>让重建动画具有可核验的数字检查点。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="1720.0">定位原片 28:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/recheck_first/v03_1760.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>用中间帧校验扩张速度 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;frame&quot;: 60,
+  &quot;scale_percent&quot;: [
+    126,
+    126,
+    126
+  ],
+  &quot;reconstruction_formula&quot;: &quot;scale factor=1.5*(2t-t²), t=frame/100&quot;
+}</pre><p><b>用途：</b>防止只复制两个端点却丢掉爆发节奏。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="750.0">定位原片 12:30</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/recheck_first/v03_750.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>输入终点并调整扩张节奏 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;frame&quot;: 100,
+  &quot;scale_percent&quot;: [
+    150,
+    150,
+    150
+  ],
+  &quot;curve_shape&quot;: &quot;由0上升至150，后段趋于平缓&quot;
+}</pre><p><b>用途：</b>150%是整体尺寸，不是半径直接改成150厘米。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="480">定位原片 08:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_first/v03_480.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>缩放切线操作的证据边界 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;start_frame&quot;: 0,
+  &quot;start_scale_percent&quot;: [
+    0,
+    0,
+    0
+  ],
+  &quot;end_frame&quot;: 100,
+  &quot;end_scale_percent&quot;: [
+    150,
+    150,
+    150
+  ],
+  &quot;frame94_scale_percent&quot;: [
+    149.46,
+    149.46,
+    149.46
+  ]
+}</pre><p><b>用途：</b>将爆发扩张与匀速长大区分开。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="344.0">定位原片 05:44</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/recheck_first/v03_472.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>在曲线编辑器精确输入起点 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;frame&quot;: 0,
+  &quot;scale_percent&quot;: [
+    0,
+    0,
+    0
+  ]
+}</pre><p><b>用途：</b>让特效从不可见的小尺寸开始。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="280">定位原片 04:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_first/v03_280.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#7 调色 Cellular · Coordinates</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">Explicit Map Channel；Channel 1</pre><p><b>用途：</b>使用模型UV，避免把0.1/0.2当世界空间厘米。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 23:00</p><button data-time="1380">定位原片 23:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_1380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#7 调色 Cellular · Tiling U / V / W</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">8 / 1 / 1</pre><p><b>用途：</b>U增大使图案沿圆周重复更多。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 23:00</p><button data-time="1380">定位原片 23:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_1380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#7 调色 Cellular · Cell Characteristics</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">Chips；Fractal 开</pre><p><b>用途：</b>碎片形态叠加分形细节。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 23:00</p><button data-time="1380">定位原片 23:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_1380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#7 调色 Cellular · Size</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">0.1</pre><p><b>用途：</b>越小，细胞越密、碎片越小。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 23:00</p><button data-time="1380">定位原片 23:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_1380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#7 调色 Cellular · Spread</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">0.4</pre><p><b>用途：</b>改变细胞区域与边界之间的分布。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 23:00</p><button data-time="1380">定位原片 23:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_1380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#7 调色 Cellular · Iterations / Adaptive</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">3 / 开</pre><p><b>用途：</b>分形层数与自适应计算。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 23:00</p><button data-time="1380">定位原片 23:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_1380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#7 调色 Cellular · Bump Smoothing / Roughness</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">0.1 / 0</pre><p><b>用途：</b>保留老师的细节设置；本材质没有连接Bump。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 23:00</p><button data-time="1380">定位原片 23:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_1380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#7 调色 Cellular · Threshold Low / Mid / High</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">0 / 0.5 / 1</pre><p><b>用途：</b>细胞颜色区间分界。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 23:00</p><button data-time="1380">定位原片 23:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_1380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#7 调色 Cellular · Cell Color / Division Color 2</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">白255 / 黑0</pre><p><b>用途：</b>亮区与边界对比。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 23:00</p><button data-time="1380">定位原片 23:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_1380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#7 调色 Cellular · Variation</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">0</pre><p><b>用途：</b>关闭细胞颜色随机变化。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 23:00</p><button data-time="1380">定位原片 23:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_1380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#12 消散 Cellular · Coordinates</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">Explicit Map Channel；Channel 1</pre><p><b>用途：</b>使用模型UV，避免把0.1/0.2当世界空间厘米。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 39:00 / 40:00 / 41:40</p><button data-time="2340">定位原片 39:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_2380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#12 消散 Cellular · Tiling U / V / W</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">1 / 1 / 1</pre><p><b>用途：</b>U增大使图案沿圆周重复更多。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 39:00 / 40:00 / 41:40</p><button data-time="2340">定位原片 39:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_2380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#12 消散 Cellular · Cell Characteristics</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">Chips；Fractal 开</pre><p><b>用途：</b>碎片形态叠加分形细节。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 39:00 / 40:00 / 41:40</p><button data-time="2340">定位原片 39:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_2380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#12 消散 Cellular · Size</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">0帧 0.2 → 100帧 0.02</pre><p><b>用途：</b>越小，细胞越密、碎片越小。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 39:00 / 40:00 / 41:40</p><button data-time="2340">定位原片 39:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_2380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#12 消散 Cellular · Spread</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">0帧 0.1 → 100帧 8</pre><p><b>用途：</b>改变细胞区域与边界之间的分布。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 39:00 / 40:00 / 41:40</p><button data-time="2340">定位原片 39:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_2380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#12 消散 Cellular · Iterations / Adaptive</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">3 / 开</pre><p><b>用途：</b>分形层数与自适应计算。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 39:00 / 40:00 / 41:40</p><button data-time="2340">定位原片 39:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_2380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#12 消散 Cellular · Bump Smoothing / Roughness</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">0.1 / 0</pre><p><b>用途：</b>保留老师的细节设置；本材质没有连接Bump。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 39:00 / 40:00 / 41:40</p><button data-time="2340">定位原片 39:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_2380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#12 消散 Cellular · Threshold Low / Mid / High</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">0 / 0.5 / 1</pre><p><b>用途：</b>细胞颜色区间分界。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 39:00 / 40:00 / 41:40</p><button data-time="2340">定位原片 39:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_2380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#12 消散 Cellular · Cell Color / Division Color 2</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">白255 / 黑0</pre><p><b>用途：</b>亮区与边界对比。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 39:00 / 40:00 / 41:40</p><button data-time="2340">定位原片 39:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_2380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#12 消散 Cellular · Variation</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">0</pre><p><b>用途：</b>关闭细胞颜色随机变化。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 39:00 / 40:00 / 41:40</p><button data-time="2340">定位原片 39:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_2380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#1、#7 · Division Color 1</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">RGB 127.5, 127.5, 127.5</pre><p><b>用途：</b>中间灰度参与形状或颜色重映射。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频2 05:40；视频3 23:00</p><button data-time="1380">定位原片 23:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_1380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#7、#12 · Offset / Angles</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">0,0,0 / 0,0,0</pre><p><b>用途：</b>固定纹理位置和方向。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 23:00 / 39:00</p><button data-time="1380">定位原片 23:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_1380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#2 · Source Map</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">#4 Composite</pre><p><b>用途：</b>先把细胞与高度相乘，再做阈值。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频2后段、视频3曲线树</p><button data-time="1380">定位原片 23:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_1380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#6 Noise · Coordinates</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">Explicit Map Channel 1；Tiling 7,1.5,1</pre><p><b>用途：</b>控制横纵密度。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 26:00</p><button data-time="1560">定位原片 26:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_1560.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#6 Noise · Noise Type / Size</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">Fractal / 0.1</pre><p><b>用途：</b>生成更细的噪声。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 26:00</p><button data-time="1560">定位原片 26:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_1560.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#6 Noise · Low / High</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">0.3 / 0.8</pre><p><b>用途：</b>拉伸有效灰度范围，增加局部对比。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 26:00</p><button data-time="1560">定位原片 26:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_1560.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#6 Noise · Levels / Phase</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">3 / 0</pre><p><b>用途：</b>分形层数3；没有额外加入Phase动画。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 26:00</p><button data-time="1560">定位原片 26:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_1560.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#6 Noise · Color 1 / Color 2</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">黑0 / 白255</pre><p><b>用途：</b>作为灰度明暗细节。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 26:00</p><button data-time="1560">定位原片 26:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_1560.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#7→#8 · Source Map</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">#7 Cellular → #8 Gradient Ramp</pre><p><b>用途：</b>独立的细胞纹理决定颜色分布。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 23:00–25:00</p><button data-time="1380">定位原片 23:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_1380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#8 · Gradient Type / Interpolation</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">Mapped / Linear</pre><p><b>用途：</b>连续地把灰度映射为蓝、橙、金。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 24:20–25:00</p><button data-time="1460">定位原片 24:20</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_1380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#8 · 位置0：场景RGB</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">3, 3, 140</pre><p><b>用途：</b>深蓝暗部；对应场景线性值约0.011765,0.011765,0.549020。</p><p><b>记录状态：</b>视频显示整数（精度受限）</p><p><b>来源：</b>视频3 24:20</p><button data-time="1460">定位原片 24:20</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_1380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#8 · 位置50：场景RGB</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">241, 85, 35</pre><p><b>用途：</b>橙色中间调；约0.945098,0.333333,0.137255。</p><p><b>记录状态：</b>视频显示整数（精度受限）</p><p><b>来源：</b>视频3 24:40–25:00</p><button data-time="1480">定位原片 24:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_1560.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#8 · 位置100：场景RGB</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">255, 139, 32</pre><p><b>用途：</b>金黄亮部；窗口显示线性1.000,0.545,0.125，换算并取整。</p><p><b>记录状态：</b>视频显示小数换算取整</p><p><b>来源：</b>视频3 23:42–23:43</p><button data-time="1422">定位原片 23:42</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_1380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#5 发光 Composite · Layers（底→顶）</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">1=#6 Normal100%；2=#2 Multiply100%；3=#8 Multiply100%</pre><p><b>用途：</b>细噪声×碎片遮罩×调色，输出接 Emission Color。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 20:40–25:00</p><button data-time="1240">定位原片 20:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_1380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#9 透明 Composite · Layers（底→顶）</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">1=#2 Normal100%；2=#6 Multiply20%；3=#12 Multiply100%；4=#13 Multiply100%</pre><p><b>用途：</b>形状×弱噪声×消散×淡出，输出接 Opacity。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 29:20 / 35:00 / 42:00</p><button data-time="1760">定位原片 29:20</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_1560.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#13 Color Correction · Map / Hue / Saturation / Brightness / Contrast</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">无贴图 / 0 / 0 / 0 / 0</pre><p><b>用途：</b>作为可动画的常量灰度；不是在调整颜色贴图。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 43:40</p><button data-time="2620">定位原片 43:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_2580.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#13 · Color</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">0帧白→100帧黑，线性</pre><p><b>用途：</b>整体淡出；白保留，黑透明。</p><p><b>记录状态：</b>端点颜色及直线可见；末帧100补齐</p><p><b>来源：</b>视频3 49:40</p><button data-time="2980">定位原片 49:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_2580.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>#12 · Division Color 1</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">0帧255；48帧189.720；98帧0；100帧保持0</pre><p><b>用途：</b>边界颜色变黑，与Size、Spread变化共同产生消散。</p><p><b>记录状态：</b>中间键读值；末帧98由曲线刻度估读</p><p><b>来源：</b>视频3 48:00</p><button data-time="2880">定位原片 48:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_2580.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>物体动画 · Uniform Scale</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">0帧0%；100帧150%；s(t)=150%(2t−t²)</pre><p><b>用途：</b>扩张先快后慢；60帧126%、68帧134.64%、86帧147.06%吻合。</p><p><b>记录状态：</b>端点/抽样读值；曲线公式推定</p><p><b>来源：</b>视频3 12:30、28:40、29:20</p><button data-time="750">定位原片 12:30</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_1380.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>渲染 · Renderer / Resolution / AA</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">Arnold / 640×480 / 3</pre><p><b>用途：</b>与视频渲染尺寸和AA一致。</p><p><b>记录状态：</b>视频读值</p><p><b>来源：</b>视频3 50:20及RenderView状态栏</p><button data-time="3020">定位原片 50:20</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/luft/v03_2580.jpg.webp" alt="已有核对记录的原片截图"></details><h3>跟做练习</h3><p>先只渲染黑白透明遮罩，确认碎片形状，再接颜色，最后播放0–100帧。</p><h3>这组记录仍未解决的内容</h3><ul><li>完整控制器切线柄与部分Composite混合设置未显示；工程内已采用注明的补齐值。</li></ul><p>以上为旧版记录中的待核对项；本页其他章节若有更新证据，应按其注明的版本与时点对照，不能把所有阶段数值混成一组最终参数。</p></section><h2>原片画面索引</h2><article class="sample"><button data-time="252.8">定位 00:04:12</button><a href="/classroom/course-assets/frames/course03/01_252.80s.jpg.webp"><img loading="lazy" src="/classroom/course-assets/frames/course03/01_252.80s.jpg.webp" alt="11月4日教学3.mp4 source frame at 01_252.80s"></a></article><article class="sample"><button data-time="948.01">定位 00:15:48</button><a href="/classroom/course-assets/frames/course03/02_948.01s.jpg.webp"><img loading="lazy" src="/classroom/course-assets/frames/course03/02_948.01s.jpg.webp" alt="11月4日教学3.mp4 source frame at 02_948.01s"></a></article><article class="sample"><button data-time="1738.02">定位 00:28:58</button><a href="/classroom/course-assets/frames/course03/03_1738.02s.jpg.webp"><img loading="lazy" src="/classroom/course-assets/frames/course03/03_1738.02s.jpg.webp" alt="11月4日教学3.mp4 source frame at 03_1738.02s"></a></article><article class="sample"><button data-time="2528.02">定位 00:42:08</button><a href="/classroom/course-assets/frames/course03/04_2528.02s.jpg.webp"><img loading="lazy" src="/classroom/course-assets/frames/course03/04_2528.02s.jpg.webp" alt="11月4日教学3.mp4 source frame at 04_2528.02s"></a></article><article class="sample"><button data-time="3002.03">定位 00:50:02</button><a href="/classroom/course-assets/frames/course03/05_3002.03s.jpg.webp"><img loading="lazy" src="/classroom/course-assets/frames/course03/05_3002.03s.jpg.webp" alt="11月4日教学3.mp4 source frame at 05_3002.03s"></a></article><script>const v=document.querySelector("video");document.querySelectorAll("[data-time]").forEach(b=>b.onclick=()=>{const t=+b.dataset.time;if(v.readyState===0){v.preload="metadata";v.load();v.addEventListener("loadedmetadata",()=>{v.currentTime=t;},{once:true});}else{v.currentTime=t;}v.scrollIntoView({behavior:"smooth",block:"center"});});</script></main></html><script src="/classroom/local-video.js" defer></script>

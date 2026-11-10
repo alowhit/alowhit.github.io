@@ -1,0 +1,45 @@
+{
+  "saved_reopened": true,
+  "source_study": "[本机资料路径]",
+  "renderer": "Arnold",
+  "mesh": {
+    "name": "Cylinder001_MeshEmitter",
+    "renderable": false,
+    "position": "[144.665,-239.677,266.114]",
+    "rotation": "(eulerAngles 0 -90 0)",
+    "modifiers": [
+      "Unwrap_UVW"
+    ]
+  },
+  "light": {
+    "name": "ArnoldLight002_Mesh",
+    "shape_type": 8,
+    "intensity": 1.0,
+    "exposure": 2.0,
+    "normalize": false,
+    "use_texture": true,
+    "on": true
+  },
+  "noise": {
+    "class": "ai_noise",
+    "octaves": 1,
+    "lacunarity": 1.9199999570846558,
+    "distortion": 0.0,
+    "amplitude": 1.0,
+    "scale": "[1,1,1]",
+    "offset": "[0,0,0]",
+    "time": 0.0,
+    "coord_space": 1
+  },
+  "camera": {
+    "name": "PhysCamera_Study_FILLED_target",
+    "position": "[700,-1100,500]"
+  },
+  "limitations": [
+    "Mesh-light experiment stage only; not final combined course scene",
+    "Camera and studio supplied by earlier reconstruction",
+    "Cylinder rotation and complete UV layout not proven identical to teacher",
+    "Noise colors filled black/white; RGB picker not shown",
+    "Parameter Wiring ending is exploratory, not a verified completed connection"
+  ]
+}

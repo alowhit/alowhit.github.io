@@ -1,0 +1,195 @@
+{
+  "saved_reopened": true,
+  "complete": false,
+  "frame": 100,
+  "material_class": "PhysicalMaterial",
+  "graph": "Cellular1+Gradient5→Composite6→Gradient2; Gradient2+Gradient4→Composite3; Smoke7→Gradient8; Composite3+Gradient8→Composite9→Gradient10→EmissionColor",
+  "blend_modes": [
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      15
+    ]
+  ],
+  "cellular": {
+    "size": 50.0,
+    "spread": 2.5,
+    "tiling": "[2,0.4,1]",
+    "offset": "[0,-150,100]"
+  },
+  "gradient5": {
+    "offset": 0.5,
+    "tilingV": 3.0,
+    "phase": 5.0,
+    "size": 3.0,
+    "flags": [
+      {
+        "position": 46.0,
+        "color": "[23,23,23]"
+      },
+      {
+        "position": 72.0,
+        "color": "[255,255,255]"
+      },
+      {
+        "position": 100.0,
+        "color": "[0,0,0]"
+      },
+      {
+        "position": 100.0,
+        "color": "[0,0,0]"
+      },
+      {
+        "position": 100.0,
+        "color": "[0,0,0]"
+      },
+      {
+        "position": 100.0,
+        "color": "[0,0,0]"
+      },
+      {
+        "position": 100.0,
+        "color": "[0,0,0]"
+      }
+    ]
+  },
+  "gradient4": {
+    "noise": 0.05000000074505806,
+    "tilingV": 4.0,
+    "flags": [
+      {
+        "position": 9.0,
+        "color": "[0,0,0]"
+      },
+      {
+        "position": 58.0,
+        "color": "[32,32,32]"
+      },
+      {
+        "position": 93.0,
+        "color": "[255,255,255]"
+      },
+      {
+        "position": 98.0,
+        "color": "[18,18,18]"
+      },
+      {
+        "position": 100.0,
+        "color": "[0,0,0]"
+      },
+      {
+        "position": 100.0,
+        "color": "[0,0,0]"
+      },
+      {
+        "position": 100.0,
+        "color": "[0,0,0]"
+      }
+    ]
+  },
+  "smoke": {
+    "size": 15.0,
+    "tiling": "[1,0.2,1]",
+    "exponent": 0.09000000357627869
+  },
+  "gradient8_flags": [
+    {
+      "position": 10.0,
+      "color": "[11,11,11]"
+    },
+    {
+      "position": 17.0,
+      "color": "[58,58,58]"
+    },
+    {
+      "position": 23.0,
+      "color": "[255,255,255]"
+    },
+    {
+      "position": 100.0,
+      "color": "[255,255,255]"
+    },
+    {
+      "position": 100.0,
+      "color": "[255,255,255]"
+    },
+    {
+      "position": 100.0,
+      "color": "[255,255,255]"
+    },
+    {
+      "position": 100.0,
+      "color": "[255,255,255]"
+    }
+  ],
+  "palette_flags": [
+    {
+      "position": 6.0,
+      "color": "[127,1,0]"
+    },
+    {
+      "position": 26.0,
+      "color": "[190,28,0]"
+    },
+    {
+      "position": 70.0,
+      "color": "[218,117,0]"
+    },
+    {
+      "position": 96.0,
+      "color": "[231,161,0]"
+    },
+    {
+      "position": 100.0,
+      "color": "[255,255,255]"
+    },
+    {
+      "position": 100.0,
+      "color": "[255,255,255]"
+    },
+    {
+      "position": 100.0,
+      "color": "[255,255,255]"
+    }
+  ],
+  "supplements": [
+    "Gradient5 right endpoint black and retained white72; final positions not all confirmed",
+    "Gradient4 full flag set supplied from prior study, not completely verified in this chapter",
+    "Animation frame0 values and interpolation not fully verified",
+    "Source studio/camera still differ; existing study camera and room retained",
+    "Gradient8 endpoints black0/white100 retained; complete final endpoint selection not yet checked",
+    "Palette endpoint100 white and endpoint0 black retained; intermediate flags visually verified"
+  ],
+  "solid_fix": {
+    "observed_wrong_UI_value": "Ease In",
+    "corrected_UI_value": "Solid",
+    "template": "work/NativeSolid9_Verified.mat",
+    "nodes_fixed": [
+      "02_Solid_Threshold",
+      "08_Smoke_Solid_FILLED_FLAGS"
+    ],
+    "method": "Native UI selection on g2 then copy its native ramp for g8; saved/reopened and re-rendered",
+    "prior_renders": "Before_Solid_Fix",
+    "earlier_Solid9_dependents": "Need audit; do not assume other scenes are fixed"
+  },
+  "later_source_correction": {
+    "blend": "Soft Light, Opacity100; visually rechecked evidence/fire_deep/v05_1568.jpg",
+    "smoke": "Size15, Iterations5, Exponent0.09, Phase0, ObjectXYZ Tiling1/0.2/1; evidence/fire/v05_native_01.png PTS1460.031873",
+    "confirmed_flags": [
+      "Ramp8 Position10 RGB11/11/11",
+      "Ramp8 Position17 RGB58/58/58",
+      "Ramp8 Position23 RGB255/255/255",
+      "Ramp10 Position6 RGB127/1/0",
+      "Ramp10 Position26 RGB190/28/0",
+      "Ramp10 Position70 RGB218/117/0",
+      "Ramp10 Position96 RGB231/161/0"
+    ]
+  }
+}

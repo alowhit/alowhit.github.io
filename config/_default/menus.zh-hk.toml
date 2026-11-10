@@ -33,3 +33,7 @@
   pre = "itch-io"
   url = "https://alowhiter.itch.io"
   weight = 60
+[[main]]
+  name = "特效教学"
+  pageRef = "learn"
+  weight = 25

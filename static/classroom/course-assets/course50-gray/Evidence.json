@@ -1,0 +1,25 @@
+{
+  "source": "课堂教学视频1.mp4",
+  "confirmed_display_rgb": [
+    128,
+    128,
+    128
+  ],
+  "hex": "808080",
+  "scene_rgb_displayed_rounded": [
+    0.22,
+    0.22,
+    0.22
+  ],
+  "evidence": "969s numeric fields;970s cursor on OK;971s picker closed",
+  "stage_luminance": 1500,
+  "later_luminance": 500,
+  "existing_native_emit_color": [
+    55,
+    55,
+    55
+  ],
+  "native_scene_rgb_approx": 0.21568627450980393,
+  "exact_hidden_scene_precision": "not shown;0.22 rounded",
+  "status": "source evidence recovered; existing native remains prior55/255; no exposure-match claim"
+}

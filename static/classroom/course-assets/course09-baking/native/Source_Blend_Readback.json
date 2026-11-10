@@ -1,0 +1,59 @@
+{
+  "bake_return": true,
+  "native": "/classroom/course-assets/course09-baking/native/03_Source_Blend_Two_Planes.max",
+  "reopened": true,
+  "original_material_class": "Standardmaterial",
+  "blend_modes": [
+    0,
+    18,
+    5
+  ],
+  "layer_opacities": [
+    100.0,
+    100.0,
+    20.0
+  ],
+  "source_seconds": [
+    5,
+    70,
+    665
+  ],
+  "output": "/classroom/course-assets/course09-baking/native/R_Opacity_SourceBlend.jpg.webp",
+  "planes": [
+    {
+      "name": "Plane001",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "length": 120.0,
+      "width": 120.0
+    },
+    {
+      "name": "R",
+      "position": [
+        0.0,
+        0.0,
+        18.173999786376953
+      ],
+      "length": 120.0,
+      "width": 120.0
+    }
+  ],
+  "confirmed": [
+    "Composite at665s: Normal100/HardMix100/Multiply20",
+    "Plane001 at5s:120x120cm,1x1segments,position0,0,0",
+    "Plane002 later R:120x120cm at0,0,18.174"
+  ],
+  "supplements": [
+    "Cellular/Noise values not visible in reviewed segment",
+    "Plane001 material unspecified, left unassigned",
+    "Temporary Physical Material bake compatibility"
+  ],
+  "pending": [
+    "Exact input texture values",
+    "Original Plane001 material",
+    "Animation sequence"
+  ]
+}

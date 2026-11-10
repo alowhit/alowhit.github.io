@@ -1,0 +1,1046 @@
+{
+  "source": "[本机资料路径]",
+  "source_sha256": "04b2dfbb08b8b29e2419e1783de0362d653a112f5cac362c9e076877c30b9d12",
+  "maps": [
+    {
+      "handle": 2454,
+      "name": "Fog",
+      "class": "Standardmaterial",
+      "properties": {
+        "shaderType": "1",
+        "wire": "False",
+        "twoSided": "False",
+        "faceMap": "False",
+        "faceted": "False",
+        "shaderByName": "Blinn",
+        "opacityType": "0",
+        "opacity": "100.0",
+        "FilterColor": "(color 127.5 127.5 127.5)",
+        "filterMap": "None",
+        "opacityFallOffType": "0",
+        "opacityFallOff": "0.0",
+        "ior": "1.5",
+        "wireSize": "1.0",
+        "wireUnits": "0",
+        "applyReflectionDimming": "False",
+        "dimLevel": "0.0",
+        "reflectionLevel": "3.0",
+        "sampler": "3",
+        "samplerQuality": "0.5",
+        "samplerEnable": "False",
+        "samplerAdaptThreshold": "0.10000000149011612",
+        "samplerAdaptOn": "True",
+        "subSampleTextureOn": "True",
+        "samplerAdvancedOptions": "True",
+        "samplerByName": "Max 2.5 Star",
+        "UserParam0": "0.0",
+        "UserParam1": "0.0",
+        "samplerUseGlobal": "True",
+        "mapEnables": "#(false, false, false, false, false, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, ...)",
+        "maps": "#(undefined, undefined, undefined, undefined, undefined, 贴图 #3:Falloff, 贴图 #2:Composite, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, ...)",
+        "mapAmounts": "#(100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 30.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, ...)",
+        "adTextureLock": "True",
+        "noExposureControl": "False",
+        "exposureControlInvertSelfIllum": "False",
+        "exposureControlInvertReflection": "False",
+        "exposureControlInvertRefraction": "False",
+        "ambient": "(color 0 0 0)",
+        "Diffuse": "(color 0 0 0)",
+        "Specular": "(color 0 0 0)",
+        "adLock": "True",
+        "dsLock": "False",
+        "useSelfIllumColor": "True",
+        "selfIllumAmount": "0.0",
+        "selfIllumColor": "(color 30.6 255 0)",
+        "specularLevel": "0.0",
+        "glossiness": "0.0",
+        "Soften": "0.10000000149011612",
+        "Ambient_Color": "(color 0 0 0)",
+        "Diffuse_Color": "(color 0 0 0)",
+        "Specular_Color": "(color 0 0 0)",
+        "Self_Illumination": "0.0",
+        "Self_Illum_Color": "(color 30.6 255 0)",
+        "Specular_Level": "0.0"
+      },
+      "children": [
+        {
+          "slot": 6,
+          "handle": 2390,
+          "name": "贴图 #3"
+        },
+        {
+          "slot": 7,
+          "handle": 2440,
+          "name": "贴图 #2"
+        }
+      ],
+      "animation": [],
+      "curve_read_note": "'pymxs.MXSWrapperBase' object has no attribute 'MixCurve'"
+    },
+    {
+      "handle": 2390,
+      "name": "贴图 #3",
+      "class": "falloff",
+      "properties": {
+        "color1": "(color 96.5624 221.12 255)",
+        "map1Amount": "100.0",
+        "map1": "None",
+        "map1On": "True",
+        "color2": "(color 0 6.76991 92.719)",
+        "map2Amount": "100.0",
+        "map2": "None",
+        "map2On": "True",
+        "type": "0",
+        "direction": "3",
+        "node": "$Point_Helper:Point001 @ [2.144183,-43.449047,15.483380]",
+        "mtlIOROverride": "True",
+        "ior": "1.600000023841858",
+        "extrapolateOn": "False",
+        "nearDistance": "0.0",
+        "farDistance": "100.0",
+        "Texture_Output": "MtlBase:Output",
+        "MixCurve": "ReferenceTarget:CurveControl"
+      },
+      "children": [],
+      "animation": [],
+      "mix_curve_properties": {
+        "Curve_1": "ReferenceTarget:Curve"
+      },
+      "mix_curves": [],
+      "curve_read_note": "'pymxs.MXSWrapperBase' object has no attribute 'curves'"
+    },
+    {
+      "handle": 2440,
+      "name": "贴图 #2",
+      "class": "CompositeTexturemap",
+      "properties": {
+        "mapEnabled": "#(true, true)",
+        "maskEnabled": "#(true, true)",
+        "blendMode": "#(0, 14)",
+        "layername": "#(\"\", \"\")",
+        "dlgOpened": "#(true, true)",
+        "opacity": "#(100.0, 100.0)",
+        "mapList": "#(贴图 #0:Falloff, 贴图 #1:Cellular)",
+        "Mask": "#(undefined, undefined)"
+      },
+      "children": [
+        {
+          "slot": 1,
+          "handle": 2411,
+          "name": "贴图 #0"
+        },
+        {
+          "slot": 3,
+          "handle": 2430,
+          "name": "贴图 #1"
+        }
+      ],
+      "animation": [],
+      "curve_read_note": "'pymxs.MXSWrapperBase' object has no attribute 'MixCurve'"
+    },
+    {
+      "handle": 2411,
+      "name": "贴图 #0",
+      "class": "falloff",
+      "properties": {
+        "color1": "(color 255 255 255)",
+        "map1Amount": "100.0",
+        "map1": "None",
+        "map1On": "True",
+        "color2": "(color 0 0 0)",
+        "map2Amount": "100.0",
+        "map2": "None",
+        "map2On": "True",
+        "type": "1",
+        "direction": "0",
+        "node": "None",
+        "mtlIOROverride": "True",
+        "ior": "1.600000023841858",
+        "extrapolateOn": "False",
+        "nearDistance": "0.0",
+        "farDistance": "100.0",
+        "Texture_Output": "MtlBase:Output",
+        "MixCurve": "ReferenceTarget:CurveControl"
+      },
+      "children": [],
+      "animation": [],
+      "mix_curve_properties": {
+        "Curve_1": "ReferenceTarget:Curve"
+      },
+      "mix_curves": [],
+      "curve_read_note": "'pymxs.MXSWrapperBase' object has no attribute 'curves'"
+    },
+    {
+      "handle": 2430,
+      "name": "贴图 #1",
+      "class": "Cellular",
+      "properties": {
+        "cellColor": "(color 255 255 255)",
+        "divColor1": "(color 54.0713 54.0713 54.0713)",
+        "divColor2": "(color 0 0 0)",
+        "CellMap": "None",
+        "divMap1": "None",
+        "divMap2": "None",
+        "map1Enabled": "True",
+        "map2Enabled": "True",
+        "map3Enabled": "True",
+        "variation": "0.0",
+        "size": "9.0",
+        "spread": "0.699999988079071",
+        "lowThresh": "0.0",
+        "midThresh": "0.5",
+        "highThresh": "1.0",
+        "type": "0",
+        "fractal": "True",
+        "iteration": "2.0",
+        "roughness": "0.0",
+        "smooth": "0.10000000149011612",
+        "adaptive": "True",
+        "coords": "MtlBase:Placement",
+        "output": "MtlBase:Output"
+      },
+      "children": [],
+      "Coordinates": {
+        "blur": "1.0",
+        "offset": "[0,0,0]",
+        "angle": "[0,0,0]",
+        "coordType": "1",
+        "mapChannel": "1",
+        "Tiling": "[1,1,1]",
+        "Blur_Offset": "0.0"
+      },
+      "coords": {
+        "blur": "1.0",
+        "offset": "[0,0,0]",
+        "angle": "[0,0,0]",
+        "coordType": "1",
+        "mapChannel": "1",
+        "Tiling": "[1,1,1]",
+        "Blur_Offset": "0.0"
+      },
+      "animation": [],
+      "curve_read_note": "'pymxs.MXSWrapperBase' object has no attribute 'MixCurve'"
+    }
+  ],
+  "objects": [
+    {
+      "name": "粒子流源 001",
+      "class": "PF_Source",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [-0.895522,0.298507,0])",
+      "properties": {
+        "Enable_Particles": "True",
+        "Logo_Size": "45.0",
+        "Emitter_Type": "0",
+        "Emitter_Length": "60.0",
+        "Emitter_Width": "60.0",
+        "Emitter_Height": "0.009999999776482582",
+        "Show_Logo": "True",
+        "Show_Emitter": "True",
+        "Quantity_Viewport": "100.0",
+        "Quantity_Render": "100.0",
+        "Select_By_Particle_ID": "1",
+        "Clear_Selection": "False",
+        "Selected_Particles": "#()",
+        "Selection_Level": "0",
+        "Particle_Amount_Limit": "100000",
+        "Integration_for_Viewport": "0",
+        "Integration_for_Render": "0",
+        "Enable_Script_for_Every_Step_Update": "False",
+        "Every_Step_Update_Script": "-- This is a script that can be used to update particle speed at each\n-- integration step\n--\n-- Created:  \t\t5-21-2002\n-- Last Updated:\t2-18-2003\n--\n-- Author :  Oleg Bayborodin\n-- Version:  3ds max 5.1\n--********************************************************************\n-- MODIFY THIS AT YOUR OWN RISK\n \npf_node_current = particleFlow.scriptRunner() -- current particle system\nif (pf_node_current != undefined) then \n(\n\tcount = pf_node_current.NumParticles()\n\t\n\tfor i in 1 to count do \n\t( \n\t\tpf_node_current.particleIndex = i \n\t\tage = 5*pf_node_current.particleAge \n\t\tpf_node_current.particleSpeed = [0.05*cos(age), 0.05*sin(age), -0.05] \n\t) \n)\n \n",
+        "Use_File_for_Every_Step_Update": "False",
+        "Every_Step_Update_Script_File": "None",
+        "Enable_Script_for_Final_Step_Update": "False",
+        "Final_Step_Update_Script": "-- This is a script that can be used to update particle position at final\n-- integration step\n--\n-- Created:  \t\t5-21-2002\n-- Last Updated:\n--\n-- Author :  Oleg Bayborodin\n-- Version:  3ds max 5.1\n--************************************************************************\n-- MODIFY THIS AT YOUR OWN RISK\n \npf_node_current = particleFlow.scriptRunner() -- current particle system\nif (pf_node_current != undefined) then \n(\n\tcount = pf_node_current.NumParticles() \n\t\n\tfor i in 1 to count do\n\t(\n\t\tpf_node_current.particleIndex = i\n\t\tage = 5*pf_node_current.particleAge\n\t\tfactor = 20*(sin(2*age)+1)\n\t\tpf_node_current.particlePosition = [factor*cos(77*i), factor*sin(77*i), -age] + pf_node_current.pos\n\t)\n)\n \n",
+        "Use_File_for_Final_Step_Update": "False",
+        "Final_Step_Update_Script_File": "None",
+        "X_Coord": "20",
+        "Y_Coord": "-100",
+        "Z_Order": "0",
+        "width": "180",
+        "particleIndex": "1",
+        "particleID": "2",
+        "particleAge": "5f",
+        "particleGroupTime": "5f",
+        "particlePosition": "[18.2364,0,69.1182]",
+        "particleSpeed": "[0,0,0]",
+        "particleOrientation": "[1.12636,0.176599,0.0230995]",
+        "particleSpin": "(angleAxis 0 [1,0,0])",
+        "particleScale": "35.39514923095703",
+        "particleScaleXYZ": "[1.19725,0.833562,1.07137]",
+        "particleTM": "(matrix3 [1.17832,0.0272234,-0.210336] [0.123903,0.361346,0.74088] [0.103245,-0.965164,0.453468] [18.2364,0,69.1182])",
+        "particleSelected": "False",
+        "particleShape": "TriMesh",
+        "渲染_001": "Render ",
+        "事件_001": "Event ",
+        "事件_002": "Event ",
+        "事件_003": "Event ",
+        "事件_004": "Event ",
+        "事件_005": "Event ",
+        "事件_006": "Event "
+      },
+      "animation": []
+    },
+    {
+      "name": "粒子流引擎001",
+      "class": "PFEngine",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {},
+      "animation": []
+    },
+    {
+      "name": "粒子流源 001->粒子流源 001",
+      "class": "ParticleGroup",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {},
+      "animation": []
+    },
+    {
+      "name": "出生 001",
+      "class": "Birth",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "Emit_Start": "-800",
+        "Emit_Stop": "-800",
+        "type": "0",
+        "amount": "120",
+        "Subframe_Sampling": "True",
+        "Rate": "60.0"
+      },
+      "animation": []
+    },
+    {
+      "name": "速度 001",
+      "class": "speed",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "speed": "0.0",
+        "variation": "0.0",
+        "direction": "0",
+        "reverse": "False",
+        "Divergence": "0.0",
+        "Random_Seed": "12345"
+      },
+      "animation": []
+    },
+    {
+      "name": "旋转001",
+      "class": "rotation",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "direction": "0",
+        "Euler_X": "0.0",
+        "Euler_Y": "0.0",
+        "Euler_Z": "0.0",
+        "Divergence": "0.0",
+        "Restrict_Divergence_To_Axis": "False",
+        "Divergence_Axis_X": "1.0",
+        "Divergence_Axis_Y": "0.0",
+        "Divergence_Axis_Z": "0.0",
+        "Random_Seed": "12345"
+      },
+      "animation": []
+    },
+    {
+      "name": "渲染 001",
+      "class": "RenderParticles",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "type": "2",
+        "visible": "100.0",
+        "Split_Type": "0",
+        "Mesh_Count": "10000",
+        "Particles_Per_Mesh": "1000"
+      },
+      "animation": []
+    },
+    {
+      "name": "显示 001",
+      "class": "DisplayParticles",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "type": "6",
+        "visible": "100.0",
+        "color": "(color 213 154 229)",
+        "Show_Numbering": "False",
+        "Selected_Type": "2"
+      },
+      "animation": []
+    },
+    {
+      "name": "事件 001",
+      "class": "Event",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "X_Coord": "20",
+        "Y_Coord": "0",
+        "Z_Order": "1",
+        "width": "180",
+        "collapsed": "0",
+        "inherit": "1",
+        "Priority": "0",
+        "出生_001": "Birth ",
+        "位置对象_001": "Position Object ",
+        "速度_001": "Speed ",
+        "旋转001": "Rotation ",
+        "图形实例_001": "Shape Instance ",
+        "材质静态_001": "Material Static ",
+        "拆分数量_001": "Split Amount ",
+        "发送出去_001": "Send Out ",
+        "显示_001": "Display "
+      },
+      "animation": []
+    },
+    {
+      "name": "粒子流源 001->事件 001",
+      "class": "ParticleGroup",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {},
+      "animation": []
+    },
+    {
+      "name": "GeoSphere001",
+      "class": "GeoSphere",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,60])",
+      "properties": {
+        "creationMethod": "1",
+        "typeInPos": "[0,0,0]",
+        "typeInRadius": "25.0",
+        "hemisphere": "False",
+        "segs": "2",
+        "radius": "20.388879776000977",
+        "baseType": "2",
+        "baseToPivot": "False",
+        "smooth": "True",
+        "mapcoords": "True",
+        "realWorldMapSize": "False"
+      },
+      "animation": []
+    },
+    {
+      "name": "GeoSphere002",
+      "class": "GeoSphere",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [-68.7801,-2.62285,0])",
+      "properties": {
+        "creationMethod": "1",
+        "typeInPos": "[0,0,0]",
+        "typeInRadius": "25.0",
+        "hemisphere": "False",
+        "segs": "3",
+        "radius": "15.0",
+        "baseType": "2",
+        "baseToPivot": "False",
+        "smooth": "True",
+        "mapcoords": "True",
+        "realWorldMapSize": "False"
+      },
+      "animation": []
+    },
+    {
+      "name": "粒子视图 001",
+      "class": "Particle_View",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "Origin": "[-170,173,0]",
+        "width": "1162",
+        "height": "648",
+        "Divider": "[1,188,0]",
+        "Zoom": "0.0",
+        "selected": "#($Birth:出生 001 @ [0.000000,0.000000,0.000000])",
+        "Show_Particle_Count": "0",
+        "Show_Action_Update": "0",
+        "Use_Dynamic_Names": "1",
+        "Show_Parameters": "True",
+        "Show_Action_Depot": "True",
+        "Show_Action_Description": "True"
+      },
+      "animation": []
+    },
+    {
+      "name": "位置对象 001",
+      "class": "Position_Object",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "Lock_On_Emitter": "False",
+        "Inherit_Emitter_Movement": "False",
+        "multiplier": "100.0",
+        "variation": "0.0",
+        "Emitter_Objects": "#($GeoSphere:GeoSphere001 @ [0.000000,0.000000,60.000000])",
+        "Animated_Shape": "False",
+        "Subframe_Sampling": "False",
+        "location": "8",
+        "Use_Surface_Offset": "False",
+        "Surface_Offset_Minimum": "-1.0",
+        "Surface_Offset_Maximum": "1.0",
+        "Density_By_Emitter_Material": "False",
+        "Density_Type": "0",
+        "Use_Sub_Material": "False",
+        "Material_ID": "1",
+        "Apart_Placement": "False",
+        "Apart_Distance": "1.0",
+        "Distinct_Points_Only": "False",
+        "Total_Distinct_Points": "10",
+        "delete": "False",
+        "Random_Seed": "12345",
+        "Maximum_Number_of_Attempts": "100"
+      },
+      "animation": []
+    },
+    {
+      "name": "图形实例 001",
+      "class": "Shape_Instance",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "Shape_Object": "$GeoSphere:GeoSphere002 @ [-68.780052,-2.622854,0.000000]",
+        "Group_Members": "False",
+        "Object_And_Children": "False",
+        "Object_Elements": "False",
+        "Scale_Value": "100.0",
+        "variation": "0.0",
+        "Acquire_Mapping": "True",
+        "Acquire_Material": "True",
+        "SubMtl_ID_Offset": "0",
+        "Random_Shape": "False",
+        "Animated_Shape": "False",
+        "Acquire_Shape": "False",
+        "Fast_Shape_Evaluation": "True",
+        "Sync_Type": "0",
+        "Add_Random_Offset": "False",
+        "Random_Offset": "4800",
+        "Random_Seed": "12345",
+        "Set_Scale": "True",
+        "Report_Node_Handles": "1",
+        "Handles_To_Report": "#(1828010099, 536368280, 259726508, 502820967)"
+      },
+      "animation": []
+    },
+    {
+      "name": "拆分数量 001",
+      "class": "Split_Amount",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "Test_Type": "1",
+        "ratio": "50.0",
+        "Every_Nth": "2",
+        "First_N": "100",
+        "Per_Emission_Source": "False",
+        "Random_Seed": "12345"
+      },
+      "animation": []
+    },
+    {
+      "name": "事件 002",
+      "class": "Event",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "X_Coord": "-40",
+        "Y_Coord": "360",
+        "Z_Order": "2",
+        "width": "178",
+        "collapsed": "0",
+        "inherit": "1",
+        "Priority": "0",
+        "缩放_001": "Scale ",
+        "发送出去_002": "Send Out ",
+        "显示_002": "Display "
+      },
+      "animation": []
+    },
+    {
+      "name": "缩放 001",
+      "class": "ScaleParticles",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "type": "1",
+        "X_Scale_Factor": "110.0",
+        "Y_Scale_Factor": "80.0",
+        "Z_Scale_Factor": "100.0",
+        "Constrain_Scale": "False",
+        "X_Scale_Variation": "20.0",
+        "Y_Scale_Variation": "20.0",
+        "Z_Scale_Variation": "20.0",
+        "Constrain_Scale_Variation": "False",
+        "bias": "1",
+        "Sync_Type": "2",
+        "Random_Seed": "23155"
+      },
+      "animation": []
+    },
+    {
+      "name": "显示 002",
+      "class": "DisplayParticles",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "type": "6",
+        "visible": "100.0",
+        "color": "(color 138 8 110)",
+        "Show_Numbering": "False",
+        "Selected_Type": "2"
+      },
+      "animation": []
+    },
+    {
+      "name": "粒子流箭头001",
+      "class": "PFArrow",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "active": "True"
+      },
+      "animation": []
+    },
+    {
+      "name": "粒子流源 001->事件 002",
+      "class": "ParticleGroup",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {},
+      "animation": []
+    },
+    {
+      "name": "发送出去 001",
+      "class": "Send_Out",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "Condition_Type": "0"
+      },
+      "animation": []
+    },
+    {
+      "name": "事件 003",
+      "class": "Event",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "X_Coord": "240",
+        "Y_Coord": "360",
+        "Z_Order": "3",
+        "width": "178",
+        "collapsed": "0",
+        "inherit": "1",
+        "Priority": "0",
+        "缩放_002": "Scale ",
+        "发送出去_003": "Send Out ",
+        "显示_003": "Display "
+      },
+      "animation": []
+    },
+    {
+      "name": "缩放 002",
+      "class": "ScaleParticles",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "type": "1",
+        "X_Scale_Factor": "70.0",
+        "Y_Scale_Factor": "130.0",
+        "Z_Scale_Factor": "110.0",
+        "Constrain_Scale": "False",
+        "X_Scale_Variation": "30.000001907348633",
+        "Y_Scale_Variation": "56.0",
+        "Z_Scale_Variation": "98.0",
+        "Constrain_Scale_Variation": "False",
+        "bias": "1",
+        "Sync_Type": "2",
+        "Random_Seed": "23511"
+      },
+      "animation": []
+    },
+    {
+      "name": "显示 003",
+      "class": "DisplayParticles",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "type": "6",
+        "visible": "100.0",
+        "color": "(color 8 108.62 147.75)",
+        "Show_Numbering": "False",
+        "Selected_Type": "2"
+      },
+      "animation": []
+    },
+    {
+      "name": "粒子流箭头002",
+      "class": "PFArrow",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "active": "True"
+      },
+      "animation": []
+    },
+    {
+      "name": "粒子流源 001->事件 003",
+      "class": "ParticleGroup",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {},
+      "animation": []
+    },
+    {
+      "name": "事件 004",
+      "class": "Event",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "X_Coord": "180",
+        "Y_Coord": "540",
+        "Z_Order": "4",
+        "width": "178",
+        "collapsed": "0",
+        "inherit": "1",
+        "Priority": "0",
+        "缩放_003": "Scale ",
+        "发送出去_004": "Send Out ",
+        "显示_004": "Display "
+      },
+      "animation": []
+    },
+    {
+      "name": "缩放 003",
+      "class": "ScaleParticles",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "type": "1",
+        "X_Scale_Factor": "100.0",
+        "Y_Scale_Factor": "100.0",
+        "Z_Scale_Factor": "100.0",
+        "Constrain_Scale": "True",
+        "X_Scale_Variation": "0.0",
+        "Y_Scale_Variation": "0.0",
+        "Z_Scale_Variation": "0.0",
+        "Constrain_Scale_Variation": "True",
+        "bias": "0",
+        "Sync_Type": "0",
+        "Random_Seed": "12345"
+      },
+      "animation": []
+    },
+    {
+      "name": "显示 004",
+      "class": "DisplayParticles",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "type": "6",
+        "visible": "100.0",
+        "color": "(color 229 154 215)",
+        "Show_Numbering": "False",
+        "Selected_Type": "2"
+      },
+      "animation": []
+    },
+    {
+      "name": "发送出去 002",
+      "class": "Send_Out",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "Condition_Type": "0"
+      },
+      "animation": []
+    },
+    {
+      "name": "粒子流箭头003",
+      "class": "PFArrow",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "active": "True"
+      },
+      "animation": []
+    },
+    {
+      "name": "粒子流源 001->事件 004",
+      "class": "ParticleGroup",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {},
+      "animation": []
+    },
+    {
+      "name": "发送出去 003",
+      "class": "Send_Out",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "Condition_Type": "0"
+      },
+      "animation": []
+    },
+    {
+      "name": "粒子流箭头004",
+      "class": "PFArrow",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "active": "True"
+      },
+      "animation": []
+    },
+    {
+      "name": "事件 005",
+      "class": "Event",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "X_Coord": "100",
+        "Y_Coord": "680",
+        "Z_Order": "5",
+        "width": "178",
+        "collapsed": "0",
+        "inherit": "1",
+        "Priority": "0",
+        "缩放_004": "Scale ",
+        "缩放测试_001": "Scale Test ",
+        "显示_005": "Display "
+      },
+      "animation": []
+    },
+    {
+      "name": "缩放 004",
+      "class": "ScaleParticles",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "type": "4",
+        "X_Scale_Factor": "101.0",
+        "Y_Scale_Factor": "101.0",
+        "Z_Scale_Factor": "101.0",
+        "Constrain_Scale": "False",
+        "X_Scale_Variation": "0.5",
+        "Y_Scale_Variation": "0.5",
+        "Z_Scale_Variation": "0.5",
+        "Constrain_Scale_Variation": "False",
+        "bias": "1",
+        "Sync_Type": "2",
+        "Random_Seed": "25007"
+      },
+      "animation": []
+    },
+    {
+      "name": "显示 005",
+      "class": "DisplayParticles",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "type": "6",
+        "visible": "100.0",
+        "color": "(color 26 73 229)",
+        "Show_Numbering": "False",
+        "Selected_Type": "2"
+      },
+      "animation": []
+    },
+    {
+      "name": "发送出去 004",
+      "class": "Send_Out",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "Condition_Type": "0"
+      },
+      "animation": []
+    },
+    {
+      "name": "粒子流箭头005",
+      "class": "PFArrow",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "active": "True"
+      },
+      "animation": []
+    },
+    {
+      "name": "粒子流源 001->事件 005",
+      "class": "ParticleGroup",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {},
+      "animation": []
+    },
+    {
+      "name": "缩放测试 001",
+      "class": "Scale_Test",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "Test_Type": "2",
+        "Axis_Type": "3",
+        "Condition_Type": "1",
+        "Size_Value": "10.0",
+        "Size_Variation": "0.0",
+        "Scale_Value": "150.0",
+        "Scale_Variation": "0.0",
+        "Sync_Type": "0",
+        "Random_Seed": "12345"
+      },
+      "animation": []
+    },
+    {
+      "name": "事件 006",
+      "class": "Event",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "X_Coord": "40",
+        "Y_Coord": "820",
+        "Z_Order": "6",
+        "width": "178",
+        "collapsed": "0",
+        "inherit": "1",
+        "Priority": "0",
+        "缩放_005": "Scale ",
+        "缩放测试_002": "Scale Test ",
+        "显示_006": "Display "
+      },
+      "animation": []
+    },
+    {
+      "name": "缩放 005",
+      "class": "ScaleParticles",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "type": "4",
+        "X_Scale_Factor": "99.0",
+        "Y_Scale_Factor": "99.0",
+        "Z_Scale_Factor": "99.0",
+        "Constrain_Scale": "False",
+        "X_Scale_Variation": "0.5",
+        "Y_Scale_Variation": "0.5",
+        "Z_Scale_Variation": "0.5",
+        "Constrain_Scale_Variation": "False",
+        "bias": "1",
+        "Sync_Type": "2",
+        "Random_Seed": "12345"
+      },
+      "animation": []
+    },
+    {
+      "name": "显示 006",
+      "class": "DisplayParticles",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "type": "6",
+        "visible": "100.0",
+        "color": "(color 141 229 7)",
+        "Show_Numbering": "False",
+        "Selected_Type": "2"
+      },
+      "animation": []
+    },
+    {
+      "name": "粒子流箭头006",
+      "class": "PFArrow",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "active": "True"
+      },
+      "animation": []
+    },
+    {
+      "name": "粒子流源 001->事件 006",
+      "class": "ParticleGroup",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {},
+      "animation": []
+    },
+    {
+      "name": "缩放测试 002",
+      "class": "Scale_Test",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "Test_Type": "2",
+        "Axis_Type": "1",
+        "Condition_Type": "0",
+        "Size_Value": "10.0",
+        "Size_Variation": "0.0",
+        "Scale_Value": "50.0",
+        "Scale_Variation": "0.0",
+        "Sync_Type": "2",
+        "Random_Seed": "12345"
+      },
+      "animation": []
+    },
+    {
+      "name": "粒子流箭头007",
+      "class": "PFArrow",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "active": "True"
+      },
+      "animation": []
+    },
+    {
+      "name": "材质静态 001",
+      "class": "Material_Static",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "properties": {
+        "Assign_Material": "True",
+        "Assigned_Material": "Fog:Standard__Legacy",
+        "Assign_Material_ID": "False",
+        "Show_In_Viewport": "False",
+        "SubMtl_ID_Offset": "0",
+        "type": "0",
+        "Material_ID": "1",
+        "Number_of_Sub_Materials": "0",
+        "Rate_Type": "1",
+        "Rate_Per_Second": "30.0",
+        "Rate_Per_Particle": "1.0",
+        "loop": "True",
+        "Random_Seed": "12345"
+      },
+      "animation": []
+    },
+    {
+      "name": "Point001",
+      "class": "Point",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [2.14418,-43.449,15.4834])",
+      "properties": {
+        "size": "20.0",
+        "centermarker": "False",
+        "axistripod": "False",
+        "cross": "True",
+        "Box": "False",
+        "constantscreensize": "False",
+        "drawontop": "False"
+      },
+      "animation": []
+    }
+  ],
+  "errors": [],
+  "view_transform": "(matrix3 [0.857167,0.150582,-0.492533] [-0.515038,0.250611,-0.819713] [-1.56462e-07,0.956305,0.292372] [-3.76004,-59.2806,-180.545])",
+  "view_fov": 45.0,
+  "samples": [
+    {
+      "frame": 0,
+      "cellular": [
+        {
+          "name": "贴图 #1",
+          "offset": "[0,0,0]"
+        }
+      ],
+      "smoke": []
+    },
+    {
+      "frame": 18,
+      "cellular": [
+        {
+          "name": "贴图 #1",
+          "offset": "[0,0,0]"
+        }
+      ],
+      "smoke": []
+    },
+    {
+      "frame": 66,
+      "cellular": [
+        {
+          "name": "贴图 #1",
+          "offset": "[0,0,0]"
+        }
+      ],
+      "smoke": []
+    },
+    {
+      "frame": 69,
+      "cellular": [
+        {
+          "name": "贴图 #1",
+          "offset": "[0,0,0]"
+        }
+      ],
+      "smoke": []
+    },
+    {
+      "frame": 100,
+      "cellular": [
+        {
+          "name": "贴图 #1",
+          "offset": "[0,0,0]"
+        }
+      ],
+      "smoke": []
+    }
+  ],
+  "source_sha256_after": "04b2dfbb08b8b29e2419e1783de0362d653a112f5cac362c9e076877c30b9d12"
+}

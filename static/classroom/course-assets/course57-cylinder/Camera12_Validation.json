@@ -1,0 +1,41 @@
+{
+  "checked_frames": [
+    {
+      "frame": 30,
+      "visible_bounds_threshold8": [
+        230,
+        273,
+        422,
+        347
+      ]
+    },
+    {
+      "frame": 45,
+      "visible_bounds_threshold8": [
+        179,
+        198,
+        481,
+        354
+      ]
+    },
+    {
+      "frame": 60,
+      "visible_bounds_threshold8": [
+        119,
+        74,
+        550,
+        347
+      ]
+    },
+    {
+      "frame": 65,
+      "visible_bounds_threshold8": [
+        109,
+        46,
+        563,
+        348
+      ]
+    }
+  ],
+  "scope": "Four rerendered samples,not complete101-frame rerender"
+}

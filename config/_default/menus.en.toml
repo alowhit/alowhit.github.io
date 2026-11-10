@@ -85,3 +85,8 @@
 #   name = "Categories"
 #   pageRef = "categories"
 #   weight = 20
+
+[[main]]
+  name = "VFX lessons"
+  pageRef = "learn"
+  weight = 25

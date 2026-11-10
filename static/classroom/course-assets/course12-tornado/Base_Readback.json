@@ -1,0 +1,39 @@
+{
+  "reopened": true,
+  "mesh_faces": 32,
+  "mesh_vertices": 64,
+  "blend_modes": [
+    0,
+    5,
+    5
+  ],
+  "opacities": [
+    100.0,
+    50.0,
+    100.0
+  ],
+  "confirmed": [
+    "Initial Cylinder Radius40 Height20 HeightSeg1 CapSeg1 Sides32 at960s",
+    "Map47 Solid white50 W90 V Tiling3 Noise0.5 Size5 Fractal Levels4 Phase0 at1080/1140s",
+    "Map48 Linear black50 same noise/coordinates at1170s",
+    "Composite Layer2 Multiply50 Layer3 Multiply100 at1320s",
+    "Map50 white88 W90 at1260s"
+  ],
+  "estimated": [
+    "Final height40 and bottom radius32 from later shape; top radius40 retained",
+    "Map50 additional flags0/2/98/100 estimated from screenshot"
+  ],
+  "supplemented": [
+    "Open both caps; top opening visible but bottom deletion not directly established",
+    "Emission1 neutralgray180 for intermediate smoke preview",
+    "origin placement and inherited diagnostic scene"
+  ],
+  "pending": [
+    "Falloff fourth opacity layer",
+    "Map52 final orange smoke palette",
+    "exact mesh transform sequence",
+    "animation",
+    "source scene/camera",
+    "assessment"
+  ]
+}

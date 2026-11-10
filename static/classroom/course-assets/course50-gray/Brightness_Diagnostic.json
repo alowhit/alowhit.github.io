@@ -1,0 +1,129 @@
+{
+  "file": "07_SourceRamp_Partial.max",
+  "camera": {
+    "targeted": "True",
+    "target_distance": "190.95599365234375",
+    "show_camera_cone": "0",
+    "horizon_on": "False",
+    "show_focus_plane_in_cam_view": "False",
+    "film_preset": "Custom",
+    "film_width_mm": "36.0",
+    "focal_length_mm": "40.0",
+    "specify_fov": "False",
+    "fov": "47.55406188964844",
+    "zoom_factor": "1.0",
+    "f_number": "8.0",
+    "use_dof": "False",
+    "specify_focus": "0",
+    "focus_distance": "500.0",
+    "lens_breathing_amount": "1.0",
+    "shutter_unit_type": "3",
+    "shutter_length_seconds": "0.0010000000474974513",
+    "shutter_offset_seconds": "0.0",
+    "shutter_length_frames": "0.5",
+    "shutter_offset_frames": "0.0",
+    "shutter_offset_enabled": "False",
+    "motion_blur_enabled": "False",
+    "exposure_gain_type": "1",
+    "iso": "5999.99755859375",
+    "exposure_value": "6.0",
+    "white_balance_type": "0",
+    "white_balance_illuminant": "0",
+    "white_balance_kelvin": "6500.0",
+    "white_balance_custom": "(color 255 255 255)",
+    "vignetting_enabled": "False",
+    "vignetting_amount": "1.0",
+    "bokeh_shape": "0",
+    "bokeh_blades_number": "7",
+    "pb_bokeh_blades_rotation_degrees": "0.0",
+    "bokeh_texture": "None",
+    "bokeh_texture_affect_exposure": "True",
+    "bokeh_optical_vignetting": "0.0",
+    "bokeh_center_bias": "0.0",
+    "bokeh_anisotropy": "0.0",
+    "horizontal_shift": "0.0",
+    "vertical_shift": "0.0",
+    "horizontal_tilt_correction": "0.0",
+    "vertical_tilt_correction": "0.0",
+    "auto_vertical_tilt_correction": "False",
+    "distortion_type": "0",
+    "distortion_cubic_amount": "0.0",
+    "distortion_texture": "None",
+    "clip_on": "False",
+    "clip_near": "0.0",
+    "clip_far": "100000.0",
+    "environment_near": "0.0",
+    "environment_far": "100000.0"
+  },
+  "tone_operator": "None",
+  "tone_properties": {},
+  "objects": [
+    {
+      "name": "Room",
+      "class": "Editable_Poly",
+      "hidden": false,
+      "renderable": true
+    },
+    {
+      "name": "Course50_ArnoldLight001",
+      "class": "Arnold_Light",
+      "hidden": false,
+      "renderable": true
+    },
+    {
+      "name": "Course50_ArnoldLight001.Target",
+      "class": "Targetobject",
+      "hidden": false,
+      "renderable": true
+    },
+    {
+      "name": "Ball",
+      "class": "Sphere",
+      "hidden": false,
+      "renderable": true
+    },
+    {
+      "name": "Course51_Camera.Target",
+      "class": "Targetobject",
+      "hidden": false,
+      "renderable": true
+    },
+    {
+      "name": "Course51_Camera_SUPPLEMENT",
+      "class": "Physical",
+      "hidden": false,
+      "renderable": true
+    },
+    {
+      "name": "Course51_Camera_SUPPLEMENT.Target",
+      "class": "Targetobject",
+      "hidden": false,
+      "renderable": true
+    }
+  ],
+  "renderer": {
+    "env_phys_bgnd_color": "(color 0 0 0 0)",
+    "env_adv_ibl_shadow_color": "(color 0 0 0 0)",
+    "env_adv_bgnd_custom_color": "(color 0 0 0 0)",
+    "error_color_bad_texture": "(color 255 0 0 0)",
+    "error_color_bad_shader": "(color 255 0 255 0)",
+    "error_color_bad_pixel": "(color 0 0 255 0)",
+    "ignore_imagers": "False",
+    "imager_0": "None",
+    "apply_imagers_on_progressive": "True"
+  },
+  "color_globals": {
+    "displayGamma": "2.200000047683716",
+    "fileInGamma": "2.200000047683716",
+    "fileOutGamma": "2.200000047683716",
+    "gammaCorrectionEnabled": "None"
+  },
+  "arv": {
+    "Camera": "/viewport_camera",
+    "Exposure": "0",
+    "Gamma": "",
+    "View Transform": "",
+    "Display": "",
+    "AOVs": "Beauty"
+  }
+}

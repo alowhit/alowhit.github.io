@@ -1,0 +1,48 @@
+{
+  "source": "课堂3.mp4",
+  "stages": [
+    {
+      "file": "/classroom/course-assets/course46/01_Base_NoReflection.max",
+      "reopened": true,
+      "base_weight": 1.0,
+      "reflection": 0.0,
+      "emission": 0.0,
+      "luminance": 5.0
+    },
+    {
+      "file": "/classroom/course-assets/course46/02_Falloff_Linear_12min.max",
+      "reopened": true,
+      "base_weight": 0.0,
+      "reflection": 0.0,
+      "emission": 1.0,
+      "luminance": 5.0
+    }
+  ],
+  "geometry": {
+    "name": "GeoSphere004",
+    "radius": 150.0,
+    "segments": 64,
+    "position": "[335.827,136.943,291.729]"
+  },
+  "falloff": {
+    "type": 1,
+    "direction": 0,
+    "colors": [
+      "(color 0 0 0)",
+      "(color 255 255 255)"
+    ],
+    "curve": "fresh default straight line; matches visible 12:00 shape, numeric endpoints default"
+  },
+  "supplements": [
+    "camera/framing",
+    "first-stage gray128 not measured from color dialog",
+    "left two comparison materials use prior course studies",
+    "later native scene lighting retained; not exact 5min lighting state"
+  ],
+  "pending": [
+    "custom Mix Curve intermediate/final shapes",
+    "exact source camera and lighting changes",
+    "full-resolution final render",
+    "complete assessment deliverable"
+  ]
+}

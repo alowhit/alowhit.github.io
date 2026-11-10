@@ -1,0 +1,31 @@
+{
+  "file": "/classroom/course-assets/course45/07_Native_SixLayer_Graph.max",
+  "reopened": true,
+  "source_archive_index": 18,
+  "modes": [
+    0,
+    5,
+    5,
+    5,
+    8,
+    9
+  ],
+  "opacity": [
+    100.0,
+    40.0,
+    40.0,
+    100.0,
+    50.0,
+    100.0
+  ],
+  "noise_color1": "(color 79.351 79.351 79.351)",
+  "cell_border": "(color 127.5 127.5 127.5)",
+  "spot_direction": 3,
+  "spot_object": "Box001",
+  "scope": "Complete original Composite12 texture graph including nested maps curves colors outputs; physical material study and camera retained",
+  "pending": [
+    "exact video-time camera and lighting",
+    "native late-save versus every video intermediate state",
+    "final assessment quality and other lessons"
+  ]
+}

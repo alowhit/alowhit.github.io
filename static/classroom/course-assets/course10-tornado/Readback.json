@@ -1,0 +1,125 @@
+{
+  "saved_reopened": true,
+  "base": {
+    "radius": 30,
+    "height": 90,
+    "heightsegs": 30,
+    "sides": 48,
+    "caps_removed": 2
+  },
+  "stages": [
+    {
+      "stage": "01_Cylinder",
+      "modifiers": []
+    },
+    {
+      "stage": "02_Open_Cylinder",
+      "modifiers": []
+    },
+    {
+      "stage": "03_Stretch",
+      "modifiers": [
+        "Stretch"
+      ]
+    },
+    {
+      "stage": "04_Noise",
+      "modifiers": [
+        "Noisemodifier",
+        "Stretch"
+      ]
+    },
+    {
+      "stage": "05_Taper",
+      "modifiers": [
+        "Taper",
+        "Noisemodifier",
+        "Stretch"
+      ]
+    }
+  ],
+  "modifiers": [
+    {
+      "curve": "0.0",
+      "symmetry": "False",
+      "limit": "False",
+      "upperlimit": "0.0",
+      "lowerlimit": "0.0",
+      "amount": "1.0",
+      "primaryaxis": "2",
+      "effectaxis": "2",
+      "center": "[0,0,0]",
+      "gizmo": "SubAnim:Gizmo"
+    },
+    {
+      "animate": "True",
+      "scale": "20.0",
+      "seed": "0",
+      "frequency": "0.25",
+      "fractal": "False",
+      "roughness": "0.0",
+      "phase": "98f",
+      "strength": "[2,2,0]",
+      "iterations": "6.0",
+      "center": "[0,0,0]",
+      "gizmo": "SubAnim:Gizmo"
+    },
+    {
+      "axis": "2",
+      "from": "0.0",
+      "to": "0.0",
+      "Stretch": "0.10000000149011612",
+      "limit": "0",
+      "Amplify": "10.0",
+      "center": "[0,0,0]",
+      "gizmo": "SubAnim:Gizmo"
+    }
+  ],
+  "samples": [
+    {
+      "frame": 0,
+      "verts": 1488,
+      "sha256": "39c72949f6ae758fd372f0052dadb9d4d2761fd4c6dc43249953881bf5000d57",
+      "phase": "0f"
+    },
+    {
+      "frame": 50,
+      "verts": 1488,
+      "sha256": "8463a3b9b3dc28205e55046c5c9d36457dc297be6d1315184d5f6cbb39cd0871",
+      "phase": "50f"
+    },
+    {
+      "frame": 98,
+      "verts": 1488,
+      "sha256": "7e28f77f02f23a0ea3bb051dd636b12a48c620ba9eac579d6f6bfc35436c8d4f",
+      "phase": "98f"
+    },
+    {
+      "frame": 100,
+      "verts": 1488,
+      "sha256": "094313179c8d5289c7c0370c83c26b1e22c5ac79dce91e59124d931bc557f2a8",
+      "phase": "100f"
+    }
+  ],
+  "source_seconds": {
+    "cylinder": 330,
+    "stretch": 720,
+    "noise": 810,
+    "taper": 1507.22
+  },
+  "supplements": [
+    "Diagnostic clay material,camera,lights and background",
+    "Noise phase0to100 linear keys: demonstration approximation; exact source keys not yet verified",
+    "Cylindrical primitive UV preserved; manual Unwrap edits still pending"
+  ],
+  "pending": [
+    "scene backdrop",
+    "exact UV edits",
+    "procedural shader",
+    "rotation",
+    "particles",
+    "FumeFX",
+    "rubric verification"
+  ],
+  "phase_unit_checked": true
+}

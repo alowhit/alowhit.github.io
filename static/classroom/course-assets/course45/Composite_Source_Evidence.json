@@ -1,0 +1,142 @@
+{
+  "source": "[本机资料路径]",
+  "reviewed_interval_seconds": [
+    3360,
+    3390,
+    3420,
+    3450,
+    3480,
+    3510,
+    3540,
+    3570,
+    3600,
+    3630,
+    3660,
+    3690,
+    3720,
+    3750,
+    3780,
+    3810,
+    3840,
+    3870,
+    3900,
+    3930,
+    3960,
+    3990,
+    4020,
+    4050,
+    4080,
+    4110,
+    4140,
+    4170,
+    4200,
+    4230,
+    4260,
+    4290,
+    4320,
+    4350,
+    4380,
+    4410,
+    4440,
+    4470,
+    4500,
+    4530,
+    4560,
+    4590,
+    4620,
+    4650,
+    4680,
+    4710,
+    4740,
+    4770,
+    4800,
+    4830,
+    4860,
+    4890,
+    4920,
+    4950,
+    4980,
+    5010,
+    5040,
+    5070,
+    5100,
+    5130,
+    5160,
+    5190,
+    5220,
+    5250,
+    5280,
+    5310,
+    5340,
+    5370
+  ],
+  "layers": [
+    {
+      "layer": 1,
+      "map": "Noise #10",
+      "mode": "Normal",
+      "opacity": 100,
+      "time": 4770
+    },
+    {
+      "layer": 2,
+      "map": "Marble #14",
+      "mode": "Multiply",
+      "opacity": 40,
+      "time": 5270
+    },
+    {
+      "layer": 3,
+      "map": "Cellular #15",
+      "mode": "Multiply",
+      "opacity": 40,
+      "time": 5270
+    },
+    {
+      "layer": 4,
+      "map": "Falloff #11",
+      "mode": "Multiply",
+      "opacity": 100,
+      "time": 5270
+    },
+    {
+      "layer": 5,
+      "map": "Falloff #13",
+      "mode": "Lighten",
+      "opacity": 50,
+      "time": 5270
+    },
+    {
+      "layer": 6,
+      "map": "Smoke #17",
+      "mode": "Screen",
+      "opacity": 100,
+      "time": 5270
+    }
+  ],
+  "smoke_5265": {
+    "coordinates": "Explicit Map Channel 1",
+    "tiling": [
+      1,
+      1,
+      1
+    ],
+    "offset": [
+      0,
+      0,
+      0
+    ],
+    "size": 0.5,
+    "iterations": 5,
+    "exponent": 1.5,
+    "phase": 0,
+    "color1_map": "Falloff #18",
+    "color2": "black"
+  },
+  "native_status": "not reconstructed yet",
+  "unknown": [
+    "exact curve control points",
+    "some gray RGB values",
+    "exact camera"
+  ]
+}

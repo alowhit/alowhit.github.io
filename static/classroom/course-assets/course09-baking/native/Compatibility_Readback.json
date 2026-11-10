@@ -1,0 +1,13 @@
+{
+  "bake_return": true,
+  "native": "/classroom/course-assets/course09-baking/native/02_Opacity_Baking_Compatibility.max",
+  "reopened": true,
+  "original_material_class": "Standardmaterial",
+  "reason": "Installed ScanlineOpacityMap reads opacity_map; Standard Legacy exposes opacityMap. Baked through temporary Physical Material cutout_map using the same Composite, then restored Standard Legacy. Material Editor slots 1/2 retain both materials.",
+  "supplements": [
+    "Input texture values and blend modes remain supplemental",
+    "Temporary Physical Material is a compatibility workaround, not teacher material"
+  ],
+  "coordinates": "Object XYZ with XYZ Tiling 1",
+  "output": "/classroom/course-assets/course09-baking/native/R_Opacity_Bridge.jpg.webp"
+}

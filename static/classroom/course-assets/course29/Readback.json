@@ -1,0 +1,48 @@
+{
+  "saved_reopened": true,
+  "source_unchanged": true,
+  "composite_modes": [
+    0,
+    15
+  ],
+  "blend_mode_reference": "https://help.autodesk.com/cloudhelp/2021/ENU/MAXScript-Help/files/3ds-Max-Objects-and-Interfaces/TextureMap-Material/TextureMap-Types/GUID-611E1342-F976-4E95-8F78-88175B329745.html",
+  "opacity": [
+    100.0,
+    100.0
+  ],
+  "w_angle": 90.0,
+  "middle_flag_position": 31.0,
+  "middle_flag_color": "[128,128,128]",
+  "offset_samples": [
+    {
+      "frame": 0,
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "frame": 50,
+      "offset": [
+        0.0,
+        -100.0,
+        -60.0
+      ]
+    },
+    {
+      "frame": 100,
+      "offset": [
+        0.0,
+        -200.0,
+        -120.0
+      ]
+    }
+  ],
+  "supplements": [
+    "Frame0 offset inherited0/0/0; not shown in course29",
+    "Height gradient endpoints filled black0 white100; unused native flags coincide at100",
+    "Camera and studio inherited from course28; lights not yet matched to course29 screenshots"
+  ],
+  "full_scene_fidelity": false
+}

@@ -1,0 +1,13 @@
+{
+  "material": {
+    "emission": "0.5",
+    "emission_color": "(color 26.52 26.52 26.52)",
+    "opacity": "(color 255 255 255)",
+    "base": "0.0",
+    "specular": "0.0"
+  },
+  "camera_EV": 6.0,
+  "tone_operator": "ToneOperator",
+  "frame": 45,
+  "scope": "One-variable diagnostics; original file preserved; D sets only emission_color white"
+}

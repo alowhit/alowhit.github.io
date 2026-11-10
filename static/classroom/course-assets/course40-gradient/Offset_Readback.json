@@ -1,0 +1,54 @@
+{
+  "file": "/classroom/course-assets/course40-gradient/08_Gradient15_Offset_Animation.max",
+  "saved_reopened": true,
+  "samples": [
+    {
+      "frame": 0,
+      "V_Offset": 0.0
+    },
+    {
+      "frame": 13,
+      "V_Offset": 3.8999998569488525
+    },
+    {
+      "frame": 50,
+      "V_Offset": 15.0
+    },
+    {
+      "frame": 76,
+      "V_Offset": 22.799999237060547
+    },
+    {
+      "frame": 100,
+      "V_Offset": 30.0
+    }
+  ],
+  "source_observations": [
+    {
+      "video_seconds": 2230,
+      "frame": 100,
+      "U_Tiling": 0.05,
+      "V_Offset": 30
+    },
+    {
+      "video_seconds": 2420,
+      "frame": 76,
+      "V_Offset": 22.8,
+      "Noise_Amount": 0.02,
+      "Noise_Type": "Fractal",
+      "Size": 1
+    },
+    {
+      "video_seconds": 2460,
+      "Noise_Size": 2,
+      "warning": "frame15 but stale Offset22.8; not used as an animation key"
+    }
+  ],
+  "controller": "linear_float",
+  "limits": [
+    "Linear interpolation and frame0 value0 inferred from observed76=22.8 and100=30, not directly recovered source key tangents",
+    "Later Size2 combined with earlier confirmed movement samples",
+    "Inherited estimated gradient flags and supplemental camera",
+    "No full fireball graph or final assessment output yet"
+  ]
+}

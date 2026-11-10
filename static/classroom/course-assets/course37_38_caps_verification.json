@@ -1,0 +1,206 @@
+{
+  "native_files": [
+    {
+      "file": "Course37_Noise\\01_Regular_2100s.max",
+      "saved_reopened": true,
+      "lower_Edit_Poly_faces": 240,
+      "lower_Edit_Poly_vertices": 264,
+      "stack": [
+        "Edit_Poly",
+        "Taper",
+        "Edit_Poly"
+      ],
+      "material_class": "PhysicalMaterial"
+    },
+    {
+      "file": "Course37_Noise\\02_Turbulence_2863s.max",
+      "saved_reopened": true,
+      "lower_Edit_Poly_faces": 240,
+      "lower_Edit_Poly_vertices": 264,
+      "stack": [
+        "Edit_Poly",
+        "Taper",
+        "Edit_Poly"
+      ],
+      "material_class": "PhysicalMaterial"
+    },
+    {
+      "file": "Course37_Noise\\03_Fractal_3000s.max",
+      "saved_reopened": true,
+      "lower_Edit_Poly_faces": 240,
+      "lower_Edit_Poly_vertices": 264,
+      "stack": [
+        "Edit_Poly",
+        "Taper",
+        "Edit_Poly"
+      ],
+      "material_class": "PhysicalMaterial"
+    },
+    {
+      "file": "Course37_Noise\\04_Source_Black_Emission.max",
+      "saved_reopened": true,
+      "lower_Edit_Poly_faces": 240,
+      "lower_Edit_Poly_vertices": 264,
+      "stack": [
+        "Edit_Poly",
+        "Taper",
+        "Edit_Poly"
+      ],
+      "material_class": "PhysicalMaterial"
+    },
+    {
+      "file": "Course37_Noise\\05_UV_Inspection.max",
+      "saved_reopened": true,
+      "lower_Edit_Poly_faces": 240,
+      "lower_Edit_Poly_vertices": 264,
+      "stack": [
+        "Unwrap_UVW",
+        "Edit_Poly",
+        "Taper",
+        "Edit_Poly"
+      ],
+      "material_class": "PhysicalMaterial"
+    },
+    {
+      "file": "Course38_Motion\\01_Volume_Select.max",
+      "saved_reopened": true,
+      "lower_Edit_Poly_faces": 240,
+      "lower_Edit_Poly_vertices": 264,
+      "stack": [
+        "Vol__Select",
+        "Edit_Poly",
+        "Taper",
+        "Edit_Poly"
+      ],
+      "material_class": "PhysicalMaterial"
+    },
+    {
+      "file": "Course38_Motion\\02_Motion_57min.max",
+      "saved_reopened": true,
+      "lower_Edit_Poly_faces": 240,
+      "lower_Edit_Poly_vertices": 264,
+      "stack": [
+        "Noisemodifier",
+        "Vol__Select",
+        "Edit_Poly",
+        "Taper",
+        "Edit_Poly"
+      ],
+      "material_class": "PhysicalMaterial"
+    },
+    {
+      "file": "Course38_Motion\\03_Motion_59min.max",
+      "saved_reopened": true,
+      "lower_Edit_Poly_faces": 240,
+      "lower_Edit_Poly_vertices": 264,
+      "stack": [
+        "Noisemodifier",
+        "Vol__Select",
+        "Edit_Poly",
+        "Taper",
+        "Edit_Poly"
+      ],
+      "material_class": "PhysicalMaterial"
+    },
+    {
+      "file": "Course38_Motion\\04_Motion_60m50s.max",
+      "saved_reopened": true,
+      "lower_Edit_Poly_faces": 240,
+      "lower_Edit_Poly_vertices": 264,
+      "stack": [
+        "Noisemodifier",
+        "Vol__Select",
+        "Edit_Poly",
+        "Taper",
+        "Edit_Poly"
+      ],
+      "material_class": "PhysicalMaterial"
+    },
+    {
+      "file": "Course38_Shader\\Course38_Arnold_Fireball.max",
+      "saved_reopened": true,
+      "lower_Edit_Poly_faces": 240,
+      "lower_Edit_Poly_vertices": 264,
+      "stack": [
+        "Noisemodifier",
+        "Vol__Select",
+        "Edit_Poly",
+        "Taper",
+        "Edit_Poly"
+      ],
+      "material_class": "ai_standard_surface"
+    }
+  ],
+  "unchanged_parameter_checks": [
+    {
+      "group": "Course37_Noise",
+      "report": "Readback.json",
+      "unchanged_fields": [
+        "material",
+        "noise",
+        "coordType",
+        "tiling"
+      ],
+      "records": 3
+    },
+    {
+      "group": "Course38_Motion",
+      "report": "Readback.json",
+      "unchanged_fields": [
+        "noise",
+        "volume",
+        "gizmo_position",
+        "gizmo_scale"
+      ],
+      "records": 2
+    },
+    {
+      "group": "Course38_Motion",
+      "report": "Final_Readback.json",
+      "unchanged_fields": [
+        "scale",
+        "strength",
+        "frequency",
+        "phase_at_readback"
+      ],
+      "records": 1
+    },
+    {
+      "group": "Course38_Shader",
+      "report": "Readback.json",
+      "unchanged_fields": [
+        "material_class",
+        "noise",
+        "coordType",
+        "tiling",
+        "composite_modes",
+        "color_correction"
+      ],
+      "records": 1
+    }
+  ],
+  "tint_comparison": {
+    "mean_absolute_difference_8bit": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "maximum_difference": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "identical_pixels": true,
+    "source": "Recomputed from both-cap corrected native renders"
+  },
+  "scope": "Cap-deletion order corrected throughout existing course37/38 checkpoints; does not complete missing source steps"
+}

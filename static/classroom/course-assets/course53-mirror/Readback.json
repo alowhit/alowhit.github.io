@@ -1,0 +1,38 @@
+{
+  "file": "/classroom/course-assets/course53-mirror/01_FinalVisible_Static.max",
+  "reopened": true,
+  "status": "static checkpoint only; source animation still under review",
+  "coordinates": {
+    "U_Offset": "1.0",
+    "V_Offset": "-0.5",
+    "U_Tiling": "0.5",
+    "V_Tiling": "1.0",
+    "U_Mirror": "True",
+    "V_Mirror": "True",
+    "U_Tile": "False",
+    "V_Tile": "False",
+    "W_Angle": "90.0"
+  },
+  "flag55_color": "[105,105,105]",
+  "noise": [
+    0.20000000298023224,
+    1.0,
+    0.0
+  ],
+  "confirmed": [
+    "14:00-16:00 final visible coordinate values",
+    "15:00 flag55 RGB105",
+    "Noise Amount0.2 Size1 Phase0"
+  ],
+  "estimated": [
+    "unselected ramp stop positions25,33,39,45,67 and colors inherited",
+    "camera, exposure, room emission inherited supplements"
+  ],
+  "pending": [
+    "source animation key times and start values",
+    "sphere rotation track visible in source",
+    "AVI output settings and animated rendering",
+    "exact other ramp stops",
+    "camera/brightness match"
+  ]
+}

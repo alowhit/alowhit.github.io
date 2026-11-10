@@ -1,0 +1,142 @@
+[
+  {
+    "file": "/classroom/course-assets/course39-native/01_Solid_Fine_17min.max",
+    "saved_reopened": true,
+    "composite_modes": [
+      0,
+      12,
+      4
+    ],
+    "noise7": {
+      "size": "0.6000000238418579",
+      "levels": "6.0",
+      "phase": "0.0",
+      "type": "2",
+      "thresholdLow": "0.4300000071525574",
+      "thresholdHigh": "0.44999998807907104"
+    },
+    "coordType": 2,
+    "tiling": "[0.5,1,1]",
+    "gradient8": {
+      "Gradient_Type": "4",
+      "amount": "1.0",
+      "Noise_Type": "2",
+      "size": "0.5",
+      "levels": "4.0",
+      "phase": "0.0"
+    },
+    "gradient_coordinates": {
+      "U_Tiling": "0.800000011920929",
+      "V_Tiling": "1.0",
+      "V_Offset": "-0.20000000298023224",
+      "W_Angle": "-90.0"
+    },
+    "flags": [
+      {
+        "position": 32.0,
+        "color": "[255,255,255]"
+      },
+      {
+        "position": 100.0,
+        "color": "[255,255,255]"
+      },
+      {
+        "position": 100.0,
+        "color": "[255,255,255]"
+      },
+      {
+        "position": 100.0,
+        "color": "[255,255,255]"
+      },
+      {
+        "position": 100.0,
+        "color": "[255,255,255]"
+      },
+      {
+        "position": 100.0,
+        "color": "[255,255,255]"
+      },
+      {
+        "position": 100.0,
+        "color": "[255,255,255]"
+      }
+    ],
+    "limitations": [
+      "Black0 and White100 gradient endpoints supplied; white32 observed",
+      "Noise7 phase held0; source phase keys not yet verified",
+      "Composite Normal/Spotlight/Darken confirmed570s, later full continuity pending",
+      "Inherited course38 Falloff curve, palette, UV and studio differences remain",
+      "Inherited motion retained; source course39 deformation state not fully confirmed"
+    ]
+  },
+  {
+    "file": "/classroom/course-assets/course39-native/02_Solid_Broad_18min.max",
+    "saved_reopened": true,
+    "composite_modes": [
+      0,
+      12,
+      4
+    ],
+    "noise7": {
+      "size": "0.6000000238418579",
+      "levels": "6.0",
+      "phase": "0.0",
+      "type": "2",
+      "thresholdLow": "0.4300000071525574",
+      "thresholdHigh": "0.44999998807907104"
+    },
+    "coordType": 2,
+    "tiling": "[0.5,1,1]",
+    "gradient8": {
+      "Gradient_Type": "4",
+      "amount": "1.0",
+      "Noise_Type": "2",
+      "size": "40.0",
+      "levels": "10.0",
+      "phase": "0.0"
+    },
+    "gradient_coordinates": {
+      "U_Tiling": "0.800000011920929",
+      "V_Tiling": "1.0",
+      "V_Offset": "-0.20000000298023224",
+      "W_Angle": "-90.0"
+    },
+    "flags": [
+      {
+        "position": 32.0,
+        "color": "[255,255,255]"
+      },
+      {
+        "position": 100.0,
+        "color": "[255,255,255]"
+      },
+      {
+        "position": 100.0,
+        "color": "[255,255,255]"
+      },
+      {
+        "position": 100.0,
+        "color": "[255,255,255]"
+      },
+      {
+        "position": 100.0,
+        "color": "[255,255,255]"
+      },
+      {
+        "position": 100.0,
+        "color": "[255,255,255]"
+      },
+      {
+        "position": 100.0,
+        "color": "[255,255,255]"
+      }
+    ],
+    "limitations": [
+      "Black0 and White100 gradient endpoints supplied; white32 observed",
+      "Noise7 phase held0; source phase keys not yet verified",
+      "Composite Normal/Spotlight/Darken confirmed570s, later full continuity pending",
+      "Inherited course38 Falloff curve, palette, UV and studio differences remain",
+      "Inherited motion retained; source course39 deformation state not fully confirmed"
+    ]
+  }
+]
