@@ -37,7 +37,8 @@
       -2.636,
       0
     ],
-    "783_selection_cleared": true
+    "783_camera_and_target_still_selected": true,
+    "785_selection_cleared": true
   },
   "inference": {
     "world_vertical_delta_cm": -2.636,
@@ -49,5 +50,21 @@
     "Recover later direct camera position or independently verify drag result",
     "Recover target absolute position",
     "Recheck subsequent camera moves and exposure"
-  ]
+  ],
+  "followup": {
+    "sampled_seconds": [
+      783,
+      785,
+      787,
+      789,
+      791,
+      793,
+      795,
+      797,
+      799,
+      801,
+      803
+    ],
+    "scope": "No direct final World Position readback in these samples; Slate editor opens by799 seconds"
+  }
 }
