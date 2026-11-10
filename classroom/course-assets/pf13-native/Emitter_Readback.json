@@ -1,0 +1,60 @@
+{
+  "source_checkpoints": [
+    880,
+    920
+  ],
+  "emitter": {
+    "radius": 12.126999855041504,
+    "segments": 8,
+    "baseType": 2,
+    "position": [
+      42.362998962402344,
+      -77.21499633789062,
+      0.0
+    ]
+  },
+  "position_object": {
+    "Location": "3",
+    "Lock_On_Emitter": "False",
+    "Inherit_Emitter_Movement": "False",
+    "Animated_Shape": "False",
+    "Subframe_Sampling": "False",
+    "Use_Surface_Offset": "False",
+    "Density_By_Emitter_Material": "False",
+    "Apart_Placement": "False",
+    "Distinct_Points_Only": "False"
+  },
+  "samples": [
+    {
+      "frame": 4,
+      "count": 0
+    },
+    {
+      "frame": 5,
+      "count": 1
+    },
+    {
+      "frame": 15,
+      "count": 4
+    },
+    {
+      "frame": 29,
+      "count": 9
+    },
+    {
+      "frame": 30,
+      "count": 10
+    },
+    {
+      "frame": 40,
+      "count": 10
+    }
+  ],
+  "saved_reopened": true,
+  "limits": [
+    "Values reflect displayed920s checkpoint,not continuous final-state proof",
+    "Camera lights and independent teapot shifted to keep supplemental framing",
+    "Full camera/lighting and PF Source transform still unmatched",
+    "Source number display precision only"
+  ]
+}

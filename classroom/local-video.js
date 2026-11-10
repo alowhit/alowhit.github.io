@@ -1,0 +1,1 @@
+document.querySelectorAll('.local-source').forEach(box=>{const input=box.querySelector('.source-file'),v=box.querySelector('video');let url;input.addEventListener('change',()=>{if(!input.files[0])return;if(url)URL.revokeObjectURL(url);url=URL.createObjectURL(input.files[0]);v.src=url;v.load();});});

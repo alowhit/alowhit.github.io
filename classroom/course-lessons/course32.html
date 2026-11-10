@@ -1,0 +1,219 @@
+<!doctype html><html lang="zh-Hans"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Scene lighting · cylinder tests</title><link rel="stylesheet" href="/classroom/course.css"><header><a href="/classroom/course-assessment.html">Course & assessment</a><a href="/classroom/index.html">已有教学</a><a href="/classroom/particle-flow-study.html">Particle Flow 学习页</a></header><main><p class="tag">SOURCE VIDEO · course32</p><h1>Scene lighting · cylinder tests</h1><p>教学3.mp4 · 00:53:03</p><div class="note">已补充 Mesh Light 实验步骤、可编辑工程及开关灯实际渲染。完整灯光实验、UV、镜头和动画仍未完成。</div><p><a href="/learn/course32/">查看已有的详细教学与练习</a>（仍需与当前视频核对）</p><div class="local-source"><p class="video-download"><a href="https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/course32.mp4">下载本课原视频 MP4 · 132.7 MB ↓</a> · <a href="/classroom/video-downloads.html">全部原片下载</a></p><p>原片：教学3.mp4。请选择本机对应视频，文件只在浏览器播放，不会上传。</p><label>选择原片 <input class="source-file" type="file" accept="video/*"></label><video id="sourceVideo" controls preload="none" data-local-video="true"></video></div><p class="muted">视频来自本机 [本机资料路径]</p><section id="early-light-study"><h2>前半段：Quad → Arnold Cylinder → Photometric Cylinder</h2>
+<p>这几种是老师先后尝试的灯光方案，不能把参数混成一盏灯。本次补上前两种的可编辑学习工程；光度学灯阶段见下方新增实验。工程继承第31课的火焰材质与场景，镜头、火焰密度和曝光未完全匹配老师。</p>
+<h3>1 · Quad 阶段</h3><p>选择第二盏 Arnold Light，在 Modify → Shape → Type 选择 Quad。80秒画面为 Quad X 485.6、Quad Y 100；到250秒变成 <b>Quad X 528.6、Quad Y 135.5</b>。Spread 1、Resolution 500、Roundness 0、Soft Edge 1、Intensity 1。</p>
+<p>250秒没有完整展示 Exposure。学习工程的 Exposure 6、Rotation (70,0,0)°、Targeted Off 是补齐设置；Position (−0.856,−39.12,96.733) cm 来自80秒。因此这是组合学习场景，不能称为250秒逐项精确快照。</p>
+<h3>2 · 切换 Arnold Cylinder</h3><p>300秒老师将同一盏灯的 Type 改成 Cylinder。初试 Radius 5、Height 476.6；350秒调整为 <b>Radius 19.9、Height 522.2 cm</b>，Intensity 1、Exposure 6、Normalize Energy Off、Targeted Off。位置为 (−0.856,−10.927,96.733) cm。300秒可见 Rotation (−107.631,−90,0)°，工程沿用此角度，350秒的精确角度未显示。</p>
+<p>当前安装的 Max 界面也确认了 Cylinder 类型及 GPU 不支持提示；这些比较使用 CPU。切换 Type 后重新检查 Intensity 和 Exposure，本次脚本构建时曾发生重置，已修正后重新保存。</p>
+<h3>3 · 火焰平面 Object Properties</h3><p>按400秒画面：Renderable On、Visible to Camera On、Visible to Reflection/Refraction Off、Cast Shadows Off、Receive Shadows Off。它们控制对象的渲染参与方式；黑色背景是否透明仍是材质问题。老师此时的渲染也有黑色矩形，本实验保留该阶段。</p>
+<h3>4 · 为什么数值相同，亮度仍不一样？</h3><p>下面相同镜头、相同Frame100，依次关闭第二盏灯、启用Quad、换成Cylinder。当前Cylinder Exposure6使背景过亮；另存的观察版只把第二盏灯 Exposure降到2，不冒充老师数值。颜色RGB(255,100,0)为自选补齐，原片未打开精确颜色值。已有第一盏灯保持原样，旧Gobo修改器在本实验里禁用，避免后续课的滤镜影响早期灯形比较。</p>
+<p>曝光控制的 Physical Scale 也会影响 Arnold 灯亮度；因此只复制灯的Exposure不能保证跨场景视觉一致。<a href="https://help.autodesk.com/cloudhelp/2025/ENU/AR-3DSMax/files/arnold-3dsmax/arnold_for_3ds_max_ax_lights_html.html">Autodesk：MAXtoA Lights</a></p><div class="cards"><figure><img src="/classroom/course-assets/course32-early/00_Before_AddedLight.png.webp" alt="第二盏灯 Off"><figcaption>第二盏灯 Off</figcaption></figure><figure><img src="/classroom/course-assets/course32-early/01_Quad_250s.png.webp" alt="Quad 学习版"><figcaption>Quad 学习版</figcaption><a href="/classroom/course-assets/course32-early/01_Quad_250s.max" download>Download MAX</a></figure><figure><img src="/classroom/course-assets/course32-early/02_Cylinder_350s.png.webp" alt="Cylinder · source Exposure6"><figcaption>Cylinder · source Exposure6</figcaption><a href="/classroom/course-assets/course32-early/02_Cylinder_350s.max" download>Download MAX</a></figure><figure><img src="/classroom/course-assets/course32-early/03_Cylinder_View_EV2.png.webp" alt="Cylinder · supplemental Exposure2"><figcaption>Cylinder · supplemental Exposure2</figcaption><a href="/classroom/course-assets/course32-early/03_Cylinder_View_EV2.max" download>Download MAX</a></figure></div><h3>5 · 后面不是同一种圆柱灯</h3><p>1000秒的 TPhotometricLight001：Cylinder Length520、Radius13、Intensity1500 cd、Shadow Samples32、Raytrace Bias0.2。这个光度学灯不是 Arnold Cylinder，也不是后面的 Cylinder001 + Mesh Light。下方已提供分时点光度学实验工程；未确认项目单独注明。</p><h3>对照原片</h3><details><summary>01:20</summary><button data-time="80">定位原片</button><img loading="lazy" src="/classroom/evidence/full_fire/v06_80.jpg.webp" alt="Source 80"></details><details><summary>04:10</summary><button data-time="250">定位原片</button><img loading="lazy" src="/classroom/evidence/full_fire/v06_250.jpg.webp" alt="Source 250"></details><details><summary>05:00</summary><button data-time="300">定位原片</button><img loading="lazy" src="/classroom/evidence/full_fire/v06_300.jpg.webp" alt="Source 300"></details><details><summary>05:50</summary><button data-time="350">定位原片</button><img loading="lazy" src="/classroom/evidence/full_fire/v06_350.jpg.webp" alt="Source 350"></details><details><summary>06:40</summary><button data-time="400">定位原片</button><img loading="lazy" src="/classroom/evidence/full_fire/v06_400.jpg.webp" alt="Source 400"></details><details><summary>08:20</summary><button data-time="500">定位原片</button><img loading="lazy" src="/classroom/evidence/full_fire/v06_500.jpg.webp" alt="Source 500"></details><details><summary>10:00</summary><button data-time="600">定位原片</button><img loading="lazy" src="/classroom/evidence/full_fire/v06_600.jpg.webp" alt="Source 600"></details><details><summary>16:40</summary><button data-time="1000">定位原片</button><img loading="lazy" src="/classroom/evidence/full_fire/v06_1000.jpg.webp" alt="Source 1000"></details></section><section id="photometric-study"><h2>Photometric Light：三个实验时点</h2>
+<p>三份文件在现有 Max 窗口内构建、保存、重新打开并实际渲染。沿用之前的部分还原场景：它们是可编辑实验，不是老师镜头的精确复刻。旧 Arnold 第二盏灯关闭，第一盏灯保留。</p>
+<h3>1 · 创建 Target Light</h3><p>Create → Lights → Photometric → Target Light。将 Light Distribution 设为 <b>Uniform Spherical</b>，Intensity Units 选 <b>cd</b>，输入 <b>1500</b>。600秒原片使用 D65 颜色预设；工程目前用 Kelvin6500 近似，不能称为相同预设。</p>
+<h3>2 · Cylinder，先13，再50</h3><p>Shape/Area Shadows → Emit Light From 选 <b>Cylinder</b>。1000秒：Length520、Radius13 cm；1100秒：Length520、Radius50 cm。位置 X1.057、Y−11.436、Z106.699 cm。目标距离268.509来自600秒，学习版沿用；目标朝向及Roll90°为补齐值。</p>
+<p>1000秒显示 Shadow Samples32、Raytrace Bias0.2、Max Quadtree Depth7。工程已设置可访问的Bias和Depth，Shadow Samples 尚未完成原生属性确认。MAXtoA对光度学灯存在限制，部分阴影参数不会用于Arnold渲染，不应把它们解释成Arnold AA Samples。<a href="https://help.autodesk.com/cloudhelp/2025/ENU/AR-3DSMax/files/arnold-3dsmax/arnold_for_3ds_max_ax_lights_html.html">Autodesk：光度学灯兼容说明</a></p>
+<h3>3 · Checker 与 Noise 不要混为同一个时点</h3><p>1100秒可见 Advanced Effects → Projector Map 开启，插槽为 <b>Checker #12</b>。Checker在1000秒编辑器中采用 Environment → Screen。学习版按这个坐标设置连接Checker；精确投影外观尚未匹配。</p>
+<p>1100秒的 Noise #13 仍是 Object XYZ、Size63.5、Low0、High1。1200秒变为 <b>Explicit Map Channel1、Size0.2、Low0.4、High0.6、Regular、Phase0</b>。此时画面没有露出最终Projector Map插槽，所以不能证明Noise已替换Checker。第三份工程把Noise留在Slate中供检查，保留此前Checker连接。</p>
+<h3>4 · Rectangle 与 Dimming</h3><p>1200秒光源已经变成 <b>Rectangle</b>：Length520、Width61 cm。Dimming开启，Multiplier200%，基础Intensity1500 cd，界面结果为3000 cd。不要把200写成Intensity，也不要把它当作Arnold Exposure200。</p>
+<p>Photometric Cylinder只允许Uniform Spherical分布；本节没有擅自把它改成Spotlight来制造投影效果。<a href="https://help.autodesk.com/cloudhelp/2023/ENU/MAXScript-Help/files/3ds-Max-Objects-and-Interfaces/Node-MAXWrapper/Node-Subclasses/Light-Node/Photometric-Lights/GUID-F0C33251-1FCD-4B83-8697-F755F7D7AECD.html">Autodesk：Photometric参数</a></p><div class="cards"><figure><img src="/classroom/course-assets/course32-photometric/01_Cylinder_R13_1000s.png.webp" alt="Cylinder Radius13"><figcaption>Cylinder Radius13</figcaption><a href="/classroom/course-assets/course32-photometric/01_Cylinder_R13_1000s.max" download>Download MAX</a></figure><figure><img src="/classroom/course-assets/course32-photometric/02_Cylinder_R50_1100s.png.webp" alt="Cylinder Radius50 + Checker"><figcaption>Cylinder Radius50 + Checker</figcaption><a href="/classroom/course-assets/course32-photometric/02_Cylinder_R50_1100s.max" download>Download MAX</a></figure><figure><img src="/classroom/course-assets/course32-photometric/03_Rectangle_1200s.png.webp" alt="Rectangle + Dimming200%"><figcaption>Rectangle + Dimming200%</figcaption><a href="/classroom/course-assets/course32-photometric/03_Rectangle_1200s.max" download>Download MAX</a></figure></div><p>渲染仅验证这些场景能执行。摄影机、背景、火焰密度、D65精确预设、Shadow Samples及排除列表仍有差异；不是完成全课或考核的证据。</p><details><summary>10:00 source</summary><button data-time="600">定位原片</button><img loading="lazy" src="/classroom/evidence/full_fire/v06_600.jpg.webp" alt="Source600"></details><details><summary>16:40 source</summary><button data-time="1000">定位原片</button><img loading="lazy" src="/classroom/evidence/full_fire/v06_1000.jpg.webp" alt="Source1000"></details><details><summary>18:20 source</summary><button data-time="1100">定位原片</button><img loading="lazy" src="/classroom/evidence/full_fire/v06_1100.jpg.webp" alt="Source1100"></details><details><summary>20:00 source</summary><button data-time="1200">定位原片</button><img loading="lazy" src="/classroom/evidence/full_fire/v06_1200.jpg.webp" alt="Source1200"></details><details><summary>21:40 source</summary><button data-time="1300">定位原片</button><img loading="lazy" src="/classroom/evidence/full_fire/v06_1300.jpg.webp" alt="Source1300"></details></section><section id="mesh-light-study"><h2>Mesh Light — 用模型决定发光形状</h2>
+<p>本节复现教学3.mp4 中圆柱 Mesh Light 实验阶段。已在现有 3ds Max 窗口运行校正脚本，保存、重新打开，并用 Arnold 渲染开灯／关灯两张图。不是全课最终场景，也不是逐帧核对完成。</p>
+<p><a class="button" href="/classroom/course-assets/course32-native/Course32_MeshLight.max" download>Download editable MAX</a> · <a href="/classroom/course-assets/course32-native/Readback.json">Saved-scene values</a></p>
+<h3>1 · Create the Cylinder</h3><p>创建 Cylinder，打开 Modify 面板，输入以下原片可见数值。先完成尺寸，再转换成 Editable Poly。学习工程保留了转换后的模型及 Unwrap UVW。</p>
+<table><tr><th>Parameter</th><th>Value</th></tr><tr><td>Radius / Height</td><td>28.399 / 291.01 cm</td></tr><tr><td>Height Segments / Cap Segments / Sides</td><td>1 / 1 / 12</td></tr><tr><td>Smooth / Generate Mapping Coords</td><td>On / On</td></tr><tr><td>Position X / Y / Z</td><td>144.665 / −239.677 / 266.114 cm</td></tr><tr><td>Rotation</td><td>学习工程使用 (0, −90, 0)°，由模型朝向推定；不是老师展示的旋转数值。</td></tr></table>
+<p>右键对象 → Object Properties → Rendering Control：关闭 <b>Renderable</b>。这一步对应原片 1900 秒画面，不等于删除模型；Mesh Light 仍引用它。本次已修正旧工程的圆柱偏移，旧版保存在 Before_Position_Fix。</p>
+<h3>2 · Arnold Light → Mesh</h3><p>创建 Arnold Light，在 <b>Emit Light From → Type</b> 选 <b>Mesh</b>，点击 Mesh 选择按钮，再选 Cylinder。学习工程的对应名称为 Cylinder001_MeshEmitter。</p>
+<table><tr><th>Parameter</th><th>Value</th></tr><tr><td>Type</td><td>Mesh</td></tr><tr><td>Intensity / Exposure</td><td>1.0 / 2.0</td></tr><tr><td>Resulting Intensity</td><td>4（原片显示值）</td></tr><tr><td>Normalize Energy</td><td>Off</td></tr><tr><td>Color mode</td><td>Texture</td></tr><tr><td>Texture</td><td>Arnold Noise #15</td></tr></table>
+<p>这里的 Noise 接到灯的 Texture 插槽；它不是接到接收球的 Base Color，也不是把圆柱表面材质改成 Emission。用下方开关灯实验观察场景受光变化。</p>
+<h3>3 · Arnold Noise #15</h3><p>在 Slate 的 Arnold → Texture 类别创建 <b>Noise</b>，将它作为灯的 Texture。不要用早期实验中的 General Noise #13 替代它。</p>
+<table><tr><th>Parameter</th><th>Value</th></tr><tr><td>Octaves / Lacunarity</td><td>1 / 1.92</td></tr><tr><td>Distortion / Amplitude</td><td>0 / 1</td></tr><tr><td>Coordinate Space / Pref Name</td><td>object / Pref</td></tr><tr><td>Scale</td><td>1, 1, 1</td></tr><tr><td>Offset / P</td><td>0, 0, 0</td></tr><tr><td>Time / Mode</td><td>0 / scalar</td></tr><tr><td>Color 1 / Color 2</td><td>黑 / 白，精确 RGB 未打开；工程采用纯黑和纯白。</td></tr></table>
+<h3>4 · 对照：只切换灯的 On</h3><p>下面两图来自同一个已保存场景、相同镜头和 Frame 40。关灯图只更改 Mesh Light 的 On；比较后重新打开保存的开灯版本。Frame 40 是学习比较时点，不代表恢复了灯光动画。</p>
+<div class="cards"><figure><img src="/classroom/course-assets/course32-native/GUI_MeshLight_On.png.webp" alt="Mesh light enabled"><figcaption>On</figcaption></figure><figure><img src="/classroom/course-assets/course32-native/GUI_MeshLight_Off.png.webp" alt="Mesh light disabled"><figcaption>Off</figcaption></figure></div>
+<h3>5 · 尚未恢复的部分</h3><p>原片完整 UV 编辑、房间造型、镜头和曝光尚未逐值恢复。当前房间、接收球及相机是补齐的观察环境，因此图像不能当成老师画面的精确复刻。末段 Parameter Wiring 仍属于探索操作，不能凭打开对话框声称接线完成。前半段 Quad / Photometric / Cylinder 灯实验还需分开整理与交付。</p>
+<h3>Source evidence</h3><details><summary>30:00 · Cylinder dimensions and position</summary><button data-time="1800">定位原片附近</button><img loading="lazy" src="/classroom/evidence/full_fire/v06_1800.jpg.webp" alt="Source evidence 1800"></details><details><summary>31:40 · Arnold Noise and Renderable</summary><button data-time="1900">定位原片附近</button><img loading="lazy" src="/classroom/evidence/full_fire/v06_1900.jpg.webp" alt="Source evidence 1900"></details><details><summary>35:00 · Unwrap UVW experiment</summary><button data-time="2100">定位原片附近</button><img loading="lazy" src="/classroom/evidence/full_fire/v06_2100.jpg.webp" alt="Source evidence 2100"></details><details><summary>43:20 · Mesh light settings</summary><button data-time="2600">定位原片附近</button><img loading="lazy" src="/classroom/evidence/full_fire/v06_2600.jpg.webp" alt="Source evidence 2600"></details><details><summary>50:00 · Parameter Wiring exploration</summary><button data-time="3000">定位原片附近</button><img loading="lazy" src="/classroom/evidence/full_fire/v06_3000.jpg.webp" alt="Source evidence 3000"></details></section><section id="existing-reviewed-lesson"><h2>已有详细教学 · 按本课原视频整理</h2><p>这一段从灯光和投影贴图试验，逐步测试Arnold原生Noise、Matte材质以及控制器/参数关联。它不是另一种火焰贴图制作。</p><p>以下内容来自旧版补习页已经保存的核对记录。本次按视频文件名接入，保留时间点、补充值和未知项；没有把整合网页计为新的逐帧核对或MAX完成。数值可能属于中间试验，请结合时间点与状态看。</p><p><a href="/learn/course32/">打开旧版交互教学</a> · <a href="/classroom/complete.html#v06">场景、镜头与动画流程</a> · <a href="/classroom/results.html">按作业查看当前成果与下载</a></p><h3>操作步骤</h3><details><summary>1. 查看细胞纹理</summary><p>在既有场景中查看程序纹理，准备灯光贴图测试。</p><button data-time="930">定位原片 15:30</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v06_930.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>2. 噪声投影</summary><p>目标光度学灯的投影贴图槽使用Noise #13。</p><button data-time="1195">定位原片 19:55</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v06_1195.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>3. 比较Arnold原生Noise</summary><p>查看Arnold Noise的对象坐标及参数，并打开灯光属性的控制器菜单。</p><button data-time="1460">定位原片 24:20</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v06_1460.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>4. Matte材质测试</summary><p>创建Arnold Matte，查看灯光与几何对象交互结果。</p><button data-time="1985">定位原片 33:05</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v06_1985.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>5. 控制器设置</summary><p>曲线编辑器中检查灯光相关属性。</p><button data-time="2520">定位原片 42:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v06_2520.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>6. 参数关联</summary><p>参数关联窗口中查看场景材质Light（Matte）及灯光自定义属性；不据此猜定最终关联表达式。</p><button data-time="3050">定位原片 50:50</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v06_3050.jpg.webp" alt="已有核对记录的原片截图"></details><h3>参数与用途 · 25条已有记录</h3><p>展开一条记录，即可同时查看数值、用途、核对状态和原片证据。</p><details><summary>Mesh灯实验结束时被移除 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;objects_present&quot;: [
+    &quot;ArnoldLight001&quot;,
+    &quot;ArnoldLight001.Target&quot;,
+    &quot;Cylinder001&quot;,
+    &quot;Loft001&quot;,
+    &quot;Plane001&quot;
+  ],
+  &quot;ArnoldLight002_in_list&quot;: false
+}</pre><p><b>用途：</b>补齐或纠正前次视频复核记录，按截图时点区分实验与最终状态。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="3103">定位原片 51:43</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/recheck_fire/v06_3103.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>删除前最后确认Mesh灯状态 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;light&quot;: &quot;ArnoldLight002&quot;,
+  &quot;Shape&quot;: &quot;Mesh&quot;,
+  &quot;Mesh&quot;: &quot;Cylinder001&quot;,
+  &quot;ColorMode&quot;: &quot;Texture&quot;,
+  &quot;ColorTexture&quot;: &quot;Noise #15&quot;,
+  &quot;Intensity&quot;: 1,
+  &quot;Exposure&quot;: 2,
+  &quot;ResultIntensity&quot;: 4,
+  &quot;NormalizeEnergy&quot;: false,
+  &quot;position_cm&quot;: [
+    -281.245,
+    -250.917,
+    0
+  ],
+  &quot;Matte&quot;: &quot;LightMatte&quot;,
+  &quot;Matte_color_map&quot;: &quot;Checker #17&quot;,
+  &quot;Matte_opacity_swatch&quot;: &quot;黑&quot;
+}</pre><p><b>用途：</b>补齐或纠正前次视频复核记录，按截图时点区分实验与最终状态。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="3101">定位原片 51:41</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/recheck_fire/v06_3101.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>识别参数连线试验尚未完成 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;Parameter Wiring&quot;: &quot;表达式未填写，Connect按钮灰色&quot;
+}</pre><p><b>用途：</b>避免照着空表达式误认为两个参数已建立关联。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="3000">定位原片 50:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_fire/v06_3000.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>把Arnold灯明确设为Mesh并引用圆柱 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;Shape Type&quot;: &quot;Mesh&quot;,
+  &quot;Mesh&quot;: &quot;Cylinder001&quot;,
+  &quot;Color Texture&quot;: &quot;Noise #15&quot;,
+  &quot;Intensity&quot;: 1,
+  &quot;Exposure&quot;: 2,
+  &quot;实际强度&quot;: 4,
+  &quot;Normalize Energy&quot;: false
+}</pre><p><b>用途：</b>把先前制作的圆柱几何体变成灯光发射形状，这是本片核心路线之一。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="2600">定位原片 43:20</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_fire/v06_2600.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>检查网格灯颜色与强度 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;Color Texture&quot;: &quot;Noise #15&quot;,
+  &quot;Intensity&quot;: 1,
+  &quot;Exposure&quot;: 2,
+  &quot;实际强度&quot;: 4
+}</pre><p><b>用途：</b>纹理调制颜色/亮度；曝光按倍数放大基础强度。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="2200">定位原片 36:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_fire/v06_2200.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>给圆柱添加Unwrap UVW · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;modifier&quot;: &quot;Unwrap UVW&quot;,
+  &quot;Map Channel&quot;: 1,
+  &quot;实验材质&quot;: &quot;Arnold Surface Matte / Material #46&quot;
+}</pre><p><b>用途：</b>网格的UV决定纹理如何包裹；Matte节点的出现不等于已完成灯光连线。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="2100">定位原片 35:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_fire/v06_2100.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>圆柱UV重新排列后的布局 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;object&quot;: &quot;Cylinder001&quot;,
+  &quot;channel&quot;: 1,
+  &quot;layout&quot;: &quot;两圆形端盖并排放在矩形侧壁上方&quot;,
+  &quot;Pack Rescale&quot;: true,
+  &quot;Pack Rotate&quot;: false,
+  &quot;Pack Padding&quot;: 0.001
+}</pre><p><b>用途：</b>补齐或纠正前次视频复核记录，按截图时点区分实验与最终状态。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="2080">定位原片 34:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/recheck_fire/v06_2080.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>圆柱UV编辑实际展示 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;object&quot;: &quot;Cylinder001&quot;,
+  &quot;modifier&quot;: &quot;Unwrap UVW&quot;,
+  &quot;channel&quot;: 1,
+  &quot;layout&quot;: &quot;矩形侧壁条带，两个端盖在上、下方&quot;
+}</pre><p><b>用途：</b>补齐或纠正前次视频复核记录，按截图时点区分实验与最终状态。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="2030">定位原片 33:50</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/recheck_fire/v06_2030.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>转换圆柱并检查对象可渲染性 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;类型&quot;: &quot;Editable Poly&quot;,
+  &quot;Renderable&quot;: false,
+  &quot;Vertices&quot;: 24,
+  &quot;Faces&quot;: 14
+}</pre><p><b>用途：</b>区分网格载体与镜头中显示的实体圆柱。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="1900">定位原片 31:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_fire/v06_1900.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Noise15真实类型与完整参数 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;node&quot;: &quot;Arnold Noise #15&quot;,
+  &quot;Octaves&quot;: 1,
+  &quot;Lacunarity&quot;: 1.92,
+  &quot;Distortion&quot;: 0,
+  &quot;Amplitude&quot;: 1,
+  &quot;Coordinate Space&quot;: &quot;object&quot;,
+  &quot;Pref Name&quot;: &quot;Pref&quot;,
+  &quot;Scale&quot;: [
+    1,
+    1,
+    1
+  ],
+  &quot;Offset&quot;: [
+    0,
+    0,
+    0
+  ],
+  &quot;P&quot;: [
+    0,
+    0,
+    0
+  ],
+  &quot;Time&quot;: 0,
+  &quot;Mode&quot;: &quot;scalar&quot;,
+  &quot;Color1_swatch&quot;: &quot;黑&quot;,
+  &quot;Color2_swatch&quot;: &quot;白&quot;,
+  &quot;Maps&quot;: &quot;可见Lacunarity/Distortion/Amplitude/Scale/Offset均无贴图&quot;
+}</pre><p><b>用途：</b>补齐或纠正前次视频复核记录，按截图时点区分实验与最终状态。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="1870">定位原片 31:10</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/recheck_fire/v06_1870.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>创建作为网格灯载体的圆柱 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;Radius cm&quot;: 28.399,
+  &quot;Height cm&quot;: 291.01,
+  &quot;Height Segments&quot;: 1,
+  &quot;Cap Segments&quot;: 1,
+  &quot;Sides&quot;: 12,
+  &quot;Smooth&quot;: true,
+  &quot;Generate Mapping Coords&quot;: true,
+  &quot;位置cm&quot;: [
+    144.665,
+    -239.677,
+    266.114
+  ]
+}</pre><p><b>用途：</b>提供实际网格，后续供Arnold Mesh Light拾取。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="1800">定位原片 30:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_fire/v06_1800.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>核对Arnold渲染入口 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;Renderer&quot;: &quot;Arnold&quot;,
+  &quot;View to Render&quot;: &quot;四元菜单4–透视&quot;,
+  &quot;Ray Depth Total&quot;: 10,
+  &quot;Transparency Depth&quot;: 10,
+  &quot;Low Light Threshold&quot;: 0.001,
+  &quot;Texture Cache MB&quot;: 4096,
+  &quot;Auto Convert to TX&quot;: true
+}</pre><p><b>用途：</b>排除渲染错误视口造成的空画面，并识别视频实际使用的渲染流程。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="1500">定位原片 25:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_fire/v06_1500.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>在灯上试验程序投影纹理 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;Noise #13 Size&quot;: 0.2,
+  &quot;Low&quot;: 0.4,
+  &quot;High&quot;: 0.6,
+  &quot;坐标&quot;: &quot;Explicit Map Channel 1&quot;
+}</pre><p><b>用途：</b>通过纹理调制受光分布，而非只改变一个常量颜色。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="1200">定位原片 20:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_fire/v06_1200.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>把光度学灯发光形状改为圆柱 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;Shape&quot;: &quot;Cylinder&quot;,
+  &quot;Length cm&quot;: 520,
+  &quot;Radius cm&quot;: 13,
+  &quot;Intensity cd&quot;: 1500,
+  &quot;Shadow Samples&quot;: 32,
+  &quot;Raytrace Bias&quot;: 0.2,
+  &quot;位置cm&quot;: [
+    1.057,
+    -11.436,
+    106.699
+  ]
+}</pre><p><b>用途：</b>柱形面积光提供长条发光区域；这是灯的形状，不是后来创建的Cylinder001几何体。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="1000">定位原片 16:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_fire/v06_1000.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>试验目标光度学灯 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;对象&quot;: &quot;TPhotometricLight001&quot;,
+  &quot;Target Distance cm&quot;: 268.509,
+  &quot;分布&quot;: &quot;Uniform Spherical&quot;,
+  &quot;颜色预设&quot;: &quot;D65&quot;,
+  &quot;强度cd&quot;: 1500,
+  &quot;阴影&quot;: &quot;Ray Traced&quot;
+}</pre><p><b>用途：</b>这是另一种照明方案的试验，不应与Arnold灯参数混为一套。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="600">定位原片 10:00</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_fire/v06_600.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>调整火焰平面的对象渲染属性 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;Plane001位置cm&quot;: [
+    0,
+    0,
+    187.925
+  ],
+  &quot;几何局部尺寸cm&quot;: [
+    500,
+    350,
+    0
+  ],
+  &quot;顶点&quot;: 4,
+  &quot;面&quot;: 2,
+  &quot;材质&quot;: &quot;Fire&quot;,
+  &quot;Renderable&quot;: true,
+  &quot;Visible to Camera&quot;: true,
+  &quot;Visible to Reflection/Refraction&quot;: false,
+  &quot;Receive Shadows&quot;: false,
+  &quot;Cast Shadows&quot;: false
+}</pre><p><b>用途：</b>对象可见性与材质透明度是不同控制层；卡片需要在镜头中存在，同时避免不合意的阴影。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="400">定位原片 06:40</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_fire/v06_400.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>把第二盏灯拉成长条并调暖 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;Quad X cm&quot;: 528.6,
+  &quot;Quad Y cm&quot;: 135.5,
+  &quot;Spread&quot;: 1,
+  &quot;Roundness&quot;: 0,
+  &quot;Soft Edge&quot;: 1,
+  &quot;Intensity&quot;: 1
+}</pre><p><b>用途：</b>横向长灯使地面受光范围匹配宽火焰卡片。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="250">定位原片 04:10</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_fire/v06_250.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>新增第二盏Arnold面光 · 场景/操作时点读值</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;对象&quot;: &quot;ArnoldLight002&quot;,
+  &quot;Shape&quot;: &quot;Quad&quot;,
+  &quot;Target Distance cm&quot;: 304.183,
+  &quot;Quad X cm&quot;: 485.6,
+  &quot;Quad Y cm&quot;: 100,
+  &quot;位置cm&quot;: [
+    -0.856,
+    -39.12,
+    96.733
+  ]
+}</pre><p><b>用途：</b>以可控灯光补充火焰附近的环境照明。</p><p><b>记录状态：</b>按原片时点核对；含中间实验，勿混为最终状态</p><p><b>来源：</b>完整流程补查</p><button data-time="80">定位原片 01:20</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/full_fire/v06_80.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Parameter Editor · custom attribute proposal</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;type&quot;: &quot;TextureMap&quot;,
+  &quot;UI&quot;: &quot;MapButton&quot;,
+  &quot;name&quot;: &quot;Param4&quot;,
+  &quot;width&quot;: 150,
+  &quot;height&quot;: 25,
+  &quot;alignment&quot;: &quot;Center&quot;,
+  &quot;offsetX&quot;: 0,
+  &quot;offsetY&quot;: 0
+}</pre><p><b>用途：</b>Experimental UI, not proof functional light-color binding</p><p><b>记录状态：</b>深入核对 / observed</p><p><b>来源：</b>深入核对：最后可见状态</p><button data-time="2765">定位原片 46:05</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire_deep/v06_2765.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Parameter Wiring · completion state</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">{
+  &quot;left&quot;: &quot;ArnoldLight002 / Color:Bezier Color&quot;,
+  &quot;right&quot;: &quot;sceneMaterials / LightMatte (Matte) / color:Map #17 Checker [0]&quot;,
+  &quot;left_expression&quot;: &quot;&quot;,
+  &quot;right_expression&quot;: &quot;&quot;,
+  &quot;connect_enabled&quot;: false
+}</pre><p><b>用途：</b>Cannot claim successful Checker-to-light-color wiring</p><p><b>记录状态：</b>深入核对 / observed</p><p><b>来源：</b>深入核对：最后可见状态</p><button data-time="3080">定位原片 51:20</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire_deep/v06_3080.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Noise #13 · Coordinates</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">Explicit Map Channel1; Tiling(1,1,1); Offset(0,0,0)</pre><p><b>用途：</b>供光度学灯投影纹理。</p><p><b>记录状态：</b>视频读值（该时点）</p><p><b>来源：</b>旧版教学记录</p><button data-time="1195">定位原片 19:55</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v06_1195.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Noise #13 · Type / Size / Threshold Low,High / Phase</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">Regular / 0.2 / 0.4,0.6 / 0</pre><p><b>用途：</b>形成黑白对比的投影图案。</p><p><b>记录状态：</b>视频读值（该时点）</p><p><b>来源：</b>旧版教学记录</p><button data-time="1195">定位原片 19:55</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v06_1195.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Arnold Noise #14 · Octaves / Lacunarity / Distortion / Amplitude</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">1 / 1.92 / 0 / 1</pre><p><b>用途：</b>这是Arnold Noise，不是传统Noise，参数体系不同。</p><p><b>记录状态：</b>视频读值（该时点）</p><p><b>来源：</b>旧版教学记录</p><button data-time="1460">定位原片 24:20</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v06_1460.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Arnold Noise #14 · Coordinate Space / Pref / Scale / Offset / Time / Mode</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">object / Pref / (1,1,1) / (0,0,0) / 0 / scalar</pre><p><b>用途：</b>空间、频率与噪声输出方式。</p><p><b>记录状态：</b>视频读值（该时点）</p><p><b>来源：</b>旧版教学记录</p><button data-time="1460">定位原片 24:20</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v06_1460.jpg.webp" alt="已有核对记录的原片截图"></details><details><summary>Light · Class / Color Source</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">Arnold Matte / Checker #17</pre><p><b>用途：</b>从关联窗口和节点线可见的材质设置。</p><p><b>记录状态：</b>视频读值（该时点）</p><p><b>来源：</b>旧版教学记录</p><button data-time="3050">定位原片 50:50</button><img loading="lazy" style="max-width:100%" src="/classroom/evidence/fire/v06_3050.jpg.webp" alt="已有核对记录的原片截图"></details><h3>跟做练习</h3><p>先复现本课黑白形状，再观察颜色或动画的作用；每次只修改一个参数，并对照对应截图。</p><h3>这组记录仍未解决的内容</h3><ul><li>视频末尾参数连线窗口未显示成功连接；实验工程不伪造该连线。</li><li>实验台模型、颜色、相机和光度学灯强度3000/光束80°/衰减100°为补齐。</li></ul><p>以上为旧版记录中的待核对项；本页其他章节若有更新证据，应按其注明的版本与时点对照，不能把所有阶段数值混成一组最终参数。</p></section><h2>原片画面索引</h2><article class="sample"><button data-time="254.66">定位 00:04:14</button><a href="/classroom/course-assets/frames/course32/01_254.66s.jpg.webp"><img loading="lazy" src="/classroom/course-assets/frames/course32/01_254.66s.jpg.webp" alt="教学3.mp4 source frame at 01_254.66s"></a></article><article class="sample"><button data-time="954.97">定位 00:15:54</button><a href="/classroom/course-assets/frames/course32/02_954.97s.jpg.webp"><img loading="lazy" src="/classroom/course-assets/frames/course32/02_954.97s.jpg.webp" alt="教学3.mp4 source frame at 02_954.97s"></a></article><article class="sample"><button data-time="1750.78">定位 00:29:10</button><a href="/classroom/course-assets/frames/course32/03_1750.78s.jpg.webp"><img loading="lazy" src="/classroom/course-assets/frames/course32/03_1750.78s.jpg.webp" alt="教学3.mp4 source frame at 03_1750.78s"></a></article><article class="sample"><button data-time="2546.58">定位 00:42:26</button><a href="/classroom/course-assets/frames/course32/04_2546.58s.jpg.webp"><img loading="lazy" src="/classroom/course-assets/frames/course32/04_2546.58s.jpg.webp" alt="教学3.mp4 source frame at 04_2546.58s"></a></article><article class="sample"><button data-time="3024.07">定位 00:50:24</button><a href="/classroom/course-assets/frames/course32/05_3024.07s.jpg.webp"><img loading="lazy" src="/classroom/course-assets/frames/course32/05_3024.07s.jpg.webp" alt="教学3.mp4 source frame at 05_3024.07s"></a></article><script>const v=document.querySelector("video");document.querySelectorAll("[data-time]").forEach(b=>b.onclick=()=>{const t=+b.dataset.time;if(v.readyState===0){v.preload="metadata";v.load();v.addEventListener("loadedmetadata",()=>{v.currentTime=t;},{once:true});}else{v.currentTime=t;}v.scrollIntoView({behavior:"smooth",block:"center"});});</script></main></html><script src="/classroom/local-video.js" defer></script>

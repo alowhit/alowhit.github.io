@@ -1,0 +1,27 @@
+{
+  "snapshots": [
+    {
+      "frame": 28,
+      "U": 0.37299999594688416,
+      "V": 0.5099999904632568,
+      "Phase": 3.7249999046325684,
+      "Tiling": [
+        0.20000000298023224,
+        0.30000001192092896
+      ]
+    },
+    {
+      "frame": 60,
+      "U": 1.0,
+      "V": -2.0,
+      "Phase": 10.0,
+      "Tiling": [
+        0.20000000298023224,
+        0.30000001192092896
+      ]
+    }
+  ],
+  "confirmed": "24:20 Frame28 UV .373/.51 Phase3.725;28:00 Frame60 UV1/-2 Phase10;tiling .2/.3 Fractal levels3",
+  "estimated": "Nine flags approximate larger native teacher ramp; only flag56 RGB25 and96 RGB201 individually verified; static map snapshots, not recovered texture animation",
+  "remaining": "Exact flag count/colors, texture keyframes, fourth Noise, model deformation, camera, complete animation and assessment"
+}

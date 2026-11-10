@@ -1,0 +1,62 @@
+{
+  "source": "课堂5.mp4",
+  "stages": [
+    {
+      "file": "/classroom/course-assets/course48/01_BlackFront_Linear.max",
+      "reopened": true,
+      "cutout_enabled": true,
+      "falloff_type": 1,
+      "direction": 0,
+      "colors": [
+        "(color 0 0 0)",
+        "(color 255 255 255)"
+      ],
+      "emission_distance": [
+        10.0,
+        200.0
+      ]
+    },
+    {
+      "file": "/classroom/course-assets/course48/02_WhiteFront_Linear.max",
+      "reopened": true,
+      "cutout_enabled": true,
+      "falloff_type": 1,
+      "direction": 0,
+      "colors": [
+        "(color 255 255 255)",
+        "(color 0 0 0)"
+      ],
+      "emission_distance": [
+        10.0,
+        200.0
+      ]
+    },
+    {
+      "file": "/classroom/course-assets/course48/03_WhiteFront_NativeCurve.max",
+      "reopened": true,
+      "cutout_enabled": true,
+      "falloff_type": 1,
+      "direction": 0,
+      "colors": [
+        "(color 255 255 255)",
+        "(color 0 0 0)"
+      ],
+      "emission_distance": [
+        10.0,
+        200.0
+      ]
+    }
+  ],
+  "evidence": {
+    "150": "black Front white Side,PerpendicularParallel,CameraZ,linear MixCurve,Cutout connection",
+    "270": "white Front black Side linear",
+    "300": "strong concave rising curve",
+    "420": "same curve shape and two separate connections"
+  },
+  "limits": [
+    "camera retained from preceding lesson; this video moves camera and target",
+    "last curve copied from later native Falloff51; temporal match not yet verified",
+    "exposure and lighting not fully matched",
+    "not exhaustive frame-by-frame review"
+  ]
+}

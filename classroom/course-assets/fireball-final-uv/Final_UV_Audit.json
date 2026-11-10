@@ -1,0 +1,1658 @@
+{
+  "source": "09_Fireball_Bloom_Animation.max",
+  "source_sha256": "2f297e61fa1e4afb41642a027fb24abbd8f7c7052ea3b088b330e00c700161c6",
+  "source_unchanged": true,
+  "frame": 50,
+  "scope": "Read-only evaluated geometry audit. UV components joined by equal coordinates; not proof of source manual unwrap operations. No material or UV edits applied.",
+  "objects": [
+    {
+      "name": "Loft001",
+      "class": "Editable_Poly",
+      "material": "Material #43:Physical_Material",
+      "modifiers": [],
+      "vertices": 67,
+      "triangles": 104,
+      "map_channel_1": false
+    },
+    {
+      "name": "Cylinder001",
+      "class": "PolyMeshObject",
+      "material": "Material #48:Two_Sided",
+      "modifiers": [
+        "Noisemodifier",
+        "meshsmooth",
+        "Noisemodifier",
+        "Vol__Select",
+        "Edit_Poly",
+        "Taper",
+        "Edit_Poly"
+      ],
+      "vertices": 5088,
+      "triangles": 9984,
+      "map_channel_1": true,
+      "map_vertices": 5177,
+      "map_faces": 9984,
+      "uv_bounds": [
+        [
+          -5.960464477539063e-08,
+          0.0
+        ],
+        [
+          0.9999999403953552,
+          1.0
+        ]
+      ],
+      "zero_area_uv_triangles": 0,
+      "geometric_boundary_edges": 192,
+      "interior_uv_seams": [
+        {
+          "edge": [
+            283,
+            2597
+          ],
+          "faces": [
+            161,
+            218
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            1171,
+            2597
+          ],
+          "faces": [
+            164,
+            223
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            284,
+            2603
+          ],
+          "faces": [
+            170,
+            209
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            1171,
+            2603
+          ],
+          "faces": [
+            175,
+            212
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            31,
+            2840
+          ],
+          "faces": [
+            937,
+            962
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            733,
+            2840
+          ],
+          "faces": [
+            940,
+            967
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            55,
+            2845
+          ],
+          "faces": [
+            946,
+            985
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            733,
+            2845
+          ],
+          "faces": [
+            951,
+            988
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            55,
+            3069
+          ],
+          "faces": [
+            1705,
+            1730
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            781,
+            3069
+          ],
+          "faces": [
+            1708,
+            1735
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            79,
+            3073
+          ],
+          "faces": [
+            1714,
+            1753
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            781,
+            3073
+          ],
+          "faces": [
+            1719,
+            1756
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            79,
+            3261
+          ],
+          "faces": [
+            2473,
+            2498
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            829,
+            3261
+          ],
+          "faces": [
+            2476,
+            2503
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            103,
+            3265
+          ],
+          "faces": [
+            2482,
+            2521
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            829,
+            3265
+          ],
+          "faces": [
+            2487,
+            2524
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            103,
+            3453
+          ],
+          "faces": [
+            3241,
+            3266
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            877,
+            3453
+          ],
+          "faces": [
+            3244,
+            3271
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            127,
+            3457
+          ],
+          "faces": [
+            3250,
+            3289
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            877,
+            3457
+          ],
+          "faces": [
+            3255,
+            3292
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            127,
+            3645
+          ],
+          "faces": [
+            4009,
+            4034
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            925,
+            3645
+          ],
+          "faces": [
+            4012,
+            4039
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            151,
+            3649
+          ],
+          "faces": [
+            4018,
+            4057
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            925,
+            3649
+          ],
+          "faces": [
+            4023,
+            4060
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            151,
+            3837
+          ],
+          "faces": [
+            4777,
+            4802
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            973,
+            3837
+          ],
+          "faces": [
+            4780,
+            4807
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            175,
+            3841
+          ],
+          "faces": [
+            4786,
+            4825
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            973,
+            3841
+          ],
+          "faces": [
+            4791,
+            4828
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            175,
+            4029
+          ],
+          "faces": [
+            5545,
+            5570
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            1021,
+            4029
+          ],
+          "faces": [
+            5548,
+            5575
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            199,
+            4033
+          ],
+          "faces": [
+            5554,
+            5593
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            1021,
+            4033
+          ],
+          "faces": [
+            5559,
+            5596
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            199,
+            4221
+          ],
+          "faces": [
+            6313,
+            6338
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            1069,
+            4221
+          ],
+          "faces": [
+            6316,
+            6343
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            223,
+            4225
+          ],
+          "faces": [
+            6322,
+            6361
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            1069,
+            4225
+          ],
+          "faces": [
+            6327,
+            6364
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            223,
+            4413
+          ],
+          "faces": [
+            7081,
+            7106
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            1117,
+            4413
+          ],
+          "faces": [
+            7084,
+            7111
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            247,
+            4417
+          ],
+          "faces": [
+            7090,
+            7129
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            1117,
+            4417
+          ],
+          "faces": [
+            7095,
+            7132
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            285,
+            4677
+          ],
+          "faces": [
+            8161,
+            8282
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            1173,
+            4677
+          ],
+          "faces": [
+            8164,
+            8287
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            31,
+            4682
+          ],
+          "faces": [
+            8170,
+            8273
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            1173,
+            4682
+          ],
+          "faces": [
+            8175,
+            8276
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            284,
+            4685
+          ],
+          "faces": [
+            8193,
+            8314
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            1172,
+            4685
+          ],
+          "faces": [
+            8196,
+            8319
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            285,
+            4689
+          ],
+          "faces": [
+            8202,
+            8305
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            1172,
+            4689
+          ],
+          "faces": [
+            8207,
+            8308
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            7,
+            4695
+          ],
+          "faces": [
+            8241,
+            8330
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            685,
+            4695
+          ],
+          "faces": [
+            8244,
+            8335
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            283,
+            4698
+          ],
+          "faces": [
+            8250,
+            8321
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            685,
+            4698
+          ],
+          "faces": [
+            8255,
+            8324
+          ],
+          "max_uv_delta": 1.0
+        }
+      ],
+      "continuous_uv_components": [
+        9984
+      ],
+      "diagram": "/classroom/course-assets/fireball-final-uv/Final_UV_2.svg"
+    },
+    {
+      "name": "Sphere001",
+      "class": "Sphere",
+      "material": "Material #50:Physical_Material",
+      "modifiers": [],
+      "vertices": 482,
+      "triangles": 960,
+      "map_channel_1": true,
+      "map_vertices": 561,
+      "map_faces": 960,
+      "uv_bounds": [
+        [
+          0.0,
+          -1.1920928955078125e-07
+        ],
+        [
+          1.000000238418579,
+          1.0
+        ]
+      ],
+      "zero_area_uv_triangles": 0,
+      "geometric_boundary_edges": 0,
+      "interior_uv_seams": [
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "faces": [
+            1,
+            32
+          ],
+          "max_uv_delta": 1.000000238418579
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "faces": [
+            1,
+            2
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            1,
+            4
+          ],
+          "faces": [
+            2,
+            3
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            1,
+            5
+          ],
+          "faces": [
+            3,
+            4
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            1,
+            6
+          ],
+          "faces": [
+            4,
+            5
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            1,
+            7
+          ],
+          "faces": [
+            5,
+            6
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            1,
+            8
+          ],
+          "faces": [
+            6,
+            7
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            1,
+            9
+          ],
+          "faces": [
+            7,
+            8
+          ],
+          "max_uv_delta": 0.031249985098838806
+        },
+        {
+          "edge": [
+            1,
+            10
+          ],
+          "faces": [
+            8,
+            9
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            1,
+            11
+          ],
+          "faces": [
+            9,
+            10
+          ],
+          "max_uv_delta": 0.031249985098838806
+        },
+        {
+          "edge": [
+            1,
+            12
+          ],
+          "faces": [
+            10,
+            11
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            1,
+            13
+          ],
+          "faces": [
+            11,
+            12
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            1,
+            14
+          ],
+          "faces": [
+            12,
+            13
+          ],
+          "max_uv_delta": 0.03125002980232239
+        },
+        {
+          "edge": [
+            1,
+            15
+          ],
+          "faces": [
+            13,
+            14
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            1,
+            16
+          ],
+          "faces": [
+            14,
+            15
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            1,
+            17
+          ],
+          "faces": [
+            15,
+            16
+          ],
+          "max_uv_delta": 0.03125002980232239
+        },
+        {
+          "edge": [
+            1,
+            18
+          ],
+          "faces": [
+            16,
+            17
+          ],
+          "max_uv_delta": 0.03125002980232239
+        },
+        {
+          "edge": [
+            1,
+            19
+          ],
+          "faces": [
+            17,
+            18
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            1,
+            20
+          ],
+          "faces": [
+            18,
+            19
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            1,
+            21
+          ],
+          "faces": [
+            19,
+            20
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            1,
+            22
+          ],
+          "faces": [
+            20,
+            21
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            1,
+            23
+          ],
+          "faces": [
+            21,
+            22
+          ],
+          "max_uv_delta": 0.031250059604644775
+        },
+        {
+          "edge": [
+            1,
+            24
+          ],
+          "faces": [
+            22,
+            23
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            1,
+            25
+          ],
+          "faces": [
+            23,
+            24
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            1,
+            26
+          ],
+          "faces": [
+            24,
+            25
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            1,
+            27
+          ],
+          "faces": [
+            25,
+            26
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            1,
+            28
+          ],
+          "faces": [
+            26,
+            27
+          ],
+          "max_uv_delta": 0.031250059604644775
+        },
+        {
+          "edge": [
+            1,
+            29
+          ],
+          "faces": [
+            27,
+            28
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            1,
+            30
+          ],
+          "faces": [
+            28,
+            29
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            1,
+            31
+          ],
+          "faces": [
+            29,
+            30
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            1,
+            32
+          ],
+          "faces": [
+            30,
+            31
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            1,
+            33
+          ],
+          "faces": [
+            31,
+            32
+          ],
+          "max_uv_delta": 0.031250059604644775
+        },
+        {
+          "edge": [
+            2,
+            34
+          ],
+          "faces": [
+            33,
+            96
+          ],
+          "max_uv_delta": 1.000000238418579
+        },
+        {
+          "edge": [
+            34,
+            66
+          ],
+          "faces": [
+            97,
+            160
+          ],
+          "max_uv_delta": 1.000000238418579
+        },
+        {
+          "edge": [
+            66,
+            98
+          ],
+          "faces": [
+            161,
+            224
+          ],
+          "max_uv_delta": 1.000000238418579
+        },
+        {
+          "edge": [
+            98,
+            130
+          ],
+          "faces": [
+            225,
+            288
+          ],
+          "max_uv_delta": 1.000000238418579
+        },
+        {
+          "edge": [
+            130,
+            162
+          ],
+          "faces": [
+            289,
+            352
+          ],
+          "max_uv_delta": 1.000000238418579
+        },
+        {
+          "edge": [
+            162,
+            194
+          ],
+          "faces": [
+            353,
+            416
+          ],
+          "max_uv_delta": 1.000000238418579
+        },
+        {
+          "edge": [
+            194,
+            226
+          ],
+          "faces": [
+            417,
+            480
+          ],
+          "max_uv_delta": 1.000000238418579
+        },
+        {
+          "edge": [
+            226,
+            258
+          ],
+          "faces": [
+            481,
+            544
+          ],
+          "max_uv_delta": 1.000000238418579
+        },
+        {
+          "edge": [
+            258,
+            290
+          ],
+          "faces": [
+            545,
+            608
+          ],
+          "max_uv_delta": 1.000000238418579
+        },
+        {
+          "edge": [
+            290,
+            322
+          ],
+          "faces": [
+            609,
+            672
+          ],
+          "max_uv_delta": 1.000000238418579
+        },
+        {
+          "edge": [
+            322,
+            354
+          ],
+          "faces": [
+            673,
+            736
+          ],
+          "max_uv_delta": 1.000000238418579
+        },
+        {
+          "edge": [
+            354,
+            386
+          ],
+          "faces": [
+            737,
+            800
+          ],
+          "max_uv_delta": 1.000000238418579
+        },
+        {
+          "edge": [
+            386,
+            418
+          ],
+          "faces": [
+            801,
+            864
+          ],
+          "max_uv_delta": 1.000000238418579
+        },
+        {
+          "edge": [
+            418,
+            450
+          ],
+          "faces": [
+            865,
+            928
+          ],
+          "max_uv_delta": 1.000000238418579
+        },
+        {
+          "edge": [
+            451,
+            482
+          ],
+          "faces": [
+            929,
+            930
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            450,
+            482
+          ],
+          "faces": [
+            929,
+            960
+          ],
+          "max_uv_delta": 1.000000238418579
+        },
+        {
+          "edge": [
+            452,
+            482
+          ],
+          "faces": [
+            930,
+            931
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            453,
+            482
+          ],
+          "faces": [
+            931,
+            932
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            454,
+            482
+          ],
+          "faces": [
+            932,
+            933
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            455,
+            482
+          ],
+          "faces": [
+            933,
+            934
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            456,
+            482
+          ],
+          "faces": [
+            934,
+            935
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            457,
+            482
+          ],
+          "faces": [
+            935,
+            936
+          ],
+          "max_uv_delta": 0.031249985098838806
+        },
+        {
+          "edge": [
+            458,
+            482
+          ],
+          "faces": [
+            936,
+            937
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            459,
+            482
+          ],
+          "faces": [
+            937,
+            938
+          ],
+          "max_uv_delta": 0.031249985098838806
+        },
+        {
+          "edge": [
+            460,
+            482
+          ],
+          "faces": [
+            938,
+            939
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            461,
+            482
+          ],
+          "faces": [
+            939,
+            940
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            462,
+            482
+          ],
+          "faces": [
+            940,
+            941
+          ],
+          "max_uv_delta": 0.03125002980232239
+        },
+        {
+          "edge": [
+            463,
+            482
+          ],
+          "faces": [
+            941,
+            942
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            464,
+            482
+          ],
+          "faces": [
+            942,
+            943
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            465,
+            482
+          ],
+          "faces": [
+            943,
+            944
+          ],
+          "max_uv_delta": 0.03125002980232239
+        },
+        {
+          "edge": [
+            466,
+            482
+          ],
+          "faces": [
+            944,
+            945
+          ],
+          "max_uv_delta": 0.03125002980232239
+        },
+        {
+          "edge": [
+            467,
+            482
+          ],
+          "faces": [
+            945,
+            946
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            468,
+            482
+          ],
+          "faces": [
+            946,
+            947
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            469,
+            482
+          ],
+          "faces": [
+            947,
+            948
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            470,
+            482
+          ],
+          "faces": [
+            948,
+            949
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            471,
+            482
+          ],
+          "faces": [
+            949,
+            950
+          ],
+          "max_uv_delta": 0.031250059604644775
+        },
+        {
+          "edge": [
+            472,
+            482
+          ],
+          "faces": [
+            950,
+            951
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            473,
+            482
+          ],
+          "faces": [
+            951,
+            952
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            474,
+            482
+          ],
+          "faces": [
+            952,
+            953
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            475,
+            482
+          ],
+          "faces": [
+            953,
+            954
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            476,
+            482
+          ],
+          "faces": [
+            954,
+            955
+          ],
+          "max_uv_delta": 0.031250059604644775
+        },
+        {
+          "edge": [
+            477,
+            482
+          ],
+          "faces": [
+            955,
+            956
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            478,
+            482
+          ],
+          "faces": [
+            956,
+            957
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            479,
+            482
+          ],
+          "faces": [
+            957,
+            958
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            480,
+            482
+          ],
+          "faces": [
+            958,
+            959
+          ],
+          "max_uv_delta": 0.03125
+        },
+        {
+          "edge": [
+            481,
+            482
+          ],
+          "faces": [
+            959,
+            960
+          ],
+          "max_uv_delta": 0.031250059604644775
+        }
+      ],
+      "continuous_uv_components": [
+        960
+      ],
+      "diagram": "/classroom/course-assets/fireball-final-uv/Final_UV_3.svg"
+    },
+    {
+      "name": "Cylinder002",
+      "class": "PolyMeshObject",
+      "material": "Material #53:Two_Sided",
+      "modifiers": [
+        "Noisemodifier",
+        "Vol__Select",
+        "Taper",
+        "Edit_Poly"
+      ],
+      "vertices": 264,
+      "triangles": 480,
+      "map_channel_1": true,
+      "map_vertices": 284,
+      "map_faces": 480,
+      "uv_bounds": [
+        [
+          -5.960464477539063e-08,
+          0.0
+        ],
+        [
+          1.0,
+          0.9999999403953552
+        ]
+      ],
+      "zero_area_uv_triangles": 0,
+      "geometric_boundary_edges": 48,
+      "interior_uv_seams": [
+        {
+          "edge": [
+            7,
+            31
+          ],
+          "faces": [
+            11,
+            14
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            31,
+            55
+          ],
+          "faces": [
+            59,
+            62
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            55,
+            79
+          ],
+          "faces": [
+            107,
+            110
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            79,
+            103
+          ],
+          "faces": [
+            155,
+            158
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            103,
+            127
+          ],
+          "faces": [
+            203,
+            206
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            127,
+            151
+          ],
+          "faces": [
+            251,
+            254
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            151,
+            175
+          ],
+          "faces": [
+            299,
+            302
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            175,
+            199
+          ],
+          "faces": [
+            347,
+            350
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            199,
+            223
+          ],
+          "faces": [
+            395,
+            398
+          ],
+          "max_uv_delta": 1.0
+        },
+        {
+          "edge": [
+            223,
+            247
+          ],
+          "faces": [
+            443,
+            446
+          ],
+          "max_uv_delta": 1.0
+        }
+      ],
+      "continuous_uv_components": [
+        480
+      ],
+      "diagram": "/classroom/course-assets/fireball-final-uv/Final_UV_4.svg"
+    }
+  ]
+}

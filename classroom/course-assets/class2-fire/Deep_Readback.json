@@ -1,0 +1,1327 @@
+{
+  "source": "[本机资料路径]",
+  "source_sha256": "816d499d269709ae347509afb8cbed7c7ecc51db1eae3e8231bf8de30678f3b5",
+  "source_unchanged": true,
+  "maps": [
+    {
+      "name": "贴图 #3",
+      "class": "CompositeTexturemap",
+      "handle": 686190,
+      "properties": {
+        "mapEnabled": "#(true, true, true)",
+        "maskEnabled": "#(true, true, true)",
+        "blendMode": "#(0, 12, 5)",
+        "layername": "#(\"\", \"\", \"\")",
+        "dlgOpened": "#(true, true, true)",
+        "opacity": "#(100.0, 100.0, 100.0)",
+        "mapList": "#(贴图 #2:Falloff, 贴图 #4:Color Correction, 贴图 #13:Gradient Ramp)",
+        "Mask": "#(undefined, undefined, undefined)"
+      },
+      "layers": [
+        "贴图 #2:Falloff",
+        "贴图 #4:Color Correction",
+        "贴图 #13:Gradient Ramp"
+      ]
+    },
+    {
+      "name": "贴图 #11",
+      "class": "CompositeTexturemap",
+      "handle": 686123,
+      "properties": {
+        "mapEnabled": "#(true, true, true, true)",
+        "maskEnabled": "#(true, true, true, true)",
+        "blendMode": "#(0, 8, 0, 8)",
+        "layername": "#(\"\", \"\", \"\", \"\")",
+        "dlgOpened": "#(true, true, true, true)",
+        "opacity": "#(100.0, 100.0, 100.0, 100.0)",
+        "mapList": "#(贴图 #9:Gradient Ramp, 贴图 #10:Gradient Ramp, 贴图 #7:Noise, 贴图 #12:Gradient Ramp)",
+        "Mask": "#(undefined, undefined, undefined, undefined)"
+      },
+      "layers": [
+        "贴图 #9:Gradient Ramp",
+        "贴图 #10:Gradient Ramp",
+        "贴图 #7:Noise",
+        "贴图 #12:Gradient Ramp"
+      ]
+    },
+    {
+      "name": "贴图 #21",
+      "class": "CompositeTexturemap",
+      "handle": 687691,
+      "properties": {
+        "mapEnabled": "#(true, true)",
+        "maskEnabled": "#(true, true)",
+        "blendMode": "#(0, 4)",
+        "layername": "#(\"\", \"\")",
+        "dlgOpened": "#(true, true)",
+        "opacity": "#(100.0, 100.0)",
+        "mapList": "#(贴图 #19:Noise, 贴图 #20:Falloff)",
+        "Mask": "#(undefined, undefined)"
+      },
+      "layers": [
+        "贴图 #19:Noise",
+        "贴图 #20:Falloff"
+      ]
+    },
+    {
+      "name": "贴图 #27",
+      "class": "CompositeTexturemap",
+      "handle": 688635,
+      "properties": {
+        "mapEnabled": "#(true, true)",
+        "maskEnabled": "#(true, true)",
+        "blendMode": "#(0, 5)",
+        "layername": "#(\"\", \"\")",
+        "dlgOpened": "#(true, true)",
+        "opacity": "#(100.0, 100.0)",
+        "mapList": "#(贴图 #25:Gradient Ramp, 贴图 #26:Gradient Ramp)",
+        "Mask": "#(undefined, undefined)"
+      },
+      "layers": [
+        "贴图 #25:Gradient Ramp",
+        "贴图 #26:Gradient Ramp"
+      ]
+    },
+    {
+      "name": "贴图 #5",
+      "class": "Gradient_Ramp",
+      "handle": 684693,
+      "properties": {
+        "size": "1.0",
+        "phase": "0.0",
+        "amount": "0.0",
+        "High_Threshold": "1.0",
+        "Threshold_Smoothing": "0.0",
+        "Levels": "4.0",
+        "Low_Threshold": "0.0",
+        "Source_Map_On": "1",
+        "Noise_Type": "0",
+        "Gradient_Type": "5",
+        "Coordinates": "MtlBase:Placement",
+        "output": "MtlBase:Output",
+        "Gradient_Ramp": "ReferenceTarget:JData",
+        "Source_Map": "贴图 #1:Noise"
+      },
+      "coordinates": {
+        "blur": "1.0",
+        "mapping": "0",
+        "mapChannel": "1",
+        "mappingType": "0",
+        "UVW_Type": "0",
+        "U_Mirror": "False",
+        "V_Mirror": "False",
+        "U_Tile": "True",
+        "V_Tile": "True",
+        "showMapOnBack": "True",
+        "Noise_On": "False",
+        "Noise_Animate": "False",
+        "UVTransform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+        "realWorldScale": "False",
+        "realWorldHeight": "1.0",
+        "realWorldWidth": "1.0",
+        "phase": "0.0",
+        "Blur_Offset": "0.0",
+        "Noise_Amount": "1.0",
+        "U_Tiling": "1.0",
+        "Noise_Size": "1.0",
+        "U_Angle": "0.0",
+        "V_Angle": "0.0",
+        "W_Angle": "0.0",
+        "Noise_Levels": "1",
+        "V_Tiling": "1.0",
+        "U_Offset": "0.0",
+        "V_Offset": "0.0"
+      },
+      "flags": [
+        {
+          "name": "标志__1",
+          "properties": {
+            "color": "[0,0,0]"
+          }
+        },
+        {
+          "name": "标志__2",
+          "properties": {
+            "color": "[255,180.616,25.792]"
+          }
+        },
+        {
+          "name": "标志__3",
+          "properties": {
+            "color": "[255,127.374,0]",
+            "position": "96.96969604492188"
+          }
+        },
+        {
+          "name": "标志__4",
+          "properties": {
+            "color": "[197.428,0,0]",
+            "position": "81.48148345947266"
+          }
+        },
+        {
+          "name": "标志__5",
+          "properties": {
+            "color": "[1.82453,0,0]",
+            "position": "25.25252342224121"
+          }
+        }
+      ]
+    },
+    {
+      "name": "贴图 #13",
+      "class": "Gradient_Ramp",
+      "handle": 686125,
+      "properties": {
+        "size": "1.0",
+        "phase": "0.0",
+        "amount": "0.0",
+        "High_Threshold": "1.0",
+        "Threshold_Smoothing": "0.0",
+        "Levels": "4.0",
+        "Low_Threshold": "0.0",
+        "Source_Map_On": "1",
+        "Noise_Type": "0",
+        "Gradient_Type": "5",
+        "Coordinates": "MtlBase:Placement",
+        "output": "MtlBase:Output",
+        "Gradient_Ramp": "ReferenceTarget:JData",
+        "Source_Map": "贴图 #11:Composite"
+      },
+      "coordinates": {
+        "blur": "1.0",
+        "mapping": "0",
+        "mapChannel": "1",
+        "mappingType": "0",
+        "UVW_Type": "0",
+        "U_Mirror": "False",
+        "V_Mirror": "False",
+        "U_Tile": "True",
+        "V_Tile": "True",
+        "showMapOnBack": "True",
+        "Noise_On": "False",
+        "Noise_Animate": "False",
+        "UVTransform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+        "realWorldScale": "False",
+        "realWorldHeight": "1.0",
+        "realWorldWidth": "1.0",
+        "phase": "0.0",
+        "Blur_Offset": "0.0",
+        "Noise_Amount": "1.0",
+        "U_Tiling": "1.0",
+        "Noise_Size": "1.0",
+        "U_Angle": "0.0",
+        "V_Angle": "0.0",
+        "W_Angle": "0.0",
+        "Noise_Levels": "1",
+        "V_Tiling": "1.0",
+        "U_Offset": "0.0",
+        "V_Offset": "0.0"
+      },
+      "flags": [
+        {
+          "name": "标志__1",
+          "properties": {
+            "color": "[0,0,0]"
+          }
+        },
+        {
+          "name": "标志__2",
+          "properties": {
+            "color": "[255,255,255]"
+          }
+        },
+        {
+          "name": "标志__3",
+          "properties": {
+            "color": "[255,255,255]",
+            "position": "34.34343338012695"
+          }
+        }
+      ]
+    },
+    {
+      "name": "贴图 #9",
+      "class": "Gradient_Ramp",
+      "handle": 685451,
+      "properties": {
+        "size": "10.0",
+        "phase": "0.0",
+        "amount": "0.009999999776482582",
+        "High_Threshold": "1.0",
+        "Threshold_Smoothing": "0.0",
+        "Levels": "4.0",
+        "Low_Threshold": "0.0",
+        "Source_Map_On": "1",
+        "Noise_Type": "1",
+        "Gradient_Type": "4",
+        "Coordinates": "MtlBase:Placement",
+        "output": "MtlBase:Output",
+        "Gradient_Ramp": "ReferenceTarget:JData"
+      },
+      "coordinates": {
+        "blur": "1.0",
+        "mapping": "0",
+        "mapChannel": "1",
+        "mappingType": "0",
+        "UVW_Type": "0",
+        "U_Mirror": "False",
+        "V_Mirror": "False",
+        "U_Tile": "True",
+        "V_Tile": "True",
+        "showMapOnBack": "True",
+        "Noise_On": "False",
+        "Noise_Animate": "False",
+        "UVTransform": "(matrix3 [0.05,0,0] [0,1,0] [0,0,1] [0.475,0,0])",
+        "realWorldScale": "False",
+        "realWorldHeight": "1.0",
+        "realWorldWidth": "20.0",
+        "phase": "0.0",
+        "Blur_Offset": "0.0",
+        "Noise_Amount": "1.0",
+        "U_Tiling": "0.05000000074505806",
+        "Noise_Size": "1.0",
+        "U_Angle": "0.0",
+        "V_Angle": "0.0",
+        "W_Angle": "0.0",
+        "Noise_Levels": "1",
+        "V_Tiling": "1.0",
+        "U_Offset": "0.0",
+        "V_Offset": "0.0"
+      },
+      "flags": [
+        {
+          "name": "标志__1",
+          "properties": {
+            "color": "[0,0,0]"
+          }
+        },
+        {
+          "name": "标志__2",
+          "properties": {
+            "color": "[255,255,255]"
+          }
+        },
+        {
+          "name": "标志__3",
+          "properties": {
+            "color": "[255,255,255]",
+            "position": "50.0"
+          }
+        },
+        {
+          "name": "标志__4",
+          "properties": {
+            "color": "[0,0,0]",
+            "position": "79.12458038330078"
+          }
+        },
+        {
+          "name": "标志__5",
+          "properties": {
+            "color": "[0,0,0]",
+            "position": "29.29292869567871"
+          }
+        },
+        {
+          "name": "标志__6",
+          "properties": {
+            "color": "[0,0,0]",
+            "position": "13.80471420288086"
+          }
+        },
+        {
+          "name": "标志__7",
+          "properties": {
+            "color": "[255,255,255]",
+            "position": "69.36026763916016"
+          }
+        },
+        {
+          "name": "标志__8",
+          "properties": {
+            "color": "[255,255,255]",
+            "position": "22.89562225341797"
+          }
+        },
+        {
+          "name": "标志__9",
+          "properties": {
+            "color": "[255,255,255]",
+            "position": "9.764309883117676"
+          }
+        },
+        {
+          "name": "标志__10",
+          "properties": {
+            "color": "[255,255,255]",
+            "position": "90.2356948852539"
+          }
+        },
+        {
+          "name": "标志__11",
+          "properties": {
+            "color": "[0,0,0]",
+            "position": "67.00337219238281"
+          }
+        }
+      ]
+    },
+    {
+      "name": "贴图 #10",
+      "class": "Gradient_Ramp",
+      "handle": 685728,
+      "properties": {
+        "size": "1.0",
+        "phase": "0.0",
+        "amount": "0.0",
+        "High_Threshold": "1.0",
+        "Threshold_Smoothing": "0.0",
+        "Levels": "4.0",
+        "Low_Threshold": "0.0",
+        "Source_Map_On": "1",
+        "Noise_Type": "0",
+        "Gradient_Type": "4",
+        "Coordinates": "MtlBase:Placement",
+        "output": "MtlBase:Output",
+        "Gradient_Ramp": "ReferenceTarget:JData"
+      },
+      "coordinates": {
+        "blur": "1.0",
+        "mapping": "0",
+        "mapChannel": "1",
+        "mappingType": "0",
+        "UVW_Type": "0",
+        "U_Mirror": "False",
+        "V_Mirror": "False",
+        "U_Tile": "True",
+        "V_Tile": "True",
+        "showMapOnBack": "True",
+        "Noise_On": "False",
+        "Noise_Animate": "False",
+        "UVTransform": "(matrix3 [0,1,0] [-1,0,0] [0,0,1] [1,0,0])",
+        "realWorldScale": "False",
+        "realWorldHeight": "1.0",
+        "realWorldWidth": "1.0",
+        "phase": "0.0",
+        "Blur_Offset": "0.0",
+        "Noise_Amount": "1.0",
+        "U_Tiling": "1.0",
+        "Noise_Size": "1.0",
+        "U_Angle": "0.0",
+        "V_Angle": "0.0",
+        "W_Angle": "90.0",
+        "Noise_Levels": "1",
+        "V_Tiling": "1.0",
+        "U_Offset": "0.0",
+        "V_Offset": "0.0"
+      },
+      "flags": [
+        {
+          "name": "标志__1",
+          "properties": {
+            "color": "[0,0,0]"
+          }
+        },
+        {
+          "name": "标志__2",
+          "properties": {
+            "color": "[255,255,255]"
+          }
+        },
+        {
+          "name": "标志__3",
+          "properties": {
+            "color": "[127.5,127.5,127.5]",
+            "position": "50.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "贴图 #12",
+      "class": "Gradient_Ramp",
+      "handle": 686058,
+      "properties": {
+        "size": "2.0",
+        "phase": "0.0",
+        "amount": "0.4000000059604645",
+        "High_Threshold": "1.0",
+        "Threshold_Smoothing": "0.0",
+        "Levels": "4.0",
+        "Low_Threshold": "0.0",
+        "Source_Map_On": "1",
+        "Noise_Type": "0",
+        "Gradient_Type": "4",
+        "Coordinates": "MtlBase:Placement",
+        "output": "MtlBase:Output",
+        "Gradient_Ramp": "ReferenceTarget:JData"
+      },
+      "coordinates": {
+        "blur": "1.0",
+        "mapping": "0",
+        "mapChannel": "1",
+        "mappingType": "0",
+        "UVW_Type": "0",
+        "U_Mirror": "False",
+        "V_Mirror": "True",
+        "U_Tile": "True",
+        "V_Tile": "False",
+        "showMapOnBack": "True",
+        "Noise_On": "False",
+        "Noise_Animate": "False",
+        "UVTransform": "(matrix3 [0,1,0] [-1,0,0] [0,0,1] [1,0,0])",
+        "realWorldScale": "False",
+        "realWorldHeight": "1.0",
+        "realWorldWidth": "1.0",
+        "phase": "0.0",
+        "Blur_Offset": "0.0",
+        "Noise_Amount": "1.0",
+        "U_Tiling": "1.0",
+        "Noise_Size": "1.0",
+        "U_Angle": "0.0",
+        "V_Angle": "0.0",
+        "W_Angle": "90.0",
+        "Noise_Levels": "1",
+        "V_Tiling": "1.0",
+        "U_Offset": "0.0",
+        "V_Offset": "0.0"
+      },
+      "flags": [
+        {
+          "name": "标志__1",
+          "properties": {
+            "color": "[0,0,0]"
+          }
+        },
+        {
+          "name": "标志__2",
+          "properties": {
+            "color": "[255,255,255]"
+          }
+        },
+        {
+          "name": "标志__3",
+          "properties": {
+            "color": "[255,255,255]",
+            "position": "68.6868667602539"
+          }
+        },
+        {
+          "name": "标志__4",
+          "properties": {
+            "color": "[0,0,0]",
+            "position": "19.191919326782227"
+          }
+        }
+      ]
+    },
+    {
+      "name": "贴图 #6",
+      "class": "Gradient_Ramp",
+      "handle": 686815,
+      "properties": {
+        "size": "1.0",
+        "phase": "0.0",
+        "amount": "0.0",
+        "High_Threshold": "1.0",
+        "Threshold_Smoothing": "0.0",
+        "Levels": "4.0",
+        "Low_Threshold": "0.0",
+        "Source_Map_On": "1",
+        "Noise_Type": "0",
+        "Gradient_Type": "5",
+        "Coordinates": "MtlBase:Placement",
+        "output": "MtlBase:Output",
+        "Gradient_Ramp": "ReferenceTarget:JData",
+        "Source_Map": "贴图 #1:Noise"
+      },
+      "coordinates": {
+        "blur": "1.0",
+        "mapping": "0",
+        "mapChannel": "1",
+        "mappingType": "0",
+        "UVW_Type": "0",
+        "U_Mirror": "False",
+        "V_Mirror": "False",
+        "U_Tile": "True",
+        "V_Tile": "True",
+        "showMapOnBack": "True",
+        "Noise_On": "False",
+        "Noise_Animate": "False",
+        "UVTransform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+        "realWorldScale": "False",
+        "realWorldHeight": "1.0",
+        "realWorldWidth": "1.0",
+        "phase": "0.0",
+        "Blur_Offset": "0.0",
+        "Noise_Amount": "1.0",
+        "U_Tiling": "1.0",
+        "Noise_Size": "1.0",
+        "U_Angle": "0.0",
+        "V_Angle": "0.0",
+        "W_Angle": "0.0",
+        "Noise_Levels": "1",
+        "V_Tiling": "1.0",
+        "U_Offset": "0.0",
+        "V_Offset": "0.0"
+      },
+      "flags": [
+        {
+          "name": "标志__1",
+          "properties": {
+            "color": "[0,0,0]"
+          }
+        },
+        {
+          "name": "标志__2",
+          "properties": {
+            "color": "[229.343,244.129,255]"
+          }
+        },
+        {
+          "name": "标志__3",
+          "properties": {
+            "color": "[88.9605,252.805,255]",
+            "position": "90.2356948852539"
+          }
+        },
+        {
+          "name": "标志__4",
+          "properties": {
+            "color": "[122.898,80.5195,255]",
+            "position": "72.7272720336914"
+          }
+        },
+        {
+          "name": "标志__5",
+          "properties": {
+            "color": "[1.82453,0,35.4507]",
+            "position": "16.835018157958984"
+          }
+        }
+      ]
+    },
+    {
+      "name": "贴图 #23",
+      "class": "Gradient_Ramp",
+      "handle": 687374,
+      "properties": {
+        "size": "1.0",
+        "phase": "0.0",
+        "amount": "0.0",
+        "High_Threshold": "1.0",
+        "Threshold_Smoothing": "0.0",
+        "Levels": "4.0",
+        "Low_Threshold": "0.0",
+        "Source_Map_On": "1",
+        "Noise_Type": "0",
+        "Gradient_Type": "5",
+        "Coordinates": "MtlBase:Placement",
+        "output": "MtlBase:Output",
+        "Gradient_Ramp": "ReferenceTarget:JData",
+        "Source_Map": "贴图 #22:Noise"
+      },
+      "coordinates": {
+        "blur": "1.0",
+        "mapping": "0",
+        "mapChannel": "1",
+        "mappingType": "0",
+        "UVW_Type": "0",
+        "U_Mirror": "False",
+        "V_Mirror": "False",
+        "U_Tile": "True",
+        "V_Tile": "True",
+        "showMapOnBack": "True",
+        "Noise_On": "False",
+        "Noise_Animate": "False",
+        "UVTransform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+        "realWorldScale": "False",
+        "realWorldHeight": "1.0",
+        "realWorldWidth": "1.0",
+        "phase": "0.0",
+        "Blur_Offset": "0.0",
+        "Noise_Amount": "1.0",
+        "U_Tiling": "1.0",
+        "Noise_Size": "1.0",
+        "U_Angle": "0.0",
+        "V_Angle": "0.0",
+        "W_Angle": "0.0",
+        "Noise_Levels": "1",
+        "V_Tiling": "1.0",
+        "U_Offset": "0.0",
+        "V_Offset": "0.0"
+      },
+      "flags": [
+        {
+          "name": "标志__1",
+          "properties": {
+            "color": "[255,71.4,0]"
+          }
+        },
+        {
+          "name": "标志__2",
+          "properties": {
+            "color": "[203.214,225.211,255]"
+          }
+        },
+        {
+          "name": "标志__3",
+          "properties": {
+            "color": "[255,180.616,25.1657]",
+            "position": "69.02356719970703"
+          }
+        },
+        {
+          "name": "标志__4",
+          "properties": {
+            "color": "[255,233.005,162.683]",
+            "position": "98.31649780273438"
+          }
+        }
+      ]
+    },
+    {
+      "name": "贴图 #24",
+      "class": "Gradient_Ramp",
+      "handle": 687693,
+      "properties": {
+        "size": "1.0",
+        "phase": "0.0",
+        "amount": "0.0",
+        "High_Threshold": "1.0",
+        "Threshold_Smoothing": "0.0",
+        "Levels": "4.0",
+        "Low_Threshold": "0.0",
+        "Source_Map_On": "1",
+        "Noise_Type": "0",
+        "Gradient_Type": "5",
+        "Coordinates": "MtlBase:Placement",
+        "output": "MtlBase:Output",
+        "Gradient_Ramp": "ReferenceTarget:JData",
+        "Source_Map": "贴图 #21:Composite"
+      },
+      "coordinates": {
+        "blur": "1.0",
+        "mapping": "0",
+        "mapChannel": "1",
+        "mappingType": "0",
+        "UVW_Type": "0",
+        "U_Mirror": "False",
+        "V_Mirror": "False",
+        "U_Tile": "True",
+        "V_Tile": "True",
+        "showMapOnBack": "True",
+        "Noise_On": "False",
+        "Noise_Animate": "False",
+        "UVTransform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+        "realWorldScale": "False",
+        "realWorldHeight": "1.0",
+        "realWorldWidth": "1.0",
+        "phase": "0.0",
+        "Blur_Offset": "0.0",
+        "Noise_Amount": "1.0",
+        "U_Tiling": "1.0",
+        "Noise_Size": "1.0",
+        "U_Angle": "0.0",
+        "V_Angle": "0.0",
+        "W_Angle": "0.0",
+        "Noise_Levels": "1",
+        "V_Tiling": "1.0",
+        "U_Offset": "0.0",
+        "V_Offset": "0.0"
+      },
+      "flags": [
+        {
+          "name": "标志__1",
+          "properties": {
+            "color": "[0,0,0]"
+          }
+        },
+        {
+          "name": "标志__2",
+          "properties": {
+            "color": "[255,255,255]"
+          }
+        },
+        {
+          "name": "标志__3",
+          "properties": {
+            "color": "[255,255,255]",
+            "position": "41.7508430480957"
+          }
+        }
+      ]
+    },
+    {
+      "name": "贴图 #28",
+      "class": "Gradient_Ramp",
+      "handle": 688293,
+      "properties": {
+        "size": "1.0",
+        "phase": "0.0",
+        "amount": "0.0",
+        "High_Threshold": "1.0",
+        "Threshold_Smoothing": "0.0",
+        "Levels": "4.0",
+        "Low_Threshold": "0.0",
+        "Source_Map_On": "1",
+        "Noise_Type": "0",
+        "Gradient_Type": "4",
+        "Coordinates": "MtlBase:Placement",
+        "output": "MtlBase:Output",
+        "Gradient_Ramp": "ReferenceTarget:JData",
+        "Source_Map": "贴图 #25:Gradient Ramp"
+      },
+      "coordinates": {
+        "blur": "1.0",
+        "mapping": "0",
+        "mapChannel": "1",
+        "mappingType": "0",
+        "UVW_Type": "0",
+        "U_Mirror": "False",
+        "V_Mirror": "False",
+        "U_Tile": "True",
+        "V_Tile": "True",
+        "showMapOnBack": "True",
+        "Noise_On": "False",
+        "Noise_Animate": "False",
+        "UVTransform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+        "realWorldScale": "False",
+        "realWorldHeight": "1.0",
+        "realWorldWidth": "1.0",
+        "phase": "0.0",
+        "Blur_Offset": "0.0",
+        "Noise_Amount": "1.0",
+        "U_Tiling": "1.0",
+        "Noise_Size": "1.0",
+        "U_Angle": "0.0",
+        "V_Angle": "0.0",
+        "W_Angle": "0.0",
+        "Noise_Levels": "1",
+        "V_Tiling": "1.0",
+        "U_Offset": "0.0",
+        "V_Offset": "0.0"
+      },
+      "flags": [
+        {
+          "name": "标志__1",
+          "properties": {
+            "color": "[0,255,214.2]"
+          }
+        },
+        {
+          "name": "标志__2",
+          "properties": {
+            "color": "[236.546,253.524,255]"
+          }
+        },
+        {
+          "name": "标志__3",
+          "properties": {
+            "color": "[255,209.091,111.387]",
+            "position": "77.10437774658203"
+          }
+        }
+      ]
+    },
+    {
+      "name": "贴图 #25",
+      "class": "Gradient_Ramp",
+      "handle": 688229,
+      "properties": {
+        "size": "1.0",
+        "phase": "0.0",
+        "amount": "0.0",
+        "High_Threshold": "1.0",
+        "Threshold_Smoothing": "0.0",
+        "Levels": "4.0",
+        "Low_Threshold": "0.0",
+        "Source_Map_On": "1",
+        "Noise_Type": "0",
+        "Gradient_Type": "4",
+        "Coordinates": "MtlBase:Placement",
+        "output": "MtlBase:Output",
+        "Gradient_Ramp": "ReferenceTarget:JData"
+      },
+      "coordinates": {
+        "blur": "1.0",
+        "mapping": "0",
+        "mapChannel": "1",
+        "mappingType": "0",
+        "UVW_Type": "0",
+        "U_Mirror": "True",
+        "V_Mirror": "False",
+        "U_Tile": "False",
+        "V_Tile": "True",
+        "showMapOnBack": "True",
+        "Noise_On": "False",
+        "Noise_Animate": "False",
+        "UVTransform": "(matrix3 [4.69846,0.34202,0] [-1.7101,0.939693,0] [0,0,1] [-0.994181,-0.140856,0])",
+        "realWorldScale": "False",
+        "realWorldHeight": "1.0",
+        "realWorldWidth": "0.20000000298023224",
+        "phase": "0.0",
+        "Blur_Offset": "0.0",
+        "Noise_Amount": "1.0",
+        "U_Tiling": "5.0",
+        "Noise_Size": "1.0",
+        "U_Angle": "0.0",
+        "V_Angle": "0.0",
+        "W_Angle": "20.0",
+        "Noise_Levels": "1",
+        "V_Tiling": "1.0",
+        "U_Offset": "0.0",
+        "V_Offset": "0.0"
+      },
+      "flags": [
+        {
+          "name": "标志__1",
+          "properties": {
+            "color": "[0,0,0]"
+          }
+        },
+        {
+          "name": "标志__2",
+          "properties": {
+            "color": "[255,255,255]"
+          }
+        },
+        {
+          "name": "标志__3",
+          "properties": {
+            "color": "[0,0,0]",
+            "position": "66.32997131347656"
+          }
+        },
+        {
+          "name": "标志__4",
+          "properties": {
+            "color": "[255,255,255]",
+            "position": "96.63299560546875"
+          }
+        }
+      ]
+    },
+    {
+      "name": "贴图 #26",
+      "class": "Gradient_Ramp",
+      "handle": 688570,
+      "properties": {
+        "size": "1.0",
+        "phase": "0.0",
+        "amount": "0.0",
+        "High_Threshold": "1.0",
+        "Threshold_Smoothing": "0.0",
+        "Levels": "4.0",
+        "Low_Threshold": "0.0",
+        "Source_Map_On": "1",
+        "Noise_Type": "0",
+        "Gradient_Type": "4",
+        "Coordinates": "MtlBase:Placement",
+        "output": "MtlBase:Output",
+        "Gradient_Ramp": "ReferenceTarget:JData"
+      },
+      "coordinates": {
+        "blur": "1.0",
+        "mapping": "0",
+        "mapChannel": "1",
+        "mappingType": "0",
+        "UVW_Type": "0",
+        "U_Mirror": "False",
+        "V_Mirror": "False",
+        "U_Tile": "True",
+        "V_Tile": "True",
+        "showMapOnBack": "True",
+        "Noise_On": "False",
+        "Noise_Animate": "False",
+        "UVTransform": "(matrix3 [0,1,0] [-1,0,0] [0,0,1] [1,0,0])",
+        "realWorldScale": "False",
+        "realWorldHeight": "1.0",
+        "realWorldWidth": "1.0",
+        "phase": "0.0",
+        "Blur_Offset": "0.0",
+        "Noise_Amount": "1.0",
+        "U_Tiling": "1.0",
+        "Noise_Size": "1.0",
+        "U_Angle": "0.0",
+        "V_Angle": "0.0",
+        "W_Angle": "90.0",
+        "Noise_Levels": "1",
+        "V_Tiling": "1.0",
+        "U_Offset": "0.0",
+        "V_Offset": "0.0"
+      },
+      "flags": [
+        {
+          "name": "标志__1",
+          "properties": {
+            "color": "[0,0,0]"
+          }
+        },
+        {
+          "name": "标志__2",
+          "properties": {
+            "color": "[255,255,255]"
+          }
+        },
+        {
+          "name": "标志__3",
+          "properties": {
+            "color": "[127.5,127.5,127.5]",
+            "position": "68.01346588134766"
+          }
+        }
+      ]
+    },
+    {
+      "name": "贴图 #29",
+      "class": "Gradient_Ramp",
+      "handle": 688875,
+      "properties": {
+        "size": "1.0",
+        "phase": "0.0",
+        "amount": "0.0",
+        "High_Threshold": "1.0",
+        "Threshold_Smoothing": "0.0",
+        "Levels": "4.0",
+        "Low_Threshold": "0.0",
+        "Source_Map_On": "1",
+        "Noise_Type": "0",
+        "Gradient_Type": "4",
+        "Coordinates": "MtlBase:Placement",
+        "output": "MtlBase:Output",
+        "Gradient_Ramp": "ReferenceTarget:JData",
+        "Source_Map": "贴图 #25:Gradient Ramp"
+      },
+      "coordinates": {
+        "blur": "1.0",
+        "mapping": "0",
+        "mapChannel": "1",
+        "mappingType": "0",
+        "UVW_Type": "0",
+        "U_Mirror": "False",
+        "V_Mirror": "False",
+        "U_Tile": "True",
+        "V_Tile": "True",
+        "showMapOnBack": "True",
+        "Noise_On": "False",
+        "Noise_Animate": "False",
+        "UVTransform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+        "realWorldScale": "False",
+        "realWorldHeight": "1.0",
+        "realWorldWidth": "1.0",
+        "phase": "0.0",
+        "Blur_Offset": "0.0",
+        "Noise_Amount": "1.0",
+        "U_Tiling": "1.0",
+        "Noise_Size": "1.0",
+        "U_Angle": "0.0",
+        "V_Angle": "0.0",
+        "W_Angle": "0.0",
+        "Noise_Levels": "1",
+        "V_Tiling": "1.0",
+        "U_Offset": "0.0",
+        "V_Offset": "0.0"
+      },
+      "flags": [
+        {
+          "name": "标志__1",
+          "properties": {
+            "color": "[0,4.33195,85.2867]"
+          }
+        },
+        {
+          "name": "标志__2",
+          "properties": {
+            "color": "[22.7443,217.069,255]"
+          }
+        },
+        {
+          "name": "标志__3",
+          "properties": {
+            "color": "[0.659386,46.805,255]",
+            "position": "71.71717071533203"
+          }
+        }
+      ]
+    },
+    {
+      "name": "贴图 #1",
+      "class": "Noise",
+      "handle": 684684,
+      "properties": {
+        "color1": "(color 255 255 255)",
+        "color2": "(color 0 0 0)",
+        "map1": "None",
+        "map2": "None",
+        "map1Enabled": "True",
+        "map2Enabled": "True",
+        "size": "0.10000000149011612",
+        "phase": "0.0",
+        "Levels": "3.0",
+        "thresholdLow": "0.05000000074505806",
+        "thresholdHigh": "0.4000000059604645",
+        "type": "2",
+        "coords": "MtlBase:Placement",
+        "output": "MtlBase:Output"
+      },
+      "coordinates": {
+        "blur": "1.0",
+        "offset": "[0,0,0]",
+        "angle": "[0,0,0]",
+        "coordType": "2",
+        "mapChannel": "1",
+        "Tiling": "[1,0.5,0.5]",
+        "Blur_Offset": "0.0"
+      }
+    },
+    {
+      "name": "贴图 #7",
+      "class": "Noise",
+      "handle": 685805,
+      "properties": {
+        "color1": "(color 0 0 0)",
+        "color2": "(color 255 255 255)",
+        "map1": "None",
+        "map2": "None",
+        "map1Enabled": "True",
+        "map2Enabled": "True",
+        "size": "1.0",
+        "phase": "0.0",
+        "Levels": "6.0",
+        "thresholdLow": "0.38999998569488525",
+        "thresholdHigh": "0.4000000059604645",
+        "type": "2",
+        "coords": "MtlBase:Placement",
+        "output": "MtlBase:Output"
+      },
+      "coordinates": {
+        "blur": "1.0",
+        "offset": "[0,0,0]",
+        "angle": "[0,0,0]",
+        "coordType": "2",
+        "mapChannel": "1",
+        "Tiling": "[3,1,1]",
+        "Blur_Offset": "0.0"
+      }
+    },
+    {
+      "name": "贴图 #22",
+      "class": "Noise",
+      "handle": 687365,
+      "properties": {
+        "color1": "(color 0 0 0)",
+        "color2": "(color 255 255 255)",
+        "map1": "None",
+        "map2": "None",
+        "map1Enabled": "True",
+        "map2Enabled": "True",
+        "size": "0.20000000298023224",
+        "phase": "0.0",
+        "Levels": "3.0",
+        "thresholdLow": "0.0",
+        "thresholdHigh": "0.4000000059604645",
+        "type": "2",
+        "coords": "MtlBase:Placement",
+        "output": "MtlBase:Output"
+      },
+      "coordinates": {
+        "blur": "1.0",
+        "offset": "[0,0,0]",
+        "angle": "[0,0,0]",
+        "coordType": "2",
+        "mapChannel": "1",
+        "Tiling": "[0.4,1.5,1]",
+        "Blur_Offset": "0.0"
+      }
+    },
+    {
+      "name": "贴图 #19",
+      "class": "Noise",
+      "handle": 687662,
+      "properties": {
+        "color1": "(color 0 0 0)",
+        "color2": "(color 255 255 255)",
+        "map1": "None",
+        "map2": "None",
+        "map1Enabled": "True",
+        "map2Enabled": "True",
+        "size": "0.20000000298023224",
+        "phase": "0.0",
+        "Levels": "3.0",
+        "thresholdLow": "0.10000000149011612",
+        "thresholdHigh": "0.25",
+        "type": "2",
+        "coords": "MtlBase:Placement",
+        "output": "MtlBase:Output"
+      },
+      "coordinates": {
+        "blur": "1.0",
+        "offset": "[0,0,0]",
+        "angle": "[0,0,0]",
+        "coordType": "2",
+        "mapChannel": "1",
+        "Tiling": "[0.4,1.5,1]",
+        "Blur_Offset": "0.0"
+      }
+    },
+    {
+      "name": "贴图 #2",
+      "class": "falloff",
+      "handle": 684769,
+      "properties": {
+        "color1": "(color 255 255 255)",
+        "map1Amount": "100.0",
+        "map1": "None",
+        "map1On": "True",
+        "color2": "(color 0 0 0)",
+        "map2Amount": "100.0",
+        "map2": "None",
+        "map2On": "True",
+        "type": "1",
+        "direction": "0",
+        "node": "None",
+        "mtlIOROverride": "True",
+        "ior": "1.600000023841858",
+        "extrapolateOn": "False",
+        "nearDistance": "0.0",
+        "farDistance": "100.0",
+        "Texture_Output": "MtlBase:Output",
+        "MixCurve": "ReferenceTarget:CurveControl"
+      }
+    },
+    {
+      "name": "贴图 #20",
+      "class": "falloff",
+      "handle": 687680,
+      "properties": {
+        "color1": "(color 255 255 255)",
+        "map1Amount": "100.0",
+        "map1": "None",
+        "map1On": "True",
+        "color2": "(color 0 0 0)",
+        "map2Amount": "100.0",
+        "map2": "None",
+        "map2On": "True",
+        "type": "1",
+        "direction": "0",
+        "node": "None",
+        "mtlIOROverride": "True",
+        "ior": "1.600000023841858",
+        "extrapolateOn": "False",
+        "nearDistance": "0.0",
+        "farDistance": "100.0",
+        "Texture_Output": "MtlBase:Output",
+        "MixCurve": "ReferenceTarget:CurveControl"
+      }
+    },
+    {
+      "name": "贴图 #4",
+      "class": "Color_Correction",
+      "handle": 684788,
+      "properties": {
+        "color": "(color 0 0 0)",
+        "map": "贴图 #1:Noise",
+        "rewireMode": "0",
+        "rewireR": "0",
+        "rewireG": "1",
+        "rewireB": "2",
+        "rewireA": "3",
+        "hueShift": "0.0",
+        "saturation": "0.0",
+        "tint": "(color 0 0 0)",
+        "tintStrength": "0.0",
+        "lightnessMode": "1",
+        "contrast": "95.0",
+        "brightness": "5.0",
+        "exposureMode": "0",
+        "enableR": "False",
+        "enableG": "False",
+        "enableB": "False",
+        "gainRGB": "200.0",
+        "gainR": "100.0",
+        "gainG": "100.0",
+        "gainB": "100.0",
+        "gammaRGB": "0.30000001192092896",
+        "gammaR": "1.0",
+        "gammaG": "1.0",
+        "gammaB": "1.0",
+        "pivotRGB": "1.5",
+        "pivotR": "1.0",
+        "pivotG": "1.0",
+        "pivotB": "1.0",
+        "liftRGB": "0.0",
+        "liftR": "0.0",
+        "liftG": "0.0",
+        "liftB": "0.0",
+        "printerLights": "5.0"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "name": "Material #43",
+      "class": "PhysicalMaterial"
+    },
+    {
+      "name": "Material #45",
+      "class": "ai_standard_surface"
+    },
+    {
+      "name": "Material #48",
+      "class": "ai_two_sided"
+    },
+    {
+      "name": "Material #50",
+      "class": "PhysicalMaterial"
+    },
+    {
+      "name": "Material #51",
+      "class": "PhysicalMaterial"
+    },
+    {
+      "name": "Material #53",
+      "class": "ai_two_sided"
+    }
+  ],
+  "objects": [
+    {
+      "name": "Loft001",
+      "material": "Material #43:Physical_Material",
+      "transform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+      "modifiers": []
+    },
+    {
+      "name": "Cylinder001",
+      "material": "Material #48:Two_Sided",
+      "transform": "(matrix3 [-1.30337e-07,-1,0] [0,0,1] [-0.8,1.62921e-07,0] [55,0,150])",
+      "modifiers": [
+        "Noisemodifier:Noise",
+        "meshsmooth:MeshSmooth",
+        "Noisemodifier:Noise",
+        "Vol__Select:Vol. Select",
+        "Edit_Poly:Edit Poly",
+        "Taper:Taper",
+        "Edit_Poly:Edit Poly"
+      ]
+    },
+    {
+      "name": "Sphere001",
+      "material": "Material #50:Physical_Material",
+      "transform": "(matrix3 [-1.62921e-07,-1,0] [0,0,1] [-1,1.62921e-07,0] [-3.75797e-07,0,150])",
+      "modifiers": []
+    },
+    {
+      "name": "Cylinder002",
+      "material": "Material #53:Two_Sided",
+      "transform": "(matrix3 [-1.62921e-07,-1,0] [0,0,1] [-1,1.62921e-07,0] [-1.41476e-07,-3.23659,156.557])",
+      "modifiers": [
+        "Noisemodifier:Noise",
+        "Vol__Select:Vol. Select",
+        "Taper:Taper",
+        "Edit_Poly:Edit Poly"
+      ]
+    }
+  ]
+}

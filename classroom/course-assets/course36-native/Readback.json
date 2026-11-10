@@ -1,0 +1,62 @@
+[
+  {
+    "file": "/classroom/course-assets/course36-native/01_Taper_050s.max",
+    "parameters": {
+      "amount": -1.0,
+      "curve": -0.5099999904632568,
+      "primaryaxis": 2,
+      "effectaxis": 2,
+      "symmetry": false,
+      "limit": false,
+      "upperlimit": 0.0,
+      "lowerlimit": 0.0
+    },
+    "position": "[400,0,150]",
+    "base": "Cylinder",
+    "stack": [
+      "Taper",
+      "Edit_Poly"
+    ],
+    "saved_reopened": true
+  },
+  {
+    "file": "/classroom/course-assets/course36-native/02_Taper_190s.max",
+    "parameters": {
+      "amount": -1.0,
+      "curve": -0.800000011920929,
+      "primaryaxis": 2,
+      "effectaxis": 2,
+      "symmetry": false,
+      "limit": true,
+      "upperlimit": 800.0,
+      "lowerlimit": 70.0
+    },
+    "position": "[400,0,150]",
+    "base": "Cylinder",
+    "stack": [
+      "Taper",
+      "Edit_Poly"
+    ],
+    "saved_reopened": true
+  },
+  {
+    "file": "/classroom/course-assets/course36-native/03_Taper_240s.max",
+    "parameters": {
+      "amount": -1.0,
+      "curve": -0.800000011920929,
+      "primaryaxis": 2,
+      "effectaxis": 2,
+      "symmetry": false,
+      "limit": true,
+      "upperlimit": 800.0,
+      "lowerlimit": 80.0
+    },
+    "position": "[400,0,150]",
+    "base": "Cylinder",
+    "stack": [
+      "Taper",
+      "Edit_Poly"
+    ],
+    "saved_reopened": true
+  }
+]

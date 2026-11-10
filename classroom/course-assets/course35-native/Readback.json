@@ -1,0 +1,52 @@
+{
+  "saved_reopened": true,
+  "base_class": "Cylinder",
+  "modifier": "Edit_Poly",
+  "parameters": {
+    "radius": 100.0,
+    "height": 800.0,
+    "heightsegs": 10,
+    "capsegs": 1,
+    "sides": 24,
+    "mapcoords": true
+  },
+  "position": "[444.442,1.125,156.683]",
+  "rotation": "(eulerAngles 0 90 0)",
+  "faces": 241,
+  "vertices": 264,
+  "scope": "Source end-of-lesson one-cap opening; not final fireball shader",
+  "supplements": [
+    "Rotation Y +90 reproduces source negative-X extension; exact teacher Euler entry not visible",
+    "Neutral material and diagnostic camera/light supplemental",
+    "Loft room not reconstructed in this model-only scene"
+  ],
+  "orientation_verification": [
+    {
+      "file": "/classroom/course-assets/course35-native/01_Capped_Cylinder.max",
+      "rotation": "(eulerAngles 0 90 0)",
+      "world_bounds": [
+        "[-355.558,-98.875,56.683]",
+        "[444.442,101.125,256.683]"
+      ],
+      "saved_reopened": true
+    },
+    {
+      "file": "/classroom/course-assets/course35-native/02_Open_Cylinder.max",
+      "rotation": "(eulerAngles 0 90 0)",
+      "world_bounds": [
+        "[-355.558,-98.875,56.683]",
+        "[444.442,101.125,256.683]"
+      ],
+      "saved_reopened": true
+    },
+    {
+      "file": "/classroom/course-assets/course35-native/03_Open_Cylinder_Preview.max",
+      "rotation": "(eulerAngles 0 90 0)",
+      "world_bounds": [
+        "[-355.558,-98.875,56.683]",
+        "[444.442,101.125,256.683]"
+      ],
+      "saved_reopened": true
+    }
+  ]
+}

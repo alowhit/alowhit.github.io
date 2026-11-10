@@ -1,0 +1,33 @@
+{
+  "file": "/classroom/course-assets/fireball-stage/04_Source_Background_Reverse_Angle.max",
+  "saved_reopened": true,
+  "source": {
+    "background_rgb": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "environment_map": "None",
+    "use_environment_map": false,
+    "env_mode": 0,
+    "env_ibl_enable": true
+  },
+  "camera_position": [
+    -650,
+    -1100,
+    500
+  ],
+  "camera_look_at": [
+    -265,
+    0,
+    150
+  ],
+  "camera_fov": 40,
+  "frame": 32,
+  "render_seconds": 62.71937012672424,
+  "limitations": [
+    "Camera is supplemental estimate",
+    "Room Z scale 2 and AA6 Diffuse4 retained",
+    "Only background RGB restored from source; not a complete environment reconstruction"
+  ]
+}

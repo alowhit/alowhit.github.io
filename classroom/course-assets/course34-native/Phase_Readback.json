@@ -1,0 +1,49 @@
+{
+  "before": [
+    {
+      "frame": 0,
+      "phase": 0.0,
+      "u_offset": 0.0
+    },
+    {
+      "frame": 50,
+      "phase": 2.5,
+      "u_offset": 0.25
+    },
+    {
+      "frame": 100,
+      "phase": 5.0,
+      "u_offset": 0.5
+    }
+  ],
+  "after": [
+    {
+      "frame": 0,
+      "phase": 5.0,
+      "u_offset": 0.0
+    },
+    {
+      "frame": 50,
+      "phase": 5.0,
+      "u_offset": 0.25
+    },
+    {
+      "frame": 100,
+      "phase": 5.0,
+      "u_offset": 0.5
+    }
+  ],
+  "saved_reopened": true,
+  "evidence": [
+    "course31 detail150: frame0 Phase5 UOffset0",
+    "course31 detail300: frame100 Phase5 UOffset0.5",
+    "course30 1265-1267: right endpoint100 black confirmed"
+  ],
+  "inference": "Constant Phase5 between observed endpoints; full source key curve not shown",
+  "pending": [
+    "remaining shape discrepancy",
+    "source camera",
+    "all animation curves",
+    "Gobo phase animation"
+  ]
+}

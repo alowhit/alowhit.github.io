@@ -1,0 +1,41 @@
+{
+  "source": "课堂教学视频1.mp4",
+  "box_cm": [
+    300,
+    200,
+    150
+  ],
+  "position": [
+    0,
+    0,
+    0
+  ],
+  "position_basis": "supplement: centered at origin; source transform not confirmed",
+  "chamfer": {
+    "amount": 50,
+    "segments": 4,
+    "mitering": 2,
+    "depth": 0.5,
+    "end_bias": 0.5
+  },
+  "counts": {
+    "vertices": 488,
+    "polygons": 486
+  },
+  "source_counts": {
+    "vertices": 488,
+    "polygons": 486
+  },
+  "count_match": true,
+  "reopened_counts": [
+    488,
+    486
+  ],
+  "pending": [
+    "material comparison and assignment",
+    "Arnold quad light",
+    "renderer output values",
+    "source placement and viewport",
+    "final assessment"
+  ]
+}

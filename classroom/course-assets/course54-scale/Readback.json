@@ -1,0 +1,89 @@
+{
+  "stages": [
+    {
+      "stage": "01_Before_Z91_505",
+      "reopened": true,
+      "controller": "bezier_scale",
+      "key_count": 2,
+      "samples": [
+        {
+          "frame": 0,
+          "scale_percent": [
+            100.0,
+            100.0,
+            100.0
+          ],
+          "position": "[0,65.956,40]"
+        },
+        {
+          "frame": 50,
+          "scale_percent": [
+            100.0,
+            100.0,
+            95.75250148773193
+          ],
+          "position": "[0,65.956,40]"
+        },
+        {
+          "frame": 100,
+          "scale_percent": [
+            100.0,
+            100.0,
+            91.50500297546387
+          ],
+          "position": "[0,65.956,40]"
+        }
+      ]
+    },
+    {
+      "stage": "02_After_Z100",
+      "reopened": true,
+      "controller": "bezier_scale",
+      "key_count": 2,
+      "samples": [
+        {
+          "frame": 0,
+          "scale_percent": [
+            100.0,
+            100.0,
+            100.0
+          ],
+          "position": "[0,65.956,40]"
+        },
+        {
+          "frame": 50,
+          "scale_percent": [
+            100.0,
+            100.0,
+            100.0
+          ],
+          "position": "[0,65.956,40]"
+        },
+        {
+          "frame": 100,
+          "scale_percent": [
+            100.0,
+            100.0,
+            100.0
+          ],
+          "position": "[0,65.956,40]"
+        }
+      ]
+    }
+  ],
+  "source": "课堂教学视频5.mp4",
+  "confirmed": [
+    "03:30 key2 Time100 X100 Y100 Z91.505",
+    "03:44 same key Time100 X100 Y100 Z100"
+  ],
+  "supplemented": [
+    "frame0 scale100 inferred from graph",
+    "inherited default scale controller tangents; exact tangent choices unverified",
+    "prior static shader and supplemented camera/room retained, not teacher appearance match"
+  ],
+  "pending": [
+    "initial scale and coordinate-system operations",
+    "later Curve Editor tools",
+    "assessment integration"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "file": "/classroom/course-assets/course45/06_Teacher_Falloff_Curves.max",
+  "reopened": true,
+  "source": "Teacher_Falloff_Archive.mat indices11,12,13 (one based)",
+  "method": "copy complete native Falloff maps including curve; rim Noise16 kept from video-verified learning graph; Object rebound to scene Box001",
+  "spot_side": "(color 32.5201 32.5201 32.5201)",
+  "smoke_front": "(color 6.76991 6.76991 6.76991)",
+  "pending": [
+    "later native save may differ from video instant",
+    "Noise10 and Cellular grays still supplements",
+    "camera and temporal lighting mismatch",
+    "final quality and assessment"
+  ]
+}

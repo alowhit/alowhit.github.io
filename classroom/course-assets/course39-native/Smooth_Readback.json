@@ -1,0 +1,97 @@
+{
+  "file": "/classroom/course-assets/course39-native/03_Smooth_12min_Animated.max",
+  "saved_reopened": true,
+  "noise_low": 0.20000000298023224,
+  "noise_high": 0.30000001192092896,
+  "phase_samples": [
+    {
+      "frame": 0,
+      "phase": 0.0
+    },
+    {
+      "frame": 1,
+      "phase": 0.03999999910593033
+    },
+    {
+      "frame": 30,
+      "phase": 1.2000000476837158
+    },
+    {
+      "frame": 99,
+      "phase": 3.9600000381469727
+    },
+    {
+      "frame": 100,
+      "phase": 4.0
+    }
+  ],
+  "phase_controller": "linear_float",
+  "flags": [
+    {
+      "position": 39.0,
+      "color": [
+        18.0,
+        18.0,
+        18.0
+      ]
+    },
+    {
+      "position": 62.0,
+      "color": [
+        255.0,
+        255.0,
+        255.0
+      ]
+    },
+    {
+      "position": 100.0,
+      "color": [
+        255.0,
+        255.0,
+        255.0
+      ]
+    },
+    {
+      "position": 100.0,
+      "color": [
+        255.0,
+        255.0,
+        255.0
+      ]
+    },
+    {
+      "position": 100.0,
+      "color": [
+        255.0,
+        255.0,
+        255.0
+      ]
+    },
+    {
+      "position": 100.0,
+      "color": [
+        255.0,
+        255.0,
+        255.0
+      ]
+    },
+    {
+      "position": 100.0,
+      "color": [
+        255.0,
+        255.0,
+        255.0
+      ]
+    }
+  ],
+  "gradient_type": 4,
+  "amount": 0.0,
+  "w_angle": 90.0,
+  "interpolation_template": "Ease In visually verified in Slate; NativeEase9.mat",
+  "limitations": [
+    "Source frame30=1.2 and frame100=4 confirmed; frame0=0 and Linear controller supplied. Source99 screenshot reads3.92, reconstruction gives3.96. Exact key times and tangents pending.",
+    "Black0/White100 endpoints supplied; Gray39 RGB18 and White62 confirmed",
+    "Inherited Falloff custom curve, UV, studio and model mismatch remain",
+    "Composite modes from earlier checkpoint; continuity pending"
+  ]
+}

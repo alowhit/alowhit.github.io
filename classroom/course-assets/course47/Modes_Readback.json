@@ -1,0 +1,79 @@
+{
+  "source": "课堂4.mp4",
+  "stages": [
+    {
+      "file": "/classroom/course-assets/course47/05_Fresnel_Study.max",
+      "reopened": true,
+      "falloff_type": 2,
+      "direction": 0,
+      "ior": 1.600000023841858,
+      "override": true,
+      "colors": [
+        "(color 255 255 255)",
+        "(color 0 0 0)"
+      ]
+    },
+    {
+      "file": "/classroom/course-assets/course47/06_ShadowLight_Study.max",
+      "reopened": true,
+      "falloff_type": 3,
+      "direction": 0,
+      "ior": 1.600000023841858,
+      "override": true,
+      "colors": [
+        "(color 255 255 255)",
+        "(color 0 0 0)"
+      ]
+    }
+  ],
+  "source_evidence": {
+    "230": "Fresnel selected; top white bottom black; override checked",
+    "260": "Shadow Light selected; IOR1.6 inactive; early smooth curve",
+    "190": "PhotometricLight001 position814.246,-97.989,280.147; target distance897.663; Uniform Spherical; D65; cd1500 visible"
+  },
+  "lights_retained": [
+    {
+      "name": "PhotometricLight001",
+      "class": "Target_Area",
+      "position": "[814.246,-97.989,280.147]",
+      "on": "True"
+    },
+    {
+      "name": "PhotometricLight001.Target",
+      "class": "Targetobject",
+      "position": "[0.934067,172.079,12.9656]",
+      "on": "None"
+    },
+    {
+      "name": "TPhotometricLight001",
+      "class": "Target_Area",
+      "position": "[-730.726,-31.5383,147.581]",
+      "on": "True"
+    },
+    {
+      "name": "TPhotometricLight001.Target",
+      "class": "Targetobject",
+      "position": "[2.13225,110.305,153.337]",
+      "on": "None"
+    },
+    {
+      "name": "TPhotometricLight002",
+      "class": "Target_Area",
+      "position": "[-3.44992e-05,-789.25,495.887]",
+      "on": "True"
+    },
+    {
+      "name": "TPhotometricLight002.Target",
+      "class": "Targetobject",
+      "position": "[1.59591e-05,365.102,225.896]",
+      "on": "None"
+    }
+  ],
+  "limits": [
+    "early curve is course46 GUI approximation",
+    "uses07:30 camera for stable comparison, not early viewport camera",
+    "lights kept from later teacher scene; temporal matching not claimed",
+    "emission1 luminance5 retained",
+    "render differences alone do not establish renderer feature support"
+  ]
+}

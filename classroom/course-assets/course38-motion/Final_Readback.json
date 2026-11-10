@@ -1,0 +1,15 @@
+{
+  "source_seconds": 3650,
+  "saved_reopened": true,
+  "scale": 500.0,
+  "strength": "[100,100,0]",
+  "frequency": 1.0,
+  "readback_frame": "0f",
+  "render_frame": 54,
+  "phase_at_readback": "0f",
+  "limitations": [
+    "Source shader not yet reconstructed",
+    "Volume gizmo transform estimated",
+    "Exact source animation extrapolation not verified"
+  ]
+}

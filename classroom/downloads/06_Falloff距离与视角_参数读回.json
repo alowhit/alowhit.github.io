@@ -1,0 +1,586 @@
+{
+  "file": "/classroom/downloads/06_Falloff%E8%B7%9D%E7%A6%BB%E4%B8%8E%E8%A7%86%E8%A7%92.max",
+  "render_engine": "Arnold",
+  "camera": "$Free_Camera:Study_Camera_FILLED @ [0.000000,-400.000000,30.000000]",
+  "geometry": [
+    {
+      "name": "Falloff_Sphere_FILLED",
+      "class": "Sphere",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "material": "Falloff_Arnold_adaptation:Standard_Surface",
+      "dimensions": {
+        "radius": 90.0,
+        "segs": 64,
+        "mapcoords": false
+      }
+    }
+  ],
+  "materials": [
+    {
+      "class": "ai_standard_surface",
+      "name": "Falloff_Arnold_adaptation:Standard_Surface",
+      "properties": {
+        "base": 0.0,
+        "base_connected": true,
+        "base_shader": null,
+        "base_color": {
+          "scene_rgb_255": [
+            204.0,
+            204.0,
+            204.0
+          ]
+        },
+        "base_color_connected": true,
+        "base_color_shader": null,
+        "diffuse_roughness": 0.0,
+        "diffuse_roughness_connected": true,
+        "diffuse_roughness_shader": null,
+        "Specular": 0.0,
+        "specular_connected": true,
+        "specular_shader": null,
+        "specular_color": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "specular_color_connected": true,
+        "specular_color_shader": null,
+        "specular_roughness": 0.20000000298023224,
+        "specular_roughness_connected": true,
+        "specular_roughness_shader": null,
+        "specular_IOR": 1.5,
+        "specular_IOR_connected": true,
+        "specular_IOR_shader": null,
+        "specular_anisotropy": 0.0,
+        "specular_anisotropy_connected": true,
+        "specular_anisotropy_shader": null,
+        "specular_rotation": 0.0,
+        "specular_rotation_connected": true,
+        "specular_rotation_shader": null,
+        "metalness": 0.0,
+        "metalness_connected": true,
+        "metalness_shader": null,
+        "transmission": 0.0,
+        "transmission_connected": true,
+        "transmission_shader": null,
+        "transmission_color": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "transmission_color_connected": true,
+        "transmission_color_shader": null,
+        "transmission_depth": 0.0,
+        "transmission_depth_connected": true,
+        "transmission_depth_shader": null,
+        "transmission_scatter": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "transmission_scatter_connected": true,
+        "transmission_scatter_shader": null,
+        "transmission_scatter_anisotropy": 0.0,
+        "transmission_scatter_anisotropy_connected": true,
+        "transmission_scatter_anisotropy_shader": null,
+        "transmission_dispersion": 0.0,
+        "transmission_dispersion_connected": true,
+        "transmission_dispersion_shader": null,
+        "transmission_extra_roughness": 0.0,
+        "transmission_extra_roughness_connected": true,
+        "transmission_extra_roughness_shader": null,
+        "transmit_aovs": false,
+        "subsurface": 0.0,
+        "subsurface_connected": true,
+        "subsurface_shader": null,
+        "subsurface_color": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "subsurface_color_connected": true,
+        "subsurface_color_shader": null,
+        "subsurface_radius": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "subsurface_radius_connected": true,
+        "subsurface_radius_shader": null,
+        "subsurface_scale": 1.0,
+        "subsurface_scale_connected": true,
+        "subsurface_scale_shader": null,
+        "subsurface_anisotropy": 0.0,
+        "subsurface_anisotropy_connected": true,
+        "subsurface_anisotropy_shader": null,
+        "subsurface_type": 1,
+        "sheen": 0.0,
+        "sheen_connected": true,
+        "sheen_shader": null,
+        "sheen_color": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "sheen_color_connected": true,
+        "sheen_color_shader": null,
+        "sheen_roughness": 0.30000001192092896,
+        "sheen_roughness_connected": true,
+        "sheen_roughness_shader": null,
+        "thin_walled": false,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "normal_connected": true,
+        "normal_shader": null,
+        "tangent": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tangent_connected": true,
+        "tangent_shader": null,
+        "coat": 0.0,
+        "coat_connected": true,
+        "coat_shader": null,
+        "coat_color": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "coat_color_connected": true,
+        "coat_color_shader": null,
+        "coat_roughness": 0.10000000149011612,
+        "coat_roughness_connected": true,
+        "coat_roughness_shader": null,
+        "coat_IOR": 1.5,
+        "coat_IOR_connected": true,
+        "coat_IOR_shader": null,
+        "coat_anisotropy": 0.0,
+        "coat_anisotropy_connected": true,
+        "coat_anisotropy_shader": null,
+        "coat_rotation": 0.0,
+        "coat_rotation_connected": true,
+        "coat_rotation_shader": null,
+        "coat_normal": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "coat_normal_connected": true,
+        "coat_normal_shader": null,
+        "coat_affect_color": 0.0,
+        "coat_affect_color_connected": true,
+        "coat_affect_color_shader": null,
+        "coat_affect_roughness": 0.0,
+        "coat_affect_roughness_connected": true,
+        "coat_affect_roughness_shader": null,
+        "thin_film_thickness": 0.0,
+        "thin_film_thickness_connected": true,
+        "thin_film_thickness_shader": null,
+        "thin_film_IOR": 1.5,
+        "thin_film_IOR_connected": true,
+        "thin_film_IOR_shader": null,
+        "emission": 1.0,
+        "emission_connected": true,
+        "emission_shader": null,
+        "emission_color": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "emission_color_connected": true,
+        "emission_color_shader": {
+          "connection": "#50 Distance:Falloff",
+          "handle": 95174
+        },
+        "opacity": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "opacity_connected": true,
+        "opacity_shader": {
+          "connection": "#51 Opacity angle:Falloff",
+          "handle": 95196
+        },
+        "caustics": false,
+        "internal_reflections": true,
+        "exit_to_background": false,
+        "indirect_diffuse": 1.0,
+        "indirect_specular": 1.0,
+        "dielectric_priority": 0,
+        "aov_id1": "",
+        "id1": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id1_connected": true,
+        "id1_shader": null,
+        "aov_id2": "",
+        "id2": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id2_connected": true,
+        "id2_shader": null,
+        "aov_id3": "",
+        "id3": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id3_connected": true,
+        "id3_shader": null,
+        "aov_id4": "",
+        "id4": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id4_connected": true,
+        "id4_shader": null,
+        "aov_id5": "",
+        "id5": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id5_connected": true,
+        "id5_shader": null,
+        "aov_id6": "",
+        "id6": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id6_connected": true,
+        "id6_shader": null,
+        "aov_id7": "",
+        "id7": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id7_connected": true,
+        "id7_shader": null,
+        "aov_id8": "",
+        "id8": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id8_connected": true,
+        "id8_shader": null,
+        "TheList": [],
+        "Shader_Version": 0
+      }
+    }
+  ],
+  "textures": [
+    {
+      "handle": 95174,
+      "class": "falloff",
+      "name": "#50 Distance:Falloff",
+      "properties": {
+        "color1": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "map1Amount": 100.0,
+        "map1": null,
+        "map1On": true,
+        "color2": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "map2Amount": 100.0,
+        "map2": null,
+        "map2On": true,
+        "type": 4,
+        "direction": 1,
+        "node": "$Point_Helper:Point001 @ [-100.000000,-60.000000,70.000000]",
+        "mtlIOROverride": true,
+        "ior": 1.600000023841858,
+        "extrapolateOn": false,
+        "nearDistance": 10.0,
+        "farDistance": 200.0,
+        "Texture_Output": {
+          "connection": "MtlBase:Output",
+          "handle": 95168
+        },
+        "MixCurve": "ReferenceTarget:CurveControl"
+      },
+      "connections": []
+    },
+    {
+      "handle": 95196,
+      "class": "falloff",
+      "name": "#51 Opacity angle:Falloff",
+      "properties": {
+        "color1": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "map1Amount": 100.0,
+        "map1": null,
+        "map1On": true,
+        "color2": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "map2Amount": 100.0,
+        "map2": null,
+        "map2On": true,
+        "type": 1,
+        "direction": 0,
+        "node": null,
+        "mtlIOROverride": true,
+        "ior": 1.600000023841858,
+        "extrapolateOn": false,
+        "nearDistance": 0.0,
+        "farDistance": 100.0,
+        "Texture_Output": {
+          "connection": "MtlBase:Output",
+          "handle": 95190
+        },
+        "MixCurve": "ReferenceTarget:CurveControl"
+      },
+      "connections": []
+    }
+  ],
+  "lights": [],
+  "saved_frame": "0f",
+  "animation_samples": [
+    {
+      "frame": 0,
+      "geometry": [
+        {
+          "name": "Falloff_Sphere_FILLED",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "maps": []
+    },
+    {
+      "frame": 15,
+      "geometry": [
+        {
+          "name": "Falloff_Sphere_FILLED",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "maps": []
+    },
+    {
+      "frame": 30,
+      "geometry": [
+        {
+          "name": "Falloff_Sphere_FILLED",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "maps": []
+    },
+    {
+      "frame": 40,
+      "geometry": [
+        {
+          "name": "Falloff_Sphere_FILLED",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "maps": []
+    },
+    {
+      "frame": 53,
+      "geometry": [
+        {
+          "name": "Falloff_Sphere_FILLED",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "maps": []
+    },
+    {
+      "frame": 60,
+      "geometry": [
+        {
+          "name": "Falloff_Sphere_FILLED",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "maps": []
+    },
+    {
+      "frame": 70,
+      "geometry": [
+        {
+          "name": "Falloff_Sphere_FILLED",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "maps": []
+    },
+    {
+      "frame": 85,
+      "geometry": [
+        {
+          "name": "Falloff_Sphere_FILLED",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "maps": []
+    },
+    {
+      "frame": 100,
+      "geometry": [
+        {
+          "name": "Falloff_Sphere_FILLED",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "maps": []
+    }
+  ]
+}

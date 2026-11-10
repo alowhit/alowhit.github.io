@@ -1,0 +1,2307 @@
+{
+  "file": "/classroom/downloads/01_%E5%9C%86%E6%9F%B1%E7%A2%8E%E7%89%87%E6%B6%88%E6%95%A3.max",
+  "render_engine": "Arnold",
+  "camera": "$Free_Camera:Preview_Camera_SELF_CHOSEN @ [124.999992,-175.000000,110.000000]",
+  "geometry": [
+    {
+      "name": "Cylinder001",
+      "class": "Editable_Poly",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material": "Luft:Standard_Surface",
+      "dimensions": {}
+    }
+  ],
+  "materials": [
+    {
+      "class": "ai_standard_surface",
+      "name": "Luft:Standard_Surface",
+      "properties": {
+        "base": 0.0,
+        "base_connected": true,
+        "base_shader": null,
+        "base_color": {
+          "scene_rgb_255": [
+            204.0,
+            204.0,
+            204.0
+          ]
+        },
+        "base_color_connected": true,
+        "base_color_shader": null,
+        "diffuse_roughness": 0.0,
+        "diffuse_roughness_connected": true,
+        "diffuse_roughness_shader": null,
+        "Specular": 0.0,
+        "specular_connected": true,
+        "specular_shader": null,
+        "specular_color": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "specular_color_connected": true,
+        "specular_color_shader": null,
+        "specular_roughness": 0.20000000298023224,
+        "specular_roughness_connected": true,
+        "specular_roughness_shader": null,
+        "specular_IOR": 1.5,
+        "specular_IOR_connected": true,
+        "specular_IOR_shader": null,
+        "specular_anisotropy": 0.0,
+        "specular_anisotropy_connected": true,
+        "specular_anisotropy_shader": null,
+        "specular_rotation": 0.0,
+        "specular_rotation_connected": true,
+        "specular_rotation_shader": null,
+        "metalness": 0.0,
+        "metalness_connected": true,
+        "metalness_shader": null,
+        "transmission": 0.0,
+        "transmission_connected": true,
+        "transmission_shader": null,
+        "transmission_color": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "transmission_color_connected": true,
+        "transmission_color_shader": null,
+        "transmission_depth": 0.0,
+        "transmission_depth_connected": true,
+        "transmission_depth_shader": null,
+        "transmission_scatter": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "transmission_scatter_connected": true,
+        "transmission_scatter_shader": null,
+        "transmission_scatter_anisotropy": 0.0,
+        "transmission_scatter_anisotropy_connected": true,
+        "transmission_scatter_anisotropy_shader": null,
+        "transmission_dispersion": 0.0,
+        "transmission_dispersion_connected": true,
+        "transmission_dispersion_shader": null,
+        "transmission_extra_roughness": 0.0,
+        "transmission_extra_roughness_connected": true,
+        "transmission_extra_roughness_shader": null,
+        "transmit_aovs": false,
+        "subsurface": 0.0,
+        "subsurface_connected": true,
+        "subsurface_shader": null,
+        "subsurface_color": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "subsurface_color_connected": true,
+        "subsurface_color_shader": null,
+        "subsurface_radius": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "subsurface_radius_connected": true,
+        "subsurface_radius_shader": null,
+        "subsurface_scale": 1.0,
+        "subsurface_scale_connected": true,
+        "subsurface_scale_shader": null,
+        "subsurface_anisotropy": 0.0,
+        "subsurface_anisotropy_connected": true,
+        "subsurface_anisotropy_shader": null,
+        "subsurface_type": 1,
+        "sheen": 0.0,
+        "sheen_connected": true,
+        "sheen_shader": null,
+        "sheen_color": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "sheen_color_connected": true,
+        "sheen_color_shader": null,
+        "sheen_roughness": 0.30000001192092896,
+        "sheen_roughness_connected": true,
+        "sheen_roughness_shader": null,
+        "thin_walled": false,
+        "normal": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "normal_connected": true,
+        "normal_shader": null,
+        "tangent": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "tangent_connected": true,
+        "tangent_shader": null,
+        "coat": 0.0,
+        "coat_connected": true,
+        "coat_shader": null,
+        "coat_color": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "coat_color_connected": true,
+        "coat_color_shader": null,
+        "coat_roughness": 0.10000000149011612,
+        "coat_roughness_connected": true,
+        "coat_roughness_shader": null,
+        "coat_IOR": 1.5,
+        "coat_IOR_connected": true,
+        "coat_IOR_shader": null,
+        "coat_anisotropy": 0.0,
+        "coat_anisotropy_connected": true,
+        "coat_anisotropy_shader": null,
+        "coat_rotation": 0.0,
+        "coat_rotation_connected": true,
+        "coat_rotation_shader": null,
+        "coat_normal": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "coat_normal_connected": true,
+        "coat_normal_shader": null,
+        "coat_affect_color": 0.0,
+        "coat_affect_color_connected": true,
+        "coat_affect_color_shader": null,
+        "coat_affect_roughness": 0.0,
+        "coat_affect_roughness_connected": true,
+        "coat_affect_roughness_shader": null,
+        "thin_film_thickness": 0.0,
+        "thin_film_thickness_connected": true,
+        "thin_film_thickness_shader": null,
+        "thin_film_IOR": 1.5,
+        "thin_film_IOR_connected": true,
+        "thin_film_IOR_shader": null,
+        "emission": 1.0,
+        "emission_connected": true,
+        "emission_shader": null,
+        "emission_color": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "emission_color_connected": true,
+        "emission_color_shader": {
+          "connection": "CompositeTexturemap:Composite",
+          "handle": 76903
+        },
+        "opacity": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "opacity_connected": true,
+        "opacity_shader": {
+          "connection": "CompositeTexturemap:Composite",
+          "handle": 76939
+        },
+        "caustics": false,
+        "internal_reflections": true,
+        "exit_to_background": false,
+        "indirect_diffuse": 1.0,
+        "indirect_specular": 1.0,
+        "dielectric_priority": 0,
+        "aov_id1": "",
+        "id1": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id1_connected": true,
+        "id1_shader": null,
+        "aov_id2": "",
+        "id2": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id2_connected": true,
+        "id2_shader": null,
+        "aov_id3": "",
+        "id3": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id3_connected": true,
+        "id3_shader": null,
+        "aov_id4": "",
+        "id4": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id4_connected": true,
+        "id4_shader": null,
+        "aov_id5": "",
+        "id5": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id5_connected": true,
+        "id5_shader": null,
+        "aov_id6": "",
+        "id6": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id6_connected": true,
+        "id6_shader": null,
+        "aov_id7": "",
+        "id7": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id7_connected": true,
+        "id7_shader": null,
+        "aov_id8": "",
+        "id8": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id8_connected": true,
+        "id8_shader": null,
+        "TheList": [],
+        "Shader_Version": 0
+      }
+    }
+  ],
+  "textures": [
+    {
+      "handle": 76021,
+      "class": "Noise",
+      "name": "#6 Fractal Detail:Noise",
+      "properties": {
+        "color1": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "color2": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "map1": null,
+        "map2": null,
+        "map1Enabled": true,
+        "map2Enabled": true,
+        "size": 0.10000000149011612,
+        "phase": 0.0,
+        "Levels": 3.0,
+        "thresholdLow": 0.30000001192092896,
+        "thresholdHigh": 0.800000011920929,
+        "type": 1,
+        "coords": {
+          "connection": "MtlBase:Placement",
+          "handle": 76013
+        },
+        "output": {
+          "connection": "MtlBase:Output",
+          "handle": 76018
+        }
+      },
+      "connections": [],
+      "coordinates": {
+        "blur": 1.0,
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "angle": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "coordType": 2,
+        "mapChannel": 1,
+        "Tiling": [
+          7.0,
+          1.5,
+          1.0
+        ],
+        "Blur_Offset": 0.0
+      }
+    },
+    {
+      "handle": 76903,
+      "class": "CompositeTexturemap",
+      "name": "CompositeTexturemap:Composite",
+      "properties": {
+        "mapEnabled": [
+          true,
+          true,
+          true
+        ],
+        "maskEnabled": [
+          true,
+          true,
+          true
+        ],
+        "blendMode": [
+          0,
+          5,
+          5
+        ],
+        "layername": [
+          "",
+          "",
+          ""
+        ],
+        "dlgOpened": [
+          true,
+          true,
+          true
+        ],
+        "opacity": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "mapList": [
+          {
+            "connection": "#6 Fractal Detail:Noise",
+            "handle": 76021
+          },
+          {
+            "connection": "#2 Solid Threshold:Gradient Ramp",
+            "handle": 76543
+          },
+          {
+            "connection": "#8 Blue Orange Gold:Gradient Ramp",
+            "handle": 76838
+          }
+        ],
+        "Mask": [
+          null,
+          null,
+          null
+        ]
+      },
+      "connections": [
+        {
+          "slot": 1,
+          "label": " Layer 1",
+          "target": 76021
+        },
+        {
+          "slot": 3,
+          "label": " Layer 2",
+          "target": 76543
+        },
+        {
+          "slot": 5,
+          "label": " Layer 3",
+          "target": 76838
+        }
+      ]
+    },
+    {
+      "handle": 76541,
+      "class": "CompositeTexturemap",
+      "name": "CompositeTexturemap:Composite",
+      "properties": {
+        "mapEnabled": [
+          true,
+          true
+        ],
+        "maskEnabled": [
+          true,
+          true
+        ],
+        "blendMode": [
+          0,
+          5
+        ],
+        "layername": [
+          "",
+          ""
+        ],
+        "dlgOpened": [
+          true,
+          true
+        ],
+        "opacity": [
+          100.0,
+          100.0
+        ],
+        "mapList": [
+          {
+            "connection": "#1 Main Cellular:Cellular",
+            "handle": 76254
+          },
+          {
+            "connection": "#3 Vertical Gate:Gradient Ramp",
+            "handle": 76476
+          }
+        ],
+        "Mask": [
+          null,
+          null
+        ]
+      },
+      "connections": [
+        {
+          "slot": 1,
+          "label": " Layer 1",
+          "target": 76254
+        },
+        {
+          "slot": 3,
+          "label": " Layer 2",
+          "target": 76476
+        }
+      ]
+    },
+    {
+      "handle": 76939,
+      "class": "CompositeTexturemap",
+      "name": "CompositeTexturemap:Composite",
+      "properties": {
+        "mapEnabled": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "maskEnabled": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "blendMode": [
+          0,
+          5,
+          5,
+          5
+        ],
+        "layername": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "dlgOpened": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "opacity": [
+          100.0,
+          20.0,
+          100.0,
+          100.0
+        ],
+        "mapList": [
+          {
+            "connection": "#2 Solid Threshold:Gradient Ramp",
+            "handle": 76543
+          },
+          {
+            "connection": "#6 Fractal Detail:Noise",
+            "handle": 76021
+          },
+          {
+            "connection": "#12 Animated Erosion:Cellular",
+            "handle": 76923
+          },
+          {
+            "connection": "#13 Linear Fade:Color Correction",
+            "handle": 76935
+          }
+        ],
+        "Mask": [
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "connections": [
+        {
+          "slot": 1,
+          "label": " Layer 1",
+          "target": 76543
+        },
+        {
+          "slot": 3,
+          "label": " Layer 2",
+          "target": 76021
+        },
+        {
+          "slot": 5,
+          "label": " Layer 3",
+          "target": 76923
+        },
+        {
+          "slot": 7,
+          "label": " Layer 4",
+          "target": 76935
+        }
+      ]
+    },
+    {
+      "handle": 76935,
+      "class": "Color_Correction",
+      "name": "#13 Linear Fade:Color Correction",
+      "properties": {
+        "color": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "map": null,
+        "rewireMode": 0,
+        "rewireR": 0,
+        "rewireG": 1,
+        "rewireB": 2,
+        "rewireA": 3,
+        "hueShift": 0.0,
+        "saturation": 0.0,
+        "tint": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "tintStrength": 0.0,
+        "lightnessMode": 0,
+        "contrast": 0.0,
+        "brightness": 0.0,
+        "exposureMode": 0,
+        "enableR": false,
+        "enableG": false,
+        "enableB": false,
+        "gainRGB": 100.0,
+        "gainR": 100.0,
+        "gainG": 100.0,
+        "gainB": 100.0,
+        "gammaRGB": 1.0,
+        "gammaR": 1.0,
+        "gammaG": 1.0,
+        "gammaB": 1.0,
+        "pivotRGB": 1.0,
+        "pivotR": 1.0,
+        "pivotG": 1.0,
+        "pivotB": 1.0,
+        "liftRGB": 0.0,
+        "liftR": 0.0,
+        "liftG": 0.0,
+        "liftB": 0.0,
+        "printerLights": 5.0
+      },
+      "connections": []
+    },
+    {
+      "handle": 76543,
+      "class": "Gradient_Ramp",
+      "name": "#2 Solid Threshold:Gradient Ramp",
+      "properties": {
+        "size": 1.0,
+        "phase": 0.0,
+        "amount": 0.0,
+        "Gradient_Type": 5,
+        "Noise_Type": 0,
+        "Levels": 4.0,
+        "Low_Threshold": 0.0,
+        "High_Threshold": 1.0,
+        "Threshold_Smoothing": 0.0,
+        "Source_Map_On": 1,
+        "Coordinates": {
+          "connection": "MtlBase:Placement",
+          "handle": 76031
+        },
+        "output": {
+          "connection": "MtlBase:Output",
+          "handle": 76036
+        },
+        "Gradient_Ramp": "ReferenceTarget:JData",
+        "Source_Map": {
+          "connection": "CompositeTexturemap:Composite",
+          "handle": 76541
+        }
+      },
+      "connections": [
+        {
+          "slot": 4,
+          "label": "Source Map",
+          "target": 76541
+        }
+      ],
+      "coordinates": {
+        "blur": 1.0,
+        "mapping": 0,
+        "mapChannel": 1,
+        "mappingType": 0,
+        "UVW_Type": 0,
+        "U_Mirror": false,
+        "V_Mirror": false,
+        "U_Tile": true,
+        "V_Tile": true,
+        "showMapOnBack": true,
+        "Noise_On": false,
+        "Noise_Animate": false,
+        "UVTransform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+        "realWorldScale": false,
+        "realWorldHeight": 1.0,
+        "realWorldWidth": 1.0,
+        "phase": 0.0,
+        "Blur_Offset": 0.0,
+        "w_angle": 0.0,
+        "U_Offset": 0.0,
+        "V_Offset": 0.0,
+        "U_Tiling": 1.0,
+        "V_Tiling": 1.0,
+        "U_Angle": 0.0,
+        "V_Angle": 0.0,
+        "Noise_Amount": 1.0,
+        "Noise_Size": 1.0,
+        "Noise_Levels": 1
+      },
+      "flags": [
+        {
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        {
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ],
+          "position": 50.0
+        }
+      ]
+    },
+    {
+      "handle": 76476,
+      "class": "Gradient_Ramp",
+      "name": "#3 Vertical Gate:Gradient Ramp",
+      "properties": {
+        "size": 1.0,
+        "phase": 0.0,
+        "amount": 0.0,
+        "Gradient_Type": 4,
+        "Noise_Type": 0,
+        "Levels": 4.0,
+        "Low_Threshold": 0.0,
+        "High_Threshold": 1.0,
+        "Threshold_Smoothing": 0.0,
+        "Source_Map_On": 1,
+        "Coordinates": {
+          "connection": "MtlBase:Placement",
+          "handle": 76264
+        },
+        "output": {
+          "connection": "MtlBase:Output",
+          "handle": 76269
+        },
+        "Gradient_Ramp": "ReferenceTarget:JData"
+      },
+      "connections": [],
+      "coordinates": {
+        "blur": 1.0,
+        "mapping": 0,
+        "mapChannel": 1,
+        "mappingType": 0,
+        "UVW_Type": 0,
+        "U_Mirror": false,
+        "V_Mirror": false,
+        "U_Tile": true,
+        "V_Tile": true,
+        "showMapOnBack": true,
+        "Noise_On": false,
+        "Noise_Animate": false,
+        "UVTransform": "(matrix3 [0,1,0] [-1,0,0] [0,0,1] [1,0,0])",
+        "realWorldScale": false,
+        "realWorldHeight": 1.0,
+        "realWorldWidth": 1.0,
+        "phase": 0.0,
+        "Blur_Offset": 0.0,
+        "w_angle": 90.0,
+        "U_Offset": 0.0,
+        "V_Offset": 0.0,
+        "U_Tiling": 1.0,
+        "V_Tiling": 1.0,
+        "U_Angle": 0.0,
+        "V_Angle": 0.0,
+        "Noise_Amount": 1.0,
+        "Noise_Size": 1.0,
+        "Noise_Levels": 1
+      },
+      "flags": [
+        {
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "color": [
+            255.0,
+            255.0,
+            255.0
+          ],
+          "position": 50.0
+        }
+      ]
+    },
+    {
+      "handle": 76838,
+      "class": "Gradient_Ramp",
+      "name": "#8 Blue Orange Gold:Gradient Ramp",
+      "properties": {
+        "size": 1.0,
+        "phase": 0.0,
+        "amount": 0.0,
+        "Gradient_Type": 5,
+        "Noise_Type": 0,
+        "Levels": 4.0,
+        "Low_Threshold": 0.0,
+        "High_Threshold": 1.0,
+        "Threshold_Smoothing": 0.0,
+        "Source_Map_On": 1,
+        "Coordinates": {
+          "connection": "MtlBase:Placement",
+          "handle": 76608
+        },
+        "output": {
+          "connection": "MtlBase:Output",
+          "handle": 76613
+        },
+        "Gradient_Ramp": "ReferenceTarget:JData",
+        "Source_Map": {
+          "connection": "#7 Palette Cellular:Cellular",
+          "handle": 76829
+        }
+      },
+      "connections": [
+        {
+          "slot": 4,
+          "label": "Source Map",
+          "target": 76829
+        }
+      ],
+      "coordinates": {
+        "blur": 1.0,
+        "mapping": 0,
+        "mapChannel": 1,
+        "mappingType": 0,
+        "UVW_Type": 0,
+        "U_Mirror": false,
+        "V_Mirror": false,
+        "U_Tile": true,
+        "V_Tile": true,
+        "showMapOnBack": true,
+        "Noise_On": false,
+        "Noise_Animate": false,
+        "UVTransform": "(matrix3 [1,0,0] [0,1,0] [0,0,1] [0,0,0])",
+        "realWorldScale": false,
+        "realWorldHeight": 1.0,
+        "realWorldWidth": 1.0,
+        "phase": 0.0,
+        "Blur_Offset": 0.0,
+        "w_angle": 0.0,
+        "U_Offset": 0.0,
+        "V_Offset": 0.0,
+        "U_Tiling": 1.0,
+        "V_Tiling": 1.0,
+        "U_Angle": 0.0,
+        "V_Angle": 0.0,
+        "Noise_Amount": 1.0,
+        "Noise_Size": 1.0,
+        "Noise_Levels": 1
+      },
+      "flags": [
+        {
+          "color": [
+            3.0,
+            3.0,
+            140.0
+          ]
+        },
+        {
+          "color": [
+            255.0,
+            139.0,
+            32.0
+          ]
+        },
+        {
+          "color": [
+            241.0,
+            85.0,
+            35.0
+          ],
+          "position": 50.0
+        }
+      ]
+    },
+    {
+      "handle": 76254,
+      "class": "Cellular",
+      "name": "#1 Main Cellular:Cellular",
+      "properties": {
+        "cellColor": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "divColor1": {
+          "scene_rgb_255": [
+            127.5,
+            127.5,
+            127.5
+          ]
+        },
+        "divColor2": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "cellMap": null,
+        "divMap1": null,
+        "divMap2": null,
+        "map1Enabled": true,
+        "map2Enabled": true,
+        "map3Enabled": true,
+        "variation": 0.0,
+        "size": 0.20000000298023224,
+        "spread": 1.100000023841858,
+        "lowThresh": 0.0,
+        "midThresh": 0.5,
+        "highThresh": 1.0,
+        "type": 1,
+        "fractal": true,
+        "iteration": 3.0,
+        "roughness": 0.0,
+        "smooth": 0.10000000149011612,
+        "adaptive": true,
+        "coords": {
+          "connection": "MtlBase:Placement",
+          "handle": 76247
+        },
+        "output": {
+          "connection": "MtlBase:Output",
+          "handle": 76251
+        }
+      },
+      "connections": [],
+      "coordinates": {
+        "blur": 1.0,
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "angle": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "coordType": 2,
+        "mapChannel": 1,
+        "Tiling": [
+          4.0,
+          1.0,
+          1.0
+        ],
+        "Blur_Offset": 0.0
+      }
+    },
+    {
+      "handle": 76829,
+      "class": "Cellular",
+      "name": "#7 Palette Cellular:Cellular",
+      "properties": {
+        "cellColor": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "divColor1": {
+          "scene_rgb_255": [
+            127.5,
+            127.5,
+            127.5
+          ]
+        },
+        "divColor2": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "cellMap": null,
+        "divMap1": null,
+        "divMap2": null,
+        "map1Enabled": true,
+        "map2Enabled": true,
+        "map3Enabled": true,
+        "variation": 0.0,
+        "size": 0.10000000149011612,
+        "spread": 0.4000000059604645,
+        "lowThresh": 0.0,
+        "midThresh": 0.5,
+        "highThresh": 1.0,
+        "type": 1,
+        "fractal": true,
+        "iteration": 3.0,
+        "roughness": 0.0,
+        "smooth": 0.10000000149011612,
+        "adaptive": true,
+        "coords": {
+          "connection": "MtlBase:Placement",
+          "handle": 76822
+        },
+        "output": {
+          "connection": "MtlBase:Output",
+          "handle": 76826
+        }
+      },
+      "connections": [],
+      "coordinates": {
+        "blur": 1.0,
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "angle": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "coordType": 2,
+        "mapChannel": 1,
+        "Tiling": [
+          8.0,
+          1.0,
+          1.0
+        ],
+        "Blur_Offset": 0.0
+      }
+    },
+    {
+      "handle": 76923,
+      "class": "Cellular",
+      "name": "#12 Animated Erosion:Cellular",
+      "properties": {
+        "cellColor": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "divColor1": {
+          "scene_rgb_255": [
+            255.0,
+            255.0,
+            255.0
+          ]
+        },
+        "divColor2": {
+          "scene_rgb_255": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "cellMap": null,
+        "divMap1": null,
+        "divMap2": null,
+        "map1Enabled": true,
+        "map2Enabled": true,
+        "map3Enabled": true,
+        "variation": 0.0,
+        "size": 0.20000000298023224,
+        "spread": 0.10000000149011612,
+        "lowThresh": 0.0,
+        "midThresh": 0.5,
+        "highThresh": 1.0,
+        "type": 1,
+        "fractal": true,
+        "iteration": 3.0,
+        "roughness": 0.0,
+        "smooth": 0.10000000149011612,
+        "adaptive": true,
+        "coords": {
+          "connection": "MtlBase:Placement",
+          "handle": 76916
+        },
+        "output": {
+          "connection": "MtlBase:Output",
+          "handle": 76920
+        }
+      },
+      "connections": [],
+      "coordinates": {
+        "blur": 1.0,
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "angle": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "coordType": 2,
+        "mapChannel": 1,
+        "Tiling": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "Blur_Offset": 0.0
+      }
+    }
+  ],
+  "lights": [],
+  "saved_frame": "0f",
+  "animation_samples": [
+    {
+      "frame": 0,
+      "geometry": [
+        {
+          "name": "Cylinder001",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "name": "#6 Fractal Detail:Noise",
+          "values": {
+            "size": 0.10000000149011612,
+            "phase": 0.0,
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "#13 Linear Fade:Color Correction",
+          "values": {
+            "color": {
+              "scene_rgb_255": [
+                255.0,
+                255.0,
+                255.0
+              ]
+            }
+          }
+        },
+        {
+          "name": "#2 Solid Threshold:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#3 Vertical Gate:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#8 Blue Orange Gold:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#1 Main Cellular:Cellular",
+          "values": {
+            "size": 0.20000000298023224,
+            "spread": 1.100000023841858,
+            "divColor1": {
+              "scene_rgb_255": [
+                127.5,
+                127.5,
+                127.5
+              ]
+            },
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "#7 Palette Cellular:Cellular",
+          "values": {
+            "size": 0.10000000149011612,
+            "spread": 0.4000000059604645,
+            "divColor1": {
+              "scene_rgb_255": [
+                127.5,
+                127.5,
+                127.5
+              ]
+            },
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "#12 Animated Erosion:Cellular",
+          "values": {
+            "size": 0.20000000298023224,
+            "spread": 0.10000000149011612,
+            "divColor1": {
+              "scene_rgb_255": [
+                255.0,
+                255.0,
+                255.0
+              ]
+            },
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "frame": 15,
+      "geometry": [
+        {
+          "name": "Cylinder001",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            0.41624999046325684,
+            0.41624999046325684,
+            0.41624999046325684
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "name": "#6 Fractal Detail:Noise",
+          "values": {
+            "size": 0.10000000149011612,
+            "phase": 0.0,
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "#13 Linear Fade:Color Correction",
+          "values": {
+            "color": {
+              "scene_rgb_255": [
+                216.75,
+                216.75,
+                216.75
+              ]
+            }
+          }
+        },
+        {
+          "name": "#2 Solid Threshold:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#3 Vertical Gate:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#8 Blue Orange Gold:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#1 Main Cellular:Cellular",
+          "values": {
+            "size": 0.20000000298023224,
+            "spread": 1.100000023841858,
+            "divColor1": {
+              "scene_rgb_255": [
+                127.5,
+                127.5,
+                127.5
+              ]
+            },
+            "offset": [
+              0.0,
+              0.0,
+              0.75
+            ]
+          }
+        },
+        {
+          "name": "#7 Palette Cellular:Cellular",
+          "values": {
+            "size": 0.10000000149011612,
+            "spread": 0.4000000059604645,
+            "divColor1": {
+              "scene_rgb_255": [
+                127.5,
+                127.5,
+                127.5
+              ]
+            },
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "#12 Animated Erosion:Cellular",
+          "values": {
+            "size": 0.18906499445438385,
+            "spread": 0.579925000667572,
+            "divColor1": {
+              "scene_rgb_255": [
+                248.625,
+                248.625,
+                248.625
+              ]
+            },
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "frame": 30,
+      "geometry": [
+        {
+          "name": "Cylinder001",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            0.7649999856948853,
+            0.7649999856948853,
+            0.7649999856948853
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "name": "#6 Fractal Detail:Noise",
+          "values": {
+            "size": 0.10000000149011612,
+            "phase": 0.0,
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "#13 Linear Fade:Color Correction",
+          "values": {
+            "color": {
+              "scene_rgb_255": [
+                178.5,
+                178.5,
+                178.5
+              ]
+            }
+          }
+        },
+        {
+          "name": "#2 Solid Threshold:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#3 Vertical Gate:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#8 Blue Orange Gold:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#1 Main Cellular:Cellular",
+          "values": {
+            "size": 0.20000000298023224,
+            "spread": 1.100000023841858,
+            "divColor1": {
+              "scene_rgb_255": [
+                127.5,
+                127.5,
+                127.5
+              ]
+            },
+            "offset": [
+              0.0,
+              0.0,
+              1.5
+            ]
+          }
+        },
+        {
+          "name": "#7 Palette Cellular:Cellular",
+          "values": {
+            "size": 0.10000000149011612,
+            "spread": 0.4000000059604645,
+            "divColor1": {
+              "scene_rgb_255": [
+                127.5,
+                127.5,
+                127.5
+              ]
+            },
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "#12 Animated Erosion:Cellular",
+          "values": {
+            "size": 0.1611199975013733,
+            "spread": 1.806399941444397,
+            "divColor1": {
+              "scene_rgb_255": [
+                229.5,
+                229.5,
+                229.5
+              ]
+            },
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "frame": 40,
+      "geometry": [
+        {
+          "name": "Cylinder001",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            0.9599999785423279,
+            0.9599999785423279,
+            0.9599999785423279
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "name": "#6 Fractal Detail:Noise",
+          "values": {
+            "size": 0.10000000149011612,
+            "phase": 0.0,
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "#13 Linear Fade:Color Correction",
+          "values": {
+            "color": {
+              "scene_rgb_255": [
+                153.0,
+                153.0,
+                153.0
+              ]
+            }
+          }
+        },
+        {
+          "name": "#2 Solid Threshold:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#3 Vertical Gate:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#8 Blue Orange Gold:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#1 Main Cellular:Cellular",
+          "values": {
+            "size": 0.20000000298023224,
+            "spread": 1.100000023841858,
+            "divColor1": {
+              "scene_rgb_255": [
+                127.5,
+                127.5,
+                127.5
+              ]
+            },
+            "offset": [
+              0.0,
+              0.0,
+              2.0
+            ]
+          }
+        },
+        {
+          "name": "#7 Palette Cellular:Cellular",
+          "values": {
+            "size": 0.10000000149011612,
+            "spread": 0.4000000059604645,
+            "divColor1": {
+              "scene_rgb_255": [
+                127.5,
+                127.5,
+                127.5
+              ]
+            },
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "#12 Animated Erosion:Cellular",
+          "values": {
+            "size": 0.13663999736309052,
+            "spread": 2.8808000087738037,
+            "divColor1": {
+              "scene_rgb_255": [
+                209.6666717529297,
+                209.6666717529297,
+                209.6666717529297
+              ]
+            },
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "frame": 53,
+      "geometry": [
+        {
+          "name": "Cylinder001",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.1686500310897827,
+            1.1686500310897827,
+            1.1686500310897827
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "name": "#6 Fractal Detail:Noise",
+          "values": {
+            "size": 0.10000000149011612,
+            "phase": 0.0,
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "#13 Linear Fade:Color Correction",
+          "values": {
+            "color": {
+              "scene_rgb_255": [
+                119.8499984741211,
+                119.8499984741211,
+                119.8499984741211
+              ]
+            }
+          }
+        },
+        {
+          "name": "#2 Solid Threshold:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#3 Vertical Gate:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#8 Blue Orange Gold:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#1 Main Cellular:Cellular",
+          "values": {
+            "size": 0.20000000298023224,
+            "spread": 1.100000023841858,
+            "divColor1": {
+              "scene_rgb_255": [
+                127.5,
+                127.5,
+                127.5
+              ]
+            },
+            "offset": [
+              0.0,
+              0.0,
+              2.6500000953674316
+            ]
+          }
+        },
+        {
+          "name": "#7 Palette Cellular:Cellular",
+          "values": {
+            "size": 0.10000000149011612,
+            "spread": 0.4000000059604645,
+            "divColor1": {
+              "scene_rgb_255": [
+                127.5,
+                127.5,
+                127.5
+              ]
+            },
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "#12 Animated Erosion:Cellular",
+          "values": {
+            "size": 0.10190971940755844,
+            "spread": 4.405073165893555,
+            "divColor1": {
+              "scene_rgb_255": [
+                170.7480010986328,
+                170.7480010986328,
+                170.7480010986328
+              ]
+            },
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "frame": 60,
+      "geometry": [
+        {
+          "name": "Cylinder001",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.2599999904632568,
+            1.2599999904632568,
+            1.2599999904632568
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "name": "#6 Fractal Detail:Noise",
+          "values": {
+            "size": 0.10000000149011612,
+            "phase": 0.0,
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "#13 Linear Fade:Color Correction",
+          "values": {
+            "color": {
+              "scene_rgb_255": [
+                102.0,
+                102.0,
+                102.0
+              ]
+            }
+          }
+        },
+        {
+          "name": "#2 Solid Threshold:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#3 Vertical Gate:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#8 Blue Orange Gold:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#1 Main Cellular:Cellular",
+          "values": {
+            "size": 0.20000000298023224,
+            "spread": 1.100000023841858,
+            "divColor1": {
+              "scene_rgb_255": [
+                127.5,
+                127.5,
+                127.5
+              ]
+            },
+            "offset": [
+              0.0,
+              0.0,
+              3.0
+            ]
+          }
+        },
+        {
+          "name": "#7 Palette Cellular:Cellular",
+          "values": {
+            "size": 0.10000000149011612,
+            "spread": 0.4000000059604645,
+            "divColor1": {
+              "scene_rgb_255": [
+                127.5,
+                127.5,
+                127.5
+              ]
+            },
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "#12 Animated Erosion:Cellular",
+          "values": {
+            "size": 0.08336000144481659,
+            "spread": 5.219200134277344,
+            "divColor1": {
+              "scene_rgb_255": [
+                144.18719482421875,
+                144.18719482421875,
+                144.18719482421875
+              ]
+            },
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "frame": 70,
+      "geometry": [
+        {
+          "name": "Cylinder001",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.3650000095367432,
+            1.3650000095367432,
+            1.3650000095367432
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "name": "#6 Fractal Detail:Noise",
+          "values": {
+            "size": 0.10000000149011612,
+            "phase": 0.0,
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "#13 Linear Fade:Color Correction",
+          "values": {
+            "color": {
+              "scene_rgb_255": [
+                76.5,
+                76.5,
+                76.5
+              ]
+            }
+          }
+        },
+        {
+          "name": "#2 Solid Threshold:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#3 Vertical Gate:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#8 Blue Orange Gold:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#1 Main Cellular:Cellular",
+          "values": {
+            "size": 0.20000000298023224,
+            "spread": 1.100000023841858,
+            "divColor1": {
+              "scene_rgb_255": [
+                127.5,
+                127.5,
+                127.5
+              ]
+            },
+            "offset": [
+              0.0,
+              0.0,
+              3.5
+            ]
+          }
+        },
+        {
+          "name": "#7 Palette Cellular:Cellular",
+          "values": {
+            "size": 0.10000000149011612,
+            "spread": 0.4000000059604645,
+            "divColor1": {
+              "scene_rgb_255": [
+                127.5,
+                127.5,
+                127.5
+              ]
+            },
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "#12 Animated Erosion:Cellular",
+          "values": {
+            "size": 0.058880001306533813,
+            "spread": 6.293600082397461,
+            "divColor1": {
+              "scene_rgb_255": [
+                106.24320220947266,
+                106.24320220947266,
+                106.24320220947266
+              ]
+            },
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "frame": 85,
+      "geometry": [
+        {
+          "name": "Cylinder001",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.466249942779541,
+            1.466249942779541,
+            1.466249942779541
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "name": "#6 Fractal Detail:Noise",
+          "values": {
+            "size": 0.10000000149011612,
+            "phase": 0.0,
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "#13 Linear Fade:Color Correction",
+          "values": {
+            "color": {
+              "scene_rgb_255": [
+                38.25,
+                38.25,
+                38.25
+              ]
+            }
+          }
+        },
+        {
+          "name": "#2 Solid Threshold:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#3 Vertical Gate:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#8 Blue Orange Gold:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#1 Main Cellular:Cellular",
+          "values": {
+            "size": 0.20000000298023224,
+            "spread": 1.100000023841858,
+            "divColor1": {
+              "scene_rgb_255": [
+                127.5,
+                127.5,
+                127.5
+              ]
+            },
+            "offset": [
+              0.0,
+              0.0,
+              4.25
+            ]
+          }
+        },
+        {
+          "name": "#7 Palette Cellular:Cellular",
+          "values": {
+            "size": 0.10000000149011612,
+            "spread": 0.4000000059604645,
+            "divColor1": {
+              "scene_rgb_255": [
+                127.5,
+                127.5,
+                127.5
+              ]
+            },
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "#12 Animated Erosion:Cellular",
+          "values": {
+            "size": 0.030935000628232956,
+            "spread": 7.520074844360352,
+            "divColor1": {
+              "scene_rgb_255": [
+                49.32720184326172,
+                49.32720184326172,
+                49.32720184326172
+              ]
+            },
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "frame": 100,
+      "geometry": [
+        {
+          "name": "Cylinder001",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.5,
+            1.5,
+            1.5
+          ]
+        }
+      ],
+      "maps": [
+        {
+          "name": "#6 Fractal Detail:Noise",
+          "values": {
+            "size": 0.10000000149011612,
+            "phase": 0.0,
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "#13 Linear Fade:Color Correction",
+          "values": {
+            "color": {
+              "scene_rgb_255": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          }
+        },
+        {
+          "name": "#2 Solid Threshold:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#3 Vertical Gate:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#8 Blue Orange Gold:Gradient Ramp",
+          "values": {
+            "size": 1.0,
+            "phase": 0.0,
+            "U_Offset": 0.0,
+            "V_Offset": 0.0
+          }
+        },
+        {
+          "name": "#1 Main Cellular:Cellular",
+          "values": {
+            "size": 0.20000000298023224,
+            "spread": 1.100000023841858,
+            "divColor1": {
+              "scene_rgb_255": [
+                127.5,
+                127.5,
+                127.5
+              ]
+            },
+            "offset": [
+              0.0,
+              0.0,
+              5.0
+            ]
+          }
+        },
+        {
+          "name": "#7 Palette Cellular:Cellular",
+          "values": {
+            "size": 0.10000000149011612,
+            "spread": 0.4000000059604645,
+            "divColor1": {
+              "scene_rgb_255": [
+                127.5,
+                127.5,
+                127.5
+              ]
+            },
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        {
+          "name": "#12 Animated Erosion:Cellular",
+          "values": {
+            "size": 0.019999999552965164,
+            "spread": 8.0,
+            "divColor1": {
+              "scene_rgb_255": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

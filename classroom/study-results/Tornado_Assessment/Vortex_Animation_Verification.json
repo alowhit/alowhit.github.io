@@ -1,0 +1,19 @@
+{
+  "native": "/classroom/study-results/Tornado_Assessment/03_Vortex_Particles_SUPPLEMENT.max",
+  "frames": 101,
+  "decoded_frames": 101,
+  "fps": 30,
+  "resolution": [
+    640,
+    480
+  ],
+  "distinct_png_hashes": 101,
+  "scope": "Supplementary Vortex animation, not teacher-matched final assessment",
+  "pending": [
+    "Teacher visual and parameter match",
+    "Twist",
+    "FumeFX",
+    "AOV",
+    "Final rubric acceptance"
+  ]
+}

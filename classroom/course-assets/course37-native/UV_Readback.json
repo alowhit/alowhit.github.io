@@ -1,0 +1,21 @@
+{
+  "saved_reopened": true,
+  "modifier": "Unwrap_UVW",
+  "channel_UI": 1,
+  "channel_API": 0,
+  "map_vertices": 359,
+  "used_map_vertices": 359,
+  "triangulated_map_faces": 624,
+  "uv_bounds": {
+    "min": [
+      -5.960464477539063e-08,
+      0.0
+    ],
+    "max": [
+      0.9999999403953552,
+      1.0
+    ]
+  },
+  "scope": "Existing generated UV inspected through Unwrap; source manual UV edits not claimed reproduced",
+  "noise_coordinate_source": 0
+}

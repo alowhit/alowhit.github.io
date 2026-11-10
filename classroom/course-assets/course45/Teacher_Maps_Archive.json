@@ -1,0 +1,486 @@
+{
+  "source_sha256": "8eb99a8c889d114017483f9aad2e8cb220750f80860b387528246da68801b8bf",
+  "maps": [
+    {
+      "index": 1,
+      "name": "贴图 #57",
+      "class": "Noise",
+      "properties": {
+        "color1": "(color 59.8983 59.8983 59.8983)",
+        "color2": "(color 255 255 255)",
+        "map1": "None",
+        "map2": "None",
+        "map1Enabled": "True",
+        "map2Enabled": "True",
+        "size": "63.5",
+        "phase": "0.0",
+        "Levels": "3.0",
+        "thresholdLow": "0.4000000059604645",
+        "thresholdHigh": "1.0",
+        "type": "0",
+        "coords": "MtlBase:Placement",
+        "output": "MtlBase:Output"
+      },
+      "coords": {
+        "blur": "1.0",
+        "offset": "[0,0,0]",
+        "angle": "[0,0,0]",
+        "coordType": "0",
+        "mapChannel": "1",
+        "Tiling": "[1,1,1]",
+        "Blur_Offset": "0.0"
+      }
+    },
+    {
+      "index": 2,
+      "name": "模拟物体在金属表面的反射图案",
+      "class": "Noise",
+      "properties": {
+        "color1": "(color 79.351 79.351 79.351)",
+        "color2": "(color 255 255 255)",
+        "map1": "None",
+        "map2": "None",
+        "map1Enabled": "True",
+        "map2Enabled": "True",
+        "size": "0.10000000149011612",
+        "phase": "0.0",
+        "Levels": "3.0",
+        "thresholdLow": "0.30000001192092896",
+        "thresholdHigh": "0.75",
+        "type": "1",
+        "coords": "MtlBase:Placement",
+        "output": "MtlBase:Output"
+      },
+      "coords": {
+        "blur": "1.0",
+        "offset": "[0,0,0]",
+        "angle": "[0,0,0]",
+        "coordType": "2",
+        "mapChannel": "1",
+        "Tiling": "[1.5,0.2,1]",
+        "Blur_Offset": "0.0"
+      }
+    },
+    {
+      "index": 3,
+      "name": "贴图 #16",
+      "class": "Noise",
+      "properties": {
+        "color1": "(color 0 0 0)",
+        "color2": "(color 255 255 255)",
+        "map1": "None",
+        "map2": "None",
+        "map1Enabled": "True",
+        "map2Enabled": "True",
+        "size": "0.20000000298023224",
+        "phase": "0.0",
+        "Levels": "3.0",
+        "thresholdLow": "0.20000000298023224",
+        "thresholdHigh": "1.0",
+        "type": "1",
+        "coords": "MtlBase:Placement",
+        "output": "MtlBase:Output"
+      },
+      "coords": {
+        "blur": "1.0",
+        "offset": "[0,0,0]",
+        "angle": "[0,0,0]",
+        "coordType": "2",
+        "mapChannel": "1",
+        "Tiling": "[1,1,1]",
+        "Blur_Offset": "0.0"
+      }
+    },
+    {
+      "index": 4,
+      "name": "贴图 #27",
+      "class": "Cellular",
+      "properties": {
+        "cellColor": "(color 255 255 255)",
+        "divColor1": "(color 84.0809 84.0809 84.0809)",
+        "divColor2": "(color 0 0 0)",
+        "cellMap": "None",
+        "divMap1": "None",
+        "divMap2": "None",
+        "map1Enabled": "True",
+        "map2Enabled": "True",
+        "map3Enabled": "True",
+        "variation": "0.0",
+        "size": "150.0",
+        "spread": "0.8999999761581421",
+        "lowThresh": "0.0",
+        "midThresh": "0.5",
+        "highThresh": "1.0",
+        "type": "1",
+        "fractal": "True",
+        "iteration": "2.0",
+        "roughness": "0.0",
+        "smooth": "0.10000000149011612",
+        "adaptive": "True",
+        "coords": "MtlBase:Placement",
+        "output": "MtlBase:Output"
+      },
+      "coords": {
+        "blur": "1.0",
+        "offset": "[0,0,0]",
+        "angle": "[0,0,0]",
+        "coordType": "0",
+        "mapChannel": "1",
+        "Tiling": "[1,1,1]",
+        "Blur_Offset": "0.0"
+      }
+    },
+    {
+      "index": 5,
+      "name": "贴图 #31",
+      "class": "Cellular",
+      "properties": {
+        "cellColor": "(color 255 255 255)",
+        "divColor1": "(color 180.616 180.616 180.616)",
+        "divColor2": "(color 117.065 117.065 117.065)",
+        "cellMap": "None",
+        "divMap1": "None",
+        "divMap2": "None",
+        "map1Enabled": "True",
+        "map2Enabled": "True",
+        "map3Enabled": "True",
+        "variation": "0.0",
+        "size": "150.0",
+        "spread": "1.5",
+        "lowThresh": "0.0",
+        "midThresh": "0.5",
+        "highThresh": "1.0",
+        "type": "1",
+        "fractal": "True",
+        "iteration": "3.0",
+        "roughness": "0.0",
+        "smooth": "0.10000000149011612",
+        "adaptive": "True",
+        "coords": "MtlBase:Placement",
+        "output": "MtlBase:Output"
+      },
+      "coords": {
+        "blur": "1.0",
+        "offset": "[0,0,0]",
+        "angle": "[0,0,0]",
+        "coordType": "1",
+        "mapChannel": "1",
+        "Tiling": "[1,1,1]",
+        "Blur_Offset": "0.0"
+      }
+    },
+    {
+      "index": 6,
+      "name": "贴图 #55",
+      "class": "Cellular",
+      "properties": {
+        "cellColor": "(color 255 255 255)",
+        "divColor1": "(color 62.9341 62.9341 62.9341)",
+        "divColor2": "(color 0 0 0)",
+        "cellMap": "None",
+        "divMap1": "None",
+        "divMap2": "None",
+        "map1Enabled": "True",
+        "map2Enabled": "True",
+        "map3Enabled": "True",
+        "variation": "0.0",
+        "size": "150.0",
+        "spread": "3.0",
+        "lowThresh": "0.0",
+        "midThresh": "0.5",
+        "highThresh": "1.0",
+        "type": "1",
+        "fractal": "True",
+        "iteration": "3.0",
+        "roughness": "0.0",
+        "smooth": "0.10000000149011612",
+        "adaptive": "True",
+        "coords": "MtlBase:Placement",
+        "output": "MtlBase:Output"
+      },
+      "coords": {
+        "blur": "1.0",
+        "offset": "[0,0,0]",
+        "angle": "[0,0,0]",
+        "coordType": "0",
+        "mapChannel": "1",
+        "Tiling": "[1,1,1]",
+        "Blur_Offset": "0.0"
+      }
+    },
+    {
+      "index": 7,
+      "name": "贴图 #63",
+      "class": "Cellular",
+      "properties": {
+        "cellColor": "(color 0 0 0)",
+        "divColor1": "(color 33.5526 67.4108 154.475)",
+        "divColor2": "(color 252.805 131.937 255)",
+        "cellMap": "None",
+        "divMap1": "None",
+        "divMap2": "None",
+        "map1Enabled": "True",
+        "map2Enabled": "True",
+        "map3Enabled": "True",
+        "variation": "0.0",
+        "size": "70.0",
+        "spread": "0.8999999761581421",
+        "lowThresh": "0.0",
+        "midThresh": "0.5",
+        "highThresh": "1.0",
+        "type": "0",
+        "fractal": "True",
+        "iteration": "2.0",
+        "roughness": "0.0",
+        "smooth": "0.10000000149011612",
+        "adaptive": "True",
+        "coords": "MtlBase:Placement",
+        "output": "MtlBase:Output"
+      },
+      "coords": {
+        "blur": "1.0",
+        "offset": "[0,0,0]",
+        "angle": "[0,0,0]",
+        "coordType": "1",
+        "mapChannel": "1",
+        "Tiling": "[1,1,0.2]",
+        "Blur_Offset": "0.0"
+      }
+    },
+    {
+      "index": 8,
+      "name": "贴图 #66",
+      "class": "Cellular",
+      "properties": {
+        "cellColor": "(color 34.7051 250.621 255)",
+        "divColor1": "(color 4.33195 1.16274 12.1828)",
+        "divColor2": "(color 1.16274 0 0)",
+        "cellMap": "None",
+        "divMap1": "None",
+        "divMap2": "None",
+        "map1Enabled": "True",
+        "map2Enabled": "True",
+        "map3Enabled": "True",
+        "variation": "0.0",
+        "size": "50.0",
+        "spread": "2.0",
+        "lowThresh": "0.0",
+        "midThresh": "0.5",
+        "highThresh": "1.0",
+        "type": "1",
+        "fractal": "True",
+        "iteration": "2.0",
+        "roughness": "0.0",
+        "smooth": "0.10000000149011612",
+        "adaptive": "True",
+        "coords": "MtlBase:Placement",
+        "output": "MtlBase:Output"
+      },
+      "coords": {
+        "blur": "1.0",
+        "offset": "[0,0,0]",
+        "angle": "[0,0,0]",
+        "coordType": "1",
+        "mapChannel": "1",
+        "Tiling": "[1,0.7,0.3]",
+        "Blur_Offset": "0.0"
+      }
+    },
+    {
+      "index": 9,
+      "name": "贴图 #15",
+      "class": "Cellular",
+      "properties": {
+        "cellColor": "(color 255 255 255)",
+        "divColor1": "(color 127.5 127.5 127.5)",
+        "divColor2": "(color 0 0 0)",
+        "cellMap": "None",
+        "divMap1": "None",
+        "divMap2": "None",
+        "map1Enabled": "True",
+        "map2Enabled": "True",
+        "map3Enabled": "True",
+        "variation": "0.0",
+        "size": "0.05000000074505806",
+        "spread": "0.5",
+        "lowThresh": "0.0",
+        "midThresh": "0.5",
+        "highThresh": "1.0",
+        "type": "1",
+        "fractal": "False",
+        "iteration": "3.0",
+        "roughness": "0.0",
+        "smooth": "0.10000000149011612",
+        "adaptive": "True",
+        "coords": "MtlBase:Placement",
+        "output": "MtlBase:Output"
+      },
+      "coords": {
+        "blur": "1.0",
+        "offset": "[0,0,0]",
+        "angle": "[0,0,0]",
+        "coordType": "2",
+        "mapChannel": "1",
+        "Tiling": "[1,0.2,1]",
+        "Blur_Offset": "0.0"
+      }
+    },
+    {
+      "index": 10,
+      "name": "贴图 #14",
+      "class": "Marble",
+      "properties": {
+        "map1": "None",
+        "map2": "None",
+        "color1": "(color 0 0 0)",
+        "color2": "(color 255 255 255)",
+        "map1Enabled": "True",
+        "map2Enabled": "True",
+        "size": "0.10000000149011612",
+        "width": "0.014999999664723873",
+        "coords": "MtlBase:Placement"
+      },
+      "coords": {
+        "blur": "1.0",
+        "offset": "[0,0,0]",
+        "angle": "[0,0,0]",
+        "coordType": "2",
+        "mapChannel": "1",
+        "Tiling": "[1.25,1,1]",
+        "Blur_Offset": "0.0"
+      }
+    },
+    {
+      "index": 11,
+      "name": "贴图 #17",
+      "class": "Smoke",
+      "properties": {
+        "size": "0.5",
+        "iterations": "5",
+        "exponent": "1.5",
+        "phase": "0.0",
+        "color1": "(color 32.5201 32.5201 32.5201)",
+        "color2": "(color 0 0 0)",
+        "map1": "贴图 #18:Falloff",
+        "map2": "None",
+        "map1On": "True",
+        "map2On": "True",
+        "coords": "MtlBase:Placement"
+      },
+      "coords": {
+        "blur": "1.0",
+        "offset": "[0,0,0]",
+        "angle": "[0,0,0]",
+        "coordType": "2",
+        "mapChannel": "1",
+        "Tiling": "[1,1,1]",
+        "Blur_Offset": "0.0"
+      }
+    },
+    {
+      "index": 12,
+      "name": "贴图 #8",
+      "class": "CompositeTexturemap",
+      "properties": {
+        "mapEnabled": "#(true, true)",
+        "maskEnabled": "#(true, true)",
+        "blendMode": "#(0, 6)",
+        "layername": "#(\"\", \"\")",
+        "dlgOpened": "#(true, true)",
+        "opacity": "#(100.0, 100.0)",
+        "mapList": "#(贴图 #4:OSL: Curve (float), 贴图 #6 - Out:Map Output Selector)",
+        "Mask": "#(undefined, 贴图 #9:Color Correction)"
+      }
+    },
+    {
+      "index": 13,
+      "name": "贴图 #38",
+      "class": "CompositeTexturemap",
+      "properties": {
+        "mapEnabled": "#(true, true)",
+        "maskEnabled": "#(true, true)",
+        "blendMode": "#(0, 9)",
+        "layername": "#(\"\", \"\")",
+        "dlgOpened": "#(true, true)",
+        "opacity": "#(100.0, 20.0)",
+        "mapList": "#(贴图 #36:Falloff, 贴图 #37:Falloff)",
+        "Mask": "#(undefined, undefined)"
+      }
+    },
+    {
+      "index": 14,
+      "name": "贴图 #62",
+      "class": "CompositeTexturemap",
+      "properties": {
+        "mapEnabled": "#(true, true, true)",
+        "maskEnabled": "#(true, true, true)",
+        "blendMode": "#(0, 9, 8)",
+        "layername": "#(\"\", \"\", \"\")",
+        "dlgOpened": "#(true, true, true)",
+        "opacity": "#(100.0, 100.0, 100.0)",
+        "mapList": "#(贴图 #59:Gradient Ramp, 贴图 #63:Cellular, 贴图 #61:Gradient Ramp)",
+        "Mask": "#(undefined, undefined, undefined)"
+      }
+    },
+    {
+      "index": 15,
+      "name": "贴图 #56",
+      "class": "CompositeTexturemap",
+      "properties": {
+        "mapEnabled": "#(true, true)",
+        "maskEnabled": "#(true, true)",
+        "blendMode": "#(0, 9)",
+        "layername": "#(\"\", \"\")",
+        "dlgOpened": "#(true, true)",
+        "opacity": "#(100.0, 100.0)",
+        "mapList": "#(贴图 #58:Composite, 贴图 #55:Cellular)",
+        "Mask": "#(undefined, undefined)"
+      }
+    },
+    {
+      "index": 16,
+      "name": "贴图 #58",
+      "class": "CompositeTexturemap",
+      "properties": {
+        "mapEnabled": "#(true, true)",
+        "maskEnabled": "#(true, true)",
+        "blendMode": "#(0, 5)",
+        "layername": "#(\"\", \"\")",
+        "dlgOpened": "#(true, true)",
+        "opacity": "#(100.0, 100.0)",
+        "mapList": "#(贴图 #54:Gradient Ramp, 贴图 #57:Noise)",
+        "Mask": "#(undefined, undefined)"
+      }
+    },
+    {
+      "index": 17,
+      "name": "贴图 #67",
+      "class": "CompositeTexturemap",
+      "properties": {
+        "mapEnabled": "#(true, true, true, true, true)",
+        "maskEnabled": "#(true, true, true, true, true)",
+        "blendMode": "#(0, 8, 9, 9, 5)",
+        "layername": "#(\"\", \"\", \"\", \"\", \"\")",
+        "dlgOpened": "#(true, true, true, true, true)",
+        "opacity": "#(100.0, 100.0, 50.0, 40.0, 100.0)",
+        "mapList": "#(贴图 #65:Gradient Ramp, 贴图 #66:Cellular, 贴图 #68:Gradient Ramp, 贴图 #71:Falloff, 贴图 #72:Falloff)",
+        "Mask": "#(undefined, undefined, undefined, undefined, undefined)"
+      }
+    },
+    {
+      "index": 18,
+      "name": "贴图 #12",
+      "class": "CompositeTexturemap",
+      "properties": {
+        "mapEnabled": "#(true, true, true, true, true, true)",
+        "maskEnabled": "#(true, true, true, true, true, true)",
+        "blendMode": "#(0, 5, 5, 5, 8, 9)",
+        "layername": "#(\"\", \"\", \"\", \"\", \"\", \"\")",
+        "dlgOpened": "#(true, true, true, true, true, true)",
+        "opacity": "#(100.0, 40.0, 40.0, 100.0, 50.0, 100.0)",
+        "mapList": "#(模拟物体在金属表面的反射图案:Noise, 贴图 #14:Marble, 贴图 #15:Cellular, 模拟菲涅尔咸咸的侧面变亮:Falloff, 模拟高光的图案:Falloff, 贴图 #17:Smoke)",
+        "Mask": "#(undefined, undefined, undefined, undefined, undefined, undefined)"
+      }
+    }
+  ]
+}

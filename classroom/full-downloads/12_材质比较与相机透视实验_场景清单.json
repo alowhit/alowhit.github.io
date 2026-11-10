@@ -1,0 +1,83 @@
+{
+  "file": "/classroom/full-downloads/12_%E6%9D%90%E8%B4%A8%E6%AF%94%E8%BE%83%E4%B8%8E%E7%9B%B8%E6%9C%BA%E9%80%8F%E8%A7%86%E5%AE%9E%E9%AA%8C.max",
+  "frame_to_view": 40,
+  "camera": {
+    "name": "PhysCamera_Study_FILLED_target",
+    "position": [
+      375.77899169921875,
+      -1100.0,
+      330.0
+    ],
+    "fov": 45.0,
+    "film_width_mm": 36.0,
+    "f_number": 8.0,
+    "target_EV_FILLED": 10.0
+  },
+  "lights": [
+    {
+      "name": "Arnold_Quad_FILLED_position",
+      "shapeType": 3,
+      "intensity": 500.0,
+      "exposure": 0.0,
+      "normalize": false,
+      "on": true
+    }
+  ],
+  "objects": [
+    {
+      "name": "Room_FILLED_cyclorama",
+      "class": "Editable_mesh",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Arnold_Quad_FILLED_position",
+      "class": "Arnold_Light",
+      "position": [
+        -250.0,
+        -150.0,
+        500.0
+      ]
+    },
+    {
+      "name": "PhysCamera_Study_FILLED_target",
+      "class": "Physical",
+      "position": [
+        375.77899169921875,
+        -1100.0,
+        330.0
+      ]
+    },
+    {
+      "name": "Compare_-200",
+      "class": "GeoSphere",
+      "position": [
+        -200.0,
+        0.0,
+        100.0
+      ]
+    },
+    {
+      "name": "Compare_0",
+      "class": "GeoSphere",
+      "position": [
+        0.0,
+        0.0,
+        100.0
+      ]
+    },
+    {
+      "name": "Compare_220",
+      "class": "GeoSphere",
+      "position": [
+        220.0,
+        0.0,
+        100.0
+      ]
+    }
+  ],
+  "note": "Room dimensions, light placement, exposure and camera aim are supplemental; video values are labelled by time in the full course, not an entire final scene copied."
+}

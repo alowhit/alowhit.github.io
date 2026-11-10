@@ -1,0 +1,62 @@
+{
+  "saved_reopened": true,
+  "source_material_and_geometry": "Cylinder001 unchanged from Class2 saved source",
+  "rendered_frames": [
+    0,
+    50,
+    100
+  ],
+  "camera": {
+    "position": "[-265,-1146.02,153.072]",
+    "fov": 40.0
+  },
+  "bounds": [
+    [
+      [
+        -585.0,
+        -74.95490264892578,
+        78.84029388427734
+      ],
+      [
+        55.000003814697266,
+        71.15972137451172,
+        224.95492553710938
+      ]
+    ],
+    [
+      [
+        -585.0,
+        -75.38700103759766,
+        78.90984344482422
+      ],
+      [
+        55.000003814697266,
+        71.09017181396484,
+        225.38702392578125
+      ]
+    ],
+    [
+      [
+        -585.0,
+        -77.30421447753906,
+        79.86964416503906
+      ],
+      [
+        55.000003814697266,
+        70.13035583496094,
+        227.30422973632812
+      ]
+    ]
+  ],
+  "supplemental": [
+    "front study camera fit to three-frame bounds",
+    "gray background RGB70",
+    "other geometry renderable disabled only in this study copy",
+    "800x400 image size"
+  ],
+  "limitations": [
+    "Not teacher camera: source file has no camera nodes",
+    "Full scene layering not shown in isolated cylinder study",
+    "Render appearance must be visually reviewed"
+  ]
+}

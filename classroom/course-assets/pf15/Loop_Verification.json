@@ -1,0 +1,45 @@
+{
+  "frames": 101,
+  "particle_count_each_frame": 42,
+  "all_frames_42_unique_ids": true,
+  "particles_with_verified_return_to_shrink": 21,
+  "example_transitions": [
+    [
+      0,
+      "Event006_InitialGrow",
+      [
+        1.2245069742202759,
+        0.6263120770454407,
+        1.074116826057434
+      ]
+    ],
+    [
+      37,
+      "Event007_Shrink",
+      [
+        1.751810908317566,
+        0.896017849445343,
+        1.536658763885498
+      ]
+    ],
+    [
+      53,
+      "Event008_Regrow",
+      [
+        1.5065091848373413,
+        0.7705507278442383,
+        1.3214839696884155
+      ]
+    ],
+    [
+      71,
+      "Event007_Shrink",
+      [
+        1.7839868068695068,
+        0.9124751091003418,
+        1.564882516860962
+      ]
+    ]
+  ],
+  "visual_render_verified": false
+}

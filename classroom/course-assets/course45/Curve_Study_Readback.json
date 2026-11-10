@@ -1,0 +1,11 @@
+{
+  "file": "/classroom/course-assets/course45/04_Rim_Curve_Study.max",
+  "saved_reopened": true,
+  "change": "Rim Mix Curve edited in GUI; compressed response toward right endpoint",
+  "fidelity": "visual approximation, not exact teacher control points",
+  "pending": [
+    "highlight curve still linear",
+    "rim curve needs teacher comparison",
+    "supplemented grays and camera still unmatched"
+  ]
+}

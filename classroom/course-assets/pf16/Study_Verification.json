@@ -1,0 +1,47 @@
+{
+  "source": "[本机资料路径]",
+  "source_sha256": "04b2dfbb08b8b29e2419e1783de0362d653a112f5cac362c9e076877c30b9d12",
+  "source_settings": {
+    "renderer": "Default_Scanline_Renderer",
+    "frame_rate": 30,
+    "range": "(interval 0f 100f)"
+  },
+  "supplemental_camera": {
+    "position": [
+      0,
+      -200,
+      60
+    ],
+    "target": [
+      0,
+      0,
+      60
+    ],
+    "fov": 45,
+    "output": [
+      640,
+      640
+    ]
+  },
+  "changes": [
+    "Added Study_Camera",
+    "GeoSphere001 and GeoSphere002 renderable=false; still available to particle operators"
+  ],
+  "preserved": "Particle Flow operators, links, material, seeds, frame range and renderer loaded from source study",
+  "saved_scene_reloaded_before_render": true,
+  "samples": [
+    {
+      "frame": 0,
+      "particles": 120
+    },
+    {
+      "frame": 39,
+      "particles": 120
+    },
+    {
+      "frame": 100,
+      "particles": 120
+    }
+  ],
+  "not_final_assessment": true
+}

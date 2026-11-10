@@ -1,0 +1,28 @@
+{
+  "frame": 50,
+  "layers": [
+    {
+      "image": "/classroom/course-assets/class2-fire/Layers_Inner_050.png.webp",
+      "visible": [
+        "Cylinder002"
+      ]
+    },
+    {
+      "image": "/classroom/course-assets/class2-fire/Layers_Core_050.png.webp",
+      "visible": [
+        "Sphere001"
+      ]
+    },
+    {
+      "image": "/classroom/course-assets/class2-fire/Layers_Combined_050.png.webp",
+      "visible": [
+        "Cylinder001",
+        "Cylinder002",
+        "Sphere001"
+      ]
+    }
+  ],
+  "saved_reopened": true,
+  "source_models_and_materials": "unchanged",
+  "view": "supplemental camera and background from isolated study"
+}

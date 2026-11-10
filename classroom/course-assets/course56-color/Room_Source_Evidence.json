@@ -1,0 +1,25 @@
+{
+  "source": "[本机资料路径]",
+  "observed": [
+    {
+      "seconds": 1050,
+      "fact": "Render background near white before material edit"
+    },
+    {
+      "seconds": 1074,
+      "fact": "Material #26 Standard Surface selected beside Material #25 Physical Material"
+    },
+    {
+      "seconds": 1080,
+      "fact": "emission_color picker shows Scene RGB 0.017 each; Display RGB 40 each; Emission weight 1.0 visible behind picker"
+    },
+    {
+      "seconds": 1094,
+      "fact": "Subsequent render background dark gray; rendered frame 21 while timeline remains 53"
+    }
+  ],
+  "existing_implementation": "build_course50_material.py assigns Room a Physical Material with supplemental emit_color (55,55,55); this is not evidence of the later teacher setting",
+  "inference": "Material #26 likely controls room background, but assignment is not directly established by inspected frames",
+  "next_test": "On a separate copy of scene10, compare Room material only: current Physical versus Arnold Standard Surface emission 1 / scene color 0.017, holding frame, camera and effect material fixed",
+  "status": "Source evidence only; no corrected MAX or render claimed"
+}

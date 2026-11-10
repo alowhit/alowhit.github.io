@@ -1,0 +1,74 @@
+{
+  "file": "/classroom/full-downloads/13_%E7%90%83%E4%BD%93Noise%E4%B8%8ETaper%E6%B0%94%E6%B5%81%E7%BB%84%E5%90%88.max",
+  "frame_to_view": 40,
+  "camera": {
+    "name": "PhysCamera_Study_FILLED_target",
+    "position": [
+      66.92913055419922,
+      -110.23622131347656,
+      62.99212646484375
+    ],
+    "fov": 45.0,
+    "film_width_mm": 36.0,
+    "f_number": 8.0,
+    "target_EV_FILLED": 7.0
+  },
+  "lights": [
+    {
+      "name": "Arnold_Quad_FILLED_position",
+      "shapeType": 3,
+      "intensity": 500.0,
+      "exposure": 6.0,
+      "normalize": false,
+      "on": false
+    }
+  ],
+  "objects": [
+    {
+      "name": "Room_FILLED_cyclorama",
+      "class": "Editable_mesh",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Arnold_Quad_FILLED_position",
+      "class": "Arnold_Light",
+      "position": [
+        -98.4251937866211,
+        -59.055118560791016,
+        196.8503875732422
+      ]
+    },
+    {
+      "name": "PhysCamera_Study_FILLED_target",
+      "class": "Physical",
+      "position": [
+        66.92913055419922,
+        -110.23622131347656,
+        62.99212646484375
+      ]
+    },
+    {
+      "name": "Ball",
+      "class": "Editable_mesh",
+      "position": [
+        0.0,
+        25.966928482055664,
+        0.0
+      ]
+    },
+    {
+      "name": "Cylinder001",
+      "class": "PolyMeshObject",
+      "position": [
+        0.0,
+        25.966928482055664,
+        0.0
+      ]
+    }
+  ],
+  "note": "Room dimensions, light placement, exposure and camera aim are supplemental; video values are labelled by time in the full course, not an entire final scene copied."
+}

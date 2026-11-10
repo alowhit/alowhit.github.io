@@ -1,0 +1,12 @@
+{
+  "renderer": "Arnold",
+  "material": "ai_standard_surface",
+  "wave_len_max": 20.0,
+  "wave_len_min": 30.0,
+  "wave_phase_at40": 0.0,
+  "wave_seed": 30161,
+  "final_layers_enabled": [
+    true,
+    true
+  ]
+}

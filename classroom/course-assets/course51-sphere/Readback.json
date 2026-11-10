@@ -1,0 +1,52 @@
+{
+  "source": "课堂教学视频2.mp4",
+  "stages": [
+    {
+      "file": "/classroom/course-assets/course51-sphere/02_Solid.max",
+      "reopened": true,
+      "radius": 40.0,
+      "segments": 64,
+      "position": "[0,65.956,40]",
+      "base": 0.0,
+      "specular": 0.0,
+      "emission": 1.0,
+      "opacity_map": "None",
+      "camera_pos": "[0,-125,40]",
+      "target": "[0,65.956,40]",
+      "fov": 45.0,
+      "exposure_default": 6.0
+    },
+    {
+      "file": "/classroom/course-assets/course51-sphere/03_HalfMask.max",
+      "reopened": true,
+      "radius": 40.0,
+      "segments": 64,
+      "position": "[0,65.956,40]",
+      "base": 0.0,
+      "specular": 0.0,
+      "emission": 1.0,
+      "opacity_map": "Gradient Ramp 1 - 19min study:Gradient Ramp",
+      "camera_pos": "[0,-125,40]",
+      "target": "[0,65.956,40]",
+      "fov": 45.0,
+      "exposure_default": 6.0
+    }
+  ],
+  "confirmed": [
+    "Sphere radius40 segments64 smooth, mapping on, initial position0/0/40 at04:00",
+    "Later Ball position0/65.956/40 at19:00",
+    "Arnold Base0 Specular0 Emission1",
+    "19:00 ramp W Angle90, Linear, Noise0, black flag57"
+  ],
+  "supplements": [
+    "Camera position0/-125/40, target ball, FOV45, default physical exposure; source exact values not confirmed",
+    "White ramp stop72 visually estimated; unused template stops coincide at100",
+    "Room gray and light location inherited supplemental values from Course50"
+  ],
+  "pending": [
+    "full camera creation and moves",
+    "all ramp flag edits and final multi-band state",
+    "late emission change",
+    "source render comparison and final assessment"
+  ]
+}

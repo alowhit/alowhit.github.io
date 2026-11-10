@@ -1,0 +1,84 @@
+{
+  "file": "/classroom/course-assets/course51-flags/07_SourceRamp_Partial.max",
+  "reopened": true,
+  "changed": "white flag44 estimated corrected to43 based1178.25s; same position retained in later sampled frames",
+  "flags": [
+    {
+      "property": "Flag__3",
+      "position": 14.0,
+      "rgb": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "property": "Flag__4",
+      "position": 43.0,
+      "rgb": [
+        255.0,
+        255.0,
+        255.0
+      ]
+    },
+    {
+      "property": "Flag__5",
+      "position": 52.0,
+      "rgb": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "property": "Flag__6",
+      "position": 68.0,
+      "rgb": [
+        255.0,
+        255.0,
+        255.0
+      ]
+    },
+    {
+      "property": "Flag__7",
+      "position": 80.0,
+      "rgb": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "property": "Flag__8",
+      "position": 93.0,
+      "rgb": [
+        255.0,
+        255.0,
+        255.0
+      ]
+    },
+    {
+      "property": "Flag__9",
+      "position": 100.0,
+      "rgb": [
+        255.0,
+        255.0,
+        255.0
+      ]
+    }
+  ],
+  "source_confirmed_interior": [
+    14,
+    43,
+    52,
+    68,
+    80,
+    93
+  ],
+  "pending": [
+    "endpoint exact colors retained from study;1274s hover label ambiguous",
+    "camera final transform/exposure",
+    "room exact gray",
+    "whole assignment verification"
+  ]
+}

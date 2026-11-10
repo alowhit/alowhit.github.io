@@ -1,0 +1,19 @@
+{
+  "reopened": true,
+  "fov": 72.53071594238281,
+  "previous_fov": 111.44873046875,
+  "limiting_frame": 65,
+  "target_normalized_extent": 0.8,
+  "position": [
+    0.0,
+    -125.0,
+    40.0
+  ],
+  "target": [
+    0.0,
+    65.95600128173828,
+    40.0
+  ],
+  "exposure": 6.0,
+  "scope": "Supplemental static camera computed from actual101-frame pixel bounds with threshold8; source exact camera remains unknown"
+}

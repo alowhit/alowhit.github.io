@@ -1,0 +1,29 @@
+{
+  "purpose": "Supplementary water-only viewing camera; original map graph and keys retained",
+  "camera_position": [
+    460,
+    -600,
+    490
+  ],
+  "camera_target": [
+    0,
+    0,
+    5
+  ],
+  "fov": 45,
+  "other_geometry_render_disabled": [
+    {
+      "name": "LightRoom",
+      "previous_renderable": true
+    },
+    {
+      "name": "Sphere001",
+      "previous_renderable": true
+    }
+  ],
+  "background": [
+    55,
+    55,
+    55
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "stages": [
+    {
+      "file": "/classroom/course-assets/course51-sphere/04_MultiBand_White.max",
+      "reopened": true,
+      "emission": 1.0,
+      "emission_color": "(color 255 255 255)",
+      "scene_linear_rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ramp_flags": [
+        {
+          "flag": "Flag__3",
+          "position": 14.0,
+          "color": "[0,0,0]"
+        },
+        {
+          "flag": "Flag__4",
+          "position": 44.0,
+          "color": "[255,255,255]"
+        },
+        {
+          "flag": "Flag__5",
+          "position": 52.0,
+          "color": "[0,0,0]"
+        },
+        {
+          "flag": "Flag__6",
+          "position": 68.0,
+          "color": "[255,255,255]"
+        },
+        {
+          "flag": "Flag__7",
+          "position": 80.0,
+          "color": "[0,0,0]"
+        },
+        {
+          "flag": "Flag__8",
+          "position": 93.0,
+          "color": "[255,255,255]"
+        },
+        {
+          "flag": "Flag__9",
+          "position": 100.0,
+          "color": "[255,255,255]"
+        }
+      ]
+    },
+    {
+      "file": "/classroom/course-assets/course51-sphere/05_MultiBand_Gray.max",
+      "reopened": true,
+      "emission": 1.0,
+      "emission_color": "(color 26.52 26.52 26.52)",
+      "scene_linear_rgb": [
+        0.10400000179515165,
+        0.10400000179515165,
+        0.10400000179515165
+      ],
+      "ramp_flags": [
+        {
+          "flag": "Flag__3",
+          "position": 14.0,
+          "color": "[0,0,0]"
+        },
+        {
+          "flag": "Flag__4",
+          "position": 44.0,
+          "color": "[255,255,255]"
+        },
+        {
+          "flag": "Flag__5",
+          "position": 52.0,
+          "color": "[0,0,0]"
+        },
+        {
+          "flag": "Flag__6",
+          "position": 68.0,
+          "color": "[255,255,255]"
+        },
+        {
+          "flag": "Flag__7",
+          "position": 80.0,
+          "color": "[0,0,0]"
+        },
+        {
+          "flag": "Flag__8",
+          "position": 93.0,
+          "color": "[255,255,255]"
+        },
+        {
+          "flag": "Flag__9",
+          "position": 100.0,
+          "color": "[255,255,255]"
+        }
+      ]
+    }
+  ],
+  "confirmed": [
+    "21:30 selected black flag52",
+    "22:10 emission color scene linear0.104, display RGB91, hex5B5B5B",
+    "22:30 emission weight remains1"
+  ],
+  "estimated": [
+    "positions14,44,68,80,93 inferred from21:30 ramp handles; exact values not all selected",
+    "same supplemental camera and room gray as previous stages"
+  ],
+  "pending": [
+    "precise camera transforms and exposure",
+    "remaining exact flag values",
+    "source background brightness and color management match",
+    "assessment integration"
+  ]
+}

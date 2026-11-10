@@ -1,0 +1,12 @@
+{
+  "png_count": 101,
+  "decoded_video_frames": 101,
+  "distinct_png_hashes": 101,
+  "size": [
+    640,
+    480
+  ],
+  "fps": 30,
+  "gui_arnold": true,
+  "full_scene_fidelity": false
+}

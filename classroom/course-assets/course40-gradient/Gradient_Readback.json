@@ -1,0 +1,164 @@
+[
+  {
+    "file": "/classroom/course-assets/course40-gradient/04_Solid_Half.max",
+    "saved_reopened": true,
+    "gradient_type": 4,
+    "w_angle": 90.0,
+    "flags_requested": [
+      [
+        0,
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        50,
+        [
+          255,
+          255,
+          255
+        ]
+      ],
+      [
+        100,
+        [
+          255,
+          255,
+          255
+        ]
+      ]
+    ],
+    "limits": [
+      "0 black and100 white supplied from visible ramp appearance",
+      "17 white /74 black /92 white approximated from screenshot; not exact source values",
+      "Camera world transform and output640x320 supplied",
+      "No Gradient15 Offset animation in these static checkpoints"
+    ]
+  },
+  {
+    "file": "/classroom/course-assets/course40-gradient/05_Solid_Stripes.max",
+    "saved_reopened": true,
+    "gradient_type": 4,
+    "w_angle": 90.0,
+    "flags_requested": [
+      [
+        0,
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        10,
+        [
+          255,
+          255,
+          255
+        ]
+      ],
+      [
+        14,
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        17,
+        [
+          255,
+          255,
+          255
+        ]
+      ],
+      [
+        41,
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        50,
+        [
+          255,
+          255,
+          255
+        ]
+      ],
+      [
+        74,
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        92,
+        [
+          255,
+          255,
+          255
+        ]
+      ],
+      [
+        100,
+        [
+          255,
+          255,
+          255
+        ]
+      ]
+    ],
+    "limits": [
+      "0 black and100 white supplied from visible ramp appearance",
+      "17 white /74 black /92 white approximated from screenshot; not exact source values",
+      "Camera world transform and output640x320 supplied",
+      "No Gradient15 Offset animation in these static checkpoints"
+    ]
+  },
+  {
+    "file": "/classroom/course-assets/course40-gradient/06_Stripes_Mapped_Color.max",
+    "saved_reopened": true,
+    "gradient_type": 5,
+    "source_map": "15_Solid_Gradient:Gradient Ramp",
+    "palette": [
+      [
+        0,
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        50,
+        [
+          255,
+          0,
+          0
+        ]
+      ],
+      [
+        100,
+        [
+          255,
+          245,
+          0
+        ]
+      ]
+    ],
+    "limits": [
+      "Black0 supplied; red50 and yellow100 source-confirmed",
+      "Static combined study of24min stripes and32min palette; source later changes tiling and offset",
+      "Composite18 and Gradient17 not yet built; later source connects Composite18 to palette and Cutout",
+      "Inherited partial flag and camera limitations apply"
+    ]
+  }
+]

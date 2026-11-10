@@ -1,0 +1,34 @@
+{
+  "source": "[本机资料路径]",
+  "video": "教学记录8.mp4",
+  "frame": 50,
+  "two_sided_class": "ai_two_sided",
+  "shared_opacity": true,
+  "materials": [
+    {
+      "name": "Material #45",
+      "class": "ai_standard_surface",
+      "base": 0.0,
+      "specular": 0.0,
+      "emission": 1.0,
+      "emission_map": "贴图 #5:Gradient Ramp",
+      "opacity_map": "贴图 #3:Composite"
+    },
+    {
+      "name": "Material #49",
+      "class": "ai_standard_surface",
+      "base": 0.0,
+      "specular": 0.0,
+      "emission": 1.0,
+      "emission_map": "贴图 #6:Gradient Ramp",
+      "opacity_map": "贴图 #3:Composite"
+    }
+  ],
+  "limits": [
+    "Class2 saved mesh uses MeshSmooth2 and top Noise Frequency0.8; video 10:30/11:30 shows MeshSmooth1 and intermediate Noise frequencies",
+    "Study camera and gray background supplied, not teacher viewport",
+    "Blue ramp native positions differ from intermediate video edit at05:30",
+    "Not final assessment delivery"
+  ],
+  "saved_reopened": true
+}

@@ -1,0 +1,36 @@
+{
+  "saved_reopened": true,
+  "material_class": "ai_standard_surface",
+  "noise": {
+    "size": "0.20000000298023224",
+    "type": "2",
+    "thresholdLow": "0.05000000074505806",
+    "thresholdHigh": "0.4000000059604645",
+    "levels": "3.0",
+    "phase": "0.0",
+    "color1": "(color 255 255 255)",
+    "color2": "(color 0 0 0)"
+  },
+  "coordType": 2,
+  "tiling": "[1,0.5,0.5]",
+  "composite_modes": [
+    0,
+    13
+  ],
+  "color_correction": {
+    "lightnessMode": 1,
+    "gainRGB": 200.0,
+    "gammaRGB": 0.30000001192092896,
+    "pivotRGB": 1.5,
+    "liftRGB": 0.0
+  },
+  "limitations": [
+    "Falloff custom S curve not reconstructed; default curve explicitly pending",
+    "Palette endpoints black0 and warmwhite100 supplied; 32/77/97 values observed at separate checkpoints, exact final set pending",
+    "Duplicate unused gradient flags coincide at100",
+    "Specular0 supplied; exact final material full parameters pending",
+    "Source studio lighting camera exposure not matched; study camera used",
+    "Volume gizmo remains estimated from preceding motion reconstruction",
+    "Late source blue palette experiment not reconstructed"
+  ]
+}

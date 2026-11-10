@@ -1,0 +1,17 @@
+{
+  "active_viewport": 4,
+  "view_type": "view_persp_user",
+  "view_tm": "(matrix3 [0.798635,0.109672,-0.591738] [-0.601815,0.145541,-0.785262] [8.56814e-07,0.983255,0.182237] [212.704,-91.6081,-1259.66])",
+  "view_fov": 45.0,
+  "frame_before": "0f",
+  "lights": [],
+  "ambient": "(color 0 0 0)",
+  "environment_map": "None",
+  "background": "(color 0 0 0)",
+  "renderable": {
+    "Loft001": true,
+    "Cylinder001": true,
+    "Sphere001": true,
+    "Cylinder002": true
+  }
+}

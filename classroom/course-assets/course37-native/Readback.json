@@ -1,0 +1,95 @@
+[
+  {
+    "file": "/classroom/course-assets/course37-native/01_Regular_2100s.max",
+    "saved_reopened": true,
+    "material": {
+      "base_weight": "0.0",
+      "reflectivity": "0.0",
+      "transparency": "0.0",
+      "emission": "1.0",
+      "emit_luminance": "1500.0",
+      "emit_kelvin": "6500.0",
+      "emit_color": "(color 255 255 255)"
+    },
+    "noise": {
+      "size": "60.0",
+      "type": "0",
+      "levels": "3.0",
+      "phase": "0.0",
+      "thresholdLow": "0.30000001192092896",
+      "thresholdHigh": "0.699999988079071",
+      "color1": "(color 0 0 0)",
+      "color2": "(color 255 255 255)"
+    },
+    "coordType": 0,
+    "tiling": "[1,1,1]",
+    "supplements": [
+      "White emission tint used for map visibility; initial241s screenshot black swatch precedes map setup, final tint not visible",
+      "Diagnostic camera, background and light inherited/supplemental; source Loft not yet rebuilt",
+      "Course36 head source585s reconstruction retained; later fine adjustment pending",
+      "UV editor exploration not yet reconstructed; these late source stages use Object XYZ"
+    ]
+  },
+  {
+    "file": "/classroom/course-assets/course37-native/02_Turbulence_2863s.max",
+    "saved_reopened": true,
+    "material": {
+      "base_weight": "0.0",
+      "reflectivity": "0.0",
+      "transparency": "0.0",
+      "emission": "1.0",
+      "emit_luminance": "1500.0",
+      "emit_kelvin": "6500.0",
+      "emit_color": "(color 255 255 255)"
+    },
+    "noise": {
+      "size": "60.0",
+      "type": "2",
+      "levels": "3.0",
+      "phase": "0.0",
+      "thresholdLow": "0.0",
+      "thresholdHigh": "0.699999988079071",
+      "color1": "(color 0 0 0)",
+      "color2": "(color 255 255 255)"
+    },
+    "coordType": 0,
+    "tiling": "[3,3,0.5]",
+    "supplements": [
+      "White emission tint used for map visibility; initial241s screenshot black swatch precedes map setup, final tint not visible",
+      "Diagnostic camera, background and light inherited/supplemental; source Loft not yet rebuilt",
+      "Course36 head source585s reconstruction retained; later fine adjustment pending",
+      "UV editor exploration not yet reconstructed; these late source stages use Object XYZ"
+    ]
+  },
+  {
+    "file": "/classroom/course-assets/course37-native/03_Fractal_3000s.max",
+    "saved_reopened": true,
+    "material": {
+      "base_weight": "0.0",
+      "reflectivity": "0.0",
+      "transparency": "0.0",
+      "emission": "1.0",
+      "emit_luminance": "1500.0",
+      "emit_kelvin": "6500.0",
+      "emit_color": "(color 255 255 255)"
+    },
+    "noise": {
+      "size": "60.0",
+      "type": "1",
+      "levels": "3.0",
+      "phase": "0.0",
+      "thresholdLow": "0.4000000059604645",
+      "thresholdHigh": "0.699999988079071",
+      "color1": "(color 0 0 0)",
+      "color2": "(color 255 255 255)"
+    },
+    "coordType": 0,
+    "tiling": "[3,3,0.5]",
+    "supplements": [
+      "White emission tint used for map visibility; initial241s screenshot black swatch precedes map setup, final tint not visible",
+      "Diagnostic camera, background and light inherited/supplemental; source Loft not yet rebuilt",
+      "Course36 head source585s reconstruction retained; later fine adjustment pending",
+      "UV editor exploration not yet reconstructed; these late source stages use Object XYZ"
+    ]
+  }
+]

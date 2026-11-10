@@ -1,0 +1,762 @@
+{
+  "frame_count": 101,
+  "fps": 30,
+  "resolution": [
+    320,
+    240
+  ],
+  "scope": "Diagnostic preview, not final assessment output",
+  "decode": "passed",
+  "metrics": [
+    {
+      "frame": 0,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 1,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 2,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 3,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 4,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 5,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 6,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 7,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 8,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 9,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 10,
+      "mean_difference": 3.472222222222222e-05,
+      "bbox": [
+        120,
+        200,
+        159,
+        203
+      ]
+    },
+    {
+      "frame": 11,
+      "mean_difference": 3.90625e-05,
+      "bbox": [
+        122,
+        199,
+        191,
+        206
+      ]
+    },
+    {
+      "frame": 12,
+      "mean_difference": 7.378472222222222e-05,
+      "bbox": [
+        125,
+        193,
+        196,
+        210
+      ]
+    },
+    {
+      "frame": 13,
+      "mean_difference": 8.680555555555556e-05,
+      "bbox": [
+        121,
+        193,
+        198,
+        208
+      ]
+    },
+    {
+      "frame": 14,
+      "mean_difference": 0.00020399305555555557,
+      "bbox": [
+        121,
+        193,
+        202,
+        209
+      ]
+    },
+    {
+      "frame": 15,
+      "mean_difference": 0.00020833333333333335,
+      "bbox": [
+        121,
+        197,
+        202,
+        209
+      ]
+    },
+    {
+      "frame": 16,
+      "mean_difference": 0.010013020833333334,
+      "bbox": [
+        116,
+        191,
+        206,
+        212
+      ]
+    },
+    {
+      "frame": 17,
+      "mean_difference": 0.02150607638888889,
+      "bbox": [
+        113,
+        189,
+        210,
+        212
+      ]
+    },
+    {
+      "frame": 18,
+      "mean_difference": 0.036458333333333336,
+      "bbox": [
+        110,
+        186,
+        214,
+        213
+      ]
+    },
+    {
+      "frame": 19,
+      "mean_difference": 0.05524305555555556,
+      "bbox": [
+        108,
+        183,
+        217,
+        213
+      ]
+    },
+    {
+      "frame": 20,
+      "mean_difference": 0.07253472222222222,
+      "bbox": [
+        104,
+        179,
+        221,
+        214
+      ]
+    },
+    {
+      "frame": 21,
+      "mean_difference": 0.08778211805555557,
+      "bbox": [
+        102,
+        176,
+        225,
+        214
+      ]
+    },
+    {
+      "frame": 22,
+      "mean_difference": 0.10093315972222223,
+      "bbox": [
+        100,
+        172,
+        230,
+        214
+      ]
+    },
+    {
+      "frame": 23,
+      "mean_difference": 0.12041666666666669,
+      "bbox": [
+        98,
+        168,
+        233,
+        214
+      ]
+    },
+    {
+      "frame": 24,
+      "mean_difference": 0.14766493055555555,
+      "bbox": [
+        94,
+        165,
+        237,
+        214
+      ]
+    },
+    {
+      "frame": 25,
+      "mean_difference": 0.17270833333333335,
+      "bbox": [
+        92,
+        162,
+        241,
+        215
+      ]
+    },
+    {
+      "frame": 26,
+      "mean_difference": 0.19913194444444446,
+      "bbox": [
+        89,
+        158,
+        242,
+        215
+      ]
+    },
+    {
+      "frame": 27,
+      "mean_difference": 0.21663194444444445,
+      "bbox": [
+        88,
+        155,
+        247,
+        215
+      ]
+    },
+    {
+      "frame": 28,
+      "mean_difference": 0.23305121527777775,
+      "bbox": [
+        83,
+        153,
+        250,
+        216
+      ]
+    },
+    {
+      "frame": 29,
+      "mean_difference": 0.24645833333333336,
+      "bbox": [
+        81,
+        150,
+        254,
+        217
+      ]
+    },
+    {
+      "frame": 30,
+      "mean_difference": 0.2794097222222222,
+      "bbox": [
+        78,
+        147,
+        256,
+        219
+      ]
+    },
+    {
+      "frame": 31,
+      "mean_difference": 0.3234982638888889,
+      "bbox": [
+        74,
+        144,
+        255,
+        220
+      ]
+    },
+    {
+      "frame": 32,
+      "mean_difference": 0.3726692708333333,
+      "bbox": [
+        66,
+        142,
+        254,
+        224
+      ]
+    },
+    {
+      "frame": 33,
+      "mean_difference": 0.42705295138888894,
+      "bbox": [
+        60,
+        139,
+        252,
+        227
+      ]
+    },
+    {
+      "frame": 34,
+      "mean_difference": 0.4942881944444444,
+      "bbox": [
+        51,
+        136,
+        254,
+        231
+      ]
+    },
+    {
+      "frame": 35,
+      "mean_difference": 0.575095486111111,
+      "bbox": [
+        47,
+        134,
+        254,
+        233
+      ]
+    },
+    {
+      "frame": 36,
+      "mean_difference": 0.6386067708333333,
+      "bbox": [
+        50,
+        132,
+        259,
+        233
+      ]
+    },
+    {
+      "frame": 37,
+      "mean_difference": 0.6891536458333333,
+      "bbox": [
+        44,
+        129,
+        260,
+        232
+      ]
+    },
+    {
+      "frame": 38,
+      "mean_difference": 0.762638888888889,
+      "bbox": [
+        45,
+        126,
+        267,
+        231
+      ]
+    },
+    {
+      "frame": 39,
+      "mean_difference": 0.8388368055555554,
+      "bbox": [
+        47,
+        123,
+        272,
+        232
+      ]
+    },
+    {
+      "frame": 40,
+      "mean_difference": 0.8941276041666667,
+      "bbox": [
+        43,
+        119,
+        274,
+        233
+      ]
+    },
+    {
+      "frame": 41,
+      "mean_difference": 0.9588932291666666,
+      "bbox": [
+        40,
+        116,
+        273,
+        234
+      ]
+    },
+    {
+      "frame": 42,
+      "mean_difference": 1.0551345486111112,
+      "bbox": [
+        40,
+        112,
+        268,
+        235
+      ]
+    },
+    {
+      "frame": 43,
+      "mean_difference": 1.1051475694444444,
+      "bbox": [
+        38,
+        108,
+        271,
+        236
+      ]
+    },
+    {
+      "frame": 44,
+      "mean_difference": 1.1185590277777777,
+      "bbox": [
+        37,
+        104,
+        273,
+        234
+      ]
+    },
+    {
+      "frame": 45,
+      "mean_difference": 1.1527690972222222,
+      "bbox": [
+        34,
+        100,
+        273,
+        231
+      ]
+    },
+    {
+      "frame": 46,
+      "mean_difference": 1.3425911458333335,
+      "bbox": [
+        33,
+        95,
+        275,
+        226
+      ]
+    },
+    {
+      "frame": 47,
+      "mean_difference": 1.5477126736111113,
+      "bbox": [
+        32,
+        90,
+        274,
+        225
+      ]
+    },
+    {
+      "frame": 48,
+      "mean_difference": 1.5659071180555555,
+      "bbox": [
+        29,
+        86,
+        278,
+        223
+      ]
+    },
+    {
+      "frame": 49,
+      "mean_difference": 1.5297265625000003,
+      "bbox": [
+        33,
+        82,
+        278,
+        223
+      ]
+    },
+    {
+      "frame": 50,
+      "mean_difference": 1.4374696180555555,
+      "bbox": [
+        33,
+        78,
+        281,
+        224
+      ]
+    },
+    {
+      "frame": 51,
+      "mean_difference": 1.3710373263888889,
+      "bbox": [
+        36,
+        75,
+        281,
+        224
+      ]
+    },
+    {
+      "frame": 52,
+      "mean_difference": 1.1447092013888889,
+      "bbox": [
+        43,
+        67,
+        284,
+        222
+      ]
+    },
+    {
+      "frame": 53,
+      "mean_difference": 0.914435763888889,
+      "bbox": [
+        43,
+        64,
+        286,
+        221
+      ]
+    },
+    {
+      "frame": 54,
+      "mean_difference": 0.6107335069444444,
+      "bbox": [
+        42,
+        75,
+        288,
+        222
+      ]
+    },
+    {
+      "frame": 55,
+      "mean_difference": 0.2537196180555556,
+      "bbox": [
+        32,
+        93,
+        285,
+        223
+      ]
+    },
+    {
+      "frame": 56,
+      "mean_difference": 0.05246527777777777,
+      "bbox": [
+        29,
+        108,
+        282,
+        224
+      ]
+    },
+    {
+      "frame": 57,
+      "mean_difference": 0.001644965277777778,
+      "bbox": [
+        77,
+        140,
+        260,
+        195
+      ]
+    },
+    {
+      "frame": 58,
+      "mean_difference": 8.680555555555556e-05,
+      "bbox": [
+        152,
+        169,
+        158,
+        174
+      ]
+    },
+    {
+      "frame": 59,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 60,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 61,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 62,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 63,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 64,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 65,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 66,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 67,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 68,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 69,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 70,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 71,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 72,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 73,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 74,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 75,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 76,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 77,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 78,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 79,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 80,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 81,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 82,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 83,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 84,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 85,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 86,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 87,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 88,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 89,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 90,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 91,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 92,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 93,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 94,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 95,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 96,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 97,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 98,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 99,
+      "mean_difference": 0.0,
+      "bbox": null
+    },
+    {
+      "frame": 100,
+      "mean_difference": 0.0,
+      "bbox": null
+    }
+  ]
+}

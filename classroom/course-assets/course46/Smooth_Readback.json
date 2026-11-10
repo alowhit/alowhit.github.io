@@ -1,0 +1,11 @@
+{
+  "file": "/classroom/course-assets/course46/04_MixCurve_Smooth_Study.max",
+  "reopened": true,
+  "change": "GUI changed middle point to Bezier-Smooth and adjusted tangent handles; continuous rising curve",
+  "fidelity": "Visual approximation of 17min shape; interior point and tangents estimated from video shape, not exact numeric teacher values",
+  "unchanged": "Camera, lights, emission1, luminance5 from02",
+  "pending": [
+    "exact curve points",
+    "camera lighting and final quality"
+  ]
+}

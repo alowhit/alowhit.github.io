@@ -1,0 +1,21 @@
+{
+  "status": "single_frame_compatibility_bake_verified",
+  "size": [
+    512,
+    512
+  ],
+  "range": [
+    0,
+    244
+  ],
+  "mean": 5.691196441650391,
+  "stddev": 35.51431722013118,
+  "native_sha256": "ca298529433a41c932a25d3084b11b215075d2d2746585991200f3e894d0d7af",
+  "image_sha256": "af9c8671f1cf9d4e35a60a987d644f476bf180cf7330c128631b9f2a760c45a0",
+  "remaining": [
+    "Teacher exact texture values",
+    "Original lower-plane material",
+    "Animation sequence 0-100"
+  ],
+  "limitation": "Temporary Physical Material used for compatibility; original Standard Legacy restored. Not exact teacher output."
+}

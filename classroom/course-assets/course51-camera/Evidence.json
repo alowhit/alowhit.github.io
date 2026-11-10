@@ -1,0 +1,37 @@
+{
+  "source": "课堂教学视频2.mp4",
+  "review": "15 second samples 570–780; full-size inspection570/585/630",
+  "at570": {
+    "Targeted": true,
+    "Target Distance": 172.534,
+    "Film Width mm": 36,
+    "Focal Length mm": 40,
+    "Specify FOV": false,
+    "Zoom": 1,
+    "Aperture": 8,
+    "Use Target Distance": true,
+    "Enable DOF": false,
+    "Shutter Duration frames": 0.5,
+    "Motion Blur": false
+  },
+  "scope": "creation-stage values only, not final camera transform or exposure",
+  "native_status": "06 saved reopened and rendered; source creation-stage lens controls matched; transform and exposure still supplemental",
+  "native_readback": {
+    "file": "/classroom/course-assets/course51-camera/06_SourceLens_Partial.max",
+    "reopened": true,
+    "specify_fov": false,
+    "film_width_mm": 36.0,
+    "focal_length_mm": 40.0,
+    "zoom_factor": 1.0,
+    "f_number": 8.0,
+    "use_dof": false,
+    "motion_blur_enabled": false,
+    "camera_position_supplement": "[0,-125,40]",
+    "target_supplement": "[0,65.956,40]",
+    "exposure_unconfirmed": 6.0,
+    "limitations": [
+      "Lens controls match creation-stage570s; final transform and exposure not recovered",
+      "Gradient flags still partly estimated; room emission gray supplemental"
+    ]
+  }
+}

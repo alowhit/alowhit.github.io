@@ -1,0 +1,38 @@
+{
+  "saved_reopened": true,
+  "complete": false,
+  "material_class": "PhysicalMaterial",
+  "cutout_enabled": true,
+  "cutout_input": "03_Darken_Height",
+  "color_correction": {
+    "gainRGB": 200.0,
+    "gammaRGB": 3.0,
+    "pivotRGB": 1.0,
+    "liftRGB": 0.0,
+    "lightnessMode": 1
+  },
+  "plane": {
+    "renderable": true,
+    "primaryVisibility": true,
+    "secondaryVisibility": false,
+    "castShadows": false,
+    "receiveShadows": false,
+    "applyAtmospherics": false
+  },
+  "gobo_noise": {
+    "coordinates": "World XYZ",
+    "phase_at_100": 3,
+    "animation": "Only observed frame100 set; starting key unverified"
+  },
+  "source_evidence": {
+    "900s": "Composite3 -> CC27 -> Cutout; interim 200/4/1.5",
+    "943.54s": "later CC27 200/3/1",
+    "1030s": "Noise25 WorldXYZ Phase3 at frame100"
+  },
+  "limitations": [
+    "Inherited fire gradient flags still partly supplied",
+    "Camera and color management not matched to source",
+    "Gobo intensity200/exposure6 retained from earlier chapter",
+    "Only frame100 comparisons rendered, full output animation pending"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "decoded_png_frames": 101,
+  "distinct_png_hashes": 101,
+  "video": {
+    "nb_frames": 101,
+    "width": 640,
+    "height": 480,
+    "duration": 3.3666666666666667,
+    "verification": "FFmpeg decoded every video frame to framemd5"
+  },
+  "source": "GUI Arnold render of baked actual PF transforms",
+  "scope": "motion inspection material; not lesson16 cloud shader"
+}

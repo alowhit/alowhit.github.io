@@ -1,0 +1,110 @@
+{
+  "stages": [
+    {
+      "file": "/classroom/course-assets/course10-tornado/06_Straight_Opacity.max",
+      "reopened": true,
+      "U_Tiling": 1.0,
+      "V_Tiling": 1.0,
+      "W_Angle": 0.0,
+      "amount": 0.0,
+      "size": 3.0,
+      "noise_type": 1,
+      "phase": 0.0,
+      "shader_class": "ai_standard_surface",
+      "opacity_connection": "Course10_Opacity_Gradient22"
+    },
+    {
+      "file": "/classroom/course-assets/course10-tornado/07_Spiral_Opacity.max",
+      "reopened": true,
+      "U_Tiling": 3.0,
+      "V_Tiling": 1.0,
+      "W_Angle": 45.0,
+      "amount": 0.0,
+      "size": 3.0,
+      "noise_type": 1,
+      "phase": 0.0,
+      "shader_class": "ai_standard_surface",
+      "opacity_connection": "Course10_Opacity_Gradient22"
+    },
+    {
+      "file": "/classroom/course-assets/course10-tornado/08_Fractal_Opacity.max",
+      "reopened": true,
+      "U_Tiling": 3.0,
+      "V_Tiling": 1.0,
+      "W_Angle": 45.0,
+      "amount": 0.05000000074505806,
+      "size": 3.0,
+      "noise_type": 1,
+      "phase": 0.0,
+      "shader_class": "ai_standard_surface",
+      "opacity_connection": "Course10_Opacity_Gradient22"
+    }
+  ],
+  "flag_count": 10,
+  "flags": [
+    [
+      0,
+      0
+    ],
+    [
+      8,
+      0
+    ],
+    [
+      17,
+      255
+    ],
+    [
+      26,
+      255
+    ],
+    [
+      39,
+      0
+    ],
+    [
+      59,
+      0
+    ],
+    [
+      67,
+      255
+    ],
+    [
+      78,
+      255
+    ],
+    [
+      87,
+      0
+    ],
+    [
+      100,
+      0
+    ]
+  ],
+  "confirmed": [
+    "U Tiling3 V Tiling1 W Angle45 at1507s",
+    "Linear gradient and interpolation",
+    "Opacity connection",
+    "Noise Amount0.05 Size3 Fractal at1620s",
+    "white flags26 at1560s and78 at1440s",
+    "Emission0 at1740s"
+  ],
+  "estimated": [
+    "remaining flag positions and colors from gradient appearance"
+  ],
+  "supplements": [
+    "Base0.8 Specular0.2 and pale blue tint",
+    "diagnostic lighting,camera and background",
+    "Noise modifier Phase0to100 keys remain supplemental"
+  ],
+  "pending": [
+    "exact UV edits",
+    "teacher material weights and tint",
+    "texture animation keys",
+    "scene backdrop",
+    "later crossing-layer material",
+    "particles,FumeFX and assessment"
+  ]
+}

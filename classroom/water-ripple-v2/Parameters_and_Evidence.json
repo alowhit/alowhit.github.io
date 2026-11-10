@@ -1,0 +1,32 @@
+{
+  "observed": {
+    "Waves": {
+      "numWaveSets": "2",
+      "waveRadius": "2.0",
+      "waveLenMax": "20.0",
+      "waveLenMin": "30.0",
+      "amplitude": "2.0",
+      "distribution": "0",
+      "randomSeed": "30161",
+      "color1": "(color 255 255 255)",
+      "color2": "(color 0 0 0)"
+    }
+  },
+  "estimated": {
+    "Composite blend": "Multiply, Waves layer Opacity 28%; final foam Screen82%",
+    "Cellular sizes": [
+      0.8,
+      5.5
+    ],
+    "Cellular spread": [
+      0.55,
+      0.7
+    ],
+    "radial_half_width": 7,
+    "geometry": "Same 200x200cm Plane; no displacement",
+    "opacity": "Soft disc, not rings-only",
+    "animation": "Ring positions and Waves phase are reconstructed"
+  },
+  "correction": "Composite enum9 is Screen, not Lighten. Previous lesson label was incorrect.",
+  "comparison": "01 and02 differ only by Waves enabled;02 and03 differ only by foam layer enabled."
+}

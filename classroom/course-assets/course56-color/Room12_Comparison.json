@@ -1,0 +1,26 @@
+{
+  "A_Original": {
+    "background_rgb": [
+      130,
+      130,
+      130
+    ],
+    "mean_absolute_difference_from_background": [
+      1.8696321614583333,
+      0.9648404947916667,
+      0.6263704427083333
+    ]
+  },
+  "B_Arnold": {
+    "background_rgb": [
+      40,
+      40,
+      40
+    ],
+    "mean_absolute_difference_from_background": [
+      2.4046809895833334,
+      8.747705078125,
+      7.824781901041667
+    ]
+  }
+}

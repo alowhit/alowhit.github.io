@@ -1,0 +1,65 @@
+{
+  "source_video": "[本机资料路径]",
+  "scope": "Static reconstruction of last visible values; not complete animation or full scene match",
+  "reloaded": true,
+  "material_class": "ai_standard_surface",
+  "renderer": "Arnold",
+  "plane": {
+    "width": 400.0,
+    "length": 400.0,
+    "segments": [
+      1,
+      1
+    ],
+    "z": 5.0
+  },
+  "ramps": [
+    {
+      "name": "#25 Gradient Ramp",
+      "tiling": 13.0,
+      "w_angle": 0.0,
+      "mirror": true,
+      "noise_amount": 0.5,
+      "noise_size": 5.0,
+      "phase": 0.0
+    },
+    {
+      "name": "#26 Gradient Ramp",
+      "tiling": 19.0,
+      "w_angle": 30.000001907348633,
+      "mirror": true,
+      "noise_amount": 0.5,
+      "noise_size": 5.0,
+      "phase": 0.0
+    },
+    {
+      "name": "#28 Gradient Ramp",
+      "tiling": 15.0,
+      "w_angle": 60.000003814697266,
+      "mirror": true,
+      "noise_amount": 0.5,
+      "noise_size": 5.0,
+      "phase": 0.0
+    }
+  ],
+  "smoke": {
+    "size": 0.05000000074505806,
+    "iterations": 5,
+    "exponent": 1.0,
+    "coordType": 2
+  },
+  "composite_modes": [
+    0,
+    14,
+    14,
+    19
+  ],
+  "emission": 0.5,
+  "estimates": [
+    "Camera transform/FOV and gray world background",
+    "Left blue color endpoint RGB(0,12,255)",
+    "Ramp midpoint neutral gray 127.5; exact flag RGB not opened",
+    "No recreation of the existing classroom LightRoom, lights and cameras"
+  ],
+  "animation": "Not added: this source chapter develops a static material at frame100. User later screenshot Offset0.5/Phase0.25 belongs to another state, kept separate."
+}

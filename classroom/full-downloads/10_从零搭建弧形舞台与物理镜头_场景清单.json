@@ -1,0 +1,83 @@
+{
+  "file": "/classroom/full-downloads/10_%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E5%BC%A7%E5%BD%A2%E8%88%9E%E5%8F%B0%E4%B8%8E%E7%89%A9%E7%90%86%E9%95%9C%E5%A4%B4.max",
+  "frame_to_view": 40,
+  "camera": {
+    "name": "PhysCamera_Study_FILLED_target",
+    "position": [
+      375.77899169921875,
+      -699.9730224609375,
+      268.6409912109375
+    ],
+    "fov": 45.0,
+    "film_width_mm": 36.0,
+    "f_number": 8.0,
+    "target_EV_FILLED": 16.0
+  },
+  "lights": [
+    {
+      "name": "Arnold_Quad_FILLED_position",
+      "shapeType": 3,
+      "intensity": 500.0,
+      "exposure": 6.0,
+      "normalize": false,
+      "on": true
+    }
+  ],
+  "objects": [
+    {
+      "name": "Room_FILLED_cyclorama",
+      "class": "Editable_mesh",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Arnold_Quad_FILLED_position",
+      "class": "Arnold_Light",
+      "position": [
+        -250.0,
+        -150.0,
+        500.0
+      ]
+    },
+    {
+      "name": "PhysCamera_Study_FILLED_target",
+      "class": "Physical",
+      "position": [
+        375.77899169921875,
+        -699.9730224609375,
+        268.6409912109375
+      ]
+    },
+    {
+      "name": "Study_Sphere_-170",
+      "class": "Sphere",
+      "position": [
+        -170.0,
+        0.0,
+        75.0
+      ]
+    },
+    {
+      "name": "Study_Sphere_0",
+      "class": "Sphere",
+      "position": [
+        0.0,
+        0.0,
+        75.0
+      ]
+    },
+    {
+      "name": "Study_Sphere_170",
+      "class": "Sphere",
+      "position": [
+        170.0,
+        0.0,
+        75.0
+      ]
+    }
+  ],
+  "note": "Room dimensions, light placement, exposure and camera aim are supplemental; video values are labelled by time in the full course, not an entire final scene copied."
+}

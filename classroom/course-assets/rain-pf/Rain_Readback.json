@@ -1,0 +1,89 @@
+{
+  "provenance": "Supplemental Particle Flow exercise, not teacher-exact PF settings",
+  "samples": [
+    {
+      "frame": 0,
+      "total": 1,
+      "splash": 0,
+      "minimum_z": 100.0
+    },
+    {
+      "frame": 10,
+      "total": 20,
+      "splash": 0,
+      "minimum_z": 46.240055084228516
+    },
+    {
+      "frame": 20,
+      "total": 80,
+      "splash": 50,
+      "minimum_z": 5.479217529296875
+    },
+    {
+      "frame": 30,
+      "total": 172,
+      "splash": 140,
+      "minimum_z": 5.001025199890137
+    },
+    {
+      "frame": 40,
+      "total": 220,
+      "splash": 189,
+      "minimum_z": 5.001025199890137
+    },
+    {
+      "frame": 50,
+      "total": 223,
+      "splash": 192,
+      "minimum_z": 5.001025199890137
+    },
+    {
+      "frame": 60,
+      "total": 232,
+      "splash": 202,
+      "minimum_z": 5.001025199890137
+    },
+    {
+      "frame": 70,
+      "total": 231,
+      "splash": 201,
+      "minimum_z": 5.001025199890137
+    },
+    {
+      "frame": 80,
+      "total": 226,
+      "splash": 195,
+      "minimum_z": 5.001025199890137
+    },
+    {
+      "frame": 90,
+      "total": 202,
+      "splash": 191,
+      "minimum_z": 5.001025199890137
+    },
+    {
+      "frame": 100,
+      "total": 146,
+      "splash": 146,
+      "minimum_z": 5.001025199890137
+    },
+    {
+      "frame": 110,
+      "total": 51,
+      "splash": 51,
+      "minimum_z": 5.001025199890137
+    },
+    {
+      "frame": 120,
+      "total": 0,
+      "splash": 0,
+      "minimum_z": null
+    }
+  ],
+  "pending": [
+    "Animated source-shape deformation",
+    "Complete animation render",
+    "Full rubric verification"
+  ],
+  "native_scene": "/classroom/course-assets/rain-pf/Rain_PF_Study.max"
+}

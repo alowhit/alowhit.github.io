@@ -1,0 +1,54 @@
+{
+  "basis": "Single screenshot inspired reconstruction. All numeric values are chosen for this exercise, not source teacher values.",
+  "units": "cm",
+  "plane": [
+    200,
+    200
+  ],
+  "camera": [
+    0,
+    -330,
+    160
+  ],
+  "target": [
+    0,
+    0,
+    0
+  ],
+  "fov": 45,
+  "material": "ai_standard_surface",
+  "base": 0,
+  "specular": 0,
+  "emission": 1.5,
+  "ring_count": 6,
+  "gradient_type": "Radial (8)",
+  "ring_radius_rule": "4 + ((16*i + 0.7*frame) mod 96)",
+  "half_width": 5,
+  "edge_flags": [
+    [
+      0,
+      255
+    ],
+    [
+      65,
+      255
+    ],
+    [
+      88,
+      100
+    ],
+    [
+      100,
+      0
+    ]
+  ],
+  "noise_amount": 0.01,
+  "noise_size": 0.12,
+  "detail_size_cm": 2.2,
+  "frame_range": [
+    0,
+    100
+  ],
+  "visible_frame": 40,
+  "fps": 30
+}

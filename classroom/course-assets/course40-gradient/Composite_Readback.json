@@ -1,0 +1,26 @@
+{
+  "file": "/classroom/course-assets/course40-gradient/07_Composite_Mapped_Cutout.max",
+  "saved_reopened": true,
+  "shared_composite_for_color_and_cutout": true,
+  "modes": [
+    0,
+    8
+  ],
+  "opacity": [
+    100.0,
+    100.0
+  ],
+  "gradient17": {
+    "type": 4,
+    "flag9_color": "[10,10,10]",
+    "interpolation_template": "NativeEase9",
+    "noise_amount": 0.0
+  },
+  "limits": [
+    "Static topology study; not a frame-exact final source reconstruction",
+    "Gradient17 black0 white50 white100 supplied from ramp appearance; only gray9 RGB10 confirmed",
+    "Gradient15 tiling1 offset0 inherited from earlier checkpoint; later source tiling and animated offset not reconstructed",
+    "Inherited approximate stripe flags and supplemental camera/output",
+    "Unused template flags overlap at100"
+  ]
+}

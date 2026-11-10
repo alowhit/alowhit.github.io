@@ -1,0 +1,48 @@
+{
+  "reopened": true,
+  "material": {
+    "base": "0.0",
+    "specular": "0.0",
+    "emission": "0.30000001192092896"
+  },
+  "gradient": {
+    "Gradient_Type": "4",
+    "amount": "0.0"
+  },
+  "coordinates": {
+    "U_Tiling": "5.0",
+    "V_Tiling": "1.0",
+    "U_Offset": "0.0",
+    "V_Offset": "0.0",
+    "W_Angle": "30.000001907348633",
+    "U_Mirror": "True",
+    "U_Tile": "False",
+    "V_Mirror": "False",
+    "V_Tile": "True"
+  },
+  "source_seconds": [
+    600,
+    630,
+    660,
+    690
+  ],
+  "flags": [
+    [
+      0,
+      "black"
+    ],
+    [
+      54,
+      "black (estimated from later marker position)"
+    ],
+    [
+      95,
+      "white (visible at 11:00)"
+    ],
+    [
+      100,
+      "white"
+    ]
+  ],
+  "scope": "Emission-only stage; no cylinder Opacity map yet. Nine-flag template includes coincident identical endpoint flags; four effective stops. Camera/Room inherited approximations. Base zero inferred from black material preview."
+}

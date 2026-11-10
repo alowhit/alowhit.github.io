@@ -1,0 +1,169 @@
+{
+  "assignment": "雨滴",
+  "requirements": [
+    {
+      "cell": "E3",
+      "requirement": "尺寸设置",
+      "evidence": "原版读回System Units=centimeters，Scale=1；Deflector为400×400。",
+      "remaining": "最终全场景尺寸与老师设定未统一验收。",
+      "status": "partial_evidence_not_final_pass",
+      "file": "/classroom/study-results/Rain_PF/Native_Final_Readback.json",
+      "sha256": "1fb640191a9fa08cf3b9c38a3e4a306fd8f30bbb90b1ba4bc3e3242ef7cddcc8"
+    },
+    {
+      "cell": "E4",
+      "requirement": "渲染器设置",
+      "evidence": "原版读回Arnold；修正版已有Frame 24实际渲染。",
+      "remaining": "最终采样、曝光与输出质量未完整匹配老师。",
+      "status": "partial_evidence_not_final_pass",
+      "file": "/classroom/study-results/Rain_PF/Uniform_Scale_Verification.json",
+      "sha256": "ebb0124ee2d97afc2c82af7fed23c538d3f8f8a02972a4a6aea43fb3f7c0de69"
+    },
+    {
+      "cell": "E5",
+      "requirement": "标准材质设置",
+      "evidence": "水滴使用ai_standard_surface；原版材质属性已读回。",
+      "remaining": "全部材质参数与老师终态尚未逐值验收。",
+      "status": "partial_evidence_not_final_pass",
+      "file": "/classroom/study-results/Rain_PF/Native_Final_Readback.json",
+      "sha256": "1fb640191a9fa08cf3b9c38a3e4a306fd8f30bbb90b1ba4bc3e3242ef7cddcc8"
+    },
+    {
+      "cell": "E6",
+      "requirement": "程序纹理贴图设置",
+      "evidence": "沿用原水面和水滴材质，已有程序纹理工程与渲染。",
+      "remaining": "Noise/Cellular等全部节点、曲线、参数逐项来源核对未结束。",
+      "status": "partial_evidence_not_final_pass",
+      "file": "/classroom/study-results/Rain_PF/Native_Final_Readback.json",
+      "sha256": "1fb640191a9fa08cf3b9c38a3e4a306fd8f30bbb90b1ba4bc3e3242ef7cddcc8"
+    },
+    {
+      "cell": "E7",
+      "requirement": "材质及贴图应用设置",
+      "evidence": "Material Static指向Drop材质，Assign Material启用；已有真实粒子渲染。",
+      "remaining": "所有贴图连接和最终赋材质范围仍需汇总验收。",
+      "status": "partial_evidence_not_final_pass",
+      "file": "/classroom/study-results/Rain_PF/Native_Final_Readback.json",
+      "sha256": "1fb640191a9fa08cf3b9c38a3e4a306fd8f30bbb90b1ba4bc3e3242ef7cddcc8"
+    },
+    {
+      "cell": "E8",
+      "requirement": "动态纹理设置",
+      "evidence": "均匀缩放修正版已输出0–120帧，保留水面与粒子动画。",
+      "remaining": "水面纹理动画不等于每个落点触发的局部波纹。",
+      "status": "partial_evidence_not_final_pass",
+      "file": "/classroom/study-results/Rain_PF/Uniform_Animation_Verification.json",
+      "sha256": "27e2934970bf39ff2ca98b63fd9d08117c692bacbb2a68f8c3a2b4128d3b9abe"
+    },
+    {
+      "cell": "E9",
+      "requirement": "场景模型设置",
+      "evidence": "水滴Sphere001及Wave水面存在，已分别读取几何与材质。",
+      "remaining": "老师完整建模、场景和镜头过程未全部复刻。",
+      "status": "partial_evidence_not_final_pass",
+      "file": "/classroom/study-results/Rain_PF/Native_Final_Readback.json",
+      "sha256": "1fb640191a9fa08cf3b9c38a3e4a306fd8f30bbb90b1ba4bc3e3242ef7cddcc8"
+    },
+    {
+      "cell": "E10",
+      "requirement": "粒子系统建模设置",
+      "evidence": "PF Source、Rain_Falling和Rain_Splash组成下落及飞溅流程。",
+      "remaining": "目前为补充粒子方案，不是老师逐值复刻。",
+      "status": "partial_evidence_not_final_pass",
+      "file": "/classroom/study-results/Rain_PF/Final_Motion_Audit.json",
+      "sha256": "94644a62c56324381f53a0dd2111ef92ff36ebcdb029c0ef810a1c7fded9a640"
+    },
+    {
+      "cell": "E11",
+      "requirement": "UV编辑设置",
+      "evidence": "原版读回水滴与水面的Map Channel 1均存在。",
+      "remaining": "存在UV不能证明完成UV编辑，手动展开/调整步骤仍待核对。",
+      "status": "partial_evidence_not_final_pass",
+      "file": "/classroom/study-results/Rain_PF/Native_Final_Readback.json",
+      "sha256": "1fb640191a9fa08cf3b9c38a3e4a306fd8f30bbb90b1ba4bc3e3242ef7cddcc8"
+    },
+    {
+      "cell": "E12",
+      "requirement": "粒子系统发射动态图形",
+      "evidence": "Shape Instance启用Animated Shape；同一粒子实际网格高度随年龄变化。",
+      "remaining": "Stretch关键帧为补设；老师动态图形设置仍需核对。",
+      "status": "partial_evidence_not_final_pass",
+      "file": "/classroom/study-results/Rain_PF/Animated_Shape_Verification.json",
+      "sha256": "6d12d30a71ef8f98cde9a8587196f28bbbcf9b3af61c2876a9b3a724ff0895d0"
+    },
+    {
+      "cell": "E13",
+      "requirement": "粒子系统应用静态材质",
+      "evidence": "Material Static启用Assign Material，Assigned Material=Drop。",
+      "remaining": "属于补充粒子方案，尚未判定完全匹配老师。",
+      "status": "partial_evidence_not_final_pass",
+      "file": "/classroom/study-results/Rain_PF/Native_Final_Readback.json",
+      "sha256": "1fb640191a9fa08cf3b9c38a3e4a306fd8f30bbb90b1ba4bc3e3242ef7cddcc8"
+    },
+    {
+      "cell": "E14",
+      "requirement": "设置粒子发射速度及方向",
+      "evidence": "Speed=90、Variation=15、Divergence=3；实际位置和速度序列已读取。",
+      "remaining": "数值为补设，未标为老师原值。",
+      "status": "partial_evidence_not_final_pass",
+      "file": "/classroom/study-results/Rain_PF/Final_Motion_Audit.json",
+      "sha256": "94644a62c56324381f53a0dd2111ef92ff36ebcdb029c0ef810a1c7fded9a640"
+    },
+    {
+      "cell": "E15",
+      "requirement": "设置粒子寿命",
+      "evidence": "Splash Life Span=18帧、Variation=3帧；修正版至Frame120粒子归零。",
+      "remaining": "删除行为已检查，老师寿命参数尚未逐值确认。",
+      "status": "partial_evidence_not_final_pass",
+      "file": "/classroom/study-results/Rain_PF/Uniform_Scale_Verification.json",
+      "sha256": "ebb0124ee2d97afc2c82af7fed23c538d3f8f8a02972a4a6aea43fb3f7c0de69"
+    },
+    {
+      "cell": "E16",
+      "requirement": "设置碰撞导向板空间扭曲",
+      "evidence": "Water_Deflector位于Z=5，400×400，Bounce=.35，Chaos=.25。",
+      "remaining": "导向板参数为补设；最终碰撞位置与画面效果仍待验收。",
+      "status": "partial_evidence_not_final_pass",
+      "file": "/classroom/study-results/Rain_PF/Native_Final_Readback.json",
+      "sha256": "1fb640191a9fa08cf3b9c38a3e4a306fd8f30bbb90b1ba4bc3e3242ef7cddcc8"
+    },
+    {
+      "cell": "E17",
+      "requirement": "设置粒子碰撞繁殖检测",
+      "evidence": "Collision Spawn引用Water_Deflector，Offspring=5，Delete Parent启用；实际进入Splash事件。",
+      "remaining": "老师原始事件流程仍待核对；局部波纹未制作。",
+      "status": "partial_evidence_not_final_pass",
+      "file": "/classroom/study-results/Rain_PF/Final_Motion_Audit.json",
+      "sha256": "94644a62c56324381f53a0dd2111ef92ff36ebcdb029c0ef810a1c7fded9a640"
+    },
+    {
+      "cell": "E18",
+      "requirement": "设置粒子动态缩放",
+      "evidence": "已修正飞溅X/Y/Z从100%一致缩至1%；保存重开并读取实际粒子通过。",
+      "remaining": "这是本练习修正，不能据此声称老师动画关键帧相同。",
+      "status": "partial_evidence_not_final_pass",
+      "file": "/classroom/study-results/Rain_PF/Uniform_Scale_Verification.json",
+      "sha256": "ebb0124ee2d97afc2c82af7fed23c538d3f8f8a02972a4a6aea43fb3f7c0de69"
+    },
+    {
+      "cell": "E19",
+      "requirement": "对粒子系统设置重力空间扭曲",
+      "evidence": "Gravity Strength=.25被两个Force引用；轨迹显示飞溅上升后落回。",
+      "remaining": "重力与Force值为补设，老师原值未确认。",
+      "status": "partial_evidence_not_final_pass",
+      "file": "/classroom/study-results/Rain_PF/Final_Motion_Audit.json",
+      "sha256": "94644a62c56324381f53a0dd2111ef92ff36ebcdb029c0ef810a1c7fded9a640"
+    },
+    {
+      "cell": "E28",
+      "requirement": "设置渲染输出格式",
+      "evidence": "修正版输出640×480、30fps、121帧；MP4已完整解码121帧并关联源MAX哈希。",
+      "remaining": "仍为预览尺寸；最终提交标准与画质尚未验收。",
+      "status": "partial_evidence_not_final_pass",
+      "file": "/classroom/study-results/Rain_PF/Uniform_Animation_Verification.json",
+      "sha256": "27e2934970bf39ff2ca98b63fd9d08117c692bacbb2a68f8c3a2b4128d3b9abe"
+    }
+  ],
+  "final_pass": false,
+  "rubric_source_sha256": "603b28f9cbe4aeb4287054b534b8f34d226b578d141bb28dba339c234729688b"
+}

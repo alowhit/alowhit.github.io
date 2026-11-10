@@ -1,0 +1,87 @@
+{
+  "saved_reopened": true,
+  "blend_modes": [
+    0,
+    5
+  ],
+  "cellular": {
+    "size": 50.0,
+    "spread": 3.0,
+    "fractal": true,
+    "iterations": 3.0,
+    "thresholds": [
+      0.10000000149011612,
+      0.20000000298023224,
+      1.0
+    ],
+    "tiling": "[2,0.5,1]"
+  },
+  "gradient": {
+    "w_angle": 90.0,
+    "amount": 0.5,
+    "size": 10.0,
+    "noise_type": 1,
+    "levels": 4.0,
+    "flags": [
+      {
+        "position": 19.0,
+        "color": "[23,23,23]"
+      },
+      {
+        "position": 72.0,
+        "color": "[255,255,255]"
+      },
+      {
+        "position": 100.0,
+        "color": "[0,0,0]"
+      },
+      {
+        "position": 100.0,
+        "color": "[0,0,0]"
+      },
+      {
+        "position": 100.0,
+        "color": "[0,0,0]"
+      },
+      {
+        "position": 100.0,
+        "color": "[0,0,0]"
+      },
+      {
+        "position": 100.0,
+        "color": "[0,0,0]"
+      }
+    ]
+  },
+  "animation_samples": [
+    {
+      "frame": 0,
+      "offset": "[0,0,0]",
+      "phase": 0.0
+    },
+    {
+      "frame": 30,
+      "offset": "[0,-32.4,21.6]",
+      "phase": 1.0799999237060547
+    },
+    {
+      "frame": 50,
+      "offset": "[0,-75,50]",
+      "phase": 2.5
+    },
+    {
+      "frame": 100,
+      "offset": "[0,-150,100]",
+      "phase": 5.0
+    }
+  ],
+  "supplements": [
+    "Right endpoint filled black at100; source exact value not shown",
+    "Cellular border gray127.5 filled",
+    "Offset animation0:[0,0,0]100:[0,-150,100] is a teaching supplement; source shows different trial frames, exact final keys unverified",
+    "Phase0 atframe0 supplemented; Phase5 atframe100 verified",
+    "Whiteflag72 retained from21:10; later exact position unverified",
+    "Camera studio lights retained from previous study; source mismatch remains"
+  ],
+  "complete": false
+}

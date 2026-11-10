@@ -1,0 +1,71 @@
+[
+  {
+    "file": "/classroom/course-assets/course37-coordinates/06_Explicit_Size80.max",
+    "source_second": 1320,
+    "saved_reopened": true,
+    "noise": {
+      "type": "0",
+      "size": "80.0",
+      "phase": "0.0",
+      "levels": "3.0",
+      "thresholdLow": "0.0",
+      "thresholdHigh": "1.0"
+    },
+    "coordinates": {
+      "coordType": "2",
+      "mapChannel": "1",
+      "offset": "[0,0,0]",
+      "Tiling": "[1,1,1]",
+      "angle": "[0,0,0]",
+      "blur": "1.0",
+      "Blur_Offset": "0.0"
+    },
+    "scope": "Source visible Noise parameters; shared supplemental study camera and scene. Generated mesh UV retained; manual source UV operations not claimed."
+  },
+  {
+    "file": "/classroom/course-assets/course37-coordinates/07_Explicit_Size01.max",
+    "source_second": 1440,
+    "saved_reopened": true,
+    "noise": {
+      "type": "0",
+      "size": "0.10000000149011612",
+      "phase": "0.0",
+      "levels": "3.0",
+      "thresholdLow": "0.0",
+      "thresholdHigh": "1.0"
+    },
+    "coordinates": {
+      "coordType": "2",
+      "mapChannel": "1",
+      "offset": "[0,0,0]",
+      "Tiling": "[1,1,1]",
+      "angle": "[0,0,0]",
+      "blur": "1.0",
+      "Blur_Offset": "0.0"
+    },
+    "scope": "Source visible Noise parameters; shared supplemental study camera and scene. Generated mesh UV retained; manual source UV operations not claimed."
+  },
+  {
+    "file": "/classroom/course-assets/course37-coordinates/08_ObjectXYZ_Size80.max",
+    "source_second": 1860,
+    "saved_reopened": true,
+    "noise": {
+      "type": "0",
+      "size": "80.0",
+      "phase": "0.0",
+      "levels": "3.0",
+      "thresholdLow": "0.0",
+      "thresholdHigh": "1.0"
+    },
+    "coordinates": {
+      "coordType": "0",
+      "mapChannel": "1",
+      "offset": "[0,0,0]",
+      "Tiling": "[1,1,1]",
+      "angle": "[0,0,0]",
+      "blur": "1.0",
+      "Blur_Offset": "0.0"
+    },
+    "scope": "Source visible Noise parameters; shared supplemental study camera and scene. Generated mesh UV retained; manual source UV operations not claimed."
+  }
+]

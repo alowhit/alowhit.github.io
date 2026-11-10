@@ -1,0 +1,149 @@
+{
+  "stages": [
+    {
+      "stage": "01_Color_Linear",
+      "reopened": true,
+      "emission": 0.5,
+      "noise_amount": 0.0,
+      "size": 1.0,
+      "phase": 0.0,
+      "levels": 4.0,
+      "noise_type": 2,
+      "gradient_type": 4,
+      "coordinates": {
+        "U_Offset": "0.0",
+        "V_Offset": "0.0",
+        "U_Tiling": "1.0",
+        "V_Tiling": "1.0",
+        "U_Mirror": "True",
+        "U_Tile": "False",
+        "V_Mirror": "False",
+        "V_Tile": "True",
+        "W_Angle": "90.0"
+      },
+      "flags": [
+        {
+          "name": "Flag__3",
+          "position": 50.0,
+          "rgb": "[128,196,85]"
+        },
+        {
+          "name": "Flag__4",
+          "position": 100.0,
+          "rgb": "[0,152,169]"
+        },
+        {
+          "name": "Flag__5",
+          "position": 100.0,
+          "rgb": "[0,152,169]"
+        },
+        {
+          "name": "Flag__6",
+          "position": 100.0,
+          "rgb": "[0,152,169]"
+        },
+        {
+          "name": "Flag__7",
+          "position": 100.0,
+          "rgb": "[0,152,169]"
+        },
+        {
+          "name": "Flag__8",
+          "position": 100.0,
+          "rgb": "[0,152,169]"
+        },
+        {
+          "name": "Flag__9",
+          "position": 100.0,
+          "rgb": "[0,152,169]"
+        }
+      ],
+      "endpoints": {
+        "position0": "[255,245,0]",
+        "position100": "[0,152,169]"
+      }
+    },
+    {
+      "stage": "02_Color_Turbulence",
+      "reopened": true,
+      "emission": 0.5,
+      "noise_amount": 0.5,
+      "size": 1.0,
+      "phase": 0.0,
+      "levels": 4.0,
+      "noise_type": 2,
+      "gradient_type": 4,
+      "coordinates": {
+        "U_Offset": "0.0",
+        "V_Offset": "0.0",
+        "U_Tiling": "1.0",
+        "V_Tiling": "1.0",
+        "U_Mirror": "True",
+        "U_Tile": "False",
+        "V_Mirror": "False",
+        "V_Tile": "True",
+        "W_Angle": "90.0"
+      },
+      "flags": [
+        {
+          "name": "Flag__3",
+          "position": 50.0,
+          "rgb": "[128,196,85]"
+        },
+        {
+          "name": "Flag__4",
+          "position": 100.0,
+          "rgb": "[0,152,169]"
+        },
+        {
+          "name": "Flag__5",
+          "position": 100.0,
+          "rgb": "[0,152,169]"
+        },
+        {
+          "name": "Flag__6",
+          "position": 100.0,
+          "rgb": "[0,152,169]"
+        },
+        {
+          "name": "Flag__7",
+          "position": 100.0,
+          "rgb": "[0,152,169]"
+        },
+        {
+          "name": "Flag__8",
+          "position": 100.0,
+          "rgb": "[0,152,169]"
+        },
+        {
+          "name": "Flag__9",
+          "position": 100.0,
+          "rgb": "[0,152,169]"
+        }
+      ],
+      "endpoints": {
+        "position0": "[255,245,0]",
+        "position100": "[0,152,169]"
+      }
+    }
+  ],
+  "confirmed": [
+    "21:30 Emission .5",
+    "22:00 Gradient6 Linear/Linear, W90, U Mirror on U Tile off, V Mirror off V Tile on, offsets0 tiling1",
+    "22:00 position0 RGB255,245,0; Noise Amount0",
+    "24:00 Noise Amount.5 Size1 Phase0 Turbulence Levels4"
+  ],
+  "estimated": [
+    "middle color128,196,85 at50 and cyan0,152,169 at100",
+    "inherited55 transform and opacity animation not fully matched to56",
+    "inherited supplemental camera exposure room"
+  ],
+  "pending": [
+    "early course56 revised timing",
+    "third opacity layer and fade keys",
+    "Noise fourth layer and modifier",
+    "exact color flags",
+    "full animation",
+    "assessment"
+  ]
+}

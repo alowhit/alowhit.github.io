@@ -1,0 +1,71 @@
+{
+  "reopened": true,
+  "samples": [
+    {
+      "frame": 0,
+      "position": "[0,65.956,40]",
+      "U_Offset": 0.0,
+      "V_Offset": 0.0,
+      "Phase": 0.0,
+      "rotation": "(eulerAngles 0 0 0)"
+    },
+    {
+      "frame": 25,
+      "position": "[0,65.956,40]",
+      "U_Offset": 0.1562499850988388,
+      "V_Offset": -0.0781249925494194,
+      "Phase": 0.6249999403953552,
+      "rotation": "(eulerAngles 0 0 12.2769)"
+    },
+    {
+      "frame": 50,
+      "position": "[0,65.956,40]",
+      "U_Offset": 0.5,
+      "V_Offset": -0.25,
+      "Phase": 2.0,
+      "rotation": "(eulerAngles 0 0 39.286)"
+    },
+    {
+      "frame": 75,
+      "position": "[0,65.956,40]",
+      "U_Offset": 0.84375,
+      "V_Offset": -0.421875,
+      "Phase": 3.375,
+      "rotation": "(eulerAngles 0 0 66.2951)"
+    },
+    {
+      "frame": 100,
+      "position": "[0,65.956,40]",
+      "U_Offset": 1.0,
+      "V_Offset": -0.5,
+      "Phase": 4.0,
+      "rotation": "(eulerAngles 0 0 78.572)"
+    }
+  ],
+  "fps": 30,
+  "range": [
+    0,
+    100
+  ],
+  "size": [
+    640,
+    480
+  ],
+  "confirmed": [
+    "source16:30 Phase4 at100",
+    "UOffset1 VOffset-.5 at100",
+    "source17:20 Range0-100",
+    "AVI Uncompressed21:00"
+  ],
+  "inferred": [
+    "Offset0,0 atframe0",
+    "Phase0 atframe0 from pre-animation state",
+    "rotation0 to78.572 Z, final angle visible but track not verified",
+    "default Bezier controller interpolation"
+  ],
+  "pending": [
+    "exact key/controller/tangent comparison",
+    "camera/exposure/background and all ramp flags",
+    "assessment integration"
+  ]
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "file": "/classroom/course-assets/course40-plane/01_Phase.max",
+    "saved_reopened": true,
+    "plane": [
+      150.0,
+      400.0,
+      1,
+      1
+    ],
+    "material": {
+      "base_weight": "0.0",
+      "reflectivity": "0.0",
+      "transparency": "0.0",
+      "emission": "1.0",
+      "emit_luminance": "50.0",
+      "emit_kelvin": "6500.0",
+      "emit_color": "(color 0 0 0)"
+    },
+    "coordType": 2,
+    "size": 0.30000001192092896,
+    "samples": [
+      {
+        "frame": 0,
+        "phase": 0.0,
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "frame": 50,
+        "phase": 2.5,
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "frame": 100,
+        "phase": 5.0,
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "limitations": [
+      "Frame100 endpoint observed; frame0=0 supplied and default key tangents retained, not exact source animation reconstruction",
+      "Plane at origin and camera/framing supplied; classroom studio not reconstructed",
+      "25fps and640x320 are study output settings; source test output200x100",
+      "Physical emission tint black and luminance50 from150s; later changes not completely reviewed"
+    ]
+  },
+  {
+    "file": "/classroom/course-assets/course40-plane/02_U_Offset.max",
+    "saved_reopened": true,
+    "plane": [
+      150.0,
+      400.0,
+      1,
+      1
+    ],
+    "material": {
+      "base_weight": "0.0",
+      "reflectivity": "0.0",
+      "transparency": "0.0",
+      "emission": "1.0",
+      "emit_luminance": "50.0",
+      "emit_kelvin": "6500.0",
+      "emit_color": "(color 0 0 0)"
+    },
+    "coordType": 2,
+    "size": 0.30000001192092896,
+    "samples": [
+      {
+        "frame": 0,
+        "phase": 0.0,
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "frame": 50,
+        "phase": 0.0,
+        "offset": [
+          2.5,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "frame": 100,
+        "phase": 0.0,
+        "offset": [
+          5.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "limitations": [
+      "Frame100 endpoint observed; frame0=0 supplied and default key tangents retained, not exact source animation reconstruction",
+      "Plane at origin and camera/framing supplied; classroom studio not reconstructed",
+      "25fps and640x320 are study output settings; source test output200x100",
+      "Physical emission tint black and luminance50 from150s; later changes not completely reviewed"
+    ]
+  },
+  {
+    "file": "/classroom/course-assets/course40-plane/03_W_Offset.max",
+    "saved_reopened": true,
+    "plane": [
+      150.0,
+      400.0,
+      1,
+      1
+    ],
+    "material": {
+      "base_weight": "0.0",
+      "reflectivity": "0.0",
+      "transparency": "0.0",
+      "emission": "1.0",
+      "emit_luminance": "50.0",
+      "emit_kelvin": "6500.0",
+      "emit_color": "(color 0 0 0)"
+    },
+    "coordType": 2,
+    "size": 0.30000001192092896,
+    "samples": [
+      {
+        "frame": 0,
+        "phase": 0.0,
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "frame": 50,
+        "phase": 0.0,
+        "offset": [
+          0.0,
+          0.0,
+          2.0
+        ]
+      },
+      {
+        "frame": 100,
+        "phase": 0.0,
+        "offset": [
+          0.0,
+          0.0,
+          4.0
+        ]
+      }
+    ],
+    "limitations": [
+      "Frame100 endpoint observed; frame0=0 supplied and default key tangents retained, not exact source animation reconstruction",
+      "Plane at origin and camera/framing supplied; classroom studio not reconstructed",
+      "25fps and640x320 are study output settings; source test output200x100",
+      "Physical emission tint black and luminance50 from150s; later changes not completely reviewed"
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "mean_absolute_difference_8bit": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "maximum_difference": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "identical_pixels": true,
+  "source": "Recomputed from both-cap corrected native renders"
+}
