@@ -1684,5 +1684,17 @@
     "bytes": 2879488,
     "sha256": "7fe8c28796b47fb94fd2a905f3c7c70fdaa29a48c0b3c96fbca4c94b0ca8d2a8",
     "asset_id": 732217355
+  },
+  "course-assets/course51-camera/09_SourceCamera_Ramp_PARTIAL.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-5a4f7c2711419190-09_SourceCamera_Ramp_PARTIAL.max",
+    "bytes": 946176,
+    "sha256": "5a4f7c2711419190ff5f0397daeb27b494e3ca7c2165b175b5dc9563ed45cd42",
+    "asset_id": 732247891
+  },
+  "course-assets/course51-camera/07_SourcePosition_STAGE_PARTIAL.max": {
+    "url": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-8c6339dfef905021-07_SourcePosition_STAGE_PARTIAL.max",
+    "bytes": 946176,
+    "sha256": "8c6339dfef905021b8274e195f00428ccd61e5708dd52af7114954af98cfe1b5",
+    "asset_id": 732247888
   }
 }

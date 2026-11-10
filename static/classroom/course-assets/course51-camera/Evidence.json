@@ -33,5 +33,107 @@
       "Lens controls match creation-stage570s; final transform and exposure not recovered",
       "Gradient flags still partly estimated; room emission gray supplemental"
     ]
+  },
+  "position07": {
+    "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-8c6339dfef905021-07_SourcePosition_STAGE_PARTIAL.max",
+    "saved_reopened": true,
+    "source_seconds": 635,
+    "source_stage_only": true,
+    "camera_position_cm": [
+      -0.1420000046491623,
+      -141.08999633789062,
+      45.68299865722656
+    ],
+    "target_still_supplemental": "[0,65.956,40]",
+    "exposure_still_unconfirmed": 6.0,
+    "focal_length_mm": 40.0,
+    "limitations": [
+      "Only displayed camera position at 10:35 matched; final placement not proved",
+      "Target, room, sphere placement and exposure need further source matching"
+    ],
+    "source_sha256": "150f1da53115845730964ae42c278c4821d3ce6d363647a414acb3fac8e7cfde",
+    "native_sha256": "8c6339dfef905021b8274e195f00428ccd61e5708dd52af7114954af98cfe1b5"
+  },
+  "camera_ramp09": {
+    "file": "https://github.com/alowhit/alowhit.github.io/releases/download/vfx-source-videos-2026-11/project-5a4f7c2711419190-09_SourceCamera_Ramp_PARTIAL.max",
+    "saved_reopened": true,
+    "source_seconds": [
+      635,
+      735
+    ],
+    "retained_ramp_flags": [
+      {
+        "position": 14.0,
+        "rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "position": 43.0,
+        "rgb": [
+          255.0,
+          255.0,
+          255.0
+        ]
+      },
+      {
+        "position": 52.0,
+        "rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "position": 68.0,
+        "rgb": [
+          255.0,
+          255.0,
+          255.0
+        ]
+      },
+      {
+        "position": 80.0,
+        "rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "position": 93.0,
+        "rgb": [
+          255.0,
+          255.0,
+          255.0
+        ]
+      },
+      {
+        "position": 100.0,
+        "rgb": [
+          255.0,
+          255.0,
+          255.0
+        ]
+      }
+    ],
+    "ball_position": "[0,65.956,40]",
+    "source_stage_only": true,
+    "camera_position_cm": [
+      -0.1420000046491623,
+      -141.08999633789062,
+      45.68299865722656
+    ],
+    "target_still_supplemental": "[0,65.956,40]",
+    "exposure_still_unconfirmed": 6.0,
+    "focal_length_mm": 40.0,
+    "limitations": [
+      "Only displayed camera position at 10:35 matched; final placement not proved",
+      "Target, room, sphere placement and exposure need further source matching"
+    ],
+    "source_sha256": "66914b41ff4aef20ffde35f7f9d6318d55408bfafc3928331f28d5489a3681c7",
+    "native_sha256": "5a4f7c2711419190ff5f0397daeb27b494e3ca7c2165b175b5dc9563ed45cd42"
   }
 }
