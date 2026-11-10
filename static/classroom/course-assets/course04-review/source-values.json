@@ -1,0 +1,105 @@
+{
+  "source": "11月5日教学1.mp4",
+  "course": "course04",
+  "review_method": "Manually read timestamped source frames; not exhaustive frame-by-frame verification",
+  "observations": [
+    {
+      "seconds": 180,
+      "node": "Gradient Ramp #6",
+      "visible_values": "Radial; Linear; selected white flag Position 22; Noise Amount 0",
+      "explanation": "建立黑白同心圈。这里只确认当时选中的色标，尚未读齐所有色标。"
+    },
+    {
+      "seconds": 240,
+      "node": "Gradient Ramp #6",
+      "visible_values": "Selected black flag Position 94",
+      "explanation": "交替的黑白色标产生多个明暗圈。位置94不是圈数。"
+    },
+    {
+      "seconds": 360,
+      "node": "Swirl #7",
+      "visible_values": "Color Contrast 0.4; Swirl Intensity 2; Swirl Amount 1; Twist 20; Constant Detail 4; Center X/Y 0.5; Random Seed 76.001",
+      "explanation": "中途版本；后段 Twist 与 Contrast 会改变。"
+    },
+    {
+      "seconds": 540,
+      "node": "Composite #8",
+      "visible_values": "Layer 1 Normal 100%; Layer 2 Multiply 100%; Layer 3 Multiply 100%",
+      "explanation": "#6接Layer 1，#7接Layer 2，Waves #9接Layer 3。黑色会压暗原本的白圈，留下断开的弧段。"
+    },
+    {
+      "seconds": 600,
+      "node": "Gradient Ramp #10",
+      "visible_values": "Gradient Type Mapped; Interpolation Solid; selected white flag Position 23; Noise Amount 0",
+      "explanation": "Composite #8接Source Map；按输入亮度重新分配黑白。此时是硬边阈值测试。"
+    },
+    {
+      "seconds": 660,
+      "node": "Gradient Ramp #10",
+      "visible_values": "Noise Amount 0.3; Size 2; Phase 0; Regular",
+      "explanation": "给黑白边界加入细节。不是几何波浪高度。"
+    },
+    {
+      "seconds": 780,
+      "node": "Cellular #11",
+      "visible_values": "Explicit Map Channel 1; Circular; Size 0.02; Spread 0.08; Fractal On; Iterations 3; Adaptive On",
+      "explanation": "早期小点版本；不能和后段Size 0.01、Spread 0.35混作同一个状态。"
+    },
+    {
+      "seconds": 840,
+      "node": "Composite #12",
+      "visible_values": "Layer 1 Normal 100%; Layer 2 Multiply 100%",
+      "explanation": "断圈分支接Layer 1；Cellular #11接Layer 2，让圆环带上颗粒。"
+    },
+    {
+      "seconds": 900,
+      "node": "Cellular #11",
+      "visible_values": "Size 0.01; Spread 0.35; Cell Color black; Division Color 2 white",
+      "explanation": "老师反转细胞颜色并调整颗粒；Division Color 1是灰色，精确RGB未显示。"
+    },
+    {
+      "seconds": 1020,
+      "node": "Swirl #13 trial",
+      "visible_values": "Color Contrast 1; Swirl Intensity 2; Swirl Amount 1; Twist 8; Constant Detail 8; Center X/Y 0.5; Random Seed 76.001",
+      "explanation": "这是试接Composite #12第三层的分支；后面被Gradient Ramp #14替换，不要把两者一起当作最终第三层。"
+    },
+    {
+      "seconds": 1140,
+      "node": "Composite #12",
+      "visible_values": "Layer 1 Normal 100%; Layer 2 Multiply 100%; Layer 3 Darken 90%",
+      "explanation": "第三层已换为Gradient Ramp #14。Darken保留较暗区域，90%保留一点底层；不是Add发光叠加。"
+    },
+    {
+      "seconds": 1200,
+      "node": "SpFL (Gradient Ramp)",
+      "visible_values": "Mapped; Interpolation Ease In; selected white flag Position 24; Noise Amount 0.3; Size 2; Phase 0; Regular",
+      "explanation": "由前面的#10演变而来。现在有4个色标；目前只读到选中的白色色标24，其他位置待核。"
+    },
+    {
+      "seconds": 1260,
+      "node": "Cellular #11",
+      "visible_values": "Circular; Size 0.01; Spread 0.35; Bump Smoothing 0.1; Fractal On; Iterations 5; Adaptive On; Roughness 0; Thresholds 0 / 0.5 / 1",
+      "explanation": "后段可读数值，22:00截图再次一致。Cell Color黑、Division 1灰、Division 2白。"
+    },
+    {
+      "seconds": 1380,
+      "node": "Gradient Ramp #6",
+      "visible_values": "Radial; Linear; Noise Amount 0.02; Size 5; Phase 0; Fractal; Levels 4; Threshold Low 0 / High 1 / Smooth 0",
+      "explanation": "老师后段给基础圆圈加入轻微噪波；不再是最初Amount 0。"
+    },
+    {
+      "seconds": 1440,
+      "node": "Swirl #7",
+      "visible_values": "Base white; Swirl black; Color Contrast 1; Swirl Intensity 2; Swirl Amount 1; Twist 10; Constant Detail 4; Center X/Y 0.5; Random Seed 76.001",
+      "explanation": "接近片尾的可读参数；不要沿用06:00的Twist 20和Contrast 0.4。"
+    }
+  ],
+  "pending": [
+    "All flags in Ramp #6, SpFL and #14",
+    "Late Waves #9 values",
+    "Exact gray Division Color 1",
+    "Final material and scene/camera values",
+    "Native reconstruction and comparison render"
+  ],
+  "native_complete": false
+}
